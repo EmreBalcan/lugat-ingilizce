@@ -194,6 +194,10 @@ button.chip:hover, a.chip:hover { background: var(--pill); color: var(--pill-ink
 .shortcut .ico { position: absolute; top: 18px; left: 18px; width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; background: var(--surface-solid); color: var(--ink); }
 .shortcut .arrow-dot { position: absolute; top: 18px; right: 18px; border-color: var(--line); }
 .continue { display: flex; gap: 16px; align-items: center; text-decoration: none; color: inherit; }
+.continue .cover { aspect-ratio: 3 / 4; padding: 10px; border-radius: 16px; }
+.continue .cover h3 { font-size: .8rem; }
+.continue .cover .badge, .continue .cover .by { font-size: .6rem; padding: 2px 6px; }
+.continue .cover .by { padding: 0; }
 .bar { height: 6px; border-radius: 999px; background: var(--line); overflow: hidden; }
 .bar > i { display: block; height: 100%; background: var(--cobalt); border-radius: inherit; }
 
@@ -287,13 +291,21 @@ button.chip:hover, a.chip:hover { background: var(--pill); color: var(--pill-ink
 .cover.c-fabl { background: linear-gradient(160deg, #e3c2cf, #f3e3c6 70%, #f6dc8a); }
 .book-meta { padding: 0 8px 8px; display: flex; flex-direction: column; gap: 8px; }
 .reader { max-width: 720px; }
-.reader-top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; padding: 10px 12px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; border-radius: 999px; background: var(--surface-solid); box-shadow: var(--shadow); }
+.reader-top { position: sticky; top: calc(8px + env(safe-area-inset-top, 0px)); z-index: 5; padding: 10px 12px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; border-radius: 26px; background: var(--surface-solid); box-shadow: var(--shadow); }
 .reader-top .bar { flex: 1; min-width: 80px; }
 .reader-top select { max-width: 100%; }
+@media (max-width: 620px) {
+  .reader-top { display: grid; grid-template-columns: auto minmax(0, 1fr) auto auto; gap: 8px; padding: 10px; }
+  .reader-top #chs { grid-column: 1 / -1; width: 100%; }
+  .reader-top .bar { grid-column: 1 / -1; order: 3; min-width: 0; }
+  .reader-top .row { display: contents; }
+  .reader-top #trm { min-width: 0; width: 100%; padding-inline: 12px; }
+  .reader-top #fs-dec, .reader-top #fs-inc { padding-inline: 12px; }
+}
 .sent { padding: 12px 0 14px; display: flex; flex-direction: column; gap: 4px; }
 .sent + .sent { border-top: 1px solid var(--line); }
-.sent { transition: background .25s; border-radius: 18px; }
-.sent.reading { background: var(--grad-card); color: #1f1d24; padding-inline: 16px; border-top-color: transparent; }
+.sent { transition: background .25s; }
+.sent.reading { background: var(--grad-card); color: #1f1d24; padding-inline: 16px; border-top-color: transparent; border-radius: 18px; }
 .sent.reading + .sent { border-top-color: transparent; }
 .sent.reading .sent-tr { color: rgba(31, 29, 36, .7); }
 .sent-row { display: flex; gap: 8px; align-items: flex-start; }
@@ -313,7 +325,7 @@ button.chip:hover, a.chip:hover { background: var(--pill); color: var(--pill-ink
 
 /* ---------- Kelime kartı ---------- */
 .wcard { position: fixed; z-index: 45; width: min(350px, calc(100vw - 24px)); background: var(--surface-solid); color: var(--ink); border-radius: 26px; box-shadow: 0 20px 60px rgba(40, 25, 70, .22); padding: 16px 18px; display: flex; flex-direction: column; gap: 10px; animation: pop .16s ease-out; }
-.wcard::before { content: ""; position: absolute; inset: 0 0 auto; height: 64px; border-radius: 26px 26px 0 0; background: var(--grad-card); opacity: .45; pointer-events: none; }
+.wcard::before { content: ""; position: absolute; inset: 0; border-radius: inherit; background: var(--grad-card); opacity: .38; -webkit-mask-image: linear-gradient(180deg, #000 0%, transparent 85%); mask-image: linear-gradient(180deg, #000 0%, transparent 85%); pointer-events: none; }
 .wcard > * { position: relative; }
 .wcard.docked { left: max(12px, env(safe-area-inset-left, 0px)); right: max(12px, env(safe-area-inset-right, 0px)); width: auto; bottom: calc(var(--tabbar) + 22px + env(safe-area-inset-bottom, 0px)); top: auto; max-height: 55vh; overflow: auto; }
 @keyframes pop { from { transform: translateY(6px) scale(.98); opacity: 0; } }

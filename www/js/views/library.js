@@ -93,7 +93,7 @@ async function reader(root, id) {
         <div class="bar" title="İlerleme"><i id="pbar" style="width:${Math.round((100 * seen) / total)}%"></i></div>
         <div class="row" style="gap:6px">
           <button class="btn sm primary" id="play">${ICON.play}Sesli oku</button>
-          <select id="trm" class="btn sm" aria-label="Türkçe gösterimi"><option value="show" ${trMode === 'show' ? 'selected' : ''}>Türkçe açık</option><option value="tap" ${trMode === 'tap' ? 'selected' : ''}>Dokununca göster</option><option value="off" ${trMode === 'off' ? 'selected' : ''}>Türkçe kapalı</option></select>
+          <select id="trm" class="btn sm" aria-label="Türkçe gösterimi"><option value="show" ${trMode === 'show' ? 'selected' : ''}>TR açık</option><option value="tap" ${trMode === 'tap' ? 'selected' : ''}>TR dokununca</option><option value="off" ${trMode === 'off' ? 'selected' : ''}>TR kapalı</option></select>
           <button class="btn sm" id="fs-dec" aria-label="Yazıyı küçült">A−</button><button class="btn sm" id="fs-inc" aria-label="Yazıyı büyüt">A+</button>
         </div>
       </div>
