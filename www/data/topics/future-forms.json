@@ -1,0 +1,48 @@
+{
+  "id": "future-forms", "cat": "zamanlar", "order": 8,
+  "title": "Future: will / be going to", "tr": "Gelecek zaman", "level": "A2",
+  "summary": [
+    "İngilizcede geleceği anlatmanın birkaç yolu vardır. En temel ikisi **will** ve **be going to**'dur. İkisi de Türkçeye çoğunlukla **-ecek / -acak** diye çevrilir ama kullanım yerleri farklıdır.",
+    "**will**: anlık kararlar, tahminler, sözler ve teklifler. **be going to**: önceden verilmiş kararlar/niyetler ve şu anki kanıta dayanan tahminler."
+  ],
+  "form": [
+    ["will", "Özne + **will** + V1", "I **will help** you."],
+    ["will olumsuz", "Özne + **won't** + V1", "It **won't take** long."],
+    ["be going to", "Özne + **am/is/are going to** + V1", "We **are going to buy** a house."],
+    ["Soru", "**Will** you ...? / **Are** you **going to** ...?", "**Are** you **going to apply** for the job?"]
+  ],
+  "uses": [
+    {"t": "Anlık karar (will)", "d": "Konuşma anında verilen karar.", "ex": ["The phone is ringing. I**'ll answer** it.", "Telefon çalıyor. Ben açarım."]},
+    {"t": "Planlanmış niyet (going to)", "d": "Daha önce karar verilmiş plan.", "ex": ["I**'m going to study** abroad next year.", "Gelecek yıl yurt dışında okuyacağım."]},
+    {"t": "Kanıta dayalı tahmin (going to)", "d": "Şu an görülen bir işaret var.", "ex": ["Look at those clouds. It**'s going to rain**.", "Şu bulutlara bak. Yağmur yağacak."]},
+    {"t": "Görüşe dayalı tahmin (will)", "d": "think, believe, probably, I'm sure gibi ifadelerle.", "ex": ["I think robots **will do** most jobs in the future.", "Bence gelecekte işlerin çoğunu robotlar yapacak."]},
+    {"t": "Söz, teklif, rica (will)", "d": "Birine söz vermek ya da yardım teklif etmek.", "ex": ["I **won't tell** anyone, I promise.", "Kimseye söylemeyeceğim, söz veriyorum."]}
+  ],
+  "examples": [
+    ["Don't worry, I**'ll call** you as soon as I arrive.", "Merak etme, varır varmaz seni arayacağım."],
+    ["She**'s going to have** a baby in May.", "Mayısta bebeği olacak."],
+    ["**Will** you **marry** me?", "Benimle evlenir misin?"],
+    ["Experts believe that sea levels **will rise** by one metre.", "Uzmanlar deniz seviyesinin bir metre yükseleceğine inanıyor."],
+    ["We**'re going to paint** the kitchen this weekend.", "Bu hafta sonu mutfağı boyayacağız."],
+    ["Be careful! You**'re going to fall**!", "Dikkat et! Düşeceksin!"],
+    ["I'm hungry. I think I**'ll make** a sandwich.", "Acıktım. Sanırım bir sandviç yapacağım."],
+    ["They **won't finish** the bridge before 2030.", "Köprüyü 2030'dan önce bitiremeyecekler."],
+    ["What **are** you **going to do** after graduation?", "Mezun olduktan sonra ne yapacaksın?"],
+    ["**Will** it **be** cold tomorrow?", "Yarın hava soğuk olacak mı?"],
+    ["The new law **will come** into force next month.", "Yeni yasa gelecek ay yürürlüğe girecek."]
+  ],
+  "signals": ["tomorrow", "next week", "in the future", "soon", "probably", "I think", "by 2050", "in ten years"],
+  "notes": [
+    "Zaman bağlaçlarından (**when, as soon as, before, after, until, by the time**) sonra will kullanılmaz, Present Simple gelir: ~~When I will arrive~~ yanlış, **When I arrive, I'll call you** doğru.",
+    "Kesin ayarlanmış planlar için **Present Continuous** da gelecek anlamı verir: I'm meeting him at six.",
+    "Tarifeler için **Present Simple**: The plane lands at 10."
+  ],
+  "exam": {
+    "how": "YDS'de gelecek zaman en çok **zaman bağlaçlarıyla uyum** üzerinden sorulur: **as soon as / when / until / by the time + Present Simple**, ana cümlede **will / be going to**. Bilimsel tahminlerde (experts predict, it is estimated) **will** gelir.",
+    "q": [
+      {"q": "As soon as the results ----, the committee ---- a decision.", "o": ["will announce / makes", "are announced / will make", "announced / made", "will be announced / will make", "have announced / make"], "a": 1, "e": "**As soon as** sonrasında will kullanılmaz: **are announced**, ana cümle **will make**."},
+      {"q": "According to experts, the world's population ---- nearly 10 billion by 2050.", "o": ["reached", "has reached", "will reach", "is reaching", "had reached"], "a": 2, "e": "Uzman tahmini, geleceğe dair: **will reach**. (by 2050 ile will have reached da mümkündür ama seçeneklerde yok.)"},
+      {"q": "I've already decided: I ---- Spanish next year.", "o": ["learn", "am going to learn", "learnt", "have learnt", "would learn"], "a": 1, "e": "Önceden verilmiş karar (**already decided**): **am going to learn**."}
+    ]
+  }
+}

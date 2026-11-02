@@ -1,0 +1,71 @@
+{
+  "id": "cinderella", "title": "Cinderella", "trTitle": "Külkedisi", "author": "Charles Perrault", "level": "B1", "cat": "masal",
+  "desc": "Üvey ailesinin hizmetçisi olan bir kız, bir peri anne ve unutulan cam ayakkabı.",
+  "note": "Uyarlama",
+  "source": "Charles Perrault'nun 1697 tarihli masalından (kamu malı) Lugat için B1 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "Among the Ashes", "s": [
+      ["Once there was a gentleman who married, for his second wife, the proudest woman that was ever seen.", "Bir zamanlar bir beyefendi, ikinci eş olarak, dünyanın gördüğü en kibirli kadınla evlenmiş."],
+      ["She had two daughters who were exactly like her in every way.", "Kadının her bakımdan kendisine tıpatıp benzeyen iki kızı varmış."],
+      ["The gentleman also had a young daughter of his own, who was sweet and kind, like her dead mother.", "Beyefendinin de rahmetli annesi gibi tatlı ve iyi kalpli bir kızı varmış."],
+      ["As soon as the wedding was over, the stepmother showed her true character.", "Düğün biter bitmez üvey anne gerçek yüzünü göstermiş."],
+      ["She could not bear the young girl's goodness, because it made her own daughters look even worse.", "Kızın iyiliğine tahammül edemiyormuş, çünkü bu iyilik kendi kızlarını daha da kötü gösteriyormuş."],
+      ["She gave her the hardest work in the house.", "Evin en ağır işlerini hep ona yüklemiş."],
+      ["The girl washed the dishes, cleaned the floors and scrubbed the stairs.", "Kız bulaşıkları yıkıyor, yerleri siliyor, merdivenleri ovuyormuş."],
+      ["She slept in the attic on a thin, old mattress, while her sisters had fine rooms with soft beds and tall mirrors.", "Üvey kardeşleri yumuşak yataklı, boy aynalı şık odalarda yatarken o, tavan arasında incecik, eski bir şiltede uyuyormuş."],
+      ["When her work was done, she used to sit in the corner by the fireplace among the cinders.", "İşleri bitince ocağın yanındaki köşeye, küllerin arasına otururmuş."],
+      ["So the family called her Cinderella.", "Bu yüzden ailesi ona Külkedisi adını takmış."],
+      ["Yet in her old clothes, Cinderella was a hundred times more beautiful than her sisters in their rich dresses.", "Yine de eski püskü giysileri içindeki Külkedisi, şatafatlı elbiseleriyle kardeşlerinden yüz kat daha güzelmiş."]
+    ]},
+    {"t": "The Fairy Godmother", "s": [
+      ["One day the King's son gave a great ball and invited all the fine people of the land.", "Bir gün Kral'ın oğlu büyük bir balo vermiş ve ülkenin bütün seçkin insanlarını davet etmiş."],
+      ["The two sisters were invited too, and they talked of nothing but dresses for weeks.", "İki kardeş de davet edilmiş ve haftalarca elbiseden başka hiçbir şey konuşmamışlar."],
+      ["Cinderella helped them, because she had excellent taste, and she even did their hair.", "Külkedisi zevk sahibi olduğu için onlara yardım etmiş, saçlarını bile o yapmış."],
+      ["\"Cinderella, wouldn't you like to go to the ball?\" they laughed.", "\"Külkedisi, sen de baloya gitmek istemez miydin?\" diye kıkırdamışlar."],
+      ["\"You are making fun of me,\" she said. \"It is not a place for someone like me.\"", "\"Benimle alay ediyorsunuz,\" demiş. \"Orası benim gibilere göre bir yer değil.\""],
+      ["When their carriage left, Cinderella sat by the fire and began to cry.", "Arabaları uzaklaşınca Külkedisi ocağın başına oturup ağlamaya başlamış."],
+      ["Suddenly her godmother, who was a fairy, appeared beside her.", "Birden yanında, aslında bir peri olan vaftiz annesi belirivermiş."],
+      ["\"You wish you could go to the ball, don't you?\"", "\"Baloya gitmeyi çok istiyorsun, değil mi?\""],
+      ["\"Yes,\" said Cinderella with a deep sigh.", "\"Evet,\" demiş Külkedisi derin bir iç çekerek."],
+      ["\"Then be a good girl, and I will send you there. Go into the garden and bring me a pumpkin.\"", "\"O hâlde uslu dur, seni oraya göndereceğim. Bahçeye git ve bana bir balkabağı getir.\""],
+      ["The fairy touched the pumpkin with her wand, and it became a fine golden carriage.", "Peri değneğiyle balkabağına dokununca balkabağı altın yaldızlı, şahane bir arabaya dönüşmüş."],
+      ["Six little mice from the mousetrap became six beautiful grey horses.", "Kapandaki altı küçük fare, altı güzel kır ata dönüşmüş."],
+      ["A fat rat became a coachman with a splendid moustache, and six lizards became footmen.", "Şişko bir sıçan pala bıyıklı bir arabacı, altı kertenkele de altı uşak olmuş."],
+      ["Then the fairy touched Cinderella, and her old clothes turned into a dress of gold and silver.", "Sonra peri Külkedisi'ne dokunmuş ve eski giysileri altın gümüş işlemeli bir elbiseye dönüşmüş."],
+      ["Last of all, she gave her a pair of glass slippers, the prettiest in the world.", "En son da ona dünyanın en güzel cam ayakkabılarını vermiş."],
+      ["\"But remember,\" said the fairy, \"you must leave before midnight.\"", "\"Ama unutma,\" demiş peri, \"gece yarısından önce oradan ayrılmalısın.\""],
+      ["\"At twelve o'clock, everything will turn back to what it was.\"", "\"Saat on ikide her şey eski hâline dönecek.\""]
+    ]},
+    {"t": "The Ball", "s": [
+      ["When Cinderella entered the ballroom, the music stopped and everybody stared.", "Külkedisi balo salonuna girdiğinde müzik susmuş, herkes ona bakakalmış."],
+      ["\"Who is that beautiful princess?\" they whispered.", "\"Kim bu güzel prenses?\" diye fısıldaşmışlar."],
+      ["The Prince himself led her to the best seat and danced with her all evening.", "Prens bizzat onu en iyi yere götürmüş ve bütün gece onunla dans etmiş."],
+      ["He did not eat a single bite, because he could not take his eyes off her.", "Gözünü ondan ayıramadığı için tek lokma bile yememiş."],
+      ["Cinderella even sat with her sisters and was very kind to them, but they did not recognise her.", "Külkedisi kardeşlerinin yanına bile oturmuş, onlara çok nazik davranmış; ama kardeşleri onu tanımamış."],
+      ["She was having such a wonderful time that she forgot the fairy's warning.", "O kadar güzel vakit geçiriyormuş ki perinin uyarısını unutmuş."],
+      ["Suddenly the clock began to strike twelve.", "Birden saat on ikiyi çalmaya başlamış."],
+      ["Cinderella jumped up and ran out of the room as fast as a deer.", "Külkedisi yerinden fırlamış ve bir ceylan gibi salondan kaçmış."],
+      ["The Prince ran after her, but he could not catch her.", "Prens peşinden koşmuş ama ona yetişememiş."],
+      ["On the stairs she lost one of her glass slippers, and the Prince picked it up carefully.", "Merdivenlerde cam ayakkabılarından biri ayağından çıkmış; Prens onu özenle yerden almış."],
+      ["Cinderella arrived home out of breath, in her old clothes.", "Külkedisi eve nefes nefese, eski giysileri içinde varmış."],
+      ["Nothing was left of her finery except one little glass slipper.", "Bütün o şatafattan geriye tek bir cam ayakkabı kalmış."]
+    ]},
+    {"t": "The Glass Slipper", "s": [
+      ["A few days later, the King's son announced that he would marry the girl whose foot fitted the slipper.", "Birkaç gün sonra Kral'ın oğlu, ayakkabı kimin ayağına olursa onunla evleneceğini ilan etmiş."],
+      ["His servants tried it on princesses, then on duchesses, then on all the ladies of the court, but it fitted nobody.", "Uşakları ayakkabıyı önce prenseslere, sonra düşeslere, sonra saraydaki bütün hanımlara denemiş ama kimsenin ayağına olmamış."],
+      ["At last they came to the house of the two sisters.", "Sonunda iki kız kardeşin evine gelmişler."],
+      ["Each sister pushed and pushed, but the slipper was much too small.", "Kardeşler ittire kaktıra denemişler ama ayakkabı onlara çok küçük gelmiş."],
+      ["Cinderella, who was watching, said with a smile, \"Let me see if it fits me.\"", "Olanları izleyen Külkedisi gülümseyerek, \"Bir de ben deneyeyim,\" demiş."],
+      ["Her sisters burst out laughing.", "Kardeşleri kahkahalarla gülmeye başlamış."],
+      ["But the gentleman who carried the slipper looked at her and saw that she was very beautiful.", "Ama ayakkabıyı taşıyan beyefendi ona bakmış ve ne kadar güzel olduğunu görmüş."],
+      ["\"Everyone must try,\" he said, and he asked her to sit down.", "\"Herkes denemeli,\" demiş ve onu oturttuğu yerde ayakkabıyı ayağına geçirmiş."],
+      ["The slipper went on easily and fitted her like wax.", "Ayakkabı tıpkı ona göre dökülmüş gibi kolayca ayağına geçmiş."],
+      ["The sisters were astonished, but they were even more astonished when Cinderella took the other slipper out of her pocket.", "Kardeşler şaşkına dönmüş; ama Külkedisi cebinden öbür teki çıkarınca şaşkınlıkları ikiye katlanmış."],
+      ["At that moment the fairy godmother appeared and changed her clothes into a dress more beautiful than before.", "Tam o anda peri anne belirmiş ve Külkedisi'nin giysilerini öncekinden de güzel bir elbiseye dönüştürmüş."],
+      ["The sisters fell at her feet and begged her to forgive them for their cruelty.", "Kardeşler ayaklarına kapanıp yaptıkları zulüm için özür dilemişler."],
+      ["Cinderella lifted them up, kissed them and said that she forgave them with all her heart.", "Külkedisi onları kaldırmış, öpmüş ve hepsini bütün kalbiyle bağışladığını söylemiş."],
+      ["She was taken to the young Prince, who found her more charming than ever, and a few days later they were married.", "Onu genç Prens'e götürmüşler; Prens onu her zamankinden de büyüleyici bulmuş ve birkaç gün sonra evlenmişler."],
+      ["Cinderella, who was as good as she was beautiful, gave her sisters rooms in the palace.", "Güzelliği kadar iyiliği de olan Külkedisi, kardeşlerine de sarayda birer oda vermiş."]
+    ]}
+  ]
+}

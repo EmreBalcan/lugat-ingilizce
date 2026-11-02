@@ -1,0 +1,8 @@
+{
+  "appId": "com.lugat.ingilizce",
+  "appName": "Lugat",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#f2ebf1"
+  }
+}

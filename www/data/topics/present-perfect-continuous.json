@@ -1,0 +1,44 @@
+{
+  "id": "present-perfect-continuous", "cat": "zamanlar", "order": 4,
+  "title": "Present Perfect Continuous", "tr": "Geçmişten beri süregelen eylem", "level": "B1",
+  "summary": [
+    "Present Perfect Continuous, geçmişte başlayıp **şu ana kadar kesintisiz süren** ya da yeni bitip **izi hâlâ görülen** eylemleri anlatır. Vurgu, eylemin **süresi ve devamlılığı** üzerindedir.",
+    "Yapısı **have / has been + V-ing** şeklindedir. Türkçeye genellikle '**-dır ...-yor**' diye çevrilir: I have been waiting for an hour = Bir saattir bekliyorum."
+  ],
+  "form": [
+    ["Olumlu", "Özne + **have/has been** + V-ing", "She **has been studying** for hours."],
+    ["Olumsuz", "Özne + **haven't/hasn't been** + V-ing", "I **haven't been sleeping** well."],
+    ["Soru", "**Have/Has** + özne + **been** + V-ing ?", "How long **have** you **been learning** English?"]
+  ],
+  "uses": [
+    {"t": "Geçmişten bu yana süren eylem", "d": "for ve since ile eylemin ne kadar sürdüğünü vurgular.", "ex": ["I **have been learning** English **for** six years.", "Altı yıldır İngilizce öğreniyorum."]},
+    {"t": "Yeni bitmiş, izi görülen eylem", "d": "Eylem bitmiştir ama sonucu ortadadır.", "ex": ["Your eyes are red. **Have** you **been crying**?", "Gözlerin kızarmış. Ağlıyor muydun?"]},
+    {"t": "Tekrarlanan eylem", "d": "Belli bir süredir tekrar tekrar yapılan iş.", "ex": ["She **has been calling** me all morning.", "Bütün sabah beni arayıp duruyor."]}
+  ],
+  "examples": [
+    ["It **has been raining** since early morning.", "Sabahın erken saatlerinden beri yağmur yağıyor."],
+    ["We **have been waiting** for the bus for forty minutes.", "Kırk dakikadır otobüsü bekliyoruz."],
+    ["How long **have** you **been living** in this city?", "Ne zamandır bu şehirde yaşıyorsun?"],
+    ["He is tired because he **has been working** in the garden.", "Bahçede çalıştığı için yorgun."],
+    ["Researchers **have been studying** this virus for decades.", "Araştırmacılar bu virüsü onlarca yıldır inceliyor."],
+    ["I **haven't been feeling** well lately.", "Son zamanlarda kendimi iyi hissetmiyorum."],
+    ["The children **have been playing** outside all afternoon.", "Çocuklar bütün öğleden sonra dışarıda oynuyor."],
+    ["Sea levels **have been rising** steadily since the last century.", "Deniz seviyeleri geçen yüzyıldan beri sürekli yükseliyor."],
+    ["She **has been trying** to contact you all day.", "Bütün gün sana ulaşmaya çalışıyor."],
+    ["What **have** you **been doing**? You're covered in paint!", "Ne yapıyordun? Her yerin boya olmuş!"],
+    ["They **have been arguing** about money for weeks.", "Haftalardır para yüzünden tartışıyorlar."]
+  ],
+  "signals": ["for", "since", "all day", "all morning", "how long", "lately", "recently"],
+  "notes": [
+    "**Present Perfect** sonucu ve miktarı vurgular: I **have written** three emails. **Continuous** süreyi vurgular: I **have been writing** emails all morning.",
+    "Durum fiilleri (know, own, believe) Continuous olmaz: ~~I have been knowing her~~ yanlış, **I have known her for years** doğru."
+  ],
+  "exam": {
+    "how": "YDS'de genellikle **for + süre** ya da **since** ile, eylemin süresini vurgulayan cümlelerde gelir. Seçeneklerde Present Perfect ile birlikte bulunursa: cümlede **sayı/miktar** (three books) varsa Present Perfect, **süre/devamlılık** varsa Continuous seç.",
+    "q": [
+      {"q": "Archaeologists ---- at the site for over ten years, and they are still finding new objects.", "o": ["dug", "have been digging", "had dug", "were digging", "dig"], "a": 1, "e": "Geçmişte başlayıp hâlâ süren eylem (**still finding**) ve **for over ten years**: **have been digging**."},
+      {"q": "I'm exhausted because I ---- for the exam since six o'clock.", "o": ["have been studying", "studied", "was studying", "study", "will study"], "a": 0, "e": "**since six o'clock** ve şimdiki yorgunluk: **have been studying**."},
+      {"q": "She ---- three novels so far, and she is working on the fourth.", "o": ["has been writing", "has written", "writes", "had been writing", "was writing"], "a": 1, "e": "Bitmiş eylemlerin **sayısı** (three novels) vurgulanıyor: Present Perfect **has written**."}
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "past-continuous", "cat": "zamanlar", "order": 6,
+  "title": "Past Continuous", "tr": "Şimdiki zamanın hikâyesi (-yordu)", "level": "A2",
+  "summary": [
+    "Past Continuous, geçmişte **belli bir anda devam etmekte olan** eylemi anlatır. Türkçedeki **-yordu** ekine karşılık gelir.",
+    "Yapısı **was / were + V-ing** şeklindedir. Çoğunlukla Past Simple ile birlikte, 'bir şey olurken başka bir şey oldu' anlamında kullanılır."
+  ],
+  "form": [
+    ["Olumlu", "Özne + **was/were** + V-ing", "I **was reading** at 10 p.m."],
+    ["Olumsuz", "Özne + **wasn't/weren't** + V-ing", "They **weren't listening**."],
+    ["Soru", "**Was/Were** + özne + V-ing ?", "What **were** you **doing**?"]
+  ],
+  "uses": [
+    {"t": "Geçmişte belli bir anda süren eylem", "d": "Saat ya da an belirtilir.", "ex": ["At eight o'clock last night, I **was having** dinner.", "Dün akşam saat sekizde akşam yemeği yiyordum."]},
+    {"t": "Kesintiye uğrayan eylem", "d": "Uzun eylem Past Continuous, araya giren kısa eylem Past Simple. when / while ile.", "ex": ["I **was walking** home **when** it **started** to rain.", "Eve yürüyordum ki yağmur başladı."]},
+    {"t": "Aynı anda süren iki eylem", "d": "while ile iki uzun eylem birlikte anlatılır.", "ex": ["**While** I **was cooking**, my husband **was setting** the table.", "Ben yemek yaparken eşim sofrayı kuruyordu."]},
+    {"t": "Hikâyede arka plan", "d": "Bir hikâyenin sahnesini kurmak için.", "ex": ["The sun **was shining** and the birds **were singing**.", "Güneş parlıyor, kuşlar ötüyordu."]}
+  ],
+  "examples": [
+    ["What **were** you **doing** when I called you?", "Seni aradığımda ne yapıyordun?"],
+    ["She **was taking** a shower when the doorbell rang.", "Kapı zili çaldığında duş alıyordu."],
+    ["We **were watching** a film when the power went out.", "Elektrik kesildiğinde film izliyorduk."],
+    ["**While** he **was driving**, he **was talking** on the phone.", "Araba sürerken telefonla konuşuyordu."],
+    ["At midnight, the students **were still studying**.", "Gece yarısı öğrenciler hâlâ ders çalışıyordu."],
+    ["I **wasn't paying** attention, so I missed the question.", "Dikkat etmiyordum, bu yüzden soruyu kaçırdım."],
+    ["It **was snowing** heavily when we left the house.", "Evden çıktığımızda kar şiddetle yağıyordu."],
+    ["The scientist **was working** on a different problem when she made the discovery.", "Bilim insanı keşfi yaptığında başka bir problem üzerinde çalışıyordu."],
+    ["**Were** they **living** in Izmir at that time?", "O zamanlar İzmir'de mi yaşıyorlardı?"],
+    ["He cut his finger while he **was preparing** the salad.", "Salatayı hazırlarken parmağını kesti."],
+    ["Everyone **was laughing** when I entered the room.", "Odaya girdiğimde herkes gülüyordu."]
+  ],
+  "signals": ["while", "when", "as", "at that moment", "at 5 o'clock yesterday", "all evening"],
+  "notes": [
+    "**while** genellikle uzun eylemin (Past Continuous) önünde, **when** genellikle kısa eylemin (Past Simple) önünde gelir.",
+    "Arka arkaya biten olaylar için Past Continuous kullanılmaz: When he arrived, we **started** dinner (o gelince yemeğe başladık)."
+  ],
+  "exam": {
+    "how": "YDS'de **while / when / as** bağlaçlarıyla kurulan cümlelerde Past Simple ile birlikte sorulur. Hangi eylemin uzun (arka plan), hangisinin kısa (araya giren) olduğunu bulursan doğru eşleştirmeyi yaparsın.",
+    "q": [
+      {"q": "While the researchers ---- the ancient tomb, they ---- a hidden chamber.", "o": ["were exploring / discovered", "explored / were discovering", "have explored / discovered", "had explored / were discovering", "explore / discovered"], "a": 0, "e": "Uzun eylem (**were exploring**) devam ederken kısa eylem (**discovered**) oldu."},
+      {"q": "I ---- my phone when I ---- off the bus.", "o": ["lost / was getting", "was losing / got", "have lost / got", "lose / was getting", "had lost / get"], "a": 0, "e": "Otobüsten inerken (uzun) telefonu kaybettim (kısa): **lost / was getting**."},
+      {"q": "At this time yesterday, we ---- over the Alps.", "o": ["flew", "have flown", "were flying", "had flown", "fly"], "a": 2, "e": "**At this time yesterday** geçmişte belli bir anda süren eylem: **were flying**."}
+    ]
+  }
+}

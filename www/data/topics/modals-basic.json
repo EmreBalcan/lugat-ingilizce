@@ -1,0 +1,51 @@
+{
+  "id": "modals-basic", "cat": "modals", "order": 1,
+  "title": "Modals: can, must, should, have to", "tr": "Yetenek, zorunluluk, izin, tavsiye", "level": "A2",
+  "summary": [
+    "Modal fiiller (can, could, may, must, should, have to...) ana fiile **yetenek, zorunluluk, izin, tavsiye** gibi anlamlar katar. Kendilerinden sonra her zaman **V1 (yalın fiil)** gelir ve üçüncü tekil şahısta **-s almazlar**.",
+    "**have to**, **be able to**, **need to** gibi yarı-modallar ise zamana göre çekimlenebilir: had to, will be able to."
+  ],
+  "form": [
+    ["Yetenek", "**can / could / be able to** + V1", "She **can speak** four languages."],
+    ["Zorunluluk", "**must / have to** + V1", "You **must wear** a seatbelt."],
+    ["Zorunluluk yok", "**don't have to / needn't** + V1", "You **don't have to come**."],
+    ["Yasak", "**mustn't / can't** + V1", "You **mustn't smoke** here."],
+    ["Tavsiye", "**should / ought to / had better** + V1", "You **should see** a doctor."],
+    ["İzin / rica", "**can / could / may** + V1", "**May** I **open** the window?"]
+  ],
+  "uses": [
+    {"t": "Yetenek", "d": "can (şimdi), could (geçmişte genel yetenek), was able to (geçmişte belli bir durumda başarmak).", "ex": ["Although the exam was hard, she **was able to pass** it.", "Sınav zor olmasına rağmen geçmeyi başardı."]},
+    {"t": "Zorunluluk", "d": "must: konuşanın kendi hissettiği zorunluluk; have to: dışarıdan gelen kural/zorunluluk.", "ex": ["I **have to wear** a uniform at work.", "İşte üniforma giymek zorundayım."]},
+    {"t": "Yasak ve zorunluluk olmaması", "d": "mustn't = yapmamalısın (yasak); don't have to = yapmak zorunda değilsin.", "ex": ["You **don't have to pay**; it's free.", "Ödemek zorunda değilsin, ücretsiz."]},
+    {"t": "Tavsiye", "d": "should / ought to genel tavsiye; had better daha güçlü, uyarı tonu taşır.", "ex": ["You**'d better leave** now or you'll miss the bus.", "Hemen çıksan iyi olur yoksa otobüsü kaçıracaksın."]},
+    {"t": "İzin ve rica", "d": "could ve may, can'den daha kibardır.", "ex": ["**Could** you **help** me with this bag?", "Bu çantayla bana yardım edebilir misiniz?"]}
+  ],
+  "examples": [
+    ["My little brother **can't swim** yet.", "Küçük kardeşim henüz yüzemiyor."],
+    ["When I was young, I **could run** very fast.", "Gençken çok hızlı koşabilirdim."],
+    ["All students **must submit** their projects by Friday.", "Tüm öğrenciler projelerini cuma gününe kadar teslim etmeli."],
+    ["We **had to cancel** the trip because of the storm.", "Fırtına yüzünden geziyi iptal etmek zorunda kaldık."],
+    ["You **mustn't touch** the paintings in the museum.", "Müzedeki tablolara dokunmamalısın."],
+    ["You **should drink** more water.", "Daha fazla su içmelisin."],
+    ["**May** I **use** your phone?", "Telefonunuzu kullanabilir miyim?"],
+    ["She **will be able to walk** again after the operation.", "Ameliyattan sonra yeniden yürüyebilecek."],
+    ["You **needn't worry**; everything is under control.", "Endişelenmene gerek yok, her şey kontrol altında."],
+    ["Drivers **ought to slow** down near schools.", "Sürücüler okulların yakınında yavaşlamalı."],
+    ["Do we **have to bring** our own food?", "Kendi yiyeceğimizi getirmek zorunda mıyız?"],
+    ["Governments **should invest** more in renewable energy.", "Hükümetler yenilenebilir enerjiye daha fazla yatırım yapmalı."]
+  ],
+  "signals": ["obligatory", "compulsory", "it is necessary", "permission", "advice", "be allowed to"],
+  "notes": [
+    "Modallardan sonra **to** gelmez: ~~must to go~~ yanlış. İstisna: **have to, ought to, be able to, need to**.",
+    "**must**'ın geçmişi yoktur; geçmiş zorunluluk için **had to** kullanılır.",
+    "**mustn't** (yasak) ile **don't have to** (gerek yok) YDS'de sıkça karıştırılır."
+  ],
+  "exam": {
+    "how": "YDS'de modallar hem dilbilgisi hem anlam sorusu olarak gelir. Cümlenin anlamına bakarak **zorunluluk mu, tavsiye mi, yetenek mi, olasılık mı** olduğunu bul. **was able to / managed to** geçmişte belli bir durumda başarmayı; **could** genel yeteneği anlatır. Paragraf ve diyalog tamamlama sorularında da modal anlamı belirleyicidir.",
+    "q": [
+      {"q": "Despite the heavy traffic, the ambulance ---- reach the hospital in time.", "o": ["could", "was able to", "must", "should", "might"], "a": 1, "e": "Geçmişte **belli bir durumda başarmak**: **was able to** (could burada uygun değil)."},
+      {"q": "Entry to the museum is free, so you ---- buy a ticket.", "o": ["mustn't", "don't have to", "can't", "had better", "ought to"], "a": 1, "e": "Ücretsiz olduğu için **zorunluluk yok**: **don't have to**."},
+      {"q": "Patients ---- take antibiotics without a doctor's prescription, as this can be dangerous.", "o": ["should not", "need", "are able to", "would", "can"], "a": 0, "e": "Tehlikeli olduğu için yapılmaması tavsiye ediliyor: **should not**."}
+    ]
+  }
+}

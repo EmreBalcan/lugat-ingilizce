@@ -1,0 +1,48 @@
+{
+  "id": "past-simple", "cat": "zamanlar", "order": 5,
+  "title": "Past Simple", "tr": "Geçmiş zaman (-dı)", "level": "A1",
+  "summary": [
+    "Past Simple, geçmişte **belli bir zamanda başlayıp bitmiş** olayları anlatır. Türkçedeki **-dı / -di** ekine karşılık gelir.",
+    "Düzenli fiiller **-ed** alır (work → worked); düzensiz fiillerin ikinci hâli ezberlenir (go → went). Olumsuz ve soru cümlelerinde **did** kullanılır ve fiil yalın hâline döner."
+  ],
+  "form": [
+    ["Olumlu", "Özne + V2 (worked, went)", "We **visited** our grandparents."],
+    ["Olumsuz", "Özne + **did not** + V1", "I **didn't see** the film."],
+    ["Soru", "**Did** + özne + V1 ?", "**Did** you **call** her?"],
+    ["be fiili", "was / were", "They **were** at home yesterday."]
+  ],
+  "uses": [
+    {"t": "Geçmişte bitmiş tek bir olay", "d": "Ne zaman olduğu belli ya da bağlamdan anlaşılıyor.", "ex": ["I **met** my best friend in 2012.", "En yakın arkadaşımla 2012'de tanıştım."]},
+    {"t": "Arka arkaya olan olaylar", "d": "Hikâye anlatırken olayları sırayla sıralamak için.", "ex": ["He **opened** the door, **turned** on the light and **sat** down.", "Kapıyı açtı, ışığı yaktı ve oturdu."]},
+    {"t": "Geçmişteki alışkanlık ve durumlar", "d": "Geçmişte bir süre devam etmiş, artık bitmiş durumlar.", "ex": ["She **lived** in Germany for five years.", "Beş yıl Almanya'da yaşadı (artık yaşamıyor)."]},
+    {"t": "Tarihî olaylar", "d": "Tarih anlatan metinler ve YDS okuma parçaları büyük ölçüde Past Simple ile yazılır.", "ex": ["The Ottoman Empire **lasted** for more than six centuries.", "Osmanlı İmparatorluğu altı yüzyıldan fazla sürdü."]}
+  ],
+  "examples": [
+    ["I **watched** a documentary last night.", "Dün gece bir belgesel izledim."],
+    ["We **went** to Antalya last summer.", "Geçen yaz Antalya'ya gittik."],
+    ["She **didn't come** to the party.", "Partiye gelmedi."],
+    ["**Did** you **sleep** well?", "İyi uyudun mu?"],
+    ["Alexander Fleming **discovered** penicillin in 1928.", "Alexander Fleming penisilini 1928'de keşfetti."],
+    ["My grandfather **worked** as a teacher for forty years.", "Dedem kırk yıl öğretmen olarak çalıştı."],
+    ["The meeting **was** very long and boring.", "Toplantı çok uzun ve sıkıcıydı."],
+    ["When **did** the first humans **arrive** in America?", "İlk insanlar Amerika'ya ne zaman geldi?"],
+    ["He **bought** a new phone two days **ago**.", "İki gün önce yeni bir telefon aldı."],
+    ["They **were not** happy with the results.", "Sonuçlardan memnun değillerdi."],
+    ["The ancient Egyptians **built** the pyramids as tombs.", "Eski Mısırlılar piramitleri mezar olarak inşa etti."],
+    ["I **lost** my wallet on the way home.", "Eve dönerken cüzdanımı kaybettim."]
+  ],
+  "signals": ["yesterday", "ago", "last week", "last year", "in 1990", "when I was a child", "in the 19th century", "then"],
+  "notes": [
+    "**did** kullanınca fiil yalın olur: ~~Did you went?~~ yanlış, **Did you go?** doğru.",
+    "Yazım: e ile bitene sadece -d (live → lived), ünsüz + y → -ied (study → studied), kısa fiillerde son ünsüz ikilenir (stop → stopped).",
+    "Belli geçmiş zaman ifadesi (ago, last, in 2010) varsa Present Perfect değil Past Simple kullanılır."
+  ],
+  "exam": {
+    "how": "YDS'de **ago, in + yıl, in the 1800s, during the war, at that time, when + geçmiş** gibi ifadeler Past Simple'ın en güçlü ipuçlarıdır. Present Perfect ile karıştırılması beklenir: geçmişte bitmiş, tarihi belli olay = Past Simple.",
+    "q": [
+      {"q": "The printing press, which Gutenberg ---- in the 15th century, changed the way knowledge spread.", "o": ["has invented", "invented", "had been inventing", "invents", "was invented"], "a": 1, "e": "**in the 15th century** belli geçmiş zaman: **invented**."},
+      {"q": "When I was a student, I ---- in a small flat near the campus.", "o": ["have lived", "lived", "am living", "had been lived", "live"], "a": 1, "e": "**When I was a student** bitmiş geçmiş dönem: **lived**."},
+      {"q": "Two years ago, the government ---- a new law to protect forests.", "o": ["passes", "has passed", "passed", "had passed", "is passing"], "a": 2, "e": "**ago** her zaman Past Simple ister: **passed**."}
+    ]
+  }
+}

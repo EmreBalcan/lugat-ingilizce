@@ -1,0 +1,26 @@
+# YDS / YÖKDİL okuma parçalarında sık geçen kelimeler (konulara göre, elle seçildi)
+# Bilim ve araştırma
+evidence research survey experiment hypothesis theory method analysis data sample
+conclude conclusion indicate suggest reveal demonstrate confirm assume estimate measure
+significant considerable substantial accurate reliable valid precise approximate relevant crucial
+# Değişim ve süreç
+increase decrease decline reduce expand enhance improve undergo emerge evolve
+transform shift alter modify adapt adjust occur arise result derive
+# Toplum ve ekonomi
+society community population economy income poverty wealth policy government authority
+welfare employment labour industry trade demand supply growth investment budget
+# Sağlık ve çevre
+disease treatment symptom patient therapy infection vaccine diagnosis cure prevent
+environment pollution climate species habitat extinction resource sustainable renewable drought
+# Fiiller (okuma ve kelime sorularında sık)
+acquire attain obtain maintain sustain retain contain constrain restrict prohibit
+encourage enable ensure provide require involve consist comprise include exclude
+pursue achieve accomplish fulfil overcome tackle cope deal handle address
+claim argue assert emphasize highlight stress state mention imply infer
+# Sıfatlar ve zarflar
+abundant scarce rare frequent common widespread prevalent vast enormous tiny
+essential vital necessary sufficient adequate inevitable obvious apparent evident explicit
+gradually rapidly steadily dramatically significantly consequently therefore moreover nevertheless thus
+# Soyut isimler
+impact effect influence consequence factor feature aspect issue concept approach
+attitude behaviour belief perception awareness tendency trend pattern phenomenon process

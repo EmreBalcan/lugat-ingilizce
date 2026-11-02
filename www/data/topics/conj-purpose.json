@@ -1,0 +1,48 @@
+{
+  "id": "conj-purpose", "cat": "baglaclar", "order": 3,
+  "title": "Amaç: so that, in order to...", "tr": "Purpose", "level": "B1",
+  "summary": [
+    "Amaç bağlaçları bir eylemin **ne için** yapıldığını gösterir: 'Treni kaçırmamak **için** erken çıktık.'",
+    "**to / in order to / so as to** + V1 (özne aynı); **so that / in order that** + tam cümle (genellikle can/could/will/would ile). Olumsuz amaç: **in order not to / so as not to** + V1, **for fear that / lest** + cümle, **in case** (... olur diye, önlem)."
+  ],
+  "form": [
+    ["Fiil ile", "**to / in order to / so as to** + V1", "I study hard **in order to** pass."],
+    ["Olumsuz", "**in order not to / so as not to** + V1", "We left early **so as not to** miss the bus."],
+    ["Cümle ile", "**so that / in order that** + özne + can/could/will/would", "I'll speak slowly **so that** you **can** understand."],
+    ["İsim ile", "**for** + isim", "We went out **for** a walk."],
+    ["Önlem", "**in case** + Present/Past Simple", "Take an umbrella **in case** it rains."]
+  ],
+  "uses": [
+    {"t": "Aynı özne, fiil ile amaç", "d": "to / in order to / so as to.", "ex": ["She saved money **in order to** buy a car.", "Araba almak için para biriktirdi."]},
+    {"t": "Farklı özne, cümle ile amaç", "d": "so that + can/could.", "ex": ["The teacher wrote it on the board **so that** everyone **could** see it.", "Öğretmen herkes görebilsin diye tahtaya yazdı."]},
+    {"t": "Olumsuz amaç", "d": "so as not to, in order not to, for fear that.", "ex": ["He whispered **so as not to** wake the baby.", "Bebeği uyandırmamak için fısıldadı."]},
+    {"t": "Önlem (in case)", "d": "Olabilecek bir duruma karşı hazırlık; amaçla karıştırılır.", "ex": ["I'll write down your number **in case** I forget it.", "Unutursam diye numaranı not edeceğim."]}
+  ],
+  "examples": [
+    ["I went to the bank **to** open an account.", "Hesap açmak için bankaya gittim."],
+    ["Many people exercise **in order to** stay healthy.", "Birçok insan sağlıklı kalmak için egzersiz yapar."],
+    ["Turn off the lights **so as to** save electricity.", "Elektrik tasarrufu için ışıkları kapat."],
+    ["She is learning English **so that** she **can** work abroad.", "Yurt dışında çalışabilmek için İngilizce öğreniyor."],
+    ["We spoke quietly **so that** we **wouldn't** disturb anyone.", "Kimseyi rahatsız etmemek için sessizce konuştuk."],
+    ["Scientists use satellites **to** monitor climate change.", "Bilim insanları iklim değişikliğini izlemek için uydular kullanır."],
+    ["He left a note **in order that** his family **would** not worry.", "Ailesi endişelenmesin diye bir not bıraktı."],
+    ["Take some snacks **in case** you get hungry.", "Acıkırsan diye biraz atıştırmalık al."],
+    ["She drove carefully **for fear that** she **might** have an accident.", "Kaza yapar korkusuyla dikkatli sürdü."],
+    ["We hurried **in order not to** be late.", "Geç kalmamak için acele ettik."],
+    ["The government lowered taxes **so as to** encourage investment.", "Hükümet yatırımı teşvik etmek için vergileri düşürdü."]
+  ],
+  "signals": ["to", "in order to", "so as to", "so that", "in order that", "for fear that", "lest", "in case", "with the aim of", "with a view to"],
+  "notes": [
+    "**so that** (amaç) ile **so ... that** (sonuç) farklıdır: I ran **so that** I could catch the bus (amaç) / I ran **so** fast **that** I caught it (sonuç).",
+    "**in case** 'eğer' demek değildir, önlem bildirir: Take a coat **in case** it gets cold (soğuk olabilir diye).",
+    "**with the aim of / with a view to** + V-ing: with a view to **improving** (to burada edattır)."
+  ],
+  "exam": {
+    "how": "YDS'de amaç bağlaçları özellikle **so that** ile sonuç bildiren **so** ve **so ... that** karıştırılarak sorulur. Boşluktan sonra **can/could/will/would** içeren bir cümle varsa **so that** düşün; V1 varsa **in order to / so as to**. **in case** ve **for fear that** önlem/kaygı bildirdiğini unutma.",
+    "q": [
+      {"q": "Many farmers now use drip irrigation ---- they can reduce water waste.", "o": ["in order to", "so that", "because of", "in case of", "so as to"], "a": 1, "e": "Arkadan özne + can geliyor: **so that**."},
+      {"q": "The patient was kept in hospital overnight ---- any complications developed.", "o": ["so as to", "in case", "in order to", "so that", "unless"], "a": 1, "e": "Olası bir komplikasyona karşı önlem: **in case**."},
+      {"q": "Researchers interviewed over 2,000 people ---- understand their sleeping habits.", "o": ["so that", "in order that", "so as to", "for fear that", "in case"], "a": 2, "e": "Arkadan V1 (understand) geliyor: **so as to**."}
+    ]
+  }
+}

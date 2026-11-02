@@ -1,0 +1,50 @@
+{
+  "id": "reported-speech", "cat": "yapilar", "order": 6,
+  "title": "Reported Speech", "tr": "Dolaylı anlatım", "level": "B1",
+  "summary": [
+    "Dolaylı anlatım, birinin söylediğini **tırnak kullanmadan aktarmaktır**: She said, \"I am tired.\" → She said (that) **she was tired**.",
+    "Aktarma fiili geçmiş zamandaysa (said, told, asked) cümlenin zamanı genellikle **bir derece geriye** kayar, zamirler ve zaman/yer ifadeleri de değişir (now → then, tomorrow → the next day, here → there)."
+  ],
+  "form": [
+    ["Present Simple → Past Simple", "\"I **like** it.\" → He said he **liked** it.", "She said she **worked** in a bank."],
+    ["Present Cont. → Past Cont.", "\"I **am leaving**.\" → She said she **was leaving**.", "He said he **was waiting**."],
+    ["Past / Present Perfect → Past Perfect", "\"I **saw** it.\" → He said he **had seen** it.", "She said she **had finished**."],
+    ["will → would, can → could", "\"I **will** help.\" → He said he **would** help.", "She said she **could** swim."],
+    ["Soru", "asked + if/whether / wh- + düz cümle", "He asked me **where I lived**."],
+    ["Emir / rica", "told/asked + sb + **(not) to V1**", "She told me **not to touch** it."]
+  ],
+  "uses": [
+    {"t": "Düz cümle aktarma", "d": "say (that) / tell sb (that).", "ex": ["He **told me that** he was moving to Izmir.", "Bana İzmir'e taşınacağını söyledi."]},
+    {"t": "Soru aktarma", "d": "Evet/hayır sorusu: if/whether. Soru kelimeli: aynı kelime + düz düzen.", "ex": ["She **asked if** I had seen her keys.", "Anahtarlarını görüp görmediğimi sordu."]},
+    {"t": "Emir ve rica aktarma", "d": "tell / ask / order + nesne + to V1.", "ex": ["The doctor **told him to rest** for a week.", "Doktor ona bir hafta dinlenmesini söyledi."]},
+    {"t": "Genel doğrularda zaman kaymaz", "d": "Hâlâ geçerli bilgiler kaydırılmayabilir.", "ex": ["The teacher said that water **boils** at 100°C.", "Öğretmen suyun 100°C'de kaynadığını söyledi."]}
+  ],
+  "examples": [
+    ["\"I'm hungry,\" she said. → She said **she was hungry**.", "Aç olduğunu söyledi."],
+    ["\"We will call you,\" they said. → They said **they would call** me.", "Beni arayacaklarını söylediler."],
+    ["\"Where do you live?\" → He asked me **where I lived**.", "Nerede yaşadığımı sordu."],
+    ["\"Are you a student?\" → She asked me **whether I was** a student.", "Öğrenci olup olmadığımı sordu."],
+    ["\"Don't be late!\" → My father told me **not to be late**.", "Babam geç kalmamamı söyledi."],
+    ["\"I have lost my wallet.\" → He said **he had lost** his wallet.", "Cüzdanını kaybettiğini söyledi."],
+    ["\"I can't come tomorrow.\" → She said she **couldn't come the next day**.", "Ertesi gün gelemeyeceğini söyledi."],
+    ["\"Please open the window.\" → He **asked me to open** the window.", "Pencereyi açmamı rica etti."],
+    ["The minister **announced that** taxes **would rise**.", "Bakan vergilerin artacağını açıkladı."],
+    ["She **denied that** she **had taken** the money.", "Parayı aldığını inkâr etti."],
+    ["He **promised to finish** the work by Monday.", "İşi pazartesiye kadar bitirmeye söz verdi."],
+    ["They **suggested that** we **should take** a taxi.", "Taksiye binmemizi önerdiler."]
+  ],
+  "signals": ["said", "told", "asked", "explained", "claimed", "denied", "suggested", "promised", "warned", "admitted"],
+  "notes": [
+    "**say** nesnesiz kullanılır (He said **that**...), **tell** mutlaka kişi nesnesi alır (He told **me** that...): ~~He said me~~ yanlış.",
+    "Dolaylı soruda soru düzeni ve soru işareti kalkar: ~~He asked where did I live?~~ yanlış.",
+    "**suggest / recommend / insist** + that + özne + (should) + V1: He suggested that she **(should) see** a doctor."
+  ],
+  "exam": {
+    "how": "YDS'de dolaylı anlatım genellikle **zaman kaydırma** (will → would, has done → had done) ve **dolaylı soru düzeni** üzerinden sorulur. Ayrıca okuma ve diyalog sorularında 'X claimed / argued / suggested that...' kalıpları çok geçer; bu fiillerin anlamlarını bilmek paragraf sorularında da işine yarar.",
+    "q": [
+      {"q": "The spokesperson said that the company ---- 200 new employees the following year.", "o": ["hires", "will hire", "would hire", "has hired", "is hiring"], "a": 2, "e": "Aktarma fiili geçmişte (said) ve **the following year** var: will → **would hire**."},
+      {"q": "The interviewer asked me ---- in the company.", "o": ["why was I interested", "why I was interested", "why am I interested", "that I was interested", "if why I was interested"], "a": 1, "e": "Dolaylı soruda düz cümle düzeni: **why I was interested**."},
+      {"q": "My doctor advised me ---- sugar from my diet.", "o": ["cutting", "to cut", "cut", "that I cutting", "for cutting"], "a": 1, "e": "**advise + nesne + to V1**: **to cut**."}
+    ]
+  }
+}

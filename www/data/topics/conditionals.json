@@ -1,0 +1,50 @@
+{
+  "id": "conditionals", "cat": "yapilar", "order": 2,
+  "title": "Conditionals (If Clauses)", "tr": "Koşul cümleleri", "level": "B1",
+  "summary": [
+    "Koşul cümleleri '**eğer ... ise, ...**' yapısını kurar. İngilizcede gerçeklik derecesine göre dört temel tür vardır: **Type 0** (genel doğru), **Type 1** (gerçek, olası gelecek), **Type 2** (şimdiki/gelecek hayal, gerçek dışı), **Type 3** (geçmişe dair hayal, pişmanlık).",
+    "Ayrıca **mixed conditional** (karışık) ve **unless, provided that, as long as, otherwise, but for** gibi koşul bağlaçları YDS'de sık sorulur."
+  ],
+  "form": [
+    ["Type 0", "If + Present Simple, **Present Simple**", "If you heat ice, it **melts**."],
+    ["Type 1", "If + Present Simple, **will** + V1", "If it rains, we **will stay** home."],
+    ["Type 2", "If + **Past Simple**, **would** + V1", "If I **had** money, I **would buy** a car."],
+    ["Type 3", "If + **had** + V3, **would have** + V3", "If I **had studied**, I **would have passed**."],
+    ["Mixed (3→2)", "If + had + V3, **would** + V1 (now)", "If I **had taken** the job, I **would be** rich now."]
+  ],
+  "uses": [
+    {"t": "Type 0: Genel doğrular", "d": "Koşul gerçekleşince sonuç her zaman aynıdır.", "ex": ["If you **mix** blue and yellow, you **get** green.", "Maviyle sarıyı karıştırırsan yeşil elde edersin."]},
+    {"t": "Type 1: Olası durum", "d": "Gelecekte gerçekleşmesi mümkün koşul.", "ex": ["If you **leave** now, you **will catch** the train.", "Şimdi çıkarsan treni yakalarsın."]},
+    {"t": "Type 2: Gerçek dışı şimdi", "d": "Şu an gerçek olmayan ya da pek olası olmayan durum. be fiili tüm öznelerde **were** olabilir.", "ex": ["If I **were** you, I **would accept** the offer.", "Yerinde olsam teklifi kabul ederdim."]},
+    {"t": "Type 3: Gerçek dışı geçmiş", "d": "Geçmişte olmamış bir şeyin hayali sonucu; pişmanlık.", "ex": ["If we **had left** earlier, we **wouldn't have missed** the flight.", "Daha erken çıksaydık uçağı kaçırmazdık."]},
+    {"t": "Mixed conditional", "d": "Geçmişteki bir koşulun şimdiki sonucu.", "ex": ["If she **had studied** medicine, she **would be** a doctor now.", "Tıp okusaydı şimdi doktor olurdu."]}
+  ],
+  "examples": [
+    ["If water **reaches** 100°C, it **boils**.", "Su 100°C'ye ulaşırsa kaynar."],
+    ["If you **don't hurry**, you**'ll be** late.", "Acele etmezsen geç kalacaksın."],
+    ["**Unless** you **study**, you **won't pass** the exam.", "Çalışmazsan sınavı geçemezsin."],
+    ["If I **won** the lottery, I **would travel** around the world.", "Piyangoyu kazansam dünyayı gezerdim."],
+    ["What **would** you **do** if you **saw** a ghost?", "Bir hayalet görsen ne yapardın?"],
+    ["If he **had listened** to the doctor, he **wouldn't have got** worse.", "Doktoru dinleseydi durumu kötüleşmezdi."],
+    ["If the government **had acted** sooner, many lives **could have been** saved.", "Hükümet daha erken harekete geçseydi birçok hayat kurtarılabilirdi."],
+    ["You can borrow my car **as long as** you **drive** carefully.", "Dikkatli sürdüğün sürece arabamı ödünç alabilirsin."],
+    ["**Had** I **known** about the problem, I **would have helped**.", "Sorunu bilseydim yardım ederdim."],
+    ["**Were** I in your position, I **would apologise**.", "Senin yerinde olsam özür dilerdim."],
+    ["**Should** you **need** any help, please call me.", "Herhangi bir yardıma ihtiyacın olursa lütfen beni ara."],
+    ["**But for** your help, I **would have failed**.", "Senin yardımın olmasaydı başarısız olurdum."]
+  ],
+  "signals": ["if", "unless", "provided that", "providing", "as long as", "on condition that", "in case", "otherwise", "but for", "without", "suppose"],
+  "notes": [
+    "**unless = if ... not**. Unless'li cümlede tekrar not kullanılmaz: ~~Unless you don't study~~ yanlış.",
+    "**Devrik (inverted) koşul**: If I had known = **Had I known**; If I were = **Were I**; If you should need = **Should you need**. YDS'de çok sık çıkar.",
+    "**otherwise** = aksi takdirde: Hurry up; **otherwise**, you'll be late. **but for / without + isim** = ... olmasaydı."
+  ],
+  "exam": {
+    "how": "Koşul cümleleri YDS'nin en çok sorulan konularından biridir. Önce bir taraftaki zamanı tespit et: if tarafında **had + V3** varsa diğer taraf **would/could/might have + V3** olur; **Past Simple** varsa **would + V1**. Ana cümlede **now, today** varsa mixed conditional olabilir. **Had / Were / Should** ile başlayan devrik koşulları ve **unless, provided that, otherwise, but for** bağlaçlarını mutlaka tanı.",
+    "q": [
+      {"q": "If the Titanic ---- enough lifeboats, many more passengers ---- .", "o": ["carried / would survive", "had carried / would have survived", "has carried / will survive", "would carry / survived", "carries / would have survived"], "a": 1, "e": "Geçmişe dair gerçek dışı koşul (Type 3): **had carried / would have survived**."},
+      {"q": "---- the researchers obtained more funding, they could expand the project to other countries.", "o": ["Unless", "Even if", "Should", "Were", "Had"], "a": 4, "e": "'If the researchers **had** obtained' devrik hâli: **Had** + özne + V3 (obtained). Ana cümledeki could expand gerçek dışılığı gösterir."},
+      {"q": "You will not be allowed to enter the exam hall ---- you show your identity card.", "o": ["unless", "provided that", "as long as", "in case", "if"], "a": 0, "e": "Kimlik göstermezsen giremezsin: **unless** (= if ... not)."}
+    ]
+  }
+}

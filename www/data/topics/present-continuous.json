@@ -1,0 +1,48 @@
+{
+  "id": "present-continuous", "cat": "zamanlar", "order": 2,
+  "title": "Present Continuous", "tr": "Şimdiki zaman", "level": "A1",
+  "summary": [
+    "Present Continuous; **şu anda** ya da **bu günlerde** devam eden, geçici olan eylemleri anlatır. Türkçedeki **-yor** ekine karşılık gelir.",
+    "Yapısı **am / is / are + fiil-ing** şeklindedir. Ayrıca kesinleşmiş **gelecek planlarını** anlatmak için de kullanılır."
+  ],
+  "form": [
+    ["Olumlu", "Özne + **am/is/are** + V-**ing**", "They **are playing** football."],
+    ["Olumsuz", "Özne + **am not / isn't / aren't** + V-ing", "I **am not working** today."],
+    ["Soru", "**Am/Is/Are** + özne + V-ing ?", "**Is** it **raining**?"]
+  ],
+  "uses": [
+    {"t": "Konuşma anında olan eylem", "d": "Tam şu anda gerçekleşen şey.", "ex": ["Be quiet! The baby **is sleeping**.", "Sessiz ol! Bebek uyuyor."]},
+    {"t": "Bu dönemde süren geçici durum", "d": "Tam o an olmasa da bu günlerde, bu ay devam eden durumlar.", "ex": ["I **am reading** a great novel these days.", "Bu günlerde harika bir roman okuyorum."]},
+    {"t": "Değişen ve gelişen durumlar", "d": "Yavaş yavaş değişen eğilimler. YDS okuma parçalarında çok görülür.", "ex": ["The world's population **is growing** rapidly.", "Dünya nüfusu hızla artıyor."]},
+    {"t": "Kesin gelecek planları", "d": "Ayarlanmış, karar verilmiş planlar (randevu, bilet alınmış yolculuk).", "ex": ["We **are flying** to Izmir on Friday.", "Cuma günü İzmir'e uçuyoruz."]},
+    {"t": "always ile şikâyet", "d": "always + Present Continuous, sinir bozucu bir alışkanlığı vurgular.", "ex": ["He **is always leaving** his socks on the floor!", "Çoraplarını hep yerde bırakıyor!"]}
+  ],
+  "examples": [
+    ["Look! Those children **are swimming** in the lake.", "Bak! Şu çocuklar gölde yüzüyor."],
+    ["I can't talk now; I **am driving**.", "Şimdi konuşamam, araba kullanıyorum."],
+    ["She **is studying** medicine at Hacettepe University.", "Hacettepe Üniversitesi'nde tıp okuyor."],
+    ["Prices **are rising** faster than salaries.", "Fiyatlar maaşlardan daha hızlı yükseliyor."],
+    ["**Are** you **listening** to me?", "Beni dinliyor musun?"],
+    ["We **aren't using** the car this week, so you can borrow it.", "Bu hafta arabayı kullanmıyoruz, ödünç alabilirsin."],
+    ["Global temperatures **are increasing** every decade.", "Küresel sıcaklıklar her on yılda artıyor."],
+    ["My parents **are visiting** us next weekend.", "Annemle babam gelecek hafta sonu bize geliyor."],
+    ["Why **are** you **wearing** a coat? It's hot!", "Neden mont giyiyorsun? Hava sıcak!"],
+    ["More and more people **are working** from home.", "Gittikçe daha fazla insan evden çalışıyor."],
+    ["The company **is planning** to open a new factory.", "Şirket yeni bir fabrika açmayı planlıyor."],
+    ["You **are always interrupting** me!", "Sürekli sözümü kesiyorsun!"]
+  ],
+  "signals": ["now", "right now", "at the moment", "currently", "these days", "this week", "Look!", "Listen!", "increasingly"],
+  "notes": [
+    "Durum fiilleri (know, like, want, believe, own, need) genellikle Continuous yapılmaz: ~~I am knowing~~ yanlış, **I know** doğru.",
+    "Bazı fiiller anlam değiştirince -ing alabilir: I **think** it's good (fikir) / I **am thinking** about it (düşünme eylemi).",
+    "-ing yazımı: e ile bitenlerde e düşer (make → making), kısa tek heceli ünsüz-ünlü-ünsüz fiillerde son harf ikilenir (run → running)."
+  ],
+  "exam": {
+    "how": "YDS'de Present Continuous genellikle **currently, at present, increasingly, these days** gibi zarflarla ve **değişen eğilimleri** anlatan cümlelerde gelir. Present Simple ile karıştırılması beklenir: kalıcı/genel ise Simple, geçici/değişen ise Continuous seç.",
+    "q": [
+      {"q": "Scientists ---- currently ---- new methods to remove plastic waste from the oceans.", "o": ["have / developed", "are / developing", "were / developed", "had / developed", "will / develop"], "a": 1, "e": "**currently** şu dönemde devam eden eylemi gösterir: **are developing**."},
+      {"q": "As cities grow, the demand for clean water ---- steadily.", "o": ["increased", "had increased", "is increasing", "has been increased", "increases to"], "a": 2, "e": "Gelişen/değişen bir eğilim anlatılıyor: **is increasing**."},
+      {"q": "I can't come to the phone right now because I ---- a bath.", "o": ["have", "am having", "had", "have had", "was having"], "a": 1, "e": "**right now** konuşma anı: **am having**. have burada 'banyo yapmak' eylemi olduğu için -ing alabilir."}
+    ]
+  }
+}

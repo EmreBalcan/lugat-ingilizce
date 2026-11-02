@@ -1,0 +1,56 @@
+{
+  "id": "goldilocks", "title": "Goldilocks and the Three Bears", "trTitle": "Altın Saçlı Kız ve Üç Ayı", "author": "Robert Southey", "level": "A1", "cat": "masal",
+  "desc": "Ormandaki bir eve izinsiz giren meraklı bir kız ve evin sahipleri.",
+  "note": "Basitleştirilmiş uyarlama",
+  "source": "Robert Southey'nin 1837'de yayımlanan masalından (kamu malı) Lugat için A1 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Empty House", "s": [
+      ["Once upon a time, three bears lived in a little house in the forest.", "Bir zamanlar ormandaki küçük bir evde üç ayı yaşarmış."],
+      ["There was a big Father Bear, a middle-sized Mother Bear and a little Baby Bear.", "Kocaman bir Baba Ayı, orta boy bir Anne Ayı ve minicik bir Yavru Ayı."],
+      ["One morning, Mother Bear made some porridge for breakfast.", "Bir sabah Anne Ayı kahvaltı için yulaf lapası pişirmiş."],
+      ["The porridge was too hot to eat.", "Ama lapa yenmeyecek kadar sıcakmış."],
+      ["\"Let's go for a walk while it cools down,\" said Father Bear.", "\"Soğuyana kadar biraz yürüyüşe çıkalım,\" demiş Baba Ayı."],
+      ["So the three bears went out into the forest.", "Böylece üç ayı ormana çıkmış."],
+      ["Not far away lived a little girl with golden hair.", "Oralardan pek uzak olmayan bir yerde, saçları altın gibi parlayan küçük bir kız yaşarmış."],
+      ["Everyone called her Goldilocks.", "Herkes ona Altın Saçlı derlermiş."],
+      ["That morning she was walking in the forest, picking flowers.", "O sabah ormanda dolaşıp çiçek topluyormuş."],
+      ["She saw the bears' house and looked through the window.", "Ayıların evini görmüş ve pencereden içeri bakmış."],
+      ["There was nobody inside.", "İçeride kimsecikler yokmuş."],
+      ["Goldilocks was curious, so she opened the door and went in.", "Altın Saçlı'nın merakı ağır basmış; kapıyı açıp içeri girmiş."]
+    ]},
+    {"t": "Porridge, Chairs and Beds", "s": [
+      ["On the table there were three bowls of porridge.", "Masada üç kâse yulaf lapası duruyormuş."],
+      ["Goldilocks was hungry.", "Altın Saçlı'nın karnı da acıkmış."],
+      ["She tasted the porridge in the big bowl. \"This is too hot!\"", "Büyük kâsedekinden tatmış: \"Bu çok sıcak!\""],
+      ["She tasted the porridge in the middle-sized bowl. \"This is too cold!\"", "Orta boy kâsedekinden tatmış: \"Bu da çok soğuk!\""],
+      ["Then she tasted the porridge in the little bowl. \"This is just right!\"", "Sonra küçük kâsedekinden tatmış: \"İşte bu tam kıvamında!\""],
+      ["And she ate it all up.", "Ve hepsini silip süpürmüş."],
+      ["Then she wanted to sit down.", "Sonra biraz oturmak istemiş."],
+      ["She sat in the big chair. \"This chair is too hard!\"", "Büyük sandalyeye oturmuş: \"Bu çok sert!\""],
+      ["She sat in the middle-sized chair. \"This chair is too soft!\"", "Orta boy sandalyeye oturmuş: \"Bu da çok yumuşak!\""],
+      ["She sat in the little chair. \"This chair is just right!\"", "Küçük sandalyeye oturmuş: \"İşte bu tam bana göre!\""],
+      ["But suddenly the little chair broke, and she fell on the floor.", "Ama birden küçük sandalye kırılmış ve kız güm diye yere düşmüş."],
+      ["Now Goldilocks was tired.", "Artık Altın Saçlı yorulmuş."],
+      ["She went upstairs and found three beds.", "Yukarı çıkmış ve üç yatak bulmuş."],
+      ["The big bed was too hard, and the middle-sized bed was too soft.", "Büyük yatak çok sertmiş, orta boy yatak da çok yumuşak."],
+      ["But the little bed was just right.", "Ama küçük yatak tam kıvamındaymış."],
+      ["She lay down and fell asleep.", "Uzanır uzanmaz uyuyakalmış."]
+    ]},
+    {"t": "The Bears Come Home", "s": [
+      ["Soon the three bears came home from their walk.", "Çok geçmeden üç ayı yürüyüşten dönmüş."],
+      ["\"Someone has been eating my porridge,\" said Father Bear in a big, deep voice.", "\"Biri benim lapamdan yemiş,\" demiş Baba Ayı kalın, gür sesiyle."],
+      ["\"Someone has been eating my porridge,\" said Mother Bear.", "\"Biri benim lapamdan da yemiş,\" demiş Anne Ayı."],
+      ["\"Someone has been eating my porridge, and it's all gone!\" cried Baby Bear.", "\"Biri benim lapamı yemiş, hem de hepsini bitirmiş!\" diye ağlamış Yavru Ayı."],
+      ["Then they looked at their chairs.", "Sonra sandalyelerine bakmışlar."],
+      ["\"Someone has been sitting in my chair, and it's broken!\" cried Baby Bear.", "\"Biri benim sandalyeme oturmuş, bakın kırılmış!\" diye ağlamış Yavru Ayı."],
+      ["The bears went upstairs very quietly.", "Ayılar parmak uçlarında yukarı çıkmışlar."],
+      ["\"Someone has been sleeping in my bed,\" said Father Bear.", "\"Biri benim yatağımda yatmış,\" demiş Baba Ayı."],
+      ["\"Someone has been sleeping in my bed,\" said Mother Bear.", "\"Biri benim yatağımda da yatmış,\" demiş Anne Ayı."],
+      ["\"Someone has been sleeping in my bed, and she is still there!\" cried Baby Bear.", "\"Biri benim yatağımda yatmış, hem de hâlâ orada!\" diye bağırmış Yavru Ayı."],
+      ["Goldilocks woke up and saw the three bears.", "Altın Saçlı gözlerini açınca karşısında üç ayıyı görmüş."],
+      ["She screamed, jumped out of the bed and ran down the stairs.", "Çığlığı basmış, yataktan fırlamış ve merdivenlerden aşağı koşmuş."],
+      ["She ran out of the door and all the way home.", "Kapıdan çıkıp evine kadar bir solukta koşmuş."],
+      ["She never went into a stranger's house again.", "O günden sonra bir daha asla bir yabancının evine izinsiz girmemiş."]
+    ]}
+  ]
+}

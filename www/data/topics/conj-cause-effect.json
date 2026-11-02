@@ -1,0 +1,49 @@
+{
+  "id": "conj-cause-effect", "cat": "baglaclar", "order": 2,
+  "title": "Sebep-sonuç: because, due to, therefore...", "tr": "Cause / Effect", "level": "B1",
+  "summary": [
+    "Sebep bağlaçları bir olayın **nedenini**, sonuç bağlaçları ise bir nedenin **sonucunu** gösterir. YDS'de en çok sorulan ikinci bağlaç grubudur.",
+    "Yapı yine çok önemli: **because / since / as / now that** + tam cümle; **because of / due to / owing to / on account of / as a result of** + isim; **therefore / thus / hence / consequently / as a result** ise sonucu bildiren yeni cümleyi başlatır. **so ... that** ve **such ... that** de 'o kadar ... ki' anlamında sonuç bildirir."
+  ],
+  "form": [
+    ["Sebep + cümle", "**because / since / as / now that** + cümle", "I stayed home **because** I was ill."],
+    ["Sebep + isim", "**because of / due to / owing to / thanks to** + isim", "The flight was delayed **due to** fog."],
+    ["Sonuç (cümle başı)", "...; **therefore / thus / hence / consequently**, ...", "He was ill; **therefore**, he stayed home."],
+    ["Sonuç (so)", "Cümle, **so** cümle", "It was late, **so** we left."],
+    ["o kadar ... ki", "**so** + sıfat/zarf + **that** / **such (a)** + sıfat + isim + **that**", "It was **so** cold **that** the lake froze."]
+  ],
+  "uses": [
+    {"t": "Doğrudan sebep", "d": "because en yaygın ve en güçlü sebep bağlacıdır.", "ex": ["Many species are endangered **because** their habitats are being destroyed.", "Yaşam alanları yok edildiği için birçok tür tehlike altında."]},
+    {"t": "Bilinen sebep", "d": "since / as, dinleyenin zaten bildiği sebebi verir; genellikle cümle başında.", "ex": ["**Since** you are here, you can help me.", "Madem buradasın, bana yardım edebilirsin."]},
+    {"t": "Yeni bir durumdan kaynaklanan sebep", "d": "now that = artık ... olduğuna göre.", "ex": ["**Now that** I have a car, I can visit you more often.", "Artık arabam olduğuna göre seni daha sık ziyaret edebilirim."]},
+    {"t": "Akademik sonuç bildirme", "d": "therefore, thus, hence, consequently; YDS okuma parçalarında çok sık.", "ex": ["The sample was small; **thus**, the results cannot be generalised.", "Örneklem küçüktü; bu nedenle sonuçlar genellenemez."]}
+  ],
+  "examples": [
+    ["The match was cancelled **because of** the heavy rain.", "Maç şiddetli yağmur yüzünden iptal edildi."],
+    ["**As** it was getting dark, we decided to go back.", "Hava karardığı için geri dönmeye karar verdik."],
+    ["**Owing to** a technical problem, the train was late.", "Teknik bir sorun nedeniyle tren gecikti."],
+    ["He didn't study; **consequently**, he failed.", "Çalışmadı; sonuç olarak başarısız oldu."],
+    ["The roads were icy, **so** we drove slowly.", "Yollar buzluydu, bu yüzden yavaş sürdük."],
+    ["She was **so** tired **that** she fell asleep on the sofa.", "O kadar yorgundu ki koltukta uyuyakaldı."],
+    ["It was **such a** good film **that** we watched it twice.", "O kadar iyi bir filmdi ki iki kez izledik."],
+    ["**Thanks to** modern medicine, people live longer.", "Modern tıp sayesinde insanlar daha uzun yaşıyor."],
+    ["Water expands when it freezes; **hence**, pipes can burst in winter.", "Su donunca genleşir; bu nedenle kışın borular patlayabilir."],
+    ["**As a result of** the drought, food prices increased.", "Kuraklık sonucunda gıda fiyatları arttı."],
+    ["**Due to the fact that** the budget was limited, the project was delayed.", "Bütçe sınırlı olduğundan proje ertelendi."],
+    ["**Now that** the exams are over, we can relax.", "Sınavlar bittiğine göre artık rahatlayabiliriz."]
+  ],
+  "signals": ["because", "since", "as", "now that", "because of", "due to", "owing to", "on account of", "thanks to", "therefore", "thus", "hence", "consequently", "as a result", "so ... that", "such ... that", "for this reason"],
+  "notes": [
+    "**since** hem 'beri' (zaman) hem 'çünkü' (sebep) anlamına gelir; bağlama bak.",
+    "**so ... that** sıfat/zarf ile, **such ... that** isim öbeği ile kullanılır: **so** beautiful / **such a** beautiful day.",
+    "**due to** resmî metinlerde sık geçer ve arkasından isim gelir; cümle gelecekse **due to the fact that** kullanılır."
+  ],
+  "exam": {
+    "how": "YDS'de sebep-sonuç soruları genellikle zıtlık bağlaçlarıyla karışık seçeneklerle gelir. Önce iki cümle arasındaki ilişkiyi kur: birinci ikincinin **sebebi** mi, **sonucu** mu, yoksa **beklenmedik** mi? Sonra yapıya bak (cümle mi isim mi). **so/such ... that** ve **too ... to / enough to** yapıları da bu konunun parçasıdır.",
+    "q": [
+      {"q": "---- the rapid increase in online shopping, many traditional stores have had to close.", "o": ["Because", "Due to", "Although", "Despite", "Since"], "a": 1, "e": "Arkadan isim öbeği geliyor ve sebep anlatılıyor: **Due to**."},
+      {"q": "The bridge was considered unsafe; ----, it was closed to traffic.", "o": ["however", "nevertheless", "therefore", "whereas", "otherwise"], "a": 2, "e": "Güvensiz olması kapatılmasının sebebi; sonuç bağlacı: **therefore**."},
+      {"q": "The lecture was ---- boring that half of the students fell asleep.", "o": ["such", "so", "too", "very", "enough"], "a": 1, "e": "Sıfat (boring) + that: **so** ... that."}
+    ]
+  }
+}

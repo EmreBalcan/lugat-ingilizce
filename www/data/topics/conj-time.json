@@ -1,0 +1,50 @@
+{
+  "id": "conj-time", "cat": "baglaclar", "order": 5,
+  "title": "Zaman: when, while, until, as soon as...", "tr": "Time clauses", "level": "B1",
+  "summary": [
+    "Zaman bağlaçları iki olay arasındaki **zaman ilişkisini** kurar: önce, sonra, aynı anda, ... ana kadar, ... olur olmaz.",
+    "Altın kural: zaman bağlacından sonra **gelecek zaman (will) kullanılmaz**, yerine Present Simple veya Present Perfect gelir: **When** I **finish**, I'll call you. Bu kural YDS'de çok sık test edilir."
+  ],
+  "form": [
+    ["when / while / as", "... -dığında / ... -ken", "**While** I was cooking, he arrived."],
+    ["before / after", "-meden önce / -dikten sonra", "Wash your hands **before** you eat."],
+    ["until / till", "... -e kadar (süren durumun bitişi)", "Wait here **until** I come back."],
+    ["as soon as / once", "... -er -mez / bir kez ... -ince", "Call me **as soon as** you arrive."],
+    ["by the time", "... -diğinde (çoktan)", "**By the time** we arrived, the film had started."],
+    ["since", "... -den beri (Present Perfect ile)", "I have lived here **since** I was born."]
+  ],
+  "uses": [
+    {"t": "Ardışık olaylar", "d": "before, after, as soon as, once.", "ex": ["**After** she graduated, she moved to Ankara.", "Mezun olduktan sonra Ankara'ya taşındı."]},
+    {"t": "Eşzamanlı olaylar", "d": "while, as, when.", "ex": ["**As** the sun rose, the birds began to sing.", "Güneş doğarken kuşlar ötmeye başladı."]},
+    {"t": "Bir noktaya kadar süren", "d": "until; not ... until = ... -e kadar ... -medi / ancak ... -ince.", "ex": ["I didn't know the truth **until** he told me.", "O söyleyene kadar gerçeği bilmiyordum."]},
+    {"t": "Gelecekte zaman bağlacı", "d": "Bağlaçtan sonra Present Simple/Present Perfect.", "ex": ["**Once** you **have read** the instructions, you can start.", "Talimatları okuduktan sonra başlayabilirsin."]}
+  ],
+  "examples": [
+    ["**When** I was a child, I lived in a village.", "Çocukken bir köyde yaşıyordum."],
+    ["She fell asleep **while** she was watching TV.", "Televizyon izlerken uyuyakaldı."],
+    ["I'll call you **as soon as** I get home.", "Eve varır varmaz seni arayacağım."],
+    ["Don't leave **until** the rain stops.", "Yağmur durana kadar ayrılma."],
+    ["**Before** the internet was invented, people wrote letters.", "İnternet icat edilmeden önce insanlar mektup yazardı."],
+    ["**After** the meeting had ended, everyone went home.", "Toplantı bittikten sonra herkes evine gitti."],
+    ["**By the time** you read this letter, I will have left.", "Bu mektubu okuduğunda ben gitmiş olacağım."],
+    ["**Once** the water boils, add the pasta.", "Su kaynayınca makarnayı ekle."],
+    ["**Whenever** I hear this song, I think of you.", "Bu şarkıyı ne zaman duysam seni düşünürüm."],
+    ["It wasn't **until** the 19th century **that** vaccines became common.", "Aşıların yaygınlaşması ancak 19. yüzyılda oldu."],
+    ["**No sooner** had we sat down **than** the phone rang.", "Oturur oturmaz telefon çaldı."],
+    ["**As long as** I have known her, she has been honest.", "Onu tanıdığım sürece hep dürüst oldu."]
+  ],
+  "signals": ["when", "while", "as", "before", "after", "until", "till", "as soon as", "once", "by the time", "since", "whenever", "no sooner ... than", "hardly ... when", "the moment"],
+  "notes": [
+    "**will** zaman bağlacından sonra gelmez: ~~as soon as I will arrive~~ yanlış.",
+    "**No sooner ... than** / **Hardly / Scarcely ... when** kalıpları Past Perfect ve devrik yapı ister: **No sooner had** he arrived **than** it started to rain.",
+    "**It was not until X that Y** = Y ancak X'te oldu. YDS'de çok sık çıkar."
+  ],
+  "exam": {
+    "how": "YDS'de zaman bağlaçları hem **anlam** (önce mi sonra mı) hem **zaman uyumu** üzerinden sorulur. **until** ile **by the time** farkı, **no sooner ... than** ve **it was not until ... that** kalıpları ile 'bağlaçtan sonra will yok' kuralı en sık sorulan noktalardır.",
+    "q": [
+      {"q": "It was not ---- the late 1800s ---- scientists understood how diseases spread.", "o": ["since / when", "until / that", "before / than", "after / that", "by / which"], "a": 1, "e": "**It was not until ... that** kalıbı: ancak 1800'lerin sonunda anladılar."},
+      {"q": "The tickets will go on sale ---- the organisers ---- the date of the concert.", "o": ["until / will confirm", "as soon as / confirm", "by the time / will have confirmed", "while / confirmed", "since / have confirmed"], "a": 1, "e": "Zaman bağlacından sonra will gelmez: **as soon as ... confirm**."},
+      {"q": "No sooner ---- the plane taken off than the passengers were told to fasten their seatbelts again.", "o": ["did", "has", "had", "was", "would"], "a": 2, "e": "**No sooner + had + özne + V3 ... than**: **had**."}
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "relative-clauses", "cat": "yapilar", "order": 3,
+  "title": "Relative Clauses", "tr": "Sıfat cümlecikleri (who, which, that, whose...)", "level": "B1",
+  "summary": [
+    "Relative clause, bir ismi **niteleyen** yan cümledir: 'Dün **tanıştığım** adam', 'İçinde **yaşadığımız** ev'. Türkçede -an, -dığı, -acağı gibi sıfat-fiillerle karşılanır.",
+    "İnsanlar için **who**, nesneler ve hayvanlar için **which**, ikisi için de **that**; sahiplik için **whose**, yer için **where**, zaman için **when**, sebep için **why** kullanılır. Edatlı yapılarda **whom** ve **which** edattan sonra gelir: the person **to whom** I spoke."
+  ],
+  "form": [
+    ["who", "İnsan (özne/nesne)", "The woman **who** lives next door is a nurse."],
+    ["which", "Nesne/hayvan; virgülden sonra tüm cümleyi niteleyebilir", "The book **which** I bought is great."],
+    ["that", "İnsan/nesne; virgülden sonra ve edattan sonra kullanılmaz", "The car **that** he drives is old."],
+    ["whose", "Sahiplik (-ın/-in)", "The boy **whose** bike was stolen is crying."],
+    ["where / when / why", "Yer / zaman / sebep", "The city **where** I was born is small."],
+    ["Edat + whom/which", "Resmî dil", "The topic **in which** I am interested is history."]
+  ],
+  "uses": [
+    {"t": "Tanımlayan (defining)", "d": "Hangi kişi/nesneden bahsettiğimizi belirler; virgül kullanılmaz.", "ex": ["Students **who** study regularly usually succeed.", "Düzenli çalışan öğrenciler genellikle başarılı olur."]},
+    {"t": "Tanımlamayan (non-defining)", "d": "Ek bilgi verir; virgülle ayrılır ve **that** kullanılamaz.", "ex": ["My father, **who** is 70, still works.", "70 yaşındaki babam hâlâ çalışıyor."]},
+    {"t": "Tüm cümleyi nitelemek", "d": "Virgülden sonra **which**, önceki cümlenin tamamını işaret eder.", "ex": ["He failed the exam, **which** surprised everyone.", "Sınavı geçemedi, bu da herkesi şaşırttı."]},
+    {"t": "Miktar ifadeleri", "d": "some of which, most of whom, all of which, none of whom.", "ex": ["She has three brothers, **all of whom** are doctors.", "Üç erkek kardeşi var, hepsi doktor."]}
+  ],
+  "examples": [
+    ["The man **who** helped me was very kind.", "Bana yardım eden adam çok nazikti."],
+    ["This is the house **where** Atatürk was born.", "Burası Atatürk'ün doğduğu ev."],
+    ["I remember the day **when** we first met.", "İlk tanıştığımız günü hatırlıyorum."],
+    ["The scientist **whose** research won the prize is Turkish.", "Araştırması ödül kazanan bilim insanı Türk."],
+    ["Istanbul, **which** has a population of over 15 million, is Turkey's largest city.", "15 milyonu aşkın nüfusuyla İstanbul Türkiye'nin en büyük şehridir."],
+    ["The film **(that)** we watched last night was boring.", "Dün gece izlediğimiz film sıkıcıydı."],
+    ["Is this the reason **why** you left?", "Ayrılmanın sebebi bu mu?"],
+    ["The person **to whom** you should speak is the manager.", "Konuşman gereken kişi müdür."],
+    ["Coral reefs, **which** support a quarter of marine species, are in danger.", "Deniz türlerinin dörtte birini barındıran mercan resifleri tehlikede."],
+    ["He lent me some books, **most of which** I have already read.", "Bana bazı kitaplar ödünç verdi, çoğunu zaten okumuştum."],
+    ["Anyone **who** wants to join is welcome.", "Katılmak isteyen herkes gelebilir."],
+    ["The company **for which** she works is based in Ankara.", "Çalıştığı şirketin merkezi Ankara'da."]
+  ],
+  "signals": ["who", "whom", "which", "that", "whose", "where", "when", "why", "of which", "of whom"],
+  "notes": [
+    "Nesne konumundaki relative pronoun atılabilir: The book **(that)** I read. Özne konumundaki atılamaz: The man **who** called.",
+    "**where** = in/at which: the house **where** I live = the house **in which** I live. Edat varken where kullanılmaz.",
+    "Virgülden sonra ve edattan sonra **that** gelmez: ~~in that~~, ~~, that~~ yanlış."
+  ],
+  "exam": {
+    "how": "YDS'de relative clause soruları genelde boşluktan önceki isme ve boşluktan sonraki yapıya bakarak çözülür. Önceki isim insan mı nesne mi, sonraki yapıda özne var mı (yoksa who/which/that özne olur), sahiplik mi (whose + isim), edat mı (in which, to whom), virgül var mı (that olmaz)? **some/most/all of which/whom** kalıpları da çok sık gelir.",
+    "q": [
+      {"q": "Marie Curie, ---- discoveries changed modern physics, was the first woman to win a Nobel Prize.", "o": ["who", "whose", "which", "that", "whom"], "a": 1, "e": "Boşluktan sonra isim (discoveries) var ve sahiplik anlatılıyor: **whose**."},
+      {"q": "The laboratory ---- the experiments were carried out was destroyed in a fire.", "o": ["which", "that", "in which", "whose", "whom"], "a": 2, "e": "Arkadan tam cümle geliyor ve yer anlatılıyor: **in which** (= where)."},
+      {"q": "The survey was answered by 500 students, most of ---- said they slept less than seven hours.", "o": ["them", "who", "whom", "which", "whose"], "a": 2, "e": "Edattan (of) sonra insanlar için **whom**: most of whom."}
+    ]
+  }
+}

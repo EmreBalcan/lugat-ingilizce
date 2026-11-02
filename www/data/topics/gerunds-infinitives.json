@@ -1,0 +1,49 @@
+{
+  "id": "gerunds-infinitives", "cat": "yapilar", "order": 5,
+  "title": "Gerunds & Infinitives", "tr": "Fiilimsiler: V-ing ve to V1", "level": "B1",
+  "summary": [
+    "**Gerund (V-ing)** fiilin isim gibi kullanılan hâlidir: **Swimming** is good for you (Yüzmek sağlığa iyidir). **Infinitive (to + V1)** ise genellikle amaç, niyet ve gelecek yönelimli fiillerden sonra gelir.",
+    "Bazı fiiller sadece gerund, bazıları sadece infinitive alır; bazıları ikisini de alır ama **anlam değişir** (remember, stop, forget, try, regret). Edatlardan sonra **her zaman gerund** gelir."
+  ],
+  "form": [
+    ["Gerund alanlar", "enjoy, avoid, finish, mind, suggest, consider, deny, admit, risk, keep, postpone + **V-ing**", "I enjoy **reading**."],
+    ["Infinitive alanlar", "want, decide, plan, hope, refuse, agree, afford, manage, promise, tend + **to V1**", "She decided **to leave**."],
+    ["Nesne + infinitive", "ask, tell, allow, encourage, enable, force, expect + **sb + to V1**", "He asked me **to wait**."],
+    ["Edattan sonra", "edat + **V-ing**", "She is good **at drawing**."],
+    ["make / let", "make / let + sb + **V1** (to yok)", "My mum **made me clean** my room."]
+  ],
+  "uses": [
+    {"t": "Özne olarak gerund", "d": "Cümle başında eylem özne olunca.", "ex": ["**Learning** a language takes time.", "Bir dil öğrenmek zaman alır."]},
+    {"t": "Amaç bildiren infinitive", "d": "'... için' anlamında.", "ex": ["I went to the library **to borrow** a book.", "Kitap ödünç almak için kütüphaneye gittim."]},
+    {"t": "Anlamı değişen fiiller", "d": "stop doing (bırakmak) / stop to do (yapmak için durmak); remember doing (yaptığını hatırlamak) / remember to do (yapmayı unutmamak).", "ex": ["He **stopped smoking** last year. / He **stopped to buy** water.", "Geçen yıl sigarayı bıraktı. / Su almak için durdu."]},
+    {"t": "Sıfat + infinitive", "d": "It is important/difficult/easy + to V1.", "ex": ["It is important **to drink** enough water.", "Yeterince su içmek önemlidir."]}
+  ],
+  "examples": [
+    ["I don't mind **waiting**.", "Beklemek benim için sorun değil."],
+    ["She refused **to answer** the question.", "Soruyu cevaplamayı reddetti."],
+    ["**Smoking** is not allowed here.", "Burada sigara içmek yasak."],
+    ["We are looking forward **to seeing** you.", "Seni görmeyi dört gözle bekliyoruz."],
+    ["Remember **to lock** the door.", "Kapıyı kilitlemeyi unutma."],
+    ["I remember **visiting** this place as a child.", "Çocukken burayı ziyaret ettiğimi hatırlıyorum."],
+    ["He avoided **making** eye contact.", "Göz teması kurmaktan kaçındı."],
+    ["The teacher encouraged us **to ask** questions.", "Öğretmen bizi soru sormaya teşvik etti."],
+    ["Technology enables people **to work** from anywhere.", "Teknoloji insanların her yerden çalışmasını sağlıyor."],
+    ["Try **adding** some salt; it might taste better.", "Biraz tuz eklemeyi dene, daha lezzetli olabilir."],
+    ["She is interested **in learning** Japanese.", "Japonca öğrenmekle ilgileniyor."],
+    ["They can't afford **to buy** a new house.", "Yeni bir ev almaya güçleri yetmiyor."]
+  ],
+  "signals": ["enjoy", "avoid", "look forward to", "be used to", "object to", "in addition to", "instead of", "without", "decide", "manage", "tend"],
+  "notes": [
+    "**to** bazen edattır ve arkasından gerund gelir: look forward **to doing**, be used **to doing**, object **to doing**, contribute **to solving**, in addition **to being**.",
+    "Edilgen biçimler: **being + V3** (He hates **being told** what to do), **to be + V3** (The work needs **to be done**).",
+    "Perfect biçimler: **having + V3** (He denied **having stolen** it), **to have + V3** (She seems **to have forgotten**)."
+  ],
+  "exam": {
+    "how": "YDS'nin her sınavında mutlaka birkaç soru gerund/infinitive üzerinedir. Boşluktan önceki fiili tanı (avoid → V-ing, manage → to V1), edat varsa V-ing seç, **to'nun edat olduğu kalıpları** (contribute to, be committed to, lead to) unutma. Perfect ve edilgen biçimler (having been done, to have been done) de seçeneklerde sık yer alır.",
+    "q": [
+      {"q": "Many people avoid ---- to the doctor until their symptoms become serious.", "o": ["to go", "going", "go", "to have gone", "gone"], "a": 1, "e": "**avoid** gerund alır: **going**."},
+      {"q": "Regular exercise can contribute to ---- the risk of heart disease.", "o": ["reduce", "reducing", "be reduced", "have reduced", "reduced"], "a": 1, "e": "**contribute to**'daki to edattır: **reducing**."},
+      {"q": "The new software enables users ---- large files in seconds.", "o": ["transferring", "transfer", "to transfer", "to be transferred", "having transferred"], "a": 2, "e": "**enable + nesne + to V1**: **to transfer**."}
+    ]
+  }
+}

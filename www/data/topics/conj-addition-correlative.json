@@ -1,0 +1,49 @@
+{
+  "id": "conj-addition-correlative", "cat": "baglaclar", "order": 4,
+  "title": "Ekleme ve ikili bağlaçlar", "tr": "moreover, besides / both...and, either...or, not only...but also", "level": "B1",
+  "summary": [
+    "**Ekleme bağlaçları** önceki fikre yeni bir bilgi ekler: **moreover, furthermore, in addition, besides, what is more, additionally**. Bunlar genellikle cümle başında ve virgülle kullanılır. **in addition to / besides / as well as** ise isim ya da V-ing alır.",
+    "**İkili (correlative) bağlaçlar** çift olarak kullanılır: **both ... and** (hem ... hem), **either ... or** (ya ... ya), **neither ... nor** (ne ... ne), **not only ... but also** (sadece ... değil, aynı zamanda), **whether ... or** (... olsun ... olsun)."
+  ],
+  "form": [
+    ["Ekleme (cümle)", "Cümle. **Moreover / Furthermore / In addition,** cümle", "It's cheap. **Moreover,** it's fast."],
+    ["Ekleme (isim)", "**in addition to / besides / as well as** + isim/V-ing", "**In addition to** English, she speaks German."],
+    ["both ... and", "Çoğul fiil alır", "**Both** Ali **and** Ayşe **are** here."],
+    ["either ... or / neither ... nor", "Fiil yakın özneye uyar", "**Neither** he **nor** his friends **were** there."],
+    ["not only ... but also", "Cümle başındaysa devrik yapı", "**Not only did he** win, **but** he **also** broke the record."]
+  ],
+  "uses": [
+    {"t": "Fikir ekleme", "d": "Akademik yazıda argümanı güçlendirmek için.", "ex": ["Cycling is good for your health. **Furthermore,** it reduces pollution.", "Bisiklet sürmek sağlığa iyidir. Üstelik kirliliği azaltır."]},
+    {"t": "İki şeyi birlikte vurgulama", "d": "both ... and.", "ex": ["The book is **both** informative **and** entertaining.", "Kitap hem bilgilendirici hem eğlenceli."]},
+    {"t": "Seçenek sunma", "d": "either ... or.", "ex": ["You can **either** call me **or** send an email.", "Ya beni arayabilir ya da e-posta gönderebilirsin."]},
+    {"t": "İkisini de reddetme", "d": "neither ... nor (olumsuz anlam, fiil olumlu).", "ex": ["**Neither** the teacher **nor** the students knew the answer.", "Ne öğretmen ne de öğrenciler cevabı biliyordu."]}
+  ],
+  "examples": [
+    ["The hotel was expensive. **Besides,** it was far from the centre.", "Otel pahalıydı. Üstelik merkeze uzaktı."],
+    ["**In addition to** teaching, she writes novels.", "Öğretmenliğin yanı sıra roman da yazıyor."],
+    ["**Not only** is this method cheaper, **but** it is **also** more effective.", "Bu yöntem sadece daha ucuz değil, aynı zamanda daha etkili."],
+    ["She speaks **not only** English **but also** Chinese.", "Sadece İngilizce değil Çince de konuşuyor."],
+    ["**Neither** my mother **nor** my father **can** drive.", "Ne annem ne de babam araba kullanabiliyor."],
+    ["We can **either** stay at home **or** go to the cinema.", "Ya evde kalabiliriz ya da sinemaya gidebiliriz."],
+    ["**Both** genetic **and** environmental factors affect our health.", "Hem genetik hem çevresel faktörler sağlığımızı etkiler."],
+    ["Exercise improves mood. **What is more,** it helps you sleep better.", "Egzersiz ruh hâlini iyileştirir. Dahası daha iyi uyumana yardımcı olur."],
+    ["The company produces cars **as well as** motorcycles.", "Şirket motosikletin yanı sıra araba da üretiyor."],
+    ["**Whether** you like it **or** not, you have to go.", "Hoşuna gitse de gitmese de gitmek zorundasın."],
+    ["The new law is unfair. **Furthermore,** it is impossible to enforce.", "Yeni yasa adaletsiz. Üstelik uygulanması imkânsız."],
+    ["**Neither** of the answers **is** correct.", "Cevapların ikisi de doğru değil."]
+  ],
+  "signals": ["moreover", "furthermore", "in addition", "besides", "what is more", "additionally", "as well as", "both", "either", "neither", "not only", "but also", "whether"],
+  "notes": [
+    "**neither ... nor** zaten olumsuzdur; fiil olumlu kalır: ~~Neither he nor I don't know~~ yanlış.",
+    "**either ... or / neither ... nor** öznelerinde fiil **yakın olan özneye** uyar: Neither the manager nor **the workers were** happy.",
+    "**Not only** cümle başına gelirse soru düzeni (devrik yapı) gelir: **Not only does** it save time, ..."
+  ],
+  "exam": {
+    "how": "YDS'de ikili bağlaçlar 'çiftini bul' mantığıyla sorulur: boşluklardan biri **both** ise diğeri **and**, **neither** ise **nor**, **not only** ise **but also**. Cümle tamamlama ve paragraf sorularında ise **moreover / furthermore** önceki fikri **aynı yönde** destekleyen bir cümle ister, zıtlık değil.",
+    "q": [
+      {"q": "---- coffee ---- tea contains caffeine, which can affect sleep quality.", "o": ["Either / nor", "Both / and", "Neither / or", "Not only / and", "Whether / nor"], "a": 1, "e": "İkisi birden kafein içerir: **Both ... and**."},
+      {"q": "Not only ---- the new policy reduce costs, but it also improved employee satisfaction.", "o": ["does", "did", "has", "was", "had"], "a": 1, "e": "Not only başta → devrik yapı; ikinci kısım geçmişte (improved): **did**."},
+      {"q": "Regular reading improves vocabulary. ----, it helps develop critical thinking skills.", "o": ["However", "Otherwise", "Furthermore", "Instead", "Nevertheless"], "a": 2, "e": "Aynı yönde yeni bir fayda ekleniyor: **Furthermore**."}
+    ]
+  }
+}

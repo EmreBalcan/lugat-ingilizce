@@ -1,0 +1,50 @@
+{
+  "id": "conj-contrast", "cat": "baglaclar", "order": 1,
+  "title": "Zıtlık: although, however, despite...", "tr": "Contrast / Concession", "level": "B1",
+  "summary": [
+    "Zıtlık bağlaçları, iki fikir arasındaki **karşıtlığı** ya da **beklenmedik durumu** gösterir: 'Yağmur yağmasına **rağmen** dışarı çıktık.'",
+    "En önemli nokta, bağlacın **arkasından ne geldiğidir**: **although / even though / though / whereas / while** + tam cümle; **despite / in spite of** + isim veya V-ing; **however / nevertheless / nonetheless** ise iki ayrı cümleyi bağlar ve genellikle noktalı virgül ya da noktadan sonra gelir."
+  ],
+  "form": [
+    ["Cümle alanlar", "**although / even though / though** + özne + fiil", "**Although** it was cold, we swam."],
+    ["İsim alanlar", "**despite / in spite of** + isim / V-ing", "**Despite** the cold, we swam."],
+    ["the fact that", "**despite the fact that** + cümle", "**Despite the fact that** it was cold, ..."],
+    ["Karşılaştırma", "**whereas / while** + cümle", "I like tea, **whereas** my wife prefers coffee."],
+    ["Cümle bağlayıcı", "Cümle 1. / ; **However,** cümle 2", "It was cold. **However,** we swam."],
+    ["Güçlü vurgu", "**no matter how / however + sıfat** + cümle", "**However** hard he tried, he failed."]
+  ],
+  "uses": [
+    {"t": "Beklenmedik sonuç (concession)", "d": "Bir durum olmasına rağmen beklenmeyen sonuç.", "ex": ["**Even though** he is rich, he lives a simple life.", "Zengin olmasına rağmen sade bir hayat yaşıyor."]},
+    {"t": "İki şeyi karşılaştırma (contrast)", "d": "whereas / while ile iki farklı özelliği karşılaştırma.", "ex": ["Some people love winter, **while** others hate it.", "Bazı insanlar kışı sever, bazılarıysa nefret eder."]},
+    {"t": "Cümleler arası geçiş", "d": "however, nevertheless, on the other hand, in contrast; paragraf tamamlamada çok önemli.", "ex": ["The plan seemed perfect. **However,** it failed.", "Plan mükemmel görünüyordu. Ancak başarısız oldu."]},
+    {"t": "İsimle zıtlık", "d": "despite / in spite of + isim/V-ing.", "ex": ["**In spite of** his injury, he finished the race.", "Sakatlığına rağmen yarışı bitirdi."]}
+  ],
+  "examples": [
+    ["**Although** the test was difficult, most students passed.", "Sınav zor olmasına rağmen öğrencilerin çoğu geçti."],
+    ["**Despite** having little money, they were happy.", "Az paraları olmasına rağmen mutluydular."],
+    ["The north of the country is wet, **whereas** the south is dry.", "Ülkenin kuzeyi yağışlı, güneyi ise kurak."],
+    ["He worked hard. **Nevertheless,** he failed the exam.", "Çok çalıştı. Yine de sınavı geçemedi."],
+    ["**Even though** she was tired, she continued working.", "Yorgun olmasına rağmen çalışmaya devam etti."],
+    ["**In spite of** the rain, the concert went ahead.", "Yağmura rağmen konser yapıldı."],
+    ["Solar energy is clean; **on the other hand,** it is expensive to install.", "Güneş enerjisi temizdir; öte yandan kurulumu pahalıdır."],
+    ["**While** I understand your concerns, I can't agree with you.", "Endişelerini anlasam da sana katılamam."],
+    ["**However** much he eats, he never gets fat.", "Ne kadar yerse yesin asla kilo almıyor."],
+    ["The medicine is effective. It can, **however**, cause side effects.", "İlaç etkili. Ancak yan etkilere yol açabilir."],
+    ["**Despite the fact that** the economy grew, unemployment rose.", "Ekonomi büyümesine rağmen işsizlik arttı."],
+    ["Men tend to take more risks; women, **in contrast,** are more careful.", "Erkekler daha çok risk alma eğiliminde; kadınlar ise aksine daha temkinli."]
+  ],
+  "signals": ["although", "even though", "though", "despite", "in spite of", "whereas", "while", "however", "nevertheless", "nonetheless", "yet", "still", "on the other hand", "in contrast", "notwithstanding"],
+  "notes": [
+    "**despite of** diye bir yapı yoktur: ~~despite of~~ yanlış; **despite** ya da **in spite of** doğru.",
+    "**although** ile **but** aynı cümlede kullanılmaz: ~~Although he was ill, but he came~~ yanlış.",
+    "**though** cümle sonunda 'yine de' anlamında zarf olarak da kullanılır: It was a hard day. I enjoyed it, **though**."
+  ],
+  "exam": {
+    "how": "YDS'de bağlaç sorularının en büyük kısmı zıtlık bağlaçlarıdır. Önce iki cümle arasındaki **anlam ilişkisine** bak (zıtlık mı, sebep mi?). Sonra **yapıya** bak: arkadan tam cümle mi geliyor (although), isim mi (despite), yoksa noktalı virgülden sonra mı (however)? Paragraf tamamlama ve cümle tamamlama sorularında da 'however, nevertheless' gibi geçişler cevabı belirler.",
+    "q": [
+      {"q": "---- the drug has proved effective in laboratory tests, it has not yet been approved for human use.", "o": ["Despite", "Because", "Although", "However", "In spite of"], "a": 2, "e": "Arkadan tam cümle geliyor ve zıtlık var (etkili ama onaylanmamış): **Although**."},
+      {"q": "---- the high cost of living, many young people still prefer to live in big cities.", "o": ["Although", "Even though", "Whereas", "Despite", "However"], "a": 3, "e": "Arkadan isim öbeği (the high cost of living) geliyor: **Despite**."},
+      {"q": "Some animals hibernate during winter; others, ----, migrate to warmer regions.", "o": ["therefore", "however", "for instance", "moreover", "as a result"], "a": 1, "e": "İki grup karşılaştırılıyor, zıtlık: **however**."}
+    ]
+  }
+}

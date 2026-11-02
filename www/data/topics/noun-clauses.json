@@ -1,0 +1,49 @@
+{
+  "id": "noun-clauses", "cat": "yapilar", "order": 4,
+  "title": "Noun Clauses", "tr": "İsim cümlecikleri (that, whether, what...)", "level": "B2",
+  "summary": [
+    "Noun clause, cümlede **isim görevi yapan** yan cümledir. Bir fiilin nesnesi ya da cümlenin öznesi olabilir: '**Ne dediğini** anlamadım', '**Onun geç kalması** herkesi kızdırdı'.",
+    "**that**, **whether / if** ve soru kelimeleriyle (**what, why, how, where, who, when**) kurulur. Önemli kural: noun clause içinde **soru düzeni değil, düz cümle düzeni** kullanılır: I don't know where **he lives** (~~where does he live~~ değil)."
+  ],
+  "form": [
+    ["that", "that + özne + fiil", "I think **that she is right**."],
+    ["whether / if", "whether/if + özne + fiil (evet/hayır)", "I wonder **whether he will come**."],
+    ["Soru kelimesi", "wh- + özne + fiil", "Tell me **what you want**."],
+    ["Özne olarak", "That/What/Whether ... + fiil", "**What he said** was surprising."],
+    ["The fact that", "the fact that + cümle", "**The fact that** he lied upset me."]
+  ],
+  "uses": [
+    {"t": "Fiilin nesnesi", "d": "think, know, believe, say, explain, wonder gibi fiillerden sonra.", "ex": ["Scientists believe **that the universe is expanding**.", "Bilim insanları evrenin genişlediğine inanıyor."]},
+    {"t": "Cümlenin öznesi", "d": "Cümle başında özne olarak; tekil fiil alır.", "ex": ["**Why the dinosaurs died out** remains a mystery.", "Dinozorların neden yok olduğu bir gizem olarak kalıyor."]},
+    {"t": "Dolaylı soru", "d": "Kibar sorularda düz cümle düzeni.", "ex": ["Could you tell me **where the station is**?", "İstasyonun nerede olduğunu söyleyebilir misiniz?"]},
+    {"t": "whether ... or not", "d": "İki seçenekten hangisi olduğunu bilmemek.", "ex": ["It is unclear **whether the plan will work or not**.", "Planın işe yarayıp yaramayacağı belirsiz."]}
+  ],
+  "examples": [
+    ["I don't know **what time it is**.", "Saatin kaç olduğunu bilmiyorum."],
+    ["She asked me **where I had bought** my shoes.", "Ayakkabılarımı nereden aldığımı sordu."],
+    ["**What you need** is a long holiday.", "Senin ihtiyacın olan uzun bir tatil."],
+    ["It is well known **that smoking causes cancer**.", "Sigaranın kansere yol açtığı iyi bilinir."],
+    ["Nobody knows **who wrote** this poem.", "Bu şiiri kimin yazdığını kimse bilmiyor."],
+    ["I wonder **if** she **remembers** me.", "Beni hatırlayıp hatırlamadığını merak ediyorum."],
+    ["**Whether** we go or not depends on the weather.", "Gidip gitmememiz havaya bağlı."],
+    ["The problem is **that we don't have enough time**.", "Sorun şu ki yeterli zamanımız yok."],
+    ["Researchers are trying to understand **how memory works**.", "Araştırmacılar hafızanın nasıl çalıştığını anlamaya çalışıyor."],
+    ["**The fact that** he apologised didn't change anything.", "Özür dilemiş olması hiçbir şeyi değiştirmedi."],
+    ["Do you know **why the meeting was cancelled**?", "Toplantının neden iptal edildiğini biliyor musun?"],
+    ["**That the Earth is round** was proven long ago.", "Dünya'nın yuvarlak olduğu uzun zaman önce kanıtlandı."]
+  ],
+  "signals": ["that", "whether", "if", "what", "why", "how", "where", "the fact that", "whatever", "whoever"],
+  "notes": [
+    "Noun clause cümlenin öznesi olduğunda başta **that** atılamaz; nesne olduğunda atılabilir: I think **(that)** ...",
+    "Edattan sonra **if** değil **whether** kullanılır: It depends **on whether** ...",
+    "**what** = the thing that (... olan şey). Arkasından eksik cümle gelir: **What** I need is rest."
+  ],
+  "exam": {
+    "how": "YDS'de noun clause soruları genellikle **boşluktan sonraki cümlenin eksik mi tam mı** olduğuna bakılarak çözülür: tam cümle + bilgi → **that**; tam cümle + evet/hayır belirsizliği → **whether**; eksik cümle (nesne veya özne yok) → **what / who**. Ayrıca cümle başındaki noun clause'un tekil fiil alması ve düz cümle düzeni sorulur.",
+    "q": [
+      {"q": "---- the ancient Egyptians moved such huge stones is still debated by historians.", "o": ["That", "What", "How", "Whether", "Which"], "a": 2, "e": "Arkadan tam cümle geliyor ve **nasıl** yapıldığı tartışılıyor: **How**."},
+      {"q": "Doctors are not yet sure ---- the new treatment will be effective for all patients.", "o": ["what", "whether", "that", "which", "who"], "a": 1, "e": "Emin değiller, evet/hayır belirsizliği var: **whether**."},
+      {"q": "---- surprised the researchers most was the speed at which the ice was melting.", "o": ["That", "Which", "What", "Whether", "It"], "a": 2, "e": "Boşluktan sonra özne eksik ('... surprised the researchers'): **What** (= the thing that)."}
+    ]
+  }
+}

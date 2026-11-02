@@ -1,0 +1,71 @@
+{
+  "id": "little-red-riding-hood", "title": "Little Red Riding Hood", "trTitle": "Kırmızı Başlıklı Kız", "author": "Brothers Grimm", "level": "A2", "cat": "masal",
+  "desc": "Büyükannesine giderken ormanda kurtla karşılaşan küçük kız.",
+  "note": "Basitleştirilmiş uyarlama",
+  "source": "Grimm Kardeşler'in 1812 tarihli masalından (kamu malı) Lugat için A2 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Red Hood", "s": [
+      ["Once upon a time, there was a sweet little girl who lived in a village near the forest.", "Evvel zaman içinde, ormanın kıyısındaki bir köyde tatlı mı tatlı küçük bir kız yaşarmış."],
+      ["Everyone loved her, but her grandmother loved her most of all.", "Onu herkes severmiş ama en çok da büyükannesi."],
+      ["Her grandmother once gave her a little hood of red velvet.", "Büyükannesi bir gün ona kırmızı kadifeden küçük bir başlık hediye etmiş."],
+      ["It suited her so well that she wore it every day.", "Başlık ona öyle yakışmış ki kız onu bir gün bile çıkarmamış."],
+      ["So people began to call her Little Red Riding Hood.", "Bu yüzden herkes ona Kırmızı Başlıklı Kız demeye başlamış."],
+      ["One day her mother said, \"Your grandmother is ill and weak.\"", "Bir gün annesi, \"Büyükannen hasta, çok da halsiz,\" demiş."],
+      ["\"Take her this cake and this bottle of milk. They will make her feel better.\"", "\"Şu keki ve bu şişe sütü ona götür. Biraz kendine gelir.\""],
+      ["\"Go straight there and don't leave the path.\"", "\"Doğruca oraya git, sakın yoldan ayrılma.\""],
+      ["\"And don't talk to strangers in the forest.\"", "\"Ormanda yabancılarla da konuşma, tamam mı?\""],
+      ["\"I will be careful, Mother,\" said Little Red Riding Hood, and she kissed her goodbye.", "\"Merak etme anneciğim, dikkatli olurum,\" demiş Kırmızı Başlıklı Kız ve annesini öpüp yola çıkmış."],
+      ["Her grandmother lived in the forest, half an hour from the village.", "Büyükannesi köyden yarım saat uzaklıkta, ormanın içinde oturuyormuş."]
+    ]},
+    {"t": "The Wolf on the Path", "s": [
+      ["As soon as she entered the forest, she met a wolf.", "Ormana adımını atar atmaz karşısına bir kurt çıkmış."],
+      ["She did not know that he was a wicked animal, so she was not afraid.", "Kurdun ne kadar kötü bir hayvan olduğunu bilmediği için hiç korkmamış."],
+      ["\"Good morning, Little Red Riding Hood,\" said the wolf politely.", "\"Günaydın, Kırmızı Başlıklı Kız,\" demiş kurt kibarca."],
+      ["\"Where are you going so early?\"", "\"Bu sabah sabah nereye böyle?\""],
+      ["\"To my grandmother's house. She is ill, and I am taking her some cake.\"", "\"Büyükanneme gidiyorum. Hasta, ona kek götürüyorum.\""],
+      ["\"Where does your grandmother live?\"", "\"Büyükannen nerede oturuyor peki?\""],
+      ["\"Under the three big oak trees, a little further into the forest.\"", "\"Biraz ileride, üç büyük meşe ağacının altında.\""],
+      ["The wolf thought, \"The old woman and the young girl will make a nice meal.\"", "Kurt içinden, \"Yaşlı kadınla küçük kız ne güzel bir ziyafet olur,\" diye geçirmiş."],
+      ["\"Look at the beautiful flowers around you,\" he said.", "\"Baksana etrafındaki şu güzel çiçeklere,\" demiş."],
+      ["\"Why don't you pick some for your grandmother?\"", "\"Neden büyükannene birkaç tane toplamıyorsun?\""],
+      ["Little Red Riding Hood looked around and saw the sun shining through the trees.", "Kırmızı Başlıklı Kız etrafına bakmış; güneş ağaçların arasından süzülüyormuş."],
+      ["\"Grandmother will be happy with some flowers,\" she thought.", "\"Büyükannem çiçekleri görünce çok sevinir,\" diye düşünmüş."],
+      ["So she left the path and went deeper into the forest to pick flowers.", "Böylece yoldan ayrılıp çiçek toplamak için ormanın derinliklerine dalmış."],
+      ["Meanwhile, the wolf ran straight to the grandmother's house.", "Bu arada kurt doğruca büyükannenin evine koşmuş."]
+    ]},
+    {"t": "What Big Teeth You Have!", "s": [
+      ["The wolf knocked on the door.", "Kurt kapıyı tıklatmış."],
+      ["\"Who is there?\" asked the grandmother.", "\"Kim o?\" diye seslenmiş büyükanne."],
+      ["\"It's Little Red Riding Hood. I've brought you some cake,\" said the wolf in a soft voice.", "\"Benim, Kırmızı Başlıklı Kız. Sana kek getirdim,\" demiş kurt sesini inceltip."],
+      ["\"Lift the latch and come in. I am too weak to get up.\"", "\"Mandalı kaldır da gir yavrum. Kalkacak hâlim yok.\""],
+      ["The wolf went in and swallowed the grandmother in one bite.", "Kurt içeri girmiş ve büyükanneyi tek lokmada yutuvermiş."],
+      ["Then he put on her nightcap, lay in her bed and pulled the curtains.", "Sonra onun gecelik başlığını takmış, yatağına girmiş ve perdeleri çekmiş."],
+      ["When Little Red Riding Hood arrived, the door was open.", "Kırmızı Başlıklı Kız geldiğinde kapıyı açık bulmuş."],
+      ["She felt strange, but she went inside.", "İçine bir tuhaflık çökmüş ama yine de içeri girmiş."],
+      ["\"Oh, Grandmother, what big ears you have!\"", "\"Aa büyükanne, kulakların ne kadar da büyük!\""],
+      ["\"The better to hear you with, my dear.\"", "\"Seni daha iyi duymak için, yavrum.\""],
+      ["\"Oh, Grandmother, what big eyes you have!\"", "\"Aa büyükanne, gözlerin ne kadar da büyük!\""],
+      ["\"The better to see you with, my dear.\"", "\"Seni daha iyi görmek için, yavrum.\""],
+      ["\"Oh, Grandmother, what big teeth you have!\"", "\"Aa büyükanne, dişlerin ne kadar da büyük!\""],
+      ["\"The better to eat you with!\"", "\"Seni daha iyi yiyebilmek için!\""],
+      ["And the wolf jumped out of the bed and swallowed Little Red Riding Hood too.", "Kurt yataktan fırlamış ve Kırmızı Başlıklı Kız'ı da yutuvermiş."],
+      ["With a full stomach, he lay down again and began to snore loudly.", "Karnı tıka basa dolunca yeniden yatmış ve gürül gürül horlamaya başlamış."]
+    ]},
+    {"t": "The Hunter", "s": [
+      ["A hunter was passing by the house and heard the loud snoring.", "O sırada evin önünden geçen bir avcı bu gürültülü horlamayı duymuş."],
+      ["\"The old woman is snoring very loudly. I must see if she is all right.\"", "\"Yaşlı kadın amma da yüksek horluyor. Bir bakayım, iyi mi acaba?\""],
+      ["He went in and saw the wolf lying in the bed.", "İçeri girince yatakta yatan kurdu görmüş."],
+      ["\"So I have found you at last, you old sinner!\" he said.", "\"Demek sonunda seni buldum, seni gidi yaşlı haydut!\" demiş."],
+      ["He thought the wolf might have eaten the grandmother, so he did not shoot.", "Kurdun büyükanneyi yutmuş olabileceğini düşünmüş ve tüfeğini ateşlememiş."],
+      ["Instead, he took a pair of scissors and cut open the wolf's stomach.", "Onun yerine bir makas alıp kurdun karnını usulca kesmiş."],
+      ["Out jumped Little Red Riding Hood. \"Oh, it was so dark inside the wolf!\"", "İçinden Kırmızı Başlıklı Kız fırlamış: \"Ay, kurdun karnı ne kadar da karanlıktı!\""],
+      ["Then the grandmother came out, alive but very tired.", "Ardından büyükanne çıkmış; sağ salimmiş ama çok yorgunmuş."],
+      ["Little Red Riding Hood quickly brought some big stones.", "Kırmızı Başlıklı Kız hemen koşup iri taşlar getirmiş."],
+      ["They filled the wolf's stomach with the stones and sewed it up.", "Kurdun karnını taşlarla doldurup dikmişler."],
+      ["When the wolf woke up, he tried to run away.", "Kurt uyanınca kaçmaya kalkmış."],
+      ["But the stones were so heavy that he fell down and died.", "Ama taşlar öyle ağırmış ki yere yığılıp kalmış."],
+      ["The grandmother ate the cake, drank the milk and soon felt better.", "Büyükanne keki yiyip sütü içmiş ve çok geçmeden kendine gelmiş."],
+      ["And Little Red Riding Hood said to herself, \"I will never leave the path again.\"", "Kırmızı Başlıklı Kız da kendi kendine söz vermiş: \"Bir daha asla yoldan ayrılmayacağım.\""]
+    ]}
+  ]
+}

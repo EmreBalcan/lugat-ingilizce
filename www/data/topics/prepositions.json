@@ -1,0 +1,50 @@
+{
+  "id": "prepositions", "cat": "edatlar", "order": 1,
+  "title": "Prepositions: in, on, at ve kalıp edatlar", "tr": "Edatlar", "level": "A2",
+  "summary": [
+    "Edatlar (prepositions) isimlerle diğer kelimeler arasındaki **yer, zaman, yön ve ilişkiyi** kurar. Türkçede çoğunlukla hâl ekleriyle (-de, -e, -den) karşılanır.",
+    "YDS için iki şey önemlidir: **zaman ve yer edatları** (in/on/at) ve kelimelerle **kalıplaşmış edatlar** (depend **on**, interested **in**, responsible **for**). Kalıp edatları ezberlemenin en iyi yolu onları cümle içinde görmektir; Çeviri ekranındaki 'Sık birlikte kullanıldığı edatlar' bölümü bunun için var."
+  ],
+  "form": [
+    ["Zaman: at", "saatler, at night, at the weekend", "**at** 7 o'clock, **at** noon"],
+    ["Zaman: on", "günler ve tarihler", "**on** Monday, **on** 5 May"],
+    ["Zaman: in", "ay, yıl, mevsim, yüzyıl, gün dilimleri", "**in** June, **in** 1999, **in** the morning"],
+    ["Yer: at / on / in", "nokta / yüzey / iç", "**at** the door, **on** the wall, **in** the box"],
+    ["Fiil + edat", "depend on, rely on, consist of, result in, result from", "Success **depends on** effort."],
+    ["Sıfat + edat", "aware of, capable of, responsible for, similar to", "She is **aware of** the risks."]
+  ],
+  "uses": [
+    {"t": "Zaman edatları", "d": "Küçükten büyüğe: at (saat) → on (gün) → in (ay/yıl).", "ex": ["The shop opens **at** nine **on** Saturdays.", "Dükkân cumartesileri dokuzda açılır."]},
+    {"t": "Yer edatları", "d": "at bir nokta, on bir yüzey, in bir iç mekân.", "ex": ["She is waiting **at** the bus stop.", "Otobüs durağında bekliyor."]},
+    {"t": "Fiil + edat kalıpları", "d": "Fiilin anlamını tamamlayan sabit edatlar.", "ex": ["The committee **consists of** ten members.", "Komite on üyeden oluşur."]},
+    {"t": "Sıfat ve isim + edat kalıpları", "d": "Akademik metinlerde çok sık geçer.", "ex": ["There has been an **increase in** the number of students.", "Öğrenci sayısında bir artış oldu."]}
+  ],
+  "examples": [
+    ["I was born **in** 1998 **in** Bursa.", "1998'de Bursa'da doğdum."],
+    ["We'll meet **on** Friday **at** six o'clock.", "Cuma günü saat altıda buluşacağız."],
+    ["The keys are **on** the table.", "Anahtarlar masanın üstünde."],
+    ["She is very good **at** mathematics.", "Matematikte çok iyi."],
+    ["I'm not interested **in** politics.", "Siyasetle ilgilenmiyorum."],
+    ["Smoking can **result in** serious diseases.", "Sigara ciddi hastalıklara yol açabilir."],
+    ["Many diseases **result from** poor diet.", "Birçok hastalık kötü beslenmeden kaynaklanır."],
+    ["Parents are **responsible for** their children's safety.", "Ebeveynler çocuklarının güvenliğinden sorumludur."],
+    ["This phone is **similar to** mine.", "Bu telefon benimkine benziyor."],
+    ["We can't **rely on** the weather forecast.", "Hava tahminine güvenemeyiz."],
+    ["The price **of** oil has risen **by** 10 percent.", "Petrol fiyatı yüzde 10 arttı."],
+    ["She succeeded **in** finding a new job.", "Yeni bir iş bulmayı başardı."]
+  ],
+  "signals": ["depend on", "consist of", "result in", "result from", "deal with", "focus on", "aware of", "capable of", "responsible for", "due to", "in terms of", "with regard to"],
+  "notes": [
+    "**result in** (sonuçlanmak, yol açmak) ile **result from** (kaynaklanmak) zıt yönlüdür; YDS'de sık karıştırılır.",
+    "**increase / decrease / rise in** + şey (an increase **in** prices), **by** + miktar (increased **by** 5%).",
+    "every, next, last, this önünde zaman edatı kullanılmaz: ~~on next Monday~~ yanlış, **next Monday** doğru."
+  ],
+  "exam": {
+    "how": "YDS'de edat soruları genellikle **kalıp edat** bilgisini ölçer: boşluktan önceki fiil, sıfat veya ismin hangi edatla kullanıldığını bilmen gerekir (depend **on**, contribute **to**, protect **from**, prevent **from**). Bazı sorularda iki boşluk birden gelir ve seçenekler edat çiftleridir.",
+    "q": [
+      {"q": "Air pollution can result ---- respiratory problems, especially in children.", "o": ["from", "in", "of", "at", "with"], "a": 1, "e": "Yol açmak anlamında **result in**."},
+      {"q": "The success of the project will largely depend ---- the support of local communities.", "o": ["in", "to", "on", "for", "at"], "a": 2, "e": "**depend on**."},
+      {"q": "Vaccines protect people ---- serious diseases and prevent them ---- spreading.", "o": ["against / from", "of / to", "with / in", "from / of", "to / at"], "a": 0, "e": "**protect against/from** ve **prevent ... from**: against / from."}
+    ]
+  }
+}

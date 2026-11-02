@@ -1,0 +1,48 @@
+{
+  "id": "present-perfect", "cat": "zamanlar", "order": 3,
+  "title": "Present Perfect", "tr": "Yakın geçmiş / geçmişten bugüne", "level": "A2",
+  "summary": [
+    "Present Perfect, geçmişte olan ama **etkisi ya da önemi şimdiye bağlı** olan olayları anlatır. Ne zaman olduğu belli değildir ya da önemli değildir.",
+    "Yapısı **have / has + V3 (past participle)** şeklindedir. Türkçeye bağlama göre **-dı, -mış** ya da '**-dır ... -yor**' olarak çevrilir: I have lived here for ten years = On yıldır burada yaşıyorum."
+  ],
+  "form": [
+    ["Olumlu", "Özne + **have / has** + V3", "I **have finished** my homework."],
+    ["Olumsuz", "Özne + **haven't / hasn't** + V3", "She **hasn't called** yet."],
+    ["Soru", "**Have / Has** + özne + V3 ?", "**Have** you ever **been** to Rome?"]
+  ],
+  "uses": [
+    {"t": "Hayat tecrübesi", "d": "Zamanı belirtmeden 'hiç ... yaptın mı / yaptım' demek için. ever, never ile kullanılır.", "ex": ["I **have never eaten** sushi.", "Hiç suşi yemedim."]},
+    {"t": "Geçmişte başlayıp hâlâ süren durum", "d": "for (süre) ve since (başlangıç noktası) ile.", "ex": ["We **have known** each other **since** 2015.", "2015'ten beri birbirimizi tanıyoruz."]},
+    {"t": "Sonucu şimdi görülen yakın olay", "d": "just, already, yet ile; sonucu şu an önemlidir.", "ex": ["I **have lost** my keys, so I can't get in.", "Anahtarlarımı kaybettim, o yüzden içeri giremiyorum."]},
+    {"t": "Henüz bitmemiş zaman dilimi", "d": "today, this week, this year gibi hâlâ devam eden zaman dilimlerinde.", "ex": ["She **has drunk** three coffees **today**.", "Bugün üç kahve içti."]},
+    {"t": "Araştırma sonuçları", "d": "Akademik metinlerde 'çalışmalar göstermiştir' kalıbı çok sık geçer.", "ex": ["Recent studies **have shown** that sleep improves memory.", "Son çalışmalar uykunun hafızayı güçlendirdiğini göstermiştir."]}
+  ],
+  "examples": [
+    ["I **have just finished** the report.", "Raporu az önce bitirdim."],
+    ["**Have** you **finished** your homework **yet**?", "Ödevini bitirdin mi?"],
+    ["She **has already left** the office.", "O çoktan ofisten ayrıldı."],
+    ["They **have lived** in Istanbul **for** twenty years.", "Yirmi yıldır İstanbul'da yaşıyorlar."],
+    ["He **hasn't seen** his brother **since** last summer.", "Geçen yazdan beri kardeşini görmedi."],
+    ["**Have** you **ever** **ridden** a horse?", "Hiç ata bindin mi?"],
+    ["The number of electric cars **has risen** sharply in recent years.", "Son yıllarda elektrikli araba sayısı hızla arttı."],
+    ["I **have read** this book three times.", "Bu kitabı üç kez okudum."],
+    ["Scientists **have discovered** a new species of frog.", "Bilim insanları yeni bir kurbağa türü keşfetti."],
+    ["We **haven't decided** where to go **yet**.", "Nereye gideceğimize henüz karar vermedik."],
+    ["This is the best film I **have ever seen**.", "Bu, şimdiye kadar izlediğim en iyi film."],
+    ["Since the 1950s, global trade **has grown** enormously.", "1950'lerden beri küresel ticaret muazzam büyüdü."]
+  ],
+  "signals": ["just", "already", "yet", "ever", "never", "for", "since", "so far", "up to now", "recently", "lately", "over the last decade"],
+  "notes": [
+    "Belirli bir geçmiş zaman (yesterday, in 2010, last week, ago) varsa Present Perfect **kullanılmaz**, Past Simple kullanılır: ~~I have seen him yesterday~~ yanlış.",
+    "**for** + süre (for three years), **since** + başlangıç (since 2019, since I was a child).",
+    "**been to** = gidip dönmüş; **gone to** = gitmiş, hâlâ orada: She has **gone** to Paris (şu an orada)."
+  ],
+  "exam": {
+    "how": "YDS'nin en çok sorulan zamanlarından biridir. **since, for, so far, up to now, over the past / last ... years, in recent years, recently** ifadeleri gördüğünde ilk aklına gelmesi gereken Present Perfect'tir. 'since + geçmiş zaman cümlesi' kalıbı (since he **moved** here) özellikle sık çıkar: since'li yan cümle Past Simple, ana cümle Present Perfect olur.",
+    "q": [
+      {"q": "Over the past two decades, the use of renewable energy sources ---- considerably.", "o": ["increased", "has increased", "was increasing", "had increased", "increases"], "a": 1, "e": "**Over the past two decades** geçmişten bugüne uzanan süreyi gösterir: **has increased**."},
+      {"q": "Since she ---- to London, she ---- several jobs.", "o": ["moved / has had", "has moved / had", "was moving / had", "moves / has had", "had moved / has"], "a": 0, "e": "since'li yan cümle geçmişteki başlangıcı (**moved**), ana cümle bugüne kadar olanı (**has had**) anlatır."},
+      {"q": "Researchers ---- yet ---- a cure for the common cold.", "o": ["didn't / find", "haven't / found", "don't / find", "weren't / finding", "hadn't / found"], "a": 1, "e": "**yet** olumsuz cümlede Present Perfect ile kullanılır: **haven't found**."}
+    ]
+  }
+}

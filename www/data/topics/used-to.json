@@ -1,0 +1,48 @@
+{
+  "id": "used-to", "cat": "zamanlar", "order": 10,
+  "title": "used to / would / be used to", "tr": "Geçmiş alışkanlıklar ve alışkın olmak", "level": "B1",
+  "summary": [
+    "**used to + V1**, geçmişte olan ama **artık olmayan** alışkanlık ve durumları anlatır: Eskiden sigara içerdim (artık içmiyorum). **would** da geçmişteki tekrarlanan eylemler için kullanılır ama **durum** fiilleriyle kullanılmaz.",
+    "Bunlarla karıştırılan **be used to + V-ing / isim** ise '**bir şeye alışkın olmak**' anlamına gelir; **get used to** da '**alışmak**' demektir."
+  ],
+  "form": [
+    ["used to", "Özne + **used to** + V1", "I **used to play** the piano."],
+    ["Olumsuz / soru", "**didn't use to** + V1 / **Did** ... **use to** + V1?", "**Did** you **use to** live here?"],
+    ["would", "Özne + **would** + V1 (sadece eylem)", "We **would swim** every summer."],
+    ["be used to", "**be used to** + V-ing / isim", "I **am used to getting** up early."],
+    ["get used to", "**get used to** + V-ing / isim", "You'll **get used to** the noise."]
+  ],
+  "uses": [
+    {"t": "Artık sürmeyen geçmiş alışkanlık", "d": "used to + V1.", "ex": ["He **used to smoke**, but he quit last year.", "Eskiden sigara içerdi ama geçen yıl bıraktı."]},
+    {"t": "Artık sürmeyen geçmiş durum", "d": "Sadece used to; would kullanılamaz.", "ex": ["There **used to be** a cinema in this street.", "Bu sokakta eskiden bir sinema vardı."]},
+    {"t": "Anılarda tekrarlanan eylem", "d": "would, nostaljik anlatımlarda.", "ex": ["Every Sunday, my grandmother **would bake** bread.", "Her pazar büyükannem ekmek pişirirdi."]},
+    {"t": "Alışkın olmak / alışmak", "d": "be used to = alışkın olmak (durum), get used to = alışmak (süreç).", "ex": ["She **isn't used to driving** on the left.", "Soldan araba kullanmaya alışkın değil."]}
+  ],
+  "examples": [
+    ["I **used to live** in Trabzon when I was a child.", "Çocukken Trabzon'da yaşardım."],
+    ["We **didn't use to have** a car.", "Eskiden arabamız yoktu."],
+    ["**Did** you **use to** wear glasses?", "Eskiden gözlük takar mıydın?"],
+    ["People **used to believe** that the Earth was flat.", "İnsanlar eskiden Dünya'nın düz olduğuna inanırdı."],
+    ["My father **would read** us stories every night.", "Babam her gece bize hikâye okurdu."],
+    ["This building **used to be** a hospital.", "Bu bina eskiden hastaneydi."],
+    ["I**'m used to working** under pressure.", "Baskı altında çalışmaya alışkınım."],
+    ["It took me months to **get used to** the cold weather.", "Soğuk havaya alışmam aylar sürdü."],
+    ["Nurses **are used to working** night shifts.", "Hemşireler gece vardiyasında çalışmaya alışkındır."],
+    ["She **used to hate** vegetables, but now she loves them.", "Eskiden sebzelerden nefret ederdi, şimdi bayılıyor."],
+    ["You will soon **get used to living** in a big city.", "Büyük şehirde yaşamaya yakında alışacaksın."]
+  ],
+  "signals": ["when I was a child", "in the past", "years ago", "no longer", "any more", "not ... any longer"],
+  "notes": [
+    "**used to + V1** (eskiden yapardım) ile **be used to + V-ing** (yapmaya alışkınım) farklıdır: ~~I am used to get up~~ yanlış, **I am used to getting up** doğru.",
+    "**would** durum fiilleriyle (be, have, know, live) kullanılmaz: ~~I would have a dog~~ (geçmiş durum için) yanlış, **I used to have a dog** doğru.",
+    "Edilgen **be used to + V1** ise 'bir şey için kullanılmak' demektir: Knives **are used to cut** things."
+  ],
+  "exam": {
+    "how": "YDS'de bu üç yapı birbirine karıştırılmak üzere seçeneklere konur. İpucu: **artık değil** anlamı varsa used to + V1; **alışkın olmak** anlamı varsa be used to + V-ing; **bir şey için kullanılmak** (edilgen) ise be used to + V1. Okuma parçalarında 'used to be' tarihsel değişimleri anlatır.",
+    "q": [
+      {"q": "Before the invention of refrigerators, people ---- salt to preserve meat.", "o": ["were used to using", "used to use", "are used to use", "get used to using", "would be used"], "a": 1, "e": "Geçmişte yapılan, artık yaygın olmayan alışkanlık: **used to use**."},
+      {"q": "After living in Norway for two years, she ---- the long dark winters.", "o": ["used to", "has got used to", "is used to be", "would", "uses to"], "a": 1, "e": "Bir sürecin sonunda alışmış: **has got used to** + isim."},
+      {"q": "Satellites ---- monitor changes in the Earth's climate.", "o": ["are used to", "used to", "are used to monitoring", "get used to", "would"], "a": 0, "e": "Edilgen anlam (uydular izlemek için **kullanılır**): **are used to** + V1."}
+    ]
+  }
+}

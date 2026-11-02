@@ -1,0 +1,49 @@
+{
+  "id": "present-simple", "cat": "zamanlar", "order": 1,
+  "title": "Present Simple", "tr": "Geniş zaman", "level": "A1",
+  "summary": [
+    "Present Simple; alışkanlıkları, tekrar eden olayları, genel doğruları ve kalıcı durumları anlatır. Türkçedeki **geniş zamana** (-r, -ar, -er) ve çoğu zaman **şimdiki zamanın genel kullanımına** karşılık gelir.",
+    "Olumlu cümlede fiil yalın hâliyle kullanılır; yalnızca **he / she / it** öznelerinde fiile **-s / -es** eklenir. Olumsuz ve soru cümlelerinde yardımcı fiil **do / does** kullanılır."
+  ],
+  "form": [
+    ["Olumlu", "Özne + V1 (he/she/it: V1 + **-s**)", "She **works** in a bank."],
+    ["Olumsuz", "Özne + **do not / does not** + V1", "He **doesn't eat** meat."],
+    ["Soru", "**Do / Does** + özne + V1 ?", "**Do** you **live** here?"],
+    ["Kısa cevap", "Yes, I do. / No, she doesn't.", "**Does** it **rain** a lot? Yes, it **does**."]
+  ],
+  "uses": [
+    {"t": "Alışkanlık ve rutinler", "d": "Düzenli olarak yaptığımız şeyler. Sıklık zarflarıyla (always, usually, often) çok kullanılır.", "ex": ["I **drink** two cups of tea every morning.", "Her sabah iki fincan çay içerim."]},
+    {"t": "Genel ve bilimsel doğrular", "d": "Her zaman doğru olan bilgiler. Akademik metinlerde ve YDS okuma parçalarında en sık görülen zaman budur.", "ex": ["Water **boils** at 100 degrees Celsius.", "Su 100 santigrat derecede kaynar."]},
+    {"t": "Kalıcı durumlar", "d": "Uzun süreli, kolay değişmeyen durumlar: nerede yaşadığımız, ne iş yaptığımız.", "ex": ["My brother **works** as an engineer in Ankara.", "Kardeşim Ankara'da mühendis olarak çalışıyor."]},
+    {"t": "Tarifeler ve programlar", "d": "Saati belli olan toplu taşıma, ders, film gibi programlar gelecek anlamında bile olsa Present Simple ile anlatılır.", "ex": ["The train **leaves** at 7:45 tomorrow.", "Tren yarın 7.45'te kalkıyor."]},
+    {"t": "Durum (stative) fiilleri", "d": "know, believe, want, like, belong, seem gibi fiiller genellikle -ing almaz; o an olan bir durumu da Present Simple ile anlatır.", "ex": ["I **know** the answer now.", "Cevabı şimdi biliyorum."]}
+  ],
+  "examples": [
+    ["She **reads** a newspaper every day.", "O her gün gazete okur."],
+    ["We **don't watch** TV in the evenings.", "Akşamları televizyon izlemeyiz."],
+    ["**Does** your father **speak** English?", "Baban İngilizce konuşur mu?"],
+    ["The Earth **revolves** around the Sun.", "Dünya Güneş'in etrafında döner."],
+    ["Most birds **migrate** to warmer regions in winter.", "Çoğu kuş kışın daha sıcak bölgelere göç eder."],
+    ["My sister usually **goes** to work by bus.", "Kız kardeşim genellikle işe otobüsle gider."],
+    ["I never **drink** coffee after six o'clock.", "Saat altıdan sonra asla kahve içmem."],
+    ["The museum **opens** at nine and **closes** at five.", "Müze dokuzda açılır, beşte kapanır."],
+    ["He **doesn't understand** why she is angry.", "Onun neden kızgın olduğunu anlamıyor."],
+    ["Regular exercise **reduces** the risk of heart disease.", "Düzenli egzersiz kalp hastalığı riskini azaltır."],
+    ["What time **do** you usually **get** up?", "Genellikle saat kaçta kalkarsın?"],
+    ["This bag **belongs** to my teacher.", "Bu çanta öğretmenime ait."]
+  ],
+  "signals": ["always", "usually", "often", "sometimes", "rarely", "never", "every day", "on Mondays", "generally"],
+  "notes": [
+    "**-es** alan fiiller: -s, -sh, -ch, -x, -o ile bitenler (watches, goes, fixes). Ünsüz + y ile bitenlerde y düşer, **-ies** gelir (study → studies).",
+    "**does** kullanıldığında fiil artık -s almaz: ~~Does she works?~~ yanlış, **Does she work?** doğru.",
+    "Sıklık zarfları ana fiilden önce, **be** fiilinden sonra gelir: She **often** walks. / She is **often** late."
+  ],
+  "exam": {
+    "how": "YDS ve YÖKDİL'de Present Simple, özellikle okuma parçalarında **genel doğru** ve **bilimsel bilgi** anlatırken karşına çıkar. Dilbilgisi sorularında genellikle cümlede **generally, usually, as a rule** gibi ipuçları ya da bilimsel bir gerçek varsa doğru seçenek budur. Present Continuous ve Present Perfect ile ayırt etmen istenir.",
+    "q": [
+      {"q": "Bees ---- an important role in the pollination of many crops, which is why their decline worries scientists.", "o": ["played", "are playing", "play", "have played", "had played"], "a": 2, "e": "Arıların tozlaşmadaki rolü **genel bir doğru**dur; bu yüzden Present Simple **play** gelir."},
+      {"q": "As a rule, the human body ---- about 60 percent water.", "o": ["is containing", "contains", "contained", "has contained", "will have contained"], "a": 1, "e": "**As a rule** ve bilimsel bilgi Present Simple ister. **contain** durum fiilidir, -ing almaz."},
+      {"q": "My grandfather ---- a walk in the park every morning, even in winter.", "o": ["takes", "is taking", "has taken", "took", "had taken"], "a": 0, "e": "**every morning** alışkanlık bildirir, özne he olduğundan **takes**."}
+    ]
+  }
+}

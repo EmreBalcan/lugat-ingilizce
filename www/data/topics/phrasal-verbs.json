@@ -1,0 +1,50 @@
+{
+  "id": "phrasal-verbs", "cat": "kelime", "order": 1,
+  "title": "Phrasal Verbs", "tr": "Öbek fiiller", "level": "B1",
+  "summary": [
+    "Phrasal verb, bir fiil ile bir ya da iki küçük kelimenin (up, out, off, on, down...) birleşip **yeni bir anlam** oluşturmasıdır: give (vermek) → **give up** (vazgeçmek), look (bakmak) → **look after** (bakmak, ilgilenmek).",
+    "Anlam çoğu zaman parçalardan tahmin edilemez, bu yüzden kalıp olarak öğrenilmelidir. Bazıları ayrılabilir (turn the light **off**), bazıları ayrılamaz (look **after** the children)."
+  ],
+  "form": [
+    ["Nesnesiz", "fiil + parçacık", "The plane **took off**."],
+    ["Ayrılabilir", "fiil + nesne + parçacık / fiil + parçacık + nesne", "**Turn off** the TV. / **Turn** the TV **off**."],
+    ["Zamir nesne", "fiil + **zamir** + parçacık (zorunlu)", "**Turn it off**. (~~turn off it~~ yanlış)"],
+    ["Ayrılamaz", "fiil + parçacık + nesne", "She **looks after** her grandmother."],
+    ["Üç parçalı", "fiil + parçacık + edat + nesne", "I can't **put up with** this noise."]
+  ],
+  "uses": [
+    {"t": "Günlük konuşma", "d": "Konuşma dilinde Latin kökenli fiillerin yerine sıkça kullanılır.", "ex": ["Can you **pick** me **up** at eight?", "Beni saat sekizde alabilir misin?"]},
+    {"t": "Resmî eşdeğerler", "d": "YDS'de phrasal verb ile resmî karşılığı eşleştirmek önemlidir: carry out = conduct, find out = discover.", "ex": ["The researchers **carried out** a survey.", "Araştırmacılar bir anket yürüttü."]},
+    {"t": "Aynı fiil, farklı anlamlar", "d": "Bir phrasal verb'ün birden çok anlamı olabilir: take off = (uçak) kalkmak / (giysi) çıkarmak.", "ex": ["Please **take off** your shoes.", "Lütfen ayakkabılarını çıkar."]}
+  ],
+  "examples": [
+    ["Don't **give up**; you can do it!", "Pes etme, yapabilirsin!"],
+    ["Who will **look after** the baby?", "Bebeğe kim bakacak?"],
+    ["Scientists are trying to **find out** the cause of the disease.", "Bilim insanları hastalığın nedenini bulmaya çalışıyor."],
+    ["The meeting was **called off** because of the strike.", "Toplantı grev yüzünden iptal edildi."],
+    ["I **came across** an old photo in the drawer.", "Çekmecede eski bir fotoğrafa rastladım."],
+    ["She **gets on** well **with** her colleagues.", "İş arkadaşlarıyla iyi geçiniyor."],
+    ["We have **run out of** milk.", "Sütümüz bitti."],
+    ["Could you **turn down** the music, please?", "Müziğin sesini kısabilir misin lütfen?"],
+    ["The fire **broke out** in the early hours.", "Yangın sabahın erken saatlerinde çıktı."],
+    ["He **turned down** the job offer.", "İş teklifini reddetti."],
+    ["Many species could **die out** within a century.", "Birçok türün nesli bir yüzyıl içinde tükenebilir."],
+    ["It took her months to **get over** the illness.", "Hastalığı atlatması aylar sürdü."],
+    ["The government plans to **set up** new schools.", "Hükümet yeni okullar kurmayı planlıyor."],
+    ["Let's **put off** the decision until next week.", "Kararı gelecek haftaya erteleyelim."]
+  ],
+  "signals": ["give up", "carry out", "find out", "set up", "bring about", "point out", "rule out", "come up with", "put off", "turn down", "die out", "break out", "account for"],
+  "notes": [
+    "Zamir nesneler ayrılabilir phrasal verb'lerde **araya** girer: pick **it** up (~~pick up it~~).",
+    "YDS'de sık çıkanlar ve karşılıkları: **bring about** = cause, **account for** = explain / make up, **rule out** = exclude, **come up with** = produce/think of, **point out** = indicate, **carry out** = conduct.",
+    "Bir phrasal verb'ün anlamına bakmak için Çeviri ekranına doğrudan 'give up' gibi iki kelimeyle yazabilirsin."
+  ],
+  "exam": {
+    "how": "YDS'nin kelime sorularında her sınavda en az bir phrasal verb sorusu olur. Seçenekler genellikle aynı fiilin farklı parçacıklarla (put off / put up / put out) ya da farklı fiillerin aynı parçacıkla (carry out / find out / point out) kullanımlarıdır. Cümlenin anlamından resmî karşılığı düşün, sonra phrasal verb'ü eşleştir.",
+    "q": [
+      {"q": "Scientists have ---- a new method for recycling plastic waste more efficiently.", "o": ["come up with", "put up with", "run out of", "looked down on", "got away with"], "a": 0, "e": "Yeni bir yöntem bulmak/geliştirmek: **come up with**."},
+      {"q": "Investigators have not yet ---- the possibility that the fire was started deliberately.", "o": ["ruled out", "given in", "taken after", "broken down", "set off"], "a": 0, "e": "Bir olasılığı dışlamak: **ruled out**."},
+      {"q": "Industrial activity ---- a large proportion of greenhouse gas emissions.", "o": ["accounts for", "looks into", "sets up", "turns into", "brings up"], "a": 0, "e": "Bir oranı oluşturmak: **accounts for**."}
+    ]
+  }
+}

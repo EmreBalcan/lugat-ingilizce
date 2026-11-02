@@ -1,0 +1,46 @@
+{
+  "id": "past-perfect", "cat": "zamanlar", "order": 7,
+  "title": "Past Perfect", "tr": "Geçmişin geçmişi (-mıştı)", "level": "B1",
+  "summary": [
+    "Past Perfect, geçmişteki bir olaydan **daha önce** olmuş olayı anlatır. İki geçmiş olaydan **önce olanı** gösterir. Türkçedeki **-mıştı / -mişti** ekine karşılık gelir.",
+    "Yapısı **had + V3** şeklindedir ve tüm öznelerde aynıdır. Genellikle Past Simple ile birlikte kullanılır."
+  ],
+  "form": [
+    ["Olumlu", "Özne + **had** + V3", "The film **had started** when we arrived."],
+    ["Olumsuz", "Özne + **hadn't** + V3", "I **hadn't seen** snow before."],
+    ["Soru", "**Had** + özne + V3 ?", "**Had** you **met** him before?"]
+  ],
+  "uses": [
+    {"t": "İki geçmiş olaydan önce olanı", "d": "Önce olan Past Perfect, sonra olan Past Simple.", "ex": ["When we got to the station, the train **had** already **left**.", "İstasyona vardığımızda tren çoktan kalkmıştı."]},
+    {"t": "by the time / before / after ile", "d": "Zaman bağlaçlarıyla sıralamayı netleştirir.", "ex": ["**By the time** the ambulance arrived, the man **had died**.", "Ambulans geldiğinde adam ölmüştü."]},
+    {"t": "Geçmişteki bir ana kadarki tecrübe", "d": "O zamana kadar hiç yapılmamış/yapılmış şeyler.", "ex": ["She **had never flown** before her trip to Japan.", "Japonya gezisinden önce hiç uçağa binmemişti."]},
+    {"t": "Dolaylı anlatım ve Type 3 koşul", "d": "Reported speech'te geçmiş zaman geri kaydırılırken ve If clause Type 3'te kullanılır.", "ex": ["He said that he **had finished** the project.", "Projeyi bitirdiğini söyledi."]}
+  ],
+  "examples": [
+    ["I **had** already **eaten** when they invited me to dinner.", "Beni yemeğe davet ettiklerinde ben çoktan yemiştim."],
+    ["She realised she **had left** her passport at home.", "Pasaportunu evde bıraktığını fark etti."],
+    ["**Had** you ever **visited** Cappadocia before last year?", "Geçen yıldan önce hiç Kapadokya'ya gitmiş miydin?"],
+    ["By 1900, many European countries **had built** railway networks.", "1900'e gelindiğinde birçok Avrupa ülkesi demiryolu ağları kurmuştu."],
+    ["After he **had finished** his homework, he went out.", "Ödevini bitirdikten sonra dışarı çıktı."],
+    ["The shop **had closed** before I got there.", "Ben oraya varmadan dükkân kapanmıştı."],
+    ["They **hadn't expected** so many people to come.", "Bu kadar çok insanın geleceğini beklememişlerdi."],
+    ["When I opened the fridge, I saw that someone **had eaten** my cake.", "Buzdolabını açınca birinin pastamı yediğini gördüm."],
+    ["The dinosaurs **had disappeared** long before humans appeared.", "Dinozorlar, insanlar ortaya çıkmadan çok önce yok olmuştu."],
+    ["He was nervous because he **had never spoken** in public.", "Hiç topluluk önünde konuşmamış olduğu için gergindi."],
+    ["We were tired because we **had walked** all day.", "Bütün gün yürümüş olduğumuz için yorgunduk."]
+  ],
+  "signals": ["by the time", "before", "after", "already", "just", "never ... before", "until then", "by 1900"],
+  "notes": [
+    "**by the time + Past Simple**, ana cümle **Past Perfect**: By the time I arrived, she **had gone**.",
+    "**before** ve **after** sıralamayı zaten belli ettiği için bazen iki taraf da Past Simple olabilir; YDS'de yine de Past Perfect seçeneği genelde doğrudur.",
+    "Kısaltma: **'d** = had (I'd finished). Dikkat: 'd aynı zamanda **would**'un kısaltmasıdır."
+  ],
+  "exam": {
+    "how": "YDS'de en sık **by the time** bağlacıyla sorulur: **By the time + Past Simple, ... had + V3** ve **By the time + Present Simple, ... will have + V3** ayrımı önemlidir. Ayrıca **by + geçmiş yıl** (by 1950) ifadesi Past Perfect ister.",
+    "q": [
+      {"q": "By the time the firefighters arrived, the fire ---- most of the building.", "o": ["destroyed", "has destroyed", "had destroyed", "was destroying", "will have destroyed"], "a": 2, "e": "**By the time + Past Simple (arrived)** → ana cümle Past Perfect: **had destroyed**."},
+      {"q": "By the end of the 19th century, scientists ---- that diseases were caused by germs.", "o": ["have realised", "realise", "had realised", "would realise", "are realising"], "a": 2, "e": "**By the end of the 19th century** geçmişteki bir noktaya kadar: **had realised**."},
+      {"q": "She ---- the novel before she ---- the film adaptation.", "o": ["has read / watches", "had read / watched", "reads / had watched", "was reading / has watched", "read / had been watching"], "a": 1, "e": "Önce okudu (**had read**), sonra izledi (**watched**)."}
+    ]
+  }
+}

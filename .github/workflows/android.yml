@@ -1,0 +1,62 @@
+# main dalına her gönderimde imzalı APK derler ve GitHub Releases'e "latest" olarak koyar.
+name: Android APK
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['tools/**', '**.md']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Bağımlılıklar
+        run: npm ci
+
+      - name: Web dosyalarını Android projesine kopyala
+        run: npx cap sync android
+
+      - name: İmza anahtarını hazırla
+        run: echo "${{ secrets.LUGAT_KEYSTORE_B64 }}" | base64 -d > $RUNNER_TEMP/lugat.p12
+
+      - name: APK derle
+        working-directory: android
+        env:
+          LUGAT_KEYSTORE: ${{ runner.temp }}/lugat.p12
+          LUGAT_KEYSTORE_PASSWORD: ${{ secrets.LUGAT_KEYSTORE_PASSWORD }}
+          LUGAT_VERSION_CODE: ${{ github.run_number }}
+          LUGAT_VERSION_NAME: 1.0.${{ github.run_number }}
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon
+          cp app/build/outputs/apk/release/app-release.apk $RUNNER_TEMP/Lugat.apk
+
+      - name: Sürümü yayınla
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete latest --yes --cleanup-tag || true
+          gh release create latest "$RUNNER_TEMP/Lugat.apk" \
+            --title "Lugat 1.0.${{ github.run_number }}" \
+            --notes "Otomatik derleme: ${{ github.sha }}. Telefonda Lugat.apk dosyasını indirip kur." \
+            --latest

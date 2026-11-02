@@ -1,0 +1,202 @@
+{
+ "cats": [
+  {
+   "id": "zamanlar",
+   "title": "Zamanlar (Tenses)",
+   "desc": "Geniş zamandan gelecekte tamamlanmış zamana kadar tüm zamanlar.",
+   "topics": [
+    {
+     "id": "present-simple",
+     "title": "Present Simple",
+     "tr": "Geniş zaman",
+     "level": "A1"
+    },
+    {
+     "id": "present-continuous",
+     "title": "Present Continuous",
+     "tr": "Şimdiki zaman",
+     "level": "A1"
+    },
+    {
+     "id": "present-perfect",
+     "title": "Present Perfect",
+     "tr": "Yakın geçmiş / geçmişten bugüne",
+     "level": "A2"
+    },
+    {
+     "id": "present-perfect-continuous",
+     "title": "Present Perfect Continuous",
+     "tr": "Geçmişten beri süregelen eylem",
+     "level": "B1"
+    },
+    {
+     "id": "past-simple",
+     "title": "Past Simple",
+     "tr": "Geçmiş zaman (-dı)",
+     "level": "A1"
+    },
+    {
+     "id": "past-continuous",
+     "title": "Past Continuous",
+     "tr": "Şimdiki zamanın hikâyesi (-yordu)",
+     "level": "A2"
+    },
+    {
+     "id": "past-perfect",
+     "title": "Past Perfect",
+     "tr": "Geçmişin geçmişi (-mıştı)",
+     "level": "B1"
+    },
+    {
+     "id": "future-forms",
+     "title": "Future: will / be going to",
+     "tr": "Gelecek zaman",
+     "level": "A2"
+    },
+    {
+     "id": "future-perfect-continuous",
+     "title": "Future Continuous & Future Perfect",
+     "tr": "Gelecekte süren ve tamamlanmış olacak eylem",
+     "level": "B2"
+    },
+    {
+     "id": "used-to",
+     "title": "used to / would / be used to",
+     "tr": "Geçmiş alışkanlıklar ve alışkın olmak",
+     "level": "B1"
+    }
+   ]
+  },
+  {
+   "id": "modals",
+   "title": "Modal Fiiller",
+   "desc": "Yetenek, zorunluluk, tavsiye, olasılık ve geçmişe yönelik çıkarım.",
+   "topics": [
+    {
+     "id": "modals-basic",
+     "title": "Modals: can, must, should, have to",
+     "tr": "Yetenek, zorunluluk, izin, tavsiye",
+     "level": "A2"
+    },
+    {
+     "id": "modals-deduction",
+     "title": "Modals of Deduction & Perfect Modals",
+     "tr": "Olasılık, çıkarım ve geçmişe yönelik modallar",
+     "level": "B2"
+    }
+   ]
+  },
+  {
+   "id": "yapilar",
+   "title": "Cümle Yapıları",
+   "desc": "Edilgen, koşul, sıfat ve isim cümlecikleri, fiilimsiler, dolaylı anlatım.",
+   "topics": [
+    {
+     "id": "passive-voice",
+     "title": "Passive Voice",
+     "tr": "Edilgen yapı",
+     "level": "B1"
+    },
+    {
+     "id": "conditionals",
+     "title": "Conditionals (If Clauses)",
+     "tr": "Koşul cümleleri",
+     "level": "B1"
+    },
+    {
+     "id": "relative-clauses",
+     "title": "Relative Clauses",
+     "tr": "Sıfat cümlecikleri (who, which, that, whose...)",
+     "level": "B1"
+    },
+    {
+     "id": "noun-clauses",
+     "title": "Noun Clauses",
+     "tr": "İsim cümlecikleri (that, whether, what...)",
+     "level": "B2"
+    },
+    {
+     "id": "gerunds-infinitives",
+     "title": "Gerunds & Infinitives",
+     "tr": "Fiilimsiler: V-ing ve to V1",
+     "level": "B1"
+    },
+    {
+     "id": "reported-speech",
+     "title": "Reported Speech",
+     "tr": "Dolaylı anlatım",
+     "level": "B1"
+    },
+    {
+     "id": "wish-if-only",
+     "title": "Wish / If only",
+     "tr": "Dilek ve pişmanlık cümleleri",
+     "level": "B1"
+    }
+   ]
+  },
+  {
+   "id": "baglaclar",
+   "title": "Bağlaçlar",
+   "desc": "YDS’nin en çok puan getiren konusu: zıtlık, sebep-sonuç, amaç, ekleme, zaman.",
+   "topics": [
+    {
+     "id": "conj-contrast",
+     "title": "Zıtlık: although, however, despite...",
+     "tr": "Contrast / Concession",
+     "level": "B1"
+    },
+    {
+     "id": "conj-cause-effect",
+     "title": "Sebep-sonuç: because, due to, therefore...",
+     "tr": "Cause / Effect",
+     "level": "B1"
+    },
+    {
+     "id": "conj-purpose",
+     "title": "Amaç: so that, in order to...",
+     "tr": "Purpose",
+     "level": "B1"
+    },
+    {
+     "id": "conj-addition-correlative",
+     "title": "Ekleme ve ikili bağlaçlar",
+     "tr": "moreover, besides / both...and, either...or, not only...but also",
+     "level": "B1"
+    },
+    {
+     "id": "conj-time",
+     "title": "Zaman: when, while, until, as soon as...",
+     "tr": "Time clauses",
+     "level": "B1"
+    }
+   ]
+  },
+  {
+   "id": "edatlar",
+   "title": "Edatlar",
+   "desc": "in/on/at ve kelimelerle kalıplaşmış edatlar.",
+   "topics": [
+    {
+     "id": "prepositions",
+     "title": "Prepositions: in, on, at ve kalıp edatlar",
+     "tr": "Edatlar",
+     "level": "A2"
+    }
+   ]
+  },
+  {
+   "id": "kelime",
+   "title": "Kelime Bilgisi",
+   "desc": "Öbek fiiller ve kelime türetme.",
+   "topics": [
+    {
+     "id": "phrasal-verbs",
+     "title": "Phrasal Verbs",
+     "tr": "Öbek fiiller",
+     "level": "B1"
+    }
+   ]
+  }
+ ]
+}

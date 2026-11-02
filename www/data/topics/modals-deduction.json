@@ -1,0 +1,51 @@
+{
+  "id": "modals-deduction", "cat": "modals", "order": 2,
+  "title": "Modals of Deduction & Perfect Modals", "tr": "Olasılık, çıkarım ve geçmişe yönelik modallar", "level": "B2",
+  "summary": [
+    "Modallar bir şeyin **ne kadar olası** olduğunu da gösterir: **must** (kesin olmalı), **may / might / could** (olabilir), **can't** (olamaz).",
+    "Geçmişe yönelik tahmin ve pişmanlık için **modal + have + V3** kullanılır: must have done (yapmış olmalı), should have done (yapmalıydın ama yapmadın), needn't have done (gerek yoktu ama yaptın). YDS'de çok sık çıkar."
+  ],
+  "form": [
+    ["Kesin çıkarım", "**must** + V1 / **must have** + V3", "He **must have forgotten** the meeting."],
+    ["Olasılık", "**may / might / could** + V1 / **have** + V3", "She **might have missed** the bus."],
+    ["İmkânsızlık", "**can't / couldn't** + V1 / **have** + V3", "He **can't have seen** me."],
+    ["Pişmanlık / eleştiri", "**should(n't) have** + V3", "You **should have told** me."],
+    ["Gereksiz yapılan iş", "**needn't have** + V3", "You **needn't have brought** a gift."],
+    ["Yapılabilirdi ama yapılmadı", "**could have** + V3", "We **could have won** the match."]
+  ],
+  "uses": [
+    {"t": "Şimdiye dair güçlü çıkarım", "d": "must = %95 eminim.", "ex": ["She has been working all day. She **must be** tired.", "Bütün gün çalıştı. Yorgun olmalı."]},
+    {"t": "Geçmişe dair çıkarım", "d": "must have + V3 = yapmış olmalı.", "ex": ["The streets are wet. It **must have rained** last night.", "Sokaklar ıslak. Dün gece yağmur yağmış olmalı."]},
+    {"t": "Geçmişe dair olasılık", "d": "may/might/could have + V3 = yapmış olabilir.", "ex": ["The dinosaurs **may have died out** because of an asteroid.", "Dinozorların nesli bir asteroit yüzünden tükenmiş olabilir."]},
+    {"t": "Geçmişe dair imkânsızlık", "d": "can't/couldn't have + V3 = yapmış olamaz.", "ex": ["He **can't have stolen** the money; he was with me.", "Parayı çalmış olamaz, benimleydi."]},
+    {"t": "Pişmanlık ve eleştiri", "d": "should have + V3 = yapmalıydın (ama yapmadın).", "ex": ["I **should have studied** harder for the exam.", "Sınava daha çok çalışmalıydım."]}
+  ],
+  "examples": [
+    ["Someone is knocking. It **might be** the postman.", "Biri kapıyı çalıyor. Postacı olabilir."],
+    ["That **can't be** true; I saw him five minutes ago.", "Bu doğru olamaz, onu beş dakika önce gördüm."],
+    ["You **must have been** very proud of your daughter.", "Kızınla çok gurur duymuş olmalısın."],
+    ["They **might have taken** the wrong road.", "Yanlış yola girmiş olabilirler."],
+    ["She **couldn't have written** this essay; it's too advanced for her.", "Bu makaleyi o yazmış olamaz, onun için fazla ileri düzey."],
+    ["We **should have booked** a table; the restaurant is full.", "Masa ayırtmalıydık, restoran dolu."],
+    ["You **shouldn't have eaten** so much cake.", "O kadar çok pasta yememeliydin."],
+    ["You **needn't have cooked**; we have already eaten.", "Yemek yapmana gerek yoktu, biz zaten yedik."],
+    ["He **could have become** a great musician, but he chose medicine.", "Harika bir müzisyen olabilirdi ama tıbbı seçti."],
+    ["Early humans **may have used** fire much earlier than we thought.", "İlk insanlar ateşi sandığımızdan çok daha önce kullanmış olabilir."],
+    ["The ancient city **must have been** very rich.", "Antik şehir çok zengin olmalıydı."],
+    ["I **may not have understood** the question correctly.", "Soruyu doğru anlamamış olabilirim."]
+  ],
+  "signals": ["probably", "perhaps", "certainly", "I'm sure", "it is possible that", "it is likely that", "there is no way"],
+  "notes": [
+    "**must**'ın olumsuz çıkarımı **mustn't** değil **can't**'tır: ~~He mustn't be at home~~ (çıkarım anlamında) yanlış, **He can't be at home** doğru.",
+    "**needn't have done** (gerek yoktu ama yapıldı) ile **didn't need to** (gerek yoktu, büyük ihtimalle yapılmadı) farklıdır.",
+    "YDS okuma parçalarında bilim insanlarının tahminleri **may / might / could have + V3** ile verilir."
+  ],
+  "exam": {
+    "how": "YDS'de **perfect modallar** en çok sorulan konulardandır. Önce cümlenin **geçmişe mi şimdiye mi** ait olduğunu belirle (geçmişse have + V3). Sonra anlamına bak: kanıt var ve kesin → **must have**, olasılık → **may/might/could have**, imkânsız → **can't have**, pişmanlık → **should have**, gereksiz iş → **needn't have**.",
+    "q": [
+      {"q": "The fossil is remarkably well preserved; it ---- in very dry conditions for millions of years.", "o": ["should have stayed", "must have remained", "needn't have remained", "can't have stayed", "would remain"], "a": 1, "e": "Kanıt (iyi korunmuş) var, geçmişe dair kesin çıkarım: **must have remained**."},
+      {"q": "You ---- me a lift; I could have taken a taxi, but thanks anyway.", "o": ["mustn't have given", "needn't have given", "can't have given", "should have given", "might give"], "a": 1, "e": "Yapıldı ama gerek yoktu: **needn't have given**."},
+      {"q": "Tom ---- the window; he was on holiday in Spain when it was broken.", "o": ["must have broken", "should have broken", "can't have broken", "may have broken", "had to break"], "a": 2, "e": "O sırada İspanya'daydı, imkânsız: **can't have broken**."}
+    ]
+  }
+}

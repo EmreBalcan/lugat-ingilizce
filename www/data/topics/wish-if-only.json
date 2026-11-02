@@ -1,0 +1,47 @@
+{
+  "id": "wish-if-only", "cat": "yapilar", "order": 7,
+  "title": "Wish / If only", "tr": "Dilek ve pişmanlık cümleleri", "level": "B1",
+  "summary": [
+    "**wish** ve **if only**, gerçek olmayan bir duruma dair **dilek ya da pişmanlık** anlatır. Türkçeye '**keşke**' diye çevrilir. if only, wish'ten daha güçlü bir duygu taşır.",
+    "Şimdiye dair dilekte fiil **bir zaman geri** gider (Past Simple), geçmişe dair pişmanlıkta **Past Perfect** kullanılır. Başkasının davranışından şikâyet için **would** gelir."
+  ],
+  "form": [
+    ["Şimdi", "wish / if only + **Past Simple** (be → were)", "I wish I **knew** the answer."],
+    ["Geçmiş", "wish / if only + **had + V3**", "I wish I **had studied** harder."],
+    ["Şikâyet / istek", "wish + sb + **would** + V1", "I wish you **would stop** talking."],
+    ["Yetenek", "wish + **could** + V1", "I wish I **could** fly."]
+  ],
+  "uses": [
+    {"t": "Şimdiki duruma dair dilek", "d": "Şu an gerçek olmayan bir şeyi istemek.", "ex": ["I wish I **lived** near the sea.", "Keşke denize yakın yaşasam."]},
+    {"t": "Geçmişe dair pişmanlık", "d": "Olmuş ya da olmamış bir şeye üzülmek.", "ex": ["**If only** I **hadn't said** that!", "Keşke onu söylemeseydim!"]},
+    {"t": "Başkasının davranışından rahatsızlık", "d": "Birinin bir şeyi yapmasını/yapmamasını istemek.", "ex": ["I wish my neighbours **wouldn't make** so much noise.", "Keşke komşularım bu kadar gürültü yapmasa."]},
+    {"t": "it's time / would rather", "d": "Benzer gerçek dışı geçmiş kullanımlar.", "ex": ["**It's time** we **went** home.", "Eve gitme vaktimiz geldi."]}
+  ],
+  "examples": [
+    ["I wish I **were** taller.", "Keşke daha uzun olsam."],
+    ["She wishes she **had** more free time.", "Keşke daha fazla boş vakti olsa diye düşünüyor."],
+    ["I wish I **hadn't eaten** so much.", "Keşke bu kadar çok yemeseydim."],
+    ["**If only** I **could** speak French!", "Keşke Fransızca konuşabilsem!"],
+    ["He wishes he **had accepted** the job offer.", "Keşke iş teklifini kabul etseymiş diye düşünüyor."],
+    ["I wish it **would stop** raining.", "Keşke yağmur dursa."],
+    ["We wish we **didn't have** to work on Saturdays.", "Keşke cumartesileri çalışmak zorunda olmasak."],
+    ["**If only** they **had listened** to the warnings.", "Keşke uyarıları dinleselerdi."],
+    ["Do you ever wish you **were** a child again?", "Hiç yeniden çocuk olmayı diler misin?"],
+    ["I'd rather you **didn't tell** anyone.", "Kimseye söylemesen tercih ederim."],
+    ["It's high time the government **took** action.", "Hükümetin harekete geçme vakti çoktan geldi."]
+  ],
+  "signals": ["I wish", "if only", "it's time", "it's high time", "would rather", "as if", "as though"],
+  "notes": [
+    "**wish + would** kendimiz için kullanılmaz: ~~I wish I would~~ yanlış; **I wish I could** doğru.",
+    "Şimdiki zamana ait gerçek dışı dilekte be fiili tüm öznelerde **were** olabilir: I wish he **were** here.",
+    "**as if / as though** da gerçek dışı geçmiş alabilir: He talks **as if** he **knew** everything."
+  ],
+  "exam": {
+    "how": "YDS'de wish/if only soruları, koşul cümleleriyle aynı mantıkla çözülür: şimdi → Past Simple, geçmiş → Past Perfect. Ayrıca **it's (high) time + Past Simple**, **would rather + sb + Past Simple** ve **as if / as though** kalıpları sıkça sorulur. Çeviri sorularında 'keşke ...-seydim' gördüğünde had + V3 ara.",
+    "q": [
+      {"q": "Many smokers wish they ---- smoking when they were younger.", "o": ["didn't start", "hadn't started", "wouldn't start", "haven't started", "don't start"], "a": 1, "e": "Geçmişe dair pişmanlık (**when they were younger**): **hadn't started**."},
+      {"q": "It is high time the authorities ---- serious measures against air pollution.", "o": ["take", "took", "have taken", "will take", "had been taking"], "a": 1, "e": "**It's high time + Past Simple**: **took**."},
+      {"q": "I wish I ---- you with your project, but I'm too busy this week.", "o": ["could help", "can help", "helped", "had helped", "will help"], "a": 0, "e": "Şimdiye dair, yetenek/imkân: **could help**."}
+    ]
+  }
+}

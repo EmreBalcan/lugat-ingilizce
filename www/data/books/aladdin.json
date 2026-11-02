@@ -1,0 +1,73 @@
+{
+  "id": "aladdin", "title": "Aladdin and the Magic Lamp", "trTitle": "Alaaddin'in Sihirli Lambası", "author": "One Thousand and One Nights", "level": "B1", "cat": "masal",
+  "desc": "Yoksul bir delikanlı, bir mağaradaki eski lamba ve kötü kalpli bir büyücü.",
+  "note": "Uyarlama",
+  "source": "Binbir Gece Masalları'ndan (kamu malı, Galland çevirisi 1710) Lugat için B1 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Stranger", "s": [
+      ["Long ago, in a city of China, there lived a poor tailor who had a son called Aladdin.", "Çok eski zamanlarda, Çin'in şehirlerinden birinde, Alaaddin adında bir oğlu olan yoksul bir terzi yaşarmış."],
+      ["Aladdin was lazy and spent all his days playing in the streets with other boys.", "Alaaddin tembelin tekiymiş; bütün gününü sokaklarda öteki çocuklarla oynayarak geçirirmiş."],
+      ["When his father died, his mother had to spin cotton day and night to buy bread.", "Babası ölünce annesi ekmek parası için gece gündüz pamuk eğirmek zorunda kalmış."],
+      ["One day, a stranger stopped Aladdin in the street.", "Bir gün yabancı bir adam sokakta Alaaddin'i durdurmuş."],
+      ["\"Are you not the son of Mustapha the tailor?\" he asked.", "\"Sen terzi Mustafa'nın oğlu değil misin?\" diye sormuş."],
+      ["\"I am,\" said Aladdin, \"but he died a long time ago.\"", "\"Evet,\" demiş Alaaddin, \"ama o çok uzun zaman önce öldü.\""],
+      ["The stranger embraced him and began to weep.", "Yabancı onu kucaklamış ve ağlamaya başlamış."],
+      ["\"I am your uncle! I have been travelling for forty years, and now I have come home too late.\"", "\"Ben senin amcanım! Kırk yıldır yollardaydım, eve dönmekte çok geç kaldım.\""],
+      ["In fact, the man was a wicked magician from Africa.", "Aslında adam Afrika'dan gelmiş kötü kalpli bir büyücüymüş."],
+      ["He had learned through his magic that a great treasure was hidden near the city.", "Büyüleri sayesinde şehrin yakınında büyük bir hazine saklandığını öğrenmiş."],
+      ["But only a boy like Aladdin could enter the place where it lay.", "Ama hazinenin bulunduğu yere yalnızca Alaaddin gibi bir delikanlı girebilirmiş."],
+      ["The magician gave Aladdin's mother money and bought him fine new clothes.", "Büyücü Alaaddin'in annesine para vermiş, Alaaddin'e de yepyeni, güzel giysiler almış."],
+      ["\"Tomorrow I will show you the beautiful gardens outside the city,\" he said.", "\"Yarın sana şehrin dışındaki güzel bahçeleri göstereceğim,\" demiş."]
+    ]},
+    {"t": "The Cave", "s": [
+      ["They walked for hours until they came to a narrow valley between two mountains.", "Saatlerce yürüyüp iki dağın arasındaki dar bir vadiye varmışlar."],
+      ["The magician lit a fire, threw some powder into it and spoke some magic words.", "Büyücü bir ateş yakmış, içine bir toz serpmiş ve sihirli sözler mırıldanmış."],
+      ["The earth trembled and opened, and they saw a flat stone with a brass ring in it.", "Toprak sarsılıp yarılmış ve ortasında pirinç bir halka olan yassı bir taş görünmüş."],
+      ["\"Under this stone lies a treasure which will be yours,\" said the magician.", "\"Bu taşın altında senin olacak bir hazine yatıyor,\" demiş büyücü."],
+      ["\"Go down. You will pass through three halls full of gold, but do not touch anything.\"", "\"Aşağı in. Altın dolu üç salondan geçeceksin ama hiçbir şeye dokunma.\""],
+      ["\"At the end you will find a garden, and in it an old lamp. Bring it to me.\"", "\"Sonunda bir bahçe bulacaksın, bahçede de eski bir lamba. Onu bana getir.\""],
+      ["He took a ring from his finger and gave it to Aladdin for protection.", "Parmağından bir yüzük çıkarıp korunsun diye Alaaddin'e vermiş."],
+      ["Aladdin found everything as the magician had said.", "Alaaddin her şeyi büyücünün dediği gibi bulmuş."],
+      ["The trees in the garden were full of fruit that sparkled like jewels; in fact, they were jewels.", "Bahçedeki ağaçların dalları mücevher gibi parlayan meyvelerle doluymuş; daha doğrusu bunlar gerçekten mücevhermiş."],
+      ["He filled his pockets with them and took the lamp.", "Ceplerini onlarla doldurmuş ve lambayı almış."],
+      ["When he came back to the entrance, the magician cried, \"Give me the lamp first!\"", "Girişe döndüğünde büyücü, \"Önce lambayı ver!\" diye bağırmış."],
+      ["\"Help me out first,\" said Aladdin, because his pockets were too full.", "\"Önce beni çıkar,\" demiş Alaaddin, çünkü cepleri çok doluymuş."],
+      ["The magician flew into a terrible rage.", "Büyücü korkunç bir öfkeye kapılmış."],
+      ["He said a magic word, the stone rolled back into its place, and Aladdin was trapped in the dark.", "Bir büyü sözü söylemiş; taş kayıp yerine oturmuş ve Alaaddin karanlığın içinde hapsolmuş."]
+    ]},
+    {"t": "The Genie", "s": [
+      ["For two days Aladdin sat in the dark, crying.", "Alaaddin iki gün boyunca karanlıkta oturup ağlamış."],
+      ["At last he clasped his hands to pray, and in doing so he rubbed the ring.", "Sonunda dua etmek için ellerini kavuşturmuş ve bunu yaparken yüzüğü ovmuş."],
+      ["Immediately an enormous genie rose out of the earth.", "Hemen yerden devasa bir cin yükselmiş."],
+      ["\"What do you want? I am the slave of the ring and will obey you in all things.\"", "\"Ne dilersin? Ben yüzüğün kölesiyim, her emrine itaat ederim.\""],
+      ["\"Take me out of this place!\" cried Aladdin.", "\"Beni buradan çıkar!\" diye haykırmış Alaaddin."],
+      ["In a moment he found himself outside, and he hurried home to his mother.", "Bir anda kendini dışarıda bulmuş ve doğruca annesinin yanına koşmuş."],
+      ["They were so hungry that his mother decided to sell the old lamp.", "Öyle açlarmış ki annesi eski lambayı satmaya karar vermiş."],
+      ["\"It is very dirty,\" she said. \"It will bring more money if I clean it.\"", "\"Çok kirli,\" demiş. \"Temizlersem daha çok para eder.\""],
+      ["As soon as she began to rub it, a huge genie appeared.", "Lambayı ovmaya başlar başlamaz kocaman bir cin belirmiş."],
+      ["\"What do you wish? I am the slave of the lamp.\"", "\"Ne dilersiniz? Ben lambanın kölesiyim.\""],
+      ["The poor woman fainted, but Aladdin took the lamp and said, \"Bring us something to eat.\"", "Zavallı kadın bayılmış ama Alaaddin lambayı almış ve \"Bize yiyecek bir şeyler getir,\" demiş."],
+      ["The genie returned with twelve silver dishes full of delicious food.", "Cin, nefis yemeklerle dolu on iki gümüş tabakla geri dönmüş."],
+      ["From that day on, Aladdin and his mother never went hungry again.", "O günden sonra Alaaddin'le annesi bir daha hiç aç kalmamış."],
+      ["Aladdin also learned that the fruit from the garden were precious stones of great value.", "Alaaddin bahçeden getirdiği meyvelerin çok değerli taşlar olduğunu da öğrenmiş."]
+    ]},
+    {"t": "The Princess and the Palace", "s": [
+      ["One day Aladdin saw the Sultan's daughter, Princess Badroulbadour, on her way to the baths.", "Bir gün Alaaddin, Sultan'ın kızı Bedrülbudur'u hamama giderken görmüş."],
+      ["He fell in love with her the moment he saw her face.", "Yüzünü gördüğü anda ona âşık olmuş."],
+      ["He sent his mother to the Sultan with a bowl full of the magic jewels.", "Annesini, sihirli mücevherlerle dolu bir kâseyle Sultan'a göndermiş."],
+      ["The Sultan had never seen such jewels, and he agreed to the marriage.", "Sultan ömründe böyle mücevherler görmemiş ve evliliğe razı olmuş."],
+      ["With the help of the genie, Aladdin built a palace of marble and gold in a single night.", "Alaaddin cinin yardımıyla tek bir gecede mermerden ve altından bir saray yaptırmış."],
+      ["He married the princess, and they lived happily together.", "Prensesle evlenmiş ve birlikte mutlu yaşamaya başlamışlar."],
+      ["But far away in Africa, the magician learned that Aladdin had become rich with the lamp.", "Ama uzaklarda, Afrika'da büyücü, Alaaddin'in lamba sayesinde zengin olduğunu öğrenmiş."],
+      ["He came back disguised as a merchant and walked through the streets crying, \"New lamps for old!\"", "Tüccar kılığına girip geri gelmiş ve sokaklarda \"Eski lambaları yenileriyle değiştiriyorum!\" diye bağırmış."],
+      ["The princess, who knew nothing about the lamp's secret, gave him the old lamp.", "Lambanın sırrından habersiz olan prenses, eski lambayı ona vermiş."],
+      ["That night the magician ordered the genie to carry the palace and the princess to Africa.", "O gece büyücü cine sarayı ve prensesi Afrika'ya taşımasını emretmiş."],
+      ["When Aladdin came home from hunting, his palace and his wife had disappeared.", "Alaaddin avdan döndüğünde sarayı da karısı da ortadan kaybolmuş."],
+      ["He rubbed his ring, and the genie of the ring carried him to Africa.", "Yüzüğünü ovmuş ve yüzüğün cini onu Afrika'ya götürmüş."],
+      ["The princess put a sleeping powder in the magician's wine, and he fell into a deep sleep.", "Prenses büyücünün şarabına uyku tozu katmış, büyücü de derin bir uykuya dalmış."],
+      ["Aladdin took back the lamp and ordered the genie to carry the palace home.", "Alaaddin lambayı geri almış ve cine sarayı yurduna taşımasını emretmiş."],
+      ["The next morning, the Sultan looked out of his window and saw the palace in its place again.", "Ertesi sabah Sultan penceresinden bakmış ve sarayı yeniden yerinde görmüş."],
+      ["Aladdin and the princess lived in peace for many years, and Aladdin became Sultan after her father.", "Alaaddin'le prenses uzun yıllar huzur içinde yaşamış; Alaaddin de kayınpederinden sonra sultan olmuş."]
+    ]}
+  ]
+}

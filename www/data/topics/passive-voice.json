@@ -1,0 +1,50 @@
+{
+  "id": "passive-voice", "cat": "yapilar", "order": 1,
+  "title": "Passive Voice", "tr": "Edilgen yapı", "level": "B1",
+  "summary": [
+    "Edilgen yapıda vurgu, eylemi **yapan** değil eylemden **etkilenen** üzerindedir: 'Köprü 1973'te **inşa edildi**.' Yapan kişi önemsizse, bilinmiyorsa ya da belliyse kullanılır.",
+    "Formül: **be (zamana göre çekimli) + V3**. Yapan belirtilecekse **by** ile eklenir. Akademik metinlerde ve YDS okuma parçalarında son derece yaygındır."
+  ],
+  "form": [
+    ["Present Simple", "am/is/are + V3", "English **is spoken** worldwide."],
+    ["Past Simple", "was/were + V3", "The bridge **was built** in 1973."],
+    ["Present Perfect", "has/have **been** + V3", "The results **have been published**."],
+    ["Continuous", "am/is/are/was/were **being** + V3", "The road **is being repaired**."],
+    ["Modal", "modal + **be** + V3", "The form **must be signed**."],
+    ["Future / Perfect modal", "will be + V3 / modal + **have been** + V3", "It **may have been stolen**."]
+  ],
+  "uses": [
+    {"t": "Yapan önemsiz ya da bilinmiyor", "d": "Kimin yaptığı değil, ne olduğu önemli.", "ex": ["My car **was stolen** last night.", "Arabam dün gece çalındı."]},
+    {"t": "Bilimsel ve resmî anlatım", "d": "Deney, süreç ve raporlarda nesnel bir dil için.", "ex": ["The samples **were heated** to 200 degrees.", "Örnekler 200 dereceye kadar ısıtıldı."]},
+    {"t": "Yapanı by ile vurgulamak", "d": "Yapan bilgi olarak önemliyse cümlenin sonuna by ile eklenir.", "ex": ["Hamlet **was written by** Shakespeare.", "Hamlet, Shakespeare tarafından yazıldı."]},
+    {"t": "It is said that / is believed to", "d": "Genel kanaatleri aktaran kalıplar; YDS'de çok sık.", "ex": ["**It is believed that** the city **was founded** 3,000 years ago.", "Şehrin 3.000 yıl önce kurulduğuna inanılıyor."]}
+  ],
+  "examples": [
+    ["Rice **is grown** in many parts of Asia.", "Pirinç Asya'nın birçok yerinde yetiştirilir."],
+    ["The windows **are cleaned** every Monday.", "Pencereler her pazartesi temizlenir."],
+    ["Penicillin **was discovered** by accident.", "Penisilin tesadüfen keşfedildi."],
+    ["A new vaccine **has been developed** against the virus.", "Virüse karşı yeni bir aşı geliştirildi."],
+    ["The museum **is being renovated** at the moment.", "Müze şu anda restore ediliyor."],
+    ["The meeting **will be held** in the main hall.", "Toplantı ana salonda yapılacak."],
+    ["Mobile phones **must be switched off** during the exam.", "Sınav sırasında cep telefonları kapatılmalıdır."],
+    ["The thieves **were caught** by the police.", "Hırsızlar polis tarafından yakalandı."],
+    ["Millions of trees **are cut down** every year.", "Her yıl milyonlarca ağaç kesiliyor."],
+    ["The pyramids **are thought to have been built** by skilled workers.", "Piramitlerin yetenekli işçiler tarafından inşa edildiği düşünülüyor."],
+    ["I **was born** in Konya.", "Konya'da doğdum."],
+    ["The letter **should have been sent** yesterday.", "Mektubun dün gönderilmiş olması gerekirdi."]
+  ],
+  "signals": ["by", "it is said that", "is known to", "is believed to", "is thought to", "is expected to"],
+  "notes": [
+    "Sadece **nesne alan (geçişli)** fiiller edilgen yapılabilir: happen, occur, arrive, die gibi fiiller edilgen olmaz: ~~The accident was happened~~ yanlış.",
+    "**It is said that he is rich** = **He is said to be rich**. Geçmiş için: He is said **to have been** rich.",
+    "**get + V3** konuşma dilinde edilgen anlam verir: He **got fired**."
+  ],
+  "exam": {
+    "how": "YDS'de edilgen yapı her sınavda birkaç soruda karşına çıkar. Önce öznenin eylemi **yapan mı yoksa etkilenen mi** olduğuna bak: 'The bridge ---- in 1973' cümlesinde köprü inşa etmez, inşa edilir. Sonra zamanı belirle. **is thought / believed / said to have + V3** kalıbına ve **happen, occur, emerge** gibi edilgen olamayan fiillere dikkat et.",
+    "q": [
+      {"q": "Since the 1980s, thousands of new species ---- in the Amazon rainforest.", "o": ["discovered", "have been discovered", "are discovering", "had discovered", "have discovered"], "a": 1, "e": "Türler keşfetmez, keşfedilir (edilgen); **Since** Present Perfect ister: **have been discovered**."},
+      {"q": "The earthquake, which ---- at 3 a.m., ---- by residents in three cities.", "o": ["was occurred / felt", "occurred / was felt", "occurred / felt", "has occurred / has felt", "was occurring / had felt"], "a": 1, "e": "**occur** edilgen olmaz (**occurred**); deprem hissedilir: **was felt**."},
+      {"q": "Stonehenge is believed ---- around 2500 BC.", "o": ["to build", "to be building", "to have been built", "having built", "being built"], "a": 2, "e": "Geçmişe ait ve edilgen: **to have been built**."}
+    ]
+  }
+}

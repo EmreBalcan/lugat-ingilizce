@@ -1,0 +1,18 @@
+{
+  "name": "Lugat İngilizce",
+  "short_name": "Lugat",
+  "description": "Çevrimdışı İngilizce-Türkçe sözlük, YDS konu anlatımları ve çevirili kitaplar",
+  "lang": "tr",
+  "start_url": "./#ana",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2ebf1",
+  "theme_color": "#e7dcf8",
+  "icons": [
+    { "src": "icons/icon-192.webp", "type": "image/webp", "sizes": "192x192", "purpose": "any" },
+    { "src": "icons/icon-512.webp", "type": "image/webp", "sizes": "512x512", "purpose": "any" },
+    { "src": "icons/icon-512.webp", "type": "image/webp", "sizes": "512x512", "purpose": "maskable" },
+    { "src": "icons/apple-touch-icon.png", "type": "image/png", "sizes": "1024x1024", "purpose": "any" }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "future-perfect-continuous", "cat": "zamanlar", "order": 9,
+  "title": "Future Continuous & Future Perfect", "tr": "Gelecekte süren ve tamamlanmış olacak eylem", "level": "B2",
+  "summary": [
+    "**Future Continuous** (will be + V-ing), gelecekte **belli bir anda devam ediyor olacak** eylemi anlatır: Yarın bu saatte uçuyor olacağım.",
+    "**Future Perfect** (will have + V3), gelecekteki bir zamandan **önce tamamlanmış olacak** eylemi anlatır: 2030'a kadar bitirmiş olacağız. En güçlü ipucu **by + gelecek zaman** ifadesidir."
+  ],
+  "form": [
+    ["Future Continuous", "Özne + **will be** + V-ing", "I **will be working** at 9 tomorrow."],
+    ["Future Perfect", "Özne + **will have** + V3", "She **will have finished** by Friday."],
+    ["Olumsuz", "won't be + V-ing / won't have + V3", "They **won't have arrived** by noon."],
+    ["Future Perfect Cont.", "**will have been** + V-ing", "By June, I **will have been living** here for ten years."]
+  ],
+  "uses": [
+    {"t": "Gelecekte belli anda süren eylem", "d": "Future Continuous ile.", "ex": ["This time next week, we **will be lying** on the beach.", "Gelecek hafta bu saatlerde kumsalda uzanıyor olacağız."]},
+    {"t": "Gelecekteki bir zamandan önce bitecek eylem", "d": "Future Perfect ile, genellikle by ile.", "ex": ["**By** the end of this year, I **will have saved** enough money.", "Bu yılın sonuna kadar yeterince para biriktirmiş olacağım."]},
+    {"t": "by the time + Present Simple", "d": "Gelecekte bir olay olduğunda diğeri çoktan bitmiş olacak.", "ex": ["**By the time** you get home, I **will have cooked** dinner.", "Sen eve geldiğinde akşam yemeğini pişirmiş olacağım."]},
+    {"t": "Kibar soru (Future Continuous)", "d": "Birinin planını kibarca sormak için.", "ex": ["**Will** you **be using** the car tonight?", "Bu akşam arabayı kullanacak mısın?"]}
+  ],
+  "examples": [
+    ["Don't call at eight; I **will be having** dinner.", "Sekizde arama, akşam yemeği yiyor olacağım."],
+    ["By 2040, scientists **will have found** a cure for many diseases.", "2040'a kadar bilim insanları birçok hastalığa çare bulmuş olacak."],
+    ["At midnight, the students **will still be studying**.", "Gece yarısı öğrenciler hâlâ ders çalışıyor olacak."],
+    ["By the time the guests arrive, we **will have cleaned** the house.", "Misafirler geldiğinde evi temizlemiş olacağız."],
+    ["Next month, I **will have worked** here for five years.", "Gelecek ay burada beş yılı doldurmuş olacağım."],
+    ["This time tomorrow, I **will be flying** to Berlin.", "Yarın bu saatte Berlin'e uçuyor olacağım."],
+    ["The construction **won't have been completed** by the summer.", "İnşaat yaza kadar tamamlanmış olmayacak."],
+    ["By the end of the course, you **will have learned** over 2,000 words.", "Kursun sonunda 2.000'den fazla kelime öğrenmiş olacaksın."],
+    ["**Will** you **be attending** the conference next week?", "Gelecek haftaki konferansa katılacak mısın?"],
+    ["By the time she retires, she **will have been teaching** for 35 years.", "Emekli olduğunda 35 yıldır öğretmenlik yapıyor olacak."],
+    ["In a few years, many people **will be driving** electric cars.", "Birkaç yıl içinde birçok insan elektrikli araba kullanıyor olacak."]
+  ],
+  "signals": ["by the time", "by 2050", "by then", "by the end of", "this time tomorrow", "at this time next week", "in ten years' time"],
+  "notes": [
+    "**by the time + Present Simple** → ana cümle **will have + V3**. **by the time + Past Simple** → ana cümle **had + V3**. Bu ayrım YDS'nin klasiğidir.",
+    "**by** 'e kadar' demektir ve tamamlanmayı vurgular; **until** ise süren bir durumun bitiş noktasını gösterir."
+  ],
+  "exam": {
+    "how": "YDS'de **by + gelecek zaman (by 2050, by the end of next year)** ve **by the time + Present Simple** gördüğünde Future Perfect'i düşün. Seçeneklerde had + V3 (geçmiş) ile will have + V3 (gelecek) yan yana verilir, cümledeki diğer fiilin zamanına bakarak seç.",
+    "q": [
+      {"q": "By the time the new hospital opens, the city's population ---- by nearly 20 percent.", "o": ["had grown", "will have grown", "has grown", "grew", "was growing"], "a": 1, "e": "**By the time + opens (Present Simple)** → **will have grown**."},
+      {"q": "By 2030, the company ---- all its petrol vehicles with electric ones.", "o": ["had replaced", "replaces", "will have replaced", "has replaced", "was replacing"], "a": 2, "e": "**By 2030** gelecekteki bir noktaya kadar tamamlanma: **will have replaced**."},
+      {"q": "Call me after ten; I ---- my presentation until then.", "o": ["will be preparing", "had prepared", "prepared", "have prepared", "was preparing"], "a": 0, "e": "O saate kadar süren bir eylem: **will be preparing**."}
+    ]
+  }
+}
