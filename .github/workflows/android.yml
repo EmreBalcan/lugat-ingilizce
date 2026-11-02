@@ -37,7 +37,11 @@ jobs:
         run: npx cap sync android
 
       - name: İmza anahtarını hazırla
-        run: echo "${{ secrets.LUGAT_KEYSTORE_B64 }}" | base64 -d > $RUNNER_TEMP/lugat.p12
+        env:
+          KS: ${{ secrets.LUGAT_KEYSTORE_B64 }}
+        run: |
+          if [ -z "$KS" ]; then echo "::error::LUGAT_KEYSTORE_B64 gizli değişkeni eklenmemiş"; exit 1; fi
+          echo "$KS" | base64 -d > $RUNNER_TEMP/lugat.p12
 
       - name: APK derle
         working-directory: android
