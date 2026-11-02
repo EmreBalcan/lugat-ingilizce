@@ -6,6 +6,7 @@ const get = (url) => (cache.has(url) ? cache.get(url) : cache.set(url, fetch(url
 export const topicIndex = () => get('data/topics/index.json');
 
 let filter = '';
+let openCats = null; // açık kategoriler: telefonda hepsi kapalı, masaüstünde açık başlar
 
 export function render(root, id) {
   if (id) return detail(root, id);
@@ -27,18 +28,37 @@ async function list(root) {
   </div>`;
   const idx = await topicIndex().catch(() => null);
   const box = root.querySelector('#cats');
+  if (!box) return; // yüklenirken başka sayfaya geçildi
   if (!idx) { box.innerHTML = '<div class="empty">Konu listesi yüklenemedi.</div>'; return; }
+  if (!openCats) openCats = new Set(matchMedia('(max-width: 820px)').matches ? [] : idx.cats.map((c) => c.id));
   const draw = () => {
     const f = filter.toLocaleLowerCase('tr');
     const cats = idx.cats.map((c) => ({ ...c, topics: c.topics.filter((t) => !f || (t.title + ' ' + t.tr).toLocaleLowerCase('tr').includes(f)) })).filter((c) => c.topics.length);
-    box.innerHTML = cats.length ? cats.map((c) => `<div class="cat section">
-      <div class="section-head"><h2>${esc(c.title)}</h2><span class="muted small">${c.topics.length} konu</span></div>
-      ${c.desc ? `<p class="muted small">${esc(c.desc)}</p>` : ''}
-      <div class="card list" style="padding:0">${c.topics.map((t) => `<a class="topic-link" href="#konu-${t.id}"><div class="t"><b>${esc(t.title)}</b><span class="muted small">${esc(t.tr)}</span></div>${dots(t.id)}<span class="badge">${esc(t.level)}</span></a>`).join('')}</div>
-    </div>`).join('') : '<div class="empty">Bu aramaya uyan konu yok.</div>';
+    box.innerHTML = cats.length ? cats.map((c) => {
+      const open = f || openCats.has(c.id);
+      const learned = c.topics.filter((t) => store.topic(t.id).learned).length;
+      return `<div class="cat">
+      <button class="cat-toggle" data-cat="${c.id}" aria-expanded="${!!open}">
+        <span class="t"><b>${esc(c.title)}</b><span class="muted small">${c.topics.length} konu${learned ? ` · ${learned} öğrenildi` : ''}</span></span>
+        <span class="chev">${ICON.chevron}</span>
+      </button>
+      <div class="cat-body" ${open ? '' : 'hidden'}>
+        ${c.desc ? `<p class="muted small">${esc(c.desc)}</p>` : ''}
+        <div class="card list" style="padding:0">${c.topics.map((t) => `<a class="topic-link" href="#konu-${t.id}"><div class="t"><b>${esc(t.title)}</b><span class="muted small">${esc(t.tr)}</span></div>${dots(t.id)}<span class="badge">${esc(t.level)}</span></a>`).join('')}</div>
+      </div>
+    </div>`;
+    }).join('') : '<div class="empty">Bu aramaya uyan konu yok.</div>';
   };
   draw();
   root.querySelector('#tf').addEventListener('input', (e) => { filter = e.target.value; draw(); });
+  box.addEventListener('click', (e) => {
+    const b = e.target.closest('.cat-toggle');
+    if (!b || filter) return;
+    const id = b.dataset.cat;
+    if (openCats.has(id)) openCats.delete(id); else openCats.add(id);
+    b.setAttribute('aria-expanded', openCats.has(id));
+    b.nextElementSibling.hidden = !openCats.has(id);
+  });
 }
 
 function flagBar(id, title) {

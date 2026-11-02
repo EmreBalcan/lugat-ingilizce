@@ -22,7 +22,7 @@ export function render(root, id) {
 }
 
 export function coverHTML(b) {
-  return `<div class="cover c-${esc(b.cat)}"><span class="badge">${esc(CAT[b.cat] || b.cat)} · ${esc(b.level)}</span><div><h3>${esc(b.title)}</h3><div class="by">${esc(b.author)}</div></div></div>`;
+  return `<div class="cover c-${esc(b.cat)}"><span class="badge">${esc(CAT[b.cat] || b.cat)} · ${esc(b.level)}</span><div><h3 lang="en">${esc(b.title)}</h3><div class="by">${esc(b.author)}</div></div></div>`;
 }
 
 async function shelf(root) {
@@ -34,6 +34,7 @@ async function shelf(root) {
   </div>`;
   const idx = await bookIndex().catch(() => null);
   const box = root.querySelector('#books');
+  if (!box) return; // yüklenirken başka sayfaya geçildi
   if (!idx) { box.innerHTML = '<div class="empty">Kütüphane yüklenemedi.</div>'; return; }
   const draw = () => {
     const list = idx.books.filter((b) => lvl === 'Tümü' || b.level === lvl);

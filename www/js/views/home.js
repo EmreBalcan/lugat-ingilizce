@@ -6,8 +6,10 @@ import { topicIndex } from './topics.js';
 import { flashcards } from './profile.js';
 import { cycleTheme, getTheme, themeIcon, label } from '../theme.js';
 
-let off = null;
-export function destroy() { off?.(); off = null; }
+let off = null, offMenu = null;
+let goalsOpen = null; // telefonda kapalı, masaüstünde açık başlar
+const isPhone = () => matchMedia('(max-width: 820px)').matches;
+export function destroy() { off?.(); off = null; if (offMenu) document.removeEventListener('click', offMenu); offMenu = null; }
 
 function hello() {
   const h = new Date().getHours();
@@ -34,32 +36,57 @@ export function render(root) {
       ['konular', 'Soru çöz', d.quiz, g.quiz],
     ];
     const done = goals.filter(([, , v, t]) => v >= t).length;
+    if (goalsOpen === null) goalsOpen = !isPhone();
+    const SHORTCUTS = [
+      ['ceviri', ICON.translate, 'Çeviri', 'Anlam, örnek cümle, eş ve zıt anlam, YDS sorusu'],
+      ['konular', ICON.topic, 'Konu anlatımı', 'Gramer, bağlaçlar, edatlar ve çok örnek'],
+      ['kutuphane', ICON.book, 'Kütüphane', 'Seviyeli klasikler, cümle cümle Türkçesiyle'],
+      ['profil', ICON.user, 'Profil', 'Listelerin, okuduğun kitaplar, gelişimin'],
+    ];
     root.innerHTML = `<div class="wrap">
       <div class="hello">
+        <div class="hello-menu">
+          <button class="icon-btn" id="sec-menu-btn" aria-expanded="false" aria-controls="sec-menu" aria-label="Bölümler menüsü">${ICON.grid}</button>
+          <div class="sec-menu" id="sec-menu" hidden>
+            <span class="eyebrow">Bölümler</span>
+            ${SHORTCUTS.map(([h, ico, t, d]) => `<a class="sec-item" href="#${h}"><span class="ico">${ico}</span><span><b>${t}</b><span class="muted small">${d}</span></span></a>`).join('')}
+          </div>
+        </div>
         <div class="section" style="gap:6px"><span class="eyebrow">${new Date().toLocaleDateString('tr', { weekday: 'long', day: 'numeric', month: 'long' })}</span><h1>${hello()}!</h1></div>
         <div class="row"><div class="streak"><b>${store.streak()}</b>günlük seri</div><button class="icon-btn" id="theme-home" aria-label="Görünümü değiştir" title="Görünüm: ${label(getTheme())}">${themeIcon(getTheme())}</button></div>
       </div>
 
-      <div class="section-head"><h2>Bugünkü hedefler</h2><span class="chip static">${done} / 4 tamamlandı</span>
-      </div>
-      <div class="goals">${goals.map(([h, l, v, t], i) => `<a class="goal t${i + 1} ${v >= t ? 'done' : ''}" href="#${h}"><span class="arrow-dot">${ICON.arrow}</span><div class="goal-label">${l}</div><div class="section" style="gap:10px"><div class="goal-num">${Math.min(v, 9999)}<small> / ${t}</small></div><div class="meter"><i style="width:${Math.min(100, Math.round((100 * v) / t))}%"></i></div></div></a>`).join('')}</div>
+      <button class="goals-toggle" id="goals-toggle" aria-expanded="${goalsOpen}" aria-controls="goals">
+        <span class="gt-head"><h2>Bugünkü hedefler</h2><span class="chip static" title="${done} / 4 hedef tamamlandı">${done} / 4 ✓</span><span class="chev">${ICON.chevron}</span></span>
+        <span class="gt-bars" aria-hidden="true">${goals.map(([, , v, t], i) => `<i class="t${i + 1}"><b style="width:${Math.min(100, Math.round((100 * v) / t))}%"></b></i>`).join('')}</span>
+      </button>
+      <div class="goals" id="goals" ${goalsOpen ? '' : 'hidden'}>${goals.map(([h, l, v, t], i) => `<a class="goal t${i + 1} ${v >= t ? 'done' : ''}" href="#${h}"><span class="arrow-dot">${ICON.arrow}</span><div class="goal-label">${l}</div><div class="section" style="gap:10px"><div class="goal-num">${Math.min(v, 9999)}<small> / ${t}</small></div><div class="meter"><i style="width:${Math.min(100, Math.round((100 * v) / t))}%"></i></div></div></a>`).join('')}</div>
 
       <div class="card wotd" id="wotd"><div class="section" style="gap:6px"><span class="eyebrow muted">Günün kelimesi</span><div class="wotd-word"><span>…</span></div></div></div>
 
       <div id="cont"></div>
 
-      <div class="section"><h2>Bölümler</h2>
+      <div class="section sections-bottom"><h2>Bölümler</h2>
         <div class="shortcuts">
-          <a class="card shortcut" href="#ceviri"><span class="ico">${ICON.translate}</span><span class="arrow-dot">${ICON.arrow}</span><h3>Çeviri</h3><span class="muted small">Anlam, örnek cümle, eş ve zıt anlam, YDS sorusu</span></a>
-          <a class="card shortcut" href="#konular"><span class="ico">${ICON.topic}</span><span class="arrow-dot">${ICON.arrow}</span><h3>Konu anlatımı</h3><span class="muted small">Gramer, bağlaçlar, edatlar ve çok örnek</span></a>
-          <a class="card shortcut" href="#kutuphane"><span class="ico">${ICON.book}</span><span class="arrow-dot">${ICON.arrow}</span><h3>Kütüphane</h3><span class="muted small">Seviyeli klasikler, cümle cümle Türkçesiyle</span></a>
-          <a class="card shortcut" href="#profil"><span class="ico">${ICON.user}</span><span class="arrow-dot">${ICON.arrow}</span><h3>Profil</h3><span class="muted small">Listelerin, okuduğun kitaplar, gelişimin</span></a>
+          ${SHORTCUTS.map(([h, ico, t, d]) => `<a class="card shortcut" href="#${h}"><span class="ico">${ico}</span><span class="arrow-dot">${ICON.arrow}</span><h3>${t}</h3><span class="muted small">${d}</span></a>`).join('')}
         </div>
       </div>
 
       ${later ? `<div class="card row" style="justify-content:space-between"><div><h3>${later} kelime tekrar bekliyor</h3><span class="muted small">“Sonra öğren” listendeki kelimeler</span></div><button class="btn primary" id="cards">${ICON.cards}Kartlarla tekrar et</button></div>` : ''}
     </div>`;
     root.querySelector('#cards')?.addEventListener('click', () => flashcards());
+    const gt = root.querySelector('#goals-toggle');
+    gt.addEventListener('click', () => {
+      goalsOpen = !goalsOpen;
+      gt.setAttribute('aria-expanded', goalsOpen);
+      root.querySelector('#goals').hidden = !goalsOpen;
+    });
+    const mb = root.querySelector('#sec-menu-btn'), menu = root.querySelector('#sec-menu');
+    const setMenu = (open) => { menu.hidden = !open; mb.setAttribute('aria-expanded', open); mb.classList.toggle('on', open); };
+    mb.addEventListener('click', (e) => { e.stopPropagation(); setMenu(menu.hidden); });
+    if (offMenu) document.removeEventListener('click', offMenu);
+    offMenu = (e) => { if (!menu.hidden && !menu.contains(e.target)) setMenu(false); };
+    document.addEventListener('click', offMenu);
     root.querySelector('#theme-home').addEventListener('click', (e) => {
       toast('Görünüm: ' + cycleTheme());
       e.currentTarget.innerHTML = themeIcon(getTheme());
@@ -92,7 +119,7 @@ export function render(root) {
       const m = ex && formRegex(e).exec(ex[0]);
       const exH = ex ? (m ? esc(ex[0].slice(0, m.index)) + '<b>' + esc(m[0]) + '</b>' + esc(ex[0].slice(m.index + m[0].length)) : esc(ex[0])) : '';
       const lat = store.word(e.w).later;
-      box.innerHTML = `<div class="section" style="gap:8px;min-width:0"><span class="eyebrow muted">Günün kelimesi · ${level(e.r)}${e.y ? ' · YDS’de sık' : ''}</span><div class="wotd-word"><span>${esc(e.w)}</span></div><p style="font-size:1.1rem">${esc((e.t || []).slice(0, 2).join('; '))}</p></div>
+      box.innerHTML = `<div class="section" style="gap:8px;min-width:0"><span class="eyebrow muted">Günün kelimesi · ${level(e.r)}${e.y ? ' · YDS’de sık' : ''}</span><div class="wotd-word" lang="en"><span>${esc(e.w)}</span></div><p style="font-size:1.1rem">${esc((e.t || []).slice(0, 2).join('; '))}</p></div>
         <div class="row" style="align-self:start"><button class="icon-btn" id="w-s" aria-label="Dinle" style="background:transparent;color:inherit">${ICON.speak}</button></div>
         ${ex ? `<div class="wotd-ex">${exH}<div class="muted" style="font-style:normal;font-family:var(--f-body)">${esc(ex[1])}</div></div>` : ''}
         <div class="row" style="grid-column:1/-1"><button class="btn sm" id="w-more">Ayrıntılar${ICON.arrow}</button><button class="btn sm" id="w-later">${ICON.clock}${lat ? 'Listede' : 'Sonra öğren'}</button></div>`;
