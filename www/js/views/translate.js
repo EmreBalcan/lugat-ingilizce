@@ -14,7 +14,7 @@ export function render(root) {
     ${back ? `<a class="back" href="#${back.hash}">${ICON.back}${esc(back.label)}</a>` : ''}
     <div class="section"><span class="eyebrow">İngilizce ⇄ Türkçe sözlük</span><h1>Çeviri</h1></div>
     <form class="search" id="sform" autocomplete="off">
-      <input id="q" type="search" placeholder="Kelime ya da cümle yaz: evidence, vazgeçmek, Where is the station?" aria-label="Aranacak kelime ya da çevrilecek cümle" value="${esc(query)}" enterkeyhint="search" spellcheck="false" autocapitalize="off">
+      <input id="q" type="search" placeholder="Kelime ya da cümle yaz: evidence, vazgeçmek, Where is the station?" aria-label="Aranacak kelime ya da çevrilecek cümle" value="" enterkeyhint="search" spellcheck="false" autocapitalize="off">
       <button class="go" aria-label="Ara">${ICON.search}</button>
       <div class="suggest" id="sug" hidden></div>
     </form>
@@ -25,7 +25,8 @@ export function render(root) {
   const res = root.querySelector('#res');
   let act = -1, items = [], timer;
 
-  const run = (q) => { query = q; input.value = q; sug.hidden = true; show(res, q); };
+  // Aramadan sonra kutu temizlenir; aranan metin sonuçta başlık olarak görünür, yeni arama için silmek gerekmez
+  const run = (q) => { query = q; input.value = ''; sug.hidden = true; show(res, q); };
   root.querySelector('#sform').addEventListener('submit', (e) => {
     e.preventDefault();
     if (act >= 0 && items[act]) run(items[act][0]); else if (input.value.trim()) run(input.value);
