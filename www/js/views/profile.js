@@ -45,7 +45,7 @@ export function render(root) {
         <div class="theme-switch" id="theme-sw">${THEMES.map(([k, l]) => `<button class="${getTheme() === k ? 'on' : ''}" data-th="${k}">${themeIcon(k)}${l}</button>`).join('')}</div>
         <p class="muted small">Sistem seçiliyken cihazının açık/koyu ayarına uyar.</p></div>
         ${navigator.serviceWorker?.controller ? `<div class="card section"><h3>İnternetsiz kullanım</h3>
-          <p class="muted small">Konular ve kitaplar zaten telefonunda. Sözlüğün tamamını (yaklaşık 35 MB) da indirirsen internet olmadan her kelimeyi arayabilirsin.</p>
+          <p class="muted small">Sözlüğü internetsiz kullanmak için (~35 MB).</p>
           <div class="row"><button class="btn primary" id="offline-dl">Sözlüğü indir</button><span class="muted small" id="offline-st"></span></div></div>` : ''}
         <div class="card section"><h3>Günlük hedefler</h3>${G.map(([k, l]) => `<label class="goal-edit" for="g-${k}"><span>${l}</span><input id="g-${k}" type="number" min="1" max="500" value="${s.goals[k]}" data-goal="${k}"></label>`).join('')}
         <p class="muted small">Hedefler ana sayfadaki renkli kartlarda görünür.</p></div>`;
@@ -62,7 +62,7 @@ export function render(root) {
       <div class="card section">
         <div class="section-head"><h3>Son 7 gün</h3><span class="muted small">Bugün: ${d.lw.length} kelime · ${d.sentences} cümle · ${d.topics.length} konu · ${d.quiz} soru (${d.correct} doğru)</span></div>
         <div class="week">${days.map((k) => `<div class="col ${k === today() ? 'today' : ''}" title="${score(k)} puan"><i style="height:${Math.round((100 * score(k)) / max)}%"></i>${dayName(k)}</div>`).join('')}</div>
-        <p class="muted small">Puan: aranan kelime + çözülen soru + konu × 3 + okunan cümle ÷ 10</p>
+
       </div>
       <div class="tabs" id="tabs">${[['words', 'Kelimeler'], ['topics', 'Konular'], ['books', 'Kitaplar'], ['history', 'Geçmiş'], ['goals', 'Ayarlar']].map(([k, l]) => `<button class="${k === tab ? 'on' : ''}" data-t="${k}">${l}</button>`).join('')}</div>
       <div class="section">${body}</div>

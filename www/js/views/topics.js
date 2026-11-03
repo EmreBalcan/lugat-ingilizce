@@ -21,7 +21,7 @@ function dots(id) {
 async function list(root) {
   root.innerHTML = `<div class="wrap narrow">
     <div class="section"><span class="eyebrow">Konu anlatımı</span><h1>Konular</h1>
-    <p class="muted">Her konuda kısa anlatım, yapı tablosu, kullanım yerleri, en az 10 çevirili örnek ve YDS/YÖKDİL tarzı sorular var.</p></div>
+</div>
     <div class="search"><input id="tf" type="search" placeholder="Konu ara: perfect, although, passive…" aria-label="Konu ara" value="${esc(filter)}"></div>
     <div id="cats">${loading()}</div>
     <p class="muted small"><i class="dot ok" style="display:inline-block"></i> öğrenildi &nbsp; <i class="dot fav" style="display:inline-block"></i> favori &nbsp; <i class="dot later" style="display:inline-block"></i> sonra çalışılacak</p>
@@ -107,7 +107,7 @@ async function detail(root, id) {
 
     <div class="section"><h2>YDS / YÖKDİL’de bu konu</h2>
       <p>${rich(t.exam.how)}</p>
-      <div class="card section" id="tq"><p class="muted small">Aşağıdakiler YDS/YÖKDİL soru biçiminde hazırlanmış alıştırma sorularıdır, gerçek ÖSYM soruları değildir.</p>${qs.map(questionHTML).join('')}</div>
+      <div class="card section" id="tq">${qs.map(questionHTML).join('')}</div>
     </div>
 
     <div class="chapter-nav">

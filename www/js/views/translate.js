@@ -67,10 +67,7 @@ async function home(res) {
   res.innerHTML = `<div class="section">
     ${h.length ? `<div class="section-head"><h2>Son aramalar</h2></div><div class="chips">${h.map((x) => `<button class="chip" data-search="${esc(x.w)}">${esc(x.w)}</button>`).join('')}</div>` : ''}
     <div class="card section">
-      <h3>Neler var?</h3>
-      <p class="muted">Her kelime için Türkçe anlamlar, örnek cümleler ve çevirileri, eş ve zıt anlamlılar, sık kullanılan kalıplar, İngilizce tanımlar ve YDS tarzı sorular. Hepsi uygulamanın içindeki sözlükten gelir, internete ya da yapay zekâya sorulmaz.</p>
-      <p class="muted">İngilizce bir <b>cümle</b> yazarsan Türkçeye çevrilir. Çeviri, cihazında çalışan açık kaynak bir modelle yapılır; metin hiçbir yere gönderilmez.</p>
-      ${m ? `<div class="chips"><span class="chip static">${m.indexed.toLocaleString('tr')} İngilizce kelime</span><span class="chip static">${m.tr.toLocaleString('tr')} Türkçe arama</span><span class="chip static">${m.sentences.toLocaleString('tr')} örnek cümle</span></div>` : ''}
+      ${m ? `<div class="chips"><span class="chip static">${m.indexed.toLocaleString('tr')} kelime</span><span class="chip static">${m.tr.toLocaleString('tr')} Türkçe arama</span><span class="chip static">Kelime ya da cümle yazabilirsin</span></div>` : ''}
       <div class="chips"><span class="muted small">Dene:</span>${['evidence', 'give up', 'although', 'went', 'vazgeçmek', 'sürdürülebilir', 'Where is the nearest train station?'].map((w) => `<button class="chip" data-search="${w}">${w}</button>`).join('')}</div>
     </div>
   </div>`;
@@ -120,15 +117,14 @@ async function showSentence(res, q) {
   }
   res.innerHTML = `<div class="section" style="gap:22px">
     <div class="card mt-card section">
-      <span class="eyebrow">Cümle çevirisi · İngilizce → Türkçe</span>
       <div class="mt-src"><p lang="en">${esc(text)}</p><button class="icon-btn sm" id="mt-say" aria-label="İngilizcesini dinle">${ICON.speak}</button></div>
       <div class="mt-out" id="mt-out" aria-live="polite">${loading('Çevriliyor')}</div>
-      <div class="row" id="mt-actions" hidden>
-        <button class="btn sm" id="mt-copy">Çeviriyi kopyala</button>
+      <div class="row mt-meta" id="mt-actions" hidden>
+        <span class="badge" id="mt-source"></span>
+        <button class="btn sm ghost" id="mt-copy">Kopyala</button>
       </div>
-      <p class="muted small">Bu çeviri, cihazında çalışan açık kaynak bir çeviri modeliyle (Mozilla Bergamot) yapılır; metin internete ya da bir yapay zekâ servisine gönderilmez. Makine çevirisidir, küçük hatalar olabilir.</p>
     </div>
-    <div class="section"><div class="section-head"><h2>Cümledeki kelimeler</h2><span class="muted small">Dokununca kelimenin sayfası açılır</span></div><div class="chips mt-words" id="mt-words">${loading()}</div></div>
+    <div class="section"><h2>Cümledeki kelimeler</h2><div class="chips mt-words" id="mt-words">${loading()}</div></div>
   </div>`;
   res.querySelector('#mt-say').onclick = () => speak(text);
   const out = res.querySelector('#mt-out');
@@ -158,14 +154,15 @@ async function showSentence(res, q) {
     const r = await translateSentence(text, ({ loaded, total }) => {
       if (!out.isConnected || !total) return;
       const pct = Math.min(100, Math.round((100 * loaded) / total));
-      out.innerHTML = `<div class="mt-loading"><span class="muted small">Çeviri modeli hazırlanıyor · %${pct} <span class="muted">(ilk kullanımda bir kez, ~25 MB)</span></span><div class="bar"><i style="width:${pct}%"></i></div></div>`;
+      out.innerHTML = `<div class="mt-loading"><span class="muted small">Çeviri modeli hazırlanıyor · %${pct}</span><div class="bar"><i style="width:${pct}%"></i></div></div>`;
     });
     if (!out.isConnected) return;
     out.innerHTML = `<p class="mt-tr">${esc(r.text)}</p>`;
+    res.querySelector('#mt-source').textContent = r.source === 'memory' ? 'İnsan çevirisi' : 'Makine çevirisi';
     res.querySelector('#mt-actions').hidden = false;
     res.querySelector('#mt-copy').onclick = () => navigator.clipboard?.writeText(r.text).then(() => toast('Çeviri kopyalandı'), () => toast('Kopyalanamadı'));
   } catch (e) {
-    if (out.isConnected) out.innerHTML = `<div class="empty">Çeviri modeli bu ortamda çalıştırılamadı. Web sürümünde ya da Android uygulamasında deneyebilirsin.<br><span class="muted small">${esc(e.message || '')}</span></div>`;
+    if (out.isConnected) out.innerHTML = `<div class="empty">Çeviri yapılamadı. Sayfayı yenileyip tekrar dene.<br><span class="muted small">${esc(e.message || '')}</span></div>`;
   }
 }
 
@@ -253,7 +250,7 @@ async function showEntry(res, { entry: e, from, alsoTr }) {
 
     <div class="section" id="yds"><div class="section-head"><h2>YDS / YÖKDİL</h2>${e.y ? '<span class="badge yds">Okuma parçalarında sık geçer</span>' : ''}</div><div id="yds-body">${loading('Sorular hazırlanıyor')}</div></div>
 
-    <p class="muted small">Kaynaklar: FreeDict (Türkçe anlamlar), Wiktionary, Princeton WordNet (tanım, eş/zıt anlam, kalıp), Tatoeba (örnek cümleler, CC-BY 2.0).</p>
+
   </div>`;
 
   res.querySelectorAll('[data-speak]').forEach((b) => b.addEventListener('click', () => speak(b.dataset.speak)));
@@ -268,7 +265,7 @@ async function showEntry(res, { entry: e, from, alsoTr }) {
   const body = res.querySelector('#yds-body');
   if (!body) return;
   body.innerHTML = qs.length
-    ? `<div class="card section"><p class="muted small">Sorular sözlük verisinden YDS biçiminde otomatik üretilir ve her gün değişir. Boşluk doldurma ve çeviri sorularında yukarıdaki örneklerde olmayan cümleler kullanılır. Gerçek ÖSYM sorusu değildir.</p>${qs.map(questionHTML).join('')}</div>`
+    ? `<div class="card section">${qs.map(questionHTML).join('')}</div>`
     : `<div class="empty">Bu kelime için soru üretilecek kadar örnek cümle yok.</div>`;
   wireQuestions(body, qs, (ok) => store.quizAnswered(ok));
 }
@@ -280,7 +277,7 @@ async function showTr(res, { tr, key }) {
     <div class="word-head"><span class="eyebrow">Türkçe → İngilizce</span><div class="word-title"><h1>${esc(key)}</h1><button class="icon-btn" data-speak="${esc(key)}" aria-label="Dinle">${ICON.speak}</button></div></div>
     <div class="section"><h2>İngilizce karşılıkları</h2>
       <div class="card list">${tr.e.map((w) => { const r = map.get(w); return `<div class="item"><div class="t"><a data-search="${esc(w)}" href="#ceviri">${esc(w)}</a><span>${esc(r ? r[3] : '')}</span></div>${r ? `<span class="badge lvl">${level(r[1])}</span>` : ''}</div>`; }).join('')}</div>
-      <p class="muted small">Bir karşılığa dokunarak anlamlarını, örnek cümlelerini ve kullanımını gör.</p>
+
     </div>
     ${tr.g?.length ? `<div class="section"><h2>Wiktionary tanımı</h2><div class="card"><ol class="meanings">${tr.g.map((g) => `<li>${esc(g)}</li>`).join('')}</ol></div></div>` : ''}
   </div>`;

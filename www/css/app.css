@@ -385,6 +385,7 @@ button.chip:hover, a.chip:hover { background: var(--pill); color: var(--pill-ink
 .mt-tr { font: 400 1.5rem/1.4 var(--f-display); letter-spacing: -.01em; padding: 14px 18px; border-radius: 20px; background: var(--grad-card); color: #1f1d24; }
 .mt-loading { display: flex; flex-direction: column; gap: 8px; padding: 10px 0; }
 .mt-words .chip { gap: 8px; }
+.mt-meta { justify-content: space-between; }
 
 /* ---------- Günlük test ---------- */
 .test-card { display: flex; align-items: center; gap: 14px; text-decoration: none; color: inherit; padding: 16px 18px; }

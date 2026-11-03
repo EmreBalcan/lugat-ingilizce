@@ -137,7 +137,7 @@ function results(root, qs, answers, key) {
         <div class="q-exp wrong-txt">Senin cevabın: <b>${'ABCDE'[answers[k]]}) ${esc(q.options[answers[k]])}</b><br>${explain(q, answers[k])}</div>
       </div>`).join('') : '<div class="empty">Hiç yanlışın yok. Tebrikler!</div>'}
     </div>
-    <p class="muted small">Yeni test yarın hazır olacak. Sorular konu anlatımlarından ve sözlük verisinden seçilir, gerçek ÖSYM sorusu değildir.</p>
+    <p class="muted small">Yeni test yarın.</p>
   </div>`;
   root.querySelectorAll('[data-word]').forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); window.lugat.lookupWord(a.dataset.word, { hash: 'test', label: 'Teste dön' }); }));
 }

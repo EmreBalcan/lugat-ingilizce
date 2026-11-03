@@ -28,7 +28,7 @@ export function coverHTML(b) {
 async function shelf(root) {
   root.innerHTML = `<div class="wrap">
     <div class="section"><span class="eyebrow">Cümle cümle, Türkçe karşılıklarıyla</span><h1>Kütüphane</h1>
-      <p class="muted">Klasik masallar, öyküler ve romanlardan bölümler. Her cümlenin altında Türkçesi var; bilmediğin kelimeye dokunursan anlamı açılır.</p></div>
+</div>
     <div class="tabs" id="lv">${LEVELS.map((l) => `<button class="${l === lvl ? 'on' : ''}" data-l="${l}">${l}</button>`).join('')}</div>
     <div id="books">${loading()}</div>
   </div>`;
@@ -99,7 +99,7 @@ async function reader(root, id) {
         </div>
       </div>
       <h2 class="chapter-title">${esc(c.t)}</h2>
-      <p class="muted small">İpucu: Bilmediğin bir kelimeye dokun, anlamı hemen yanında açılır.</p>
+
       <div id="sents">${c.s.map(([en, tr], i) => `<div class="sent" data-g="${offsets[ch] + i}">
         <div class="sent-row"><div class="sent-en">${tappable(en)}</div><button class="say" data-say aria-label="Cümleyi dinle">${ICON.speak}</button></div>
         <div class="sent-tr ${trMode === 'tap' ? 'hidden-tr' : ''}">${esc(tr)}</div>

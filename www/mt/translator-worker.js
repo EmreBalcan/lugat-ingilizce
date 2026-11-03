@@ -7,8 +7,9 @@ const FILES = {
   vocab: 'en-tr/vocab.entr.spm',
   wasm: 'runtime/bergamot-translator-worker.wasm',
 };
+// beam-size 4: tek aday yerine dört aday; zaman ve koşul yapıları belirgin biçimde daha doğru (karşılaştırmalı test)
 const CONFIG = [
-  'beam-size: 1', 'normalize: 1.0', 'word-penalty: 0', 'max-length-break: 128', 'mini-batch-words: 1024',
+  'beam-size: 4', 'normalize: 1.0', 'word-penalty: 0', 'max-length-break: 128', 'mini-batch-words: 1024',
   'workspace: 128', 'max-length-factor: 2.0', 'skip-cost: true', 'cpu-threads: 0', 'quiet: true',
   'quiet-translation: true', 'gemm-precision: int8shiftAlphaAll', 'alignment: soft',
 ].join('\n');
