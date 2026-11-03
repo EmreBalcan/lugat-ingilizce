@@ -157,36 +157,134 @@ function inflectLike(base, surface, target) {
   return target;
 }
 
-/** Kelimenin kendi örneklerinden YDS tarzı boşluk doldurma soruları üretir (5 seçenek). */
-export async function makeQuestions(entry, count = 2) {
-  if (!entry.x || entry.w.includes(' ')) return [];
-  const { rows } = await loadIndex();
-  const rand = seeded(entry.w);
+const firstSense = (s) => (s || '').replace(/\([^)]*\)/g, '').split(/[,;]/).map((x) => x.trim()).filter(Boolean)[0] || '';
+const cleanSense = (t) => !!t && t.length >= 2 && t.length <= 28 && /^[\p{L} ]+$/u.test(t);
+
+// Sorularda kullanılacak en doğal Türkçe karşılık: örnek cümlelerin çevirilerinde en çok geçen anlam
+function bestSense(entry) {
+  const parts = (entry.t || []).slice(0, 4)
+    .flatMap((s) => s.replace(/\([^)]*\)/g, '').split(/[,;]/).map((x) => x.trim()))
+    .filter((p) => cleanSense(p) && p.length >= 3 && p.split(' ').length <= 3);
+  if (!parts.length) return firstSense(entry.t?.[0]);
+  const trs = [...(entry.x || []), ...(entry.q || [])].map((p) => p[1].toLocaleLowerCase('tr')).join(' ');
+  let best = parts[0], score = -Infinity;
+  parts.forEach((p, i) => {
+    const stem = p.toLocaleLowerCase('tr').split(' ')[0].slice(0, 5);
+    const hits = stem.length >= 3 ? trs.split(stem).length - 1 : 0;
+    const sc = hits * 10 - i;
+    if (sc > score) { score = sc; best = p; }
+  });
+  return best;
+}
+
+/**
+ * Kelime için farklı türde YDS tarzı sorular üretir (her biri 5 seçenekli). Türler:
+ *  blank       — ekranda GÖSTERİLMEYEN bir cümlede boşluk doldurma
+ *  meaning     — kelimenin Türkçe karşılığı
+ *  reverse     — Türkçe anlamdan İngilizce kelimeyi bulma
+ *  synonym / antonym — anlamca en yakın / zıt kelime (YDS kelime sorusu)
+ *  translation — cümlenin doğru Türkçe çevirisi
+ * Sorular her gün değişir (tohum: kelime + tarih).
+ */
+export async function makeQuestions(entry, count = 4) {
+  if (entry.w.includes(' ')) return [];
+  const { rows, map } = await loadIndex();
+  const rand = seeded(entry.w + new Date().toDateString());
+  const pick = (arr) => arr[Math.floor(rand() * arr.length)];
+  const shuffle = (arr) => arr.map((v) => [rand(), v]).sort((a, b) => a[0] - b[0]).map((x) => x[1]);
   const re = formRegex(entry);
   const r0 = entry.r || 5000;
   const avoid = new Set([entry.w, ...(entry.s || []), ...(entry.a || [])]);
   const near = rows.filter((r) => r[1] && !r[0].includes(' ') && !avoid.has(r[0]) && Math.abs(r[1] - r0) < Math.max(1500, r0 * 0.6) && r[0].length > 2);
-  const qs = [];
-  const sents = [...entry.x].sort(() => rand() - 0.5);
-  for (const [en, tr] of sents) {
-    if (qs.length >= count) break;
-    const m = re.exec(en);
-    if (!m) continue;
-    const surface = m[0].split(/\s+/)[0];
-    // Çekimli fiil biçimiyse yanlış şıklar da fiil olsun; değilse kelimenin asıl türüyle aynı olsun
-    const inflectedVerb = (entry.p || '').includes('v') && surface.toLowerCase() !== entry.w && /(ing|ed|s)$/i.test(surface);
-    const pos = inflectedVerb ? 'v' : (entry.p || '')[0];
-    const pool = near.filter((r) => r[2][0] === pos);
-    const opts = new Set();
-    let guard = 0;
-    while (opts.size < 4 && pool.length && guard++ < 200) opts.add(pool[Math.floor(rand() * pool.length)][0]);
-    if (opts.size < 4) break;
-    const correct = surface.toLowerCase() === entry.w ? entry.w : surface.toLowerCase();
-    const options = [...opts].map((o) => inflectLike(entry.w, surface, o));
+  const mainPos = (entry.p || '')[0];
+  const samePos = near.filter((r) => r[2][0] === mainPos);
+  const distractWords = (n, pool = samePos) => {
+    const out = new Set();
+    for (let g = 0; out.size < n && pool.length && g < 300; g++) out.add(pick(pool)[0]);
+    return out.size === n ? [...out] : null;
+  };
+  const build = (kind, label, stem, correct, wrong, extra = {}) => {
+    if (!wrong || new Set([correct, ...wrong]).size < 5) return null;
+    const options = shuffle(wrong);
     const a = Math.floor(rand() * 5);
     options.splice(a, 0, correct);
-    const stem = en.slice(0, m.index) + '----' + en.slice(m.index + surface.length);
-    qs.push({ stem, options, a, tr, full: en });
+    return { kind, label, stem, options, a, ...extra };
+  };
+  const trMain = bestSense(entry);
+  const byFreq = (list) => {
+    const ok = list.filter((s) => !s.includes(' ') && map.has(s) && !s.startsWith(entry.w.slice(0, 4)));
+    const same = ok.filter((s) => map.get(s)[2][0] === (entry.p || '')[0]); // önce aynı türden olanlar
+    return (same.length ? same : ok).sort((a, b) => (map.get(a)[1] || 1e9) - (map.get(b)[1] || 1e9));
+  };
+  const makers = {
+    blank() {
+      const pool = entry.q?.length ? entry.q : null; // yalnızca gösterilmeyen cümleler
+      if (!pool) return null;
+      for (const [en, tr] of shuffle(pool)) {
+        const m = re.exec(en);
+        if (!m) continue;
+        const surface = m[0].split(/\s+/)[0];
+        // -ing/-ed fiil çekimidir; -s ise kelime asıl olarak fiilse fiil, değilse çoğul isim sayılır
+        const sl = surface.toLowerCase();
+        const inflectedVerb = (entry.p || '').includes('v') && sl !== entry.w && (/(ing|ed)$/.test(sl) || (/s$/.test(sl) && mainPos === 'v'));
+        const pos = inflectedVerb ? 'v' : mainPos;
+        const wrong = distractWords(4, near.filter((r) => r[2][0] === pos));
+        if (!wrong) return null;
+        const correct = surface.toLowerCase();
+        return build('blank', 'Boşluk doldurma', en.slice(0, m.index) + '----' + en.slice(m.index + surface.length), correct, wrong.map((o) => inflectLike(entry.w, surface, o)), { full: en, tr });
+      }
+      return null;
+    },
+    meaning() {
+      if (!trMain) return null;
+      const used = new Set(trMain.toLocaleLowerCase('tr').split(/\s+/));
+      const wrong = [];
+      for (let g = 0; wrong.length < 4 && g < 300; g++) {
+        const r = pick(samePos.length > 20 ? samePos : near);
+        const t = firstSense(r[3]);
+        if (cleanSense(t) && t !== trMain && !wrong.includes(t) && !t.toLocaleLowerCase('tr').split(/\s+/).some((x) => used.has(x))) wrong.push(t);
+      }
+      return build('meaning', 'Anlam', `“${entry.w}” kelimesinin Türkçe karşılığı hangisidir?`, trMain, wrong.length === 4 ? wrong : null,
+        { e: `**${entry.w}**: ${(entry.t || []).slice(0, 3).join('; ')}` });
+    },
+    reverse() {
+      if (!trMain) return null;
+      return build('reverse', 'Türkçeden İngilizceye', `“${trMain}” anlamına gelen kelime hangisidir?`, entry.w, distractWords(4),
+        { e: `**${entry.w}**: ${(entry.t || []).slice(0, 3).join('; ')}` });
+    },
+    synonym() {
+      const syn = byFreq(entry.s || []);
+      if (!syn.length) return null;
+      const s = syn[0]; // en bilinen eş anlamlı
+      const sm = map.get(s);
+      return build('synonym', 'Eş anlam', `“${entry.w}” kelimesine anlamca en yakın kelime hangisidir?`, s, distractWords(4),
+        { e: `**${entry.w}** ≈ **${s}**${sm?.[3] ? ` (${sm[3]})` : ''}` });
+    },
+    antonym() {
+      const ant = byFreq(entry.a || []);
+      if (!ant.length) return null;
+      const s = ant[0];
+      const sm = map.get(s);
+      return build('antonym', 'Zıt anlam', `“${entry.w}” kelimesinin zıt anlamlısı hangisidir?`, s, distractWords(4),
+        { e: `**${entry.w}** ↔ **${s}**${sm?.[3] ? ` (${sm[3]})` : ''}` });
+    },
+    translation() {
+      const all = [...(entry.q || []), ...(entry.x || [])];
+      if (all.length < 5 || !entry.q?.length) return null;
+      const [en, tr] = pick(entry.q);
+      const wrong = shuffle(all.filter(([e2, t2]) => e2 !== en && t2 !== tr).map((p) => p[1])).filter((t, i, a) => a.indexOf(t) === i).slice(0, 4);
+      return build('translation', 'Çeviri', `Aşağıdaki cümlenin en uygun Türkçe karşılığı hangisidir?\n“${en}”`, tr, wrong.length === 4 ? wrong : null,
+        { e: `**${en}**\n${tr}` });
+    },
+  };
+  // Her türden en fazla bir soru; eş/zıt anlamdan biri ve anlam/ters anlamdan biri seçilir
+  const order = ['blank', rand() < 0.5 ? 'meaning' : 'reverse', (entry.a?.length && rand() < 0.4) ? 'antonym' : 'synonym', 'translation', 'meaning', 'reverse', 'antonym', 'synonym'];
+  const qs = [], seen = new Set();
+  for (const k of order) {
+    if (qs.length >= count || seen.has(k)) continue;
+    seen.add(k);
+    const q = makers[k]();
+    if (q) qs.push(q);
   }
   return qs;
 }

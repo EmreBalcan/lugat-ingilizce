@@ -14,6 +14,7 @@ export const ICON = {
   arrow: '<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
   book: '<svg viewBox="0 0 24 24"><path d="M4 5.5C6.5 4.5 9.5 4.5 12 6c2.5-1.5 5.5-1.5 8-.5V19c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5z"/><path d="M12 6v13.5"/></svg>',
   translate: '<svg viewBox="0 0 24 24"><path d="M4 5h9M8.5 3v2M6 5c.6 3.5 3 6.5 6 8M11 5c-.8 3.6-3.3 6.8-6.5 8.5M13 21l4-10 4 10M14.4 17.5h5.2"/></svg>',
+  dict: '<svg viewBox="0 0 24 24"><path d="M5 4.5h11a3 3 0 0 1 3 3v12H8a3 3 0 0 1-3-3z"/><path d="M5 16.5a3 3 0 0 1 3-3h11M9 10.5l1.8-4.5 1.8 4.5M9.6 9h2.4"/></svg>',
   topic: '<svg viewBox="0 0 24 24"><path d="M5 4h10l4 4v12H5zM14 4v5h5M8 13h8M8 17h6"/></svg>',
   user: '<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.2-4 4.3-6 8-6s6.8 2 8 6"/></svg>',
   cards: '<svg viewBox="0 0 24 24"><rect x="3.5" y="6" width="13" height="14" rx="2"/><path d="M8 3.5h10.5a2 2 0 0 1 2 2V17"/></svg>',
@@ -112,7 +113,8 @@ export function ring(value, goal) {
 // Bir YDS tarzı soruyu çizer ve cevaplanınca callback çağırır
 export function questionHTML(q, i) {
   return `<div class="q" data-q="${i}">
-    <div class="q-stem"><span class="muted">${i + 1}.</span> ${esc(q.stem).replace('----', '<b>----</b>')}</div>
+    ${q.label ? `<span class="badge q-kind">${esc(q.label)}</span>` : ''}
+    <div class="q-stem"><span class="muted">${i + 1}.</span> ${esc(q.stem).replace('----', '<b>----</b>').replace(/\n/g, '<br>')}</div>
     <div class="q-opts">${q.options.map((o, k) => `<button class="q-opt" data-k="${k}"><b>${'ABCDE'[k]})</b> ${esc(o)}</button>`).join('')}</div>
     <div class="q-exp" hidden></div>
   </div>`;
@@ -129,7 +131,7 @@ export function wireQuestions(root, qs, onAnswer) {
       const exp = el.querySelector('.q-exp');
       exp.className = 'q-exp ' + (ok ? 'right-txt' : 'wrong-txt');
       exp.innerHTML = `<b>${ok ? 'Doğru!' : 'Yanlış.'}</b> Doğru cevap: <b>${'ABCDE'[q.a]}) ${esc(q.options[q.a])}</b>` +
-        (q.e ? `<div>${rich(q.e)}</div>` : '') + (q.tr ? `<div class="muted">${esc(q.full || '')}<br>${esc(q.tr)}</div>` : '');
+        (q.e ? `<div>${rich(q.e).replace(/\n/g, '<br>')}</div>` : '') + (q.tr ? `<div class="muted">${esc(q.full || '')}<br>${esc(q.tr)}</div>` : '');
       exp.hidden = false;
       onAnswer?.(ok);
     }));

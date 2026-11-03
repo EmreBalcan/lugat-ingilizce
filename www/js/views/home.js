@@ -39,6 +39,7 @@ export function render(root) {
     if (goalsOpen === null) goalsOpen = !isPhone();
     const SHORTCUTS = [
       ['ceviri', ICON.translate, 'Çeviri', 'Anlam, örnek cümle, eş ve zıt anlam, YDS sorusu'],
+      ['sozluk', ICON.dict, 'Sözlük', '40 binden fazla kelimeye harf, seviye ve türe göre göz at'],
       ['konular', ICON.topic, 'Konu anlatımı', 'Gramer, bağlaçlar, edatlar ve çok örnek'],
       ['kutuphane', ICON.book, 'Kütüphane', 'Seviyeli klasikler, cümle cümle Türkçesiyle'],
       ['profil', ICON.user, 'Profil', 'Listelerin, okuduğun kitaplar, gelişimin'],

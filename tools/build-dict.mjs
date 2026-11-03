@@ -312,12 +312,18 @@ for (const w of ranked) {
   const tr = [...e.tr];
   for (const t of e.trx) if (tr.length < 10 && !tr.some((s) => s.split(/, /).includes(t))) tr.push(t);
   const c = cand.get(w);
-  let x = [];
+  let x = [], qx = [];
   if (c) {
     const ids = [...new Set(c.ids)].sort((a, b) => sentences[a][2] - sentences[b][2]);
     const want = Math.min(8, ids.length);
     for (let k = 0; k < want; k++) x.push(ids[Math.floor((k * ids.length) / want)]);
-    x = [...new Set(x)].map((id) => [sentences[id][0], sentences[id][1]]);
+    x = [...new Set(x)];
+    // Soru üretimi için ekranda gösterilmeyen ek cümleler (örnek cümleler soruya dönüşmesin)
+    const rest = ids.filter((id) => !x.includes(id));
+    const qn = Math.min(4, rest.length);
+    for (let k = 0; k < qn; k++) qx.push(rest[Math.floor((k * rest.length) / qn)]);
+    qx = [...new Set(qx)].map((id) => [sentences[id][0], sentences[id][1]]);
+    x = x.map((id) => [sentences[id][0], sentences[id][1]]);
   }
   exampleTotal += x.length;
   const cm = colloc.get(w);
@@ -332,6 +338,7 @@ for (const w of ranked) {
   if (e.ant.size) out.a = [...e.ant].slice(0, 6);
   if (e.frames.size) out.f = [...e.frames].sort((a, b) => a - b).slice(0, 6);
   if (x.length) out.x = x;
+  if (qx.length) out.q = qx;
   if (col.length) out.c = col;
   if (ir) out.i = [ir.past.join('/'), ir.pp.join('/')];
   if (e.ph.length) out.h = e.ph;

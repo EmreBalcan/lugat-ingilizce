@@ -2,6 +2,7 @@
 import * as home from './views/home.js';
 import * as translate from './views/translate.js';
 import * as topics from './views/topics.js';
+import * as dictionary from './views/dictionary.js';
 import * as library from './views/library.js';
 import * as profile from './views/profile.js';
 import { cycleTheme, applyTheme, getTheme } from './theme.js';
@@ -17,6 +18,7 @@ function route() {
   const h = decodeURIComponent(location.hash.slice(1)) || 'ana';
   let mod = home, arg = null, sec = 'ana';
   if (h === 'ceviri') { mod = translate; sec = 'ceviri'; }
+  else if (h === 'sozluk') { mod = dictionary; sec = 'sozluk'; }
   else if (h === 'konular') { mod = topics; sec = 'konular'; }
   else if (h.startsWith('konu-')) { mod = topics; arg = h.slice(5); sec = 'konular'; }
   else if (h === 'kutuphane') { mod = library; sec = 'kutuphane'; }
@@ -31,8 +33,8 @@ function route() {
 }
 
 // Başka bir sayfadan kelime aratmak için: lookupWord('give up')
-export function lookupWord(w) {
-  translate.setQuery(w);
+export function lookupWord(w, back = null) {
+  translate.setQuery(w, back);
   if (location.hash === '#ceviri') route();
   else location.hash = 'ceviri';
 }

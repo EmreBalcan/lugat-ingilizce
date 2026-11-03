@@ -3,10 +3,14 @@ import { store } from '../store.js';
 import { esc, ICON, speak, toast, loading, questionHTML, wireQuestions } from '../ui.js';
 
 let query = '';
-export function setQuery(q) { query = q; }
+let backTo = null; // kelimeye sözlükten gelindiyse geri dönüş bağlantısı
+export function setQuery(q, back = null) { query = q; backTo = back; }
 
 export function render(root) {
+  const back = backTo;
+  backTo = null;
   root.innerHTML = `<div class="wrap narrow">
+    ${back ? `<a class="back" href="#${back.hash}">${ICON.back}${esc(back.label)}</a>` : ''}
     <div class="section"><span class="eyebrow">İngilizce ⇄ Türkçe sözlük</span><h1>Çeviri</h1></div>
     <form class="search" id="sform" autocomplete="off">
       <input id="q" type="search" placeholder="Kelime yaz: evidence, give up, vazgeçmek…" aria-label="Aranacak kelime" value="${esc(query)}" enterkeyhint="search" spellcheck="false" autocapitalize="off">
@@ -173,11 +177,11 @@ async function showEntry(res, { entry: e, from, alsoTr }) {
   });
   wireFlags(res);
 
-  const qs = await makeQuestions(e, 2);
+  const qs = await makeQuestions(e, 4);
   const body = res.querySelector('#yds-body');
   if (!body) return;
   body.innerHTML = qs.length
-    ? `<div class="card section"><p class="muted small">Bu sorular, kelimenin kendi örnek cümlelerinden YDS kelime sorusu biçiminde otomatik üretilir. Gerçek ÖSYM sorusu değildir.</p>${qs.map(questionHTML).join('')}</div>`
+    ? `<div class="card section"><p class="muted small">Sorular sözlük verisinden YDS biçiminde otomatik üretilir ve her gün değişir. Boşluk doldurma ve çeviri sorularında yukarıdaki örneklerde olmayan cümleler kullanılır. Gerçek ÖSYM sorusu değildir.</p>${qs.map(questionHTML).join('')}</div>`
     : `<div class="empty">Bu kelime için soru üretilecek kadar örnek cümle yok.</div>`;
   wireQuestions(body, qs, (ok) => store.quizAnswered(ok));
 }
