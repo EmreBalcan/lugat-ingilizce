@@ -1,0 +1,60 @@
+{
+  "id": "puss-in-boots", "title": "Puss in Boots", "trTitle": "Çizmeli Kedi", "author": "Charles Perrault", "level": "A2", "cat": "masal",
+  "desc": "Yoksul sahibini zekâsıyla bir prense dönüştüren çizmeli bir kedi.",
+  "note": "Basitleştirilmiş uyarlama",
+  "source": "Charles Perrault'nun 1697 tarihli masalından (kamu malı) Lugat için A2 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "A Cat for an Inheritance", "s": [
+      ["A miller died and left his three sons everything he had.", "Bir değirmenci ölmüş ve neyi varsa üç oğluna bırakmış."],
+      ["The oldest son got the mill, and the second son got the donkey.", "En büyük oğul değirmeni, ortanca oğul da eşeği almış."],
+      ["The youngest son got only the cat.", "En küçük oğula ise yalnızca kedi kalmış."],
+      ["\"My brothers can earn a living,\" he said sadly, \"but what can I do with a cat?\"", "\"Ağabeylerim geçimini sağlar,\" demiş üzgün üzgün, \"ama ben bir kediyle ne yapabilirim ki?\""],
+      ["\"When I have eaten him, I will die of hunger.\"", "\"Onu da yedikten sonra açlıktan ölürüm.\""],
+      ["The cat heard him and said, \"Don't worry, master.\"", "Kedi bunu duymuş ve \"Merak etme, efendim,\" demiş."],
+      ["\"Just give me a bag and a pair of boots, and you will see that I am worth a lot.\"", "\"Bana bir torba ve bir çift çizme ver, ne kadar değerli olduğumu göreceksin.\""],
+      ["The young man was surprised, but he did what the cat asked.", "Genç adam şaşırmış ama kedinin istediğini yapmış."],
+      ["The cat put on the boots and looked very proud.", "Kedi çizmeleri giymiş; pek bir gururlu görünüyormuş."],
+      ["He put some lettuce in the bag and went into the forest.", "Torbaya biraz marul koyup ormana gitmiş."],
+      ["He lay down and pretended to be dead.", "Yere uzanıp ölü taklidi yapmış."],
+      ["Soon a young rabbit jumped into the bag to eat the lettuce.", "Çok geçmeden genç bir tavşan marulu yemek için torbaya atlamış."],
+      ["The cat closed the bag and caught it.", "Kedi torbanın ağzını büzüp onu yakalamış."]
+    ]},
+    {"t": "Gifts for the King", "s": [
+      ["The cat went to the king's palace and asked to see the king.", "Kedi kralın sarayına gidip kralla görüşmek istemiş."],
+      ["\"Your Majesty,\" he said, bowing low, \"here is a rabbit from my master, the Marquis of Carabas.\"", "\"Majesteleri,\" demiş yerlere kadar eğilerek, \"efendim Karabas Markisi'nden size bir tavşan getirdim.\""],
+      ["The Marquis of Carabas was a name the cat had invented for his master.", "Karabas Markisi, kedinin efendisi için uydurduğu bir addı."],
+      ["\"Tell your master that I thank him,\" said the king.", "\"Efendine teşekkür ettiğimi söyle,\" demiş kral."],
+      ["For several months, the cat brought the king gifts from the Marquis.", "Kedi aylarca krala Marki'den hediyeler götürmüş."],
+      ["One day he heard that the king was going for a drive along the river with his beautiful daughter.", "Bir gün kralın güzel kızıyla nehir boyunca arabayla gezintiye çıkacağını duymuş."],
+      ["\"Master, do what I tell you, and your fortune is made,\" said the cat.", "\"Efendim, dediğimi yaparsan şansın döndü demektir,\" demiş kedi."],
+      ["\"Take off your clothes and swim in the river.\"", "\"Giysilerini çıkar ve nehirde yüz.\""],
+      ["The young man did so, and the cat hid his old clothes under a stone.", "Genç adam öyle yapmış, kedi de onun eski giysilerini bir taşın altına saklamış."],
+      ["When the king's carriage came by, the cat shouted, \"Help! Help! The Marquis of Carabas is drowning!\"", "Kralın arabası yaklaşınca kedi bağırmış: \"İmdat! İmdat! Karabas Markisi boğuluyor!\""],
+      ["The king stopped and sent his guards to pull the young man out of the water.", "Kral arabayı durdurmuş ve genç adamı sudan çıkarmaları için muhafızlarını göndermiş."],
+      ["\"Thieves have stolen my master's clothes,\" said the cat.", "\"Hırsızlar efendimin giysilerini çaldı,\" demiş kedi."],
+      ["The king ordered his servants to bring the finest clothes from the palace.", "Kral uşaklarına saraydan en güzel giysileri getirmelerini emretmiş."],
+      ["In these clothes, the young man looked very handsome, and the princess fell in love with him.", "Bu giysilerin içinde genç adam çok yakışıklı görünmüş ve prenses ona âşık olmuş."],
+      ["The king invited him to ride in the carriage with them.", "Kral onu da arabaya, yanlarına davet etmiş."]
+    ]},
+    {"t": "The Ogre's Castle", "s": [
+      ["The cat ran ahead of the carriage.", "Kedi arabanın önünden koşmuş."],
+      ["He met some farmers cutting grass in a field.", "Tarlada ot biçen köylülere rastlamış."],
+      ["\"When the king asks whose fields these are, say they belong to the Marquis of Carabas, or you will be in trouble!\"", "\"Kral bu tarlaların kime ait olduğunu sorarsa Karabas Markisi'nin deyin, yoksa başınız belaya girer!\""],
+      ["The king asked, and the frightened farmers gave the answer the cat wanted.", "Kral sormuş, korkan köylüler de kedinin istediği cevabı vermiş."],
+      ["In fact, all the land belonged to a rich and terrible ogre.", "Aslında bütün o topraklar zengin ve korkunç bir deve aitmiş."],
+      ["The cat arrived at the ogre's castle and asked to see him.", "Kedi devin şatosuna varmış ve onunla görüşmek istemiş."],
+      ["\"I have heard that you can change into any animal,\" said the cat politely.", "\"Duydum ki istediğiniz hayvana dönüşebiliyormuşsunuz,\" demiş kedi kibarca."],
+      ["\"That is true,\" said the ogre, and he turned into a huge lion.", "\"Doğru,\" demiş dev ve koca bir aslana dönüşmüş."],
+      ["The cat was so frightened that he jumped onto the roof.", "Kedi öyle korkmuş ki çatıya sıçramış."],
+      ["When the ogre changed back, the cat came down.", "Dev eski hâline dönünce kedi aşağı inmiş."],
+      ["\"Very impressive,\" he said. \"But I am sure you cannot change into something very small, like a mouse.\"", "\"Çok etkileyici,\" demiş. \"Ama eminim fare gibi minicik bir şeye dönüşemezsiniz.\""],
+      ["\"Impossible?\" laughed the ogre. \"Watch this!\"", "\"İmkânsız mı?\" diye gülmüş dev. \"İzle bakalım!\""],
+      ["He turned into a little mouse and ran across the floor.", "Küçücük bir fareye dönüşüp yerde koşturmaya başlamış."],
+      ["In a moment, the cat jumped on the mouse and ate it.", "Kedi bir anda farenin üstüne atlamış ve onu yemiş."],
+      ["When the king's carriage arrived, the cat was waiting at the gate.", "Kralın arabası geldiğinde kedi şatonun kapısında bekliyormuş."],
+      ["\"Welcome, Your Majesty, to the castle of the Marquis of Carabas!\"", "\"Karabas Markisi'nin şatosuna hoş geldiniz, Majesteleri!\""],
+      ["The king was so impressed that he gave his daughter to the young man in marriage.", "Kral öyle etkilenmiş ki kızını genç adamla evlendirmiş."],
+      ["The cat became a great lord and never had to chase mice again, except for fun.", "Kedi de büyük bir soylu olmuş ve bir daha eğlence dışında fare kovalaması gerekmemiş."]
+    ]}
+  ]
+}

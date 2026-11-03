@@ -35,13 +35,13 @@ Uygulamadaki her cevap kendi içindeki veriden gelir. Bir kelime aradığınızd
   </tr>
   <tr>
     <td align="center"><img src="docs/screenshots/4-konu.png" width="250" alt="Konu anlatımı"><br><sub><b>Konu anlatımı</b>: yapı, kullanım, 10+ örnek</sub></td>
-    <td align="center"><img src="docs/screenshots/5-kutuphane.png" width="250" alt="Kütüphane"><br><sub><b>Kütüphane</b>: A1'den C1'e 19 eser</sub></td>
+    <td align="center"><img src="docs/screenshots/5-kutuphane.png" width="250" alt="Kütüphane"><br><sub><b>Kütüphane</b>: A1'den C1'e 40 eser</sub></td>
     <td align="center"><img src="docs/screenshots/6-okuyucu-kelime-karti.png" width="250" alt="Okuyucu ve kelime kartı"><br><sub><b>Okuyucu</b>: kelimeye dokun, anlamı yanında açılsın</sub></td>
   </tr>
   <tr>
     <td align="center"><img src="docs/screenshots/7-koyu-tema-okuyucu.png" width="250" alt="Koyu tema okuyucu"><br><sub><b>Koyu tema</b>: okuyucu</sub></td>
     <td align="center"><img src="docs/screenshots/8-koyu-tema-ana-sayfa.png" width="250" alt="Koyu tema ana sayfa"><br><sub><b>Koyu tema</b>: ana sayfa</sub></td>
-    <td></td>
+    <td align="center"><img src="docs/screenshots/9-sozluk.png" width="250" alt="Sözlük"><br><sub><b>Sözlük</b>: harf, seviye ve türe göre göz at</sub></td>
   </tr>
 </table>
 
@@ -74,7 +74,12 @@ Uygulamadaki her cevap kendi içindeki veriden gelir. Bir kelime aradığınızd
 - **Kullanım biçimi:** kelimenin en sık birlikte kullanıldığı edatlar (*interested in*) ve cümle kalıpları (*Somebody gives up something*)
 - Çekimli biçimden köke ulaşma: *went* → go, *studies* → study, *children* → child
 - Tahmini seviye (A1–C2), YDS'de sık geçen kelime etiketi, sesli telaffuz
-- Kelimenin kendi örnek cümlelerinden üretilen 5 şıklı YDS tarzı sorular
+- Her gün değişen 5 şıklı YDS tarzı sorular, beş türde: boşluk doldurma (ekranda gösterilmeyen cümlelerden), Türkçe anlam, Türkçeden İngilizceye, eş/zıt anlam ve çeviri
+
+**Sözlük**
+- 40 binden fazla kelimeye harf, seviye (A1–C2), kelime türü ve YDS listesine göre göz atma
+- Sonek araması (*-tion*, *-ment*), Türkçe anlam içinde arama, sıklığa ya da alfabeye göre sıralama
+- Sonra öğren, favoriler ve öğrenilenler listelerini sözlük içinde süzme; kelimeye dokununca öğrenme ekranı açılır
 
 **Konu anlatımı**
 - 6 kategoride 26 konu: Zamanlar, Modallar, Cümle Yapıları, Bağlaçlar, Edatlar, Kelime Bilgisi
@@ -82,7 +87,7 @@ Uygulamadaki her cevap kendi içindeki veriden gelir. Bir kelime aradığınızd
 - "YDS/YÖKDİL'de bu konu nasıl çıkar?" açıklaması ve açıklamalı alıştırma soruları
 
 **Kütüphane**
-- A1'den C1'e 19 eser, 1.131 cümle: Ezop, Grimm, Andersen, Oscar Wilde, O. Henry, Maupassant, Poe ve diğerleri
+- A1'den C1'e 40 eser, 2.259 cümle: Ezop, Grimm, Andersen, Perrault, Binbir Gece, Oscar Wilde, O. Henry, Saki, Maupassant, Poe, Conan Doyle; Oz Büyücüsü, Define Adası, Dr. Jekyll ve Mr. Hyde gibi romanlardan bölümler
 - Her cümlenin altında hikâye diliyle yazılmış Türkçe karşılığı; açık, dokununca göster ya da kapalı
 - Kelimeye dokununca yanında açılan sözlük kartı ve "sonra öğren" listesine ekleme
 - Bölümü sesli okuma: okunan cümle vurgulanır, sayfa kendiliğinden kayar

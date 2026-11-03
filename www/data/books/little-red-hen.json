@@ -1,0 +1,59 @@
+{
+  "id": "little-red-hen", "title": "The Little Red Hen", "trTitle": "Küçük Kızıl Tavuk", "author": "English folk tale", "level": "A1", "cat": "masal",
+  "desc": "Buğdayı tek başına eken, biçen ve ekmeği pişiren çalışkan bir tavuk.",
+  "note": "Basitleştirilmiş uyarlama",
+  "source": "Halk masalından (kamu malı) Lugat için A1 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Grains of Wheat", "s": [
+      ["Once upon a time, there was a little red hen.", "Bir zamanlar küçük, kızıl tüylü bir tavuk varmış."],
+      ["She lived on a farm with a dog, a cat and a duck.", "Bir çiftlikte bir köpek, bir kedi ve bir ördekle birlikte yaşarmış."],
+      ["The dog liked to sleep in the sun.", "Köpek güneşte uyumayı severmiş."],
+      ["The cat liked to sit and wash her face.", "Kedi oturup yüzünü yalamayı severmiş."],
+      ["The duck liked to swim in the pond all day.", "Ördek de bütün gün gölette yüzmeyi severmiş."],
+      ["But the little red hen liked to work.", "Ama küçük kızıl tavuk çalışmayı severmiş."],
+      ["One day she found some grains of wheat in the yard.", "Bir gün avluda birkaç buğday tanesi bulmuş."],
+      ["\"Who will help me plant this wheat?\" she asked.", "\"Bu buğdayı ekmeme kim yardım eder?\" diye sormuş."],
+      ["\"Not I,\" said the dog.", "\"Ben etmem,\" demiş köpek."],
+      ["\"Not I,\" said the cat.", "\"Ben de etmem,\" demiş kedi."],
+      ["\"Not I,\" said the duck.", "\"Ben hiç etmem,\" demiş ördek."],
+      ["\"Then I will do it myself,\" said the little red hen.", "\"O zaman kendim yaparım,\" demiş küçük kızıl tavuk."],
+      ["And she did.", "Ve öyle de yapmış."],
+      ["She planted the grains in the soft brown earth.", "Taneleri yumuşacık kahverengi toprağa ekmiş."]
+    ]},
+    {"t": "Summer Work", "s": [
+      ["The sun shone and the rain fell, and the wheat grew tall and yellow.", "Güneş parlamış, yağmur yağmış; buğday boy atıp sapsarı olmuş."],
+      ["\"Who will help me cut this wheat?\" asked the little red hen.", "\"Bu buğdayı biçmeme kim yardım eder?\" diye sormuş küçük kızıl tavuk."],
+      ["\"Not I,\" said the dog, and he closed his eyes.", "\"Ben etmem,\" demiş köpek ve gözlerini kapamış."],
+      ["\"Not I,\" said the cat, and she licked her paw.", "\"Ben de etmem,\" demiş kedi ve patisini yalamış."],
+      ["\"Not I,\" said the duck, and she jumped into the pond.", "\"Ben hiç etmem,\" demiş ördek ve gölete atlamış."],
+      ["\"Then I will do it myself,\" said the little red hen.", "\"O zaman kendim yaparım,\" demiş küçük kızıl tavuk."],
+      ["She cut the wheat all by herself. It took her all day.", "Buğdayın hepsini tek başına biçmiş. Bütün günü almış."],
+      ["\"Who will help me take this wheat to the mill?\" she asked.", "\"Bu buğdayı değirmene götürmeme kim yardım eder?\" diye sormuş."],
+      ["\"Not I,\" said the dog, the cat and the duck.", "\"Biz etmeyiz,\" demişler köpek, kedi ve ördek."],
+      ["So the little red hen carried the heavy wheat to the mill.", "Küçük kızıl tavuk da o ağır buğdayı değirmene kendisi taşımış."],
+      ["The miller turned the wheat into soft white flour.", "Değirmenci buğdayı yumuşacık, bembeyaz una çevirmiş."],
+      ["She carried the flour home on her back.", "Tavuk unu sırtında eve getirmiş."],
+      ["She was very tired, but she was happy.", "Çok yorgunmuş ama mutluymuş."]
+    ]},
+    {"t": "The Bread", "s": [
+      ["\"Who will help me make bread with this flour?\" asked the little red hen.", "\"Bu unla ekmek yapmama kim yardım eder?\" diye sormuş küçük kızıl tavuk."],
+      ["\"Not I,\" said the dog.", "\"Ben etmem,\" demiş köpek."],
+      ["\"Not I,\" said the cat.", "\"Ben de etmem,\" demiş kedi."],
+      ["\"Not I,\" said the duck.", "\"Ben hiç etmem,\" demiş ördek."],
+      ["\"Then I will make it myself,\" said the little red hen.", "\"O zaman kendim yaparım,\" demiş küçük kızıl tavuk."],
+      ["She mixed the flour with water and a little salt.", "Unu suyla ve bir tutam tuzla karıştırmış."],
+      ["She put the bread in the oven.", "Hamuru fırına koymuş."],
+      ["Soon the whole farm smelled of warm, fresh bread.", "Az sonra bütün çiftliği sıcacık, taze ekmek kokusu sarmış."],
+      ["The dog opened his eyes. The cat stopped washing. The duck came out of the pond.", "Köpek gözlerini açmış. Kedi yüzünü yalamayı bırakmış. Ördek gölden çıkmış."],
+      ["\"Who will help me eat this bread?\" asked the little red hen.", "\"Bu ekmeği yememe kim yardım eder?\" diye sormuş küçük kızıl tavuk."],
+      ["\"I will!\" said the dog.", "\"Ben ederim!\" demiş köpek."],
+      ["\"I will!\" said the cat.", "\"Ben de ederim!\" demiş kedi."],
+      ["\"I will!\" said the duck.", "\"Ben de, ben de!\" demiş ördek."],
+      ["\"No,\" said the little red hen.", "\"Hayır,\" demiş küçük kızıl tavuk."],
+      ["\"You did not help me plant the wheat, cut it, take it to the mill or make the bread.\"", "\"Buğdayı ekerken de, biçerken de, değirmene götürürken de, ekmeği yaparken de bana yardım etmediniz.\""],
+      ["\"So I will eat it myself, with my little chicks.\"", "\"O yüzden onu civcivlerimle birlikte kendim yiyeceğim.\""],
+      ["And she did. The bread was delicious.", "Ve öyle de yapmış. Ekmek nefis olmuş."],
+      ["Moral: Those who do not help with the work should not expect to share the reward.", "Kıssadan hisse: Emeğe ortak olmayan, ekmeğe de ortak olamaz."]
+    ]}
+  ]
+}

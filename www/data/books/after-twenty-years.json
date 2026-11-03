@@ -1,0 +1,63 @@
+{
+  "id": "after-twenty-years", "title": "After Twenty Years", "trTitle": "Yirmi Yıl Sonra", "author": "O. Henry", "level": "B2", "cat": "hikaye",
+  "desc": "Yirmi yıl sonra aynı köşede buluşmaya söz veren iki eski dost.",
+  "note": "Uyarlama",
+  "source": "O. Henry'nin 1906 tarihli öyküsünden (kamu malı) Lugat için B2 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Doorway", "s": [
+      ["The policeman on the beat moved up the avenue impressively.", "Devriye gezen polis caddede heybetli adımlarla ilerliyordu."],
+      ["It was barely ten o'clock at night, but cold winds and a touch of rain had almost emptied the streets.", "Saat daha gece onu ancak bulmuştu ama soğuk rüzgârlar ve çiseleyen yağmur sokakları neredeyse boşaltmıştı."],
+      ["Trying doors as he went, twirling his club, he made a fine picture of a guardian of the peace.", "Geçerken kapıları yokluyor, copunu çeviriyordu; tam bir asayiş bekçisi görüntüsü veriyordu."],
+      ["Midway down a certain block, the policeman suddenly slowed his walk.", "Belli bir sokağın ortasına geldiğinde polis birden yavaşladı."],
+      ["In the doorway of a dark hardware store, a man leaned with an unlighted cigar in his mouth.", "Karanlık bir hırdavatçı dükkânının kapı aralığında, ağzında yanmamış bir purayla bir adam duvara yaslanmıştı."],
+      ["As the policeman walked up to him, the man spoke quickly.", "Polis ona doğru yürüyünce adam hemen konuştu."],
+      ["\"It's all right, officer. I'm just waiting for a friend.\"", "\"Bir sorun yok memur bey. Sadece bir arkadaşımı bekliyorum.\""],
+      ["\"It's an appointment made twenty years ago.\"", "\"Yirmi yıl önce verilmiş bir sözün buluşması bu.\""],
+      ["\"Sounds a little funny to you, doesn't it? Well, I'll explain.\"", "\"Size biraz tuhaf geliyor, değil mi? Peki, açıklayayım.\""],
+      ["\"About that long ago, there used to be a restaurant where this store stands, Big Joe Brady's restaurant.\"", "\"Aşağı yukarı o kadar zaman önce, bu dükkânın olduğu yerde bir lokanta vardı; Koca Joe Brady'nin lokantası.\""],
+      ["\"Until five years ago,\" said the policeman. \"It was torn down then.\"", "\"Beş yıl öncesine kadar vardı,\" dedi polis. \"Sonra yıkıldı.\""],
+      ["The man struck a match and lit his cigar.", "Adam bir kibrit çakıp purosunu yaktı."],
+      ["The light showed a pale, square-jawed face with keen eyes and a little white scar near his right eyebrow.", "Işıkta keskin bakışlı, köşeli çeneli, solgun bir yüz ve sağ kaşının yanında küçük, beyaz bir yara izi göründü."],
+      ["His scarf pin was a large diamond, oddly set.", "Kravat iğnesi tuhaf biçimde yerleştirilmiş iri bir pırlantaydı."]
+    ]},
+    {"t": "Jimmy Wells", "s": [
+      ["\"Twenty years ago tonight,\" said the man, \"I dined here at Big Joe Brady's with Jimmy Wells.\"", "\"Bundan tam yirmi yıl önce bu gece,\" dedi adam, \"burada, Koca Joe Brady'nin yerinde Jimmy Wells'le yemek yedim.\""],
+      ["\"He was my best friend and the finest chap in the world.\"", "\"En iyi arkadaşımdı ve dünyanın en iyi adamıydı.\""],
+      ["\"He and I were raised here in New York, just like two brothers.\"", "\"İkimiz burada, New York'ta, iki kardeş gibi büyüdük.\""],
+      ["\"I was eighteen and Jimmy was twenty. The next morning I was to start for the West to make my fortune.\"", "\"Ben on sekiz, Jimmy yirmi yaşındaydı. Ertesi sabah servetimi yapmak için Batı'ya yola çıkacaktım.\""],
+      ["\"You couldn't have dragged Jimmy out of New York; he thought it was the only place on earth.\"", "\"Jimmy'yi New York'tan zorla bile çıkaramazdınız; ona göre dünyada başka yer yoktu.\""],
+      ["\"Well, we agreed that night that we would meet here again exactly twenty years from that date and time.\"", "\"İşte o gece, tam yirmi yıl sonra aynı gün ve saatte burada yeniden buluşmaya söz verdik.\""],
+      ["\"We figured that in twenty years we would know who we were and what fortunes we had made.\"", "\"Yirmi yılda kim olduğumuzu ve nasıl bir servet yaptığımızı bileceğimizi düşündük.\""],
+      ["\"It sounds pretty interesting,\" said the policeman. \"Haven't you heard from your friend since you left?\"", "\"Epey ilginç,\" dedi polis. \"Gittiğinizden beri arkadaşınızdan hiç haber almadınız mı?\""],
+      ["\"Well, yes, for a time we wrote to each other. But after a year or two we lost track of each other.\"", "\"Aldım tabii, bir süre mektuplaştık. Ama bir iki yıl sonra birbirimizin izini kaybettik.\""],
+      ["\"But I know Jimmy will meet me here if he's alive, for he always was the truest, most loyal old fellow in the world.\"", "\"Ama biliyorum, hayattaysa Jimmy burada olacak; o her zaman dünyanın en dürüst, en vefalı adamıydı.\""],
+      ["\"I came a thousand miles to stand in this door tonight, and it's worth it if my old partner turns up.\"", "\"Bu gece bu kapının önünde durmak için bin mil yol geldim; eski dostum gelirse buna değer.\""],
+      ["The waiting man pulled out a handsome watch, set with small diamonds.", "Bekleyen adam küçük pırlantalarla süslü şık bir saat çıkardı."],
+      ["\"Three minutes to ten,\" he announced.", "\"Ona üç var,\" dedi."],
+      ["\"Did pretty well out West, didn't you?\" asked the policeman.", "\"Batı'da epey iyi iş çıkarmışsınız, değil mi?\" diye sordu polis."],
+      ["\"You bet! I hope Jimmy has done half as well.\"", "\"Hem de nasıl! Umarım Jimmy de bunun yarısı kadar başarılı olmuştur.\""],
+      ["\"I'll be on my way,\" said the policeman. \"Hope your friend comes around all right.\"", "\"Ben yoluma devam edeyim,\" dedi polis. \"Umarım arkadaşınız gelir.\""]
+    ]},
+    {"t": "The Note", "s": [
+      ["There was now a fine, cold rain falling, and the wind was blowing steadily.", "Şimdi ince, soğuk bir yağmur yağıyor, rüzgâr durmadan esiyordu."],
+      ["About twenty minutes he waited, and then a tall man in a long overcoat hurried across the street.", "Yaklaşık yirmi dakika bekledi; sonra uzun paltolu, uzun boylu bir adam aceleyle karşıdan karşıya geçti."],
+      ["\"Is that you, Bob?\" he asked, doubtfully.", "\"Sen misin, Bob?\" diye sordu kuşkuyla."],
+      ["\"Is that you, Jimmy Wells?\" cried the man in the door.", "\"Sen misin, Jimmy Wells?\" diye haykırdı kapıdaki adam."],
+      ["The new arrival grasped both the other's hands. \"It's Bob, sure as fate!\"", "Yeni gelen ötekinin iki elini birden kavradı. \"Bu Bob, kader kadar kesin!\""],
+      ["\"Twenty years is a long time. Has the West treated you well, old man?\"", "\"Yirmi yıl uzun zaman. Batı sana iyi davrandı mı, ihtiyar?\""],
+      ["\"It has given me everything I asked it for. You've changed a lot, Jimmy. I never thought you were so tall.\"", "\"Ondan ne istediysem verdi. Çok değişmişsin, Jimmy. Bu kadar uzun olduğunu hiç düşünmemiştim.\""],
+      ["\"Oh, I grew a bit after I was twenty.\"", "\"Yirmimden sonra biraz uzadım.\""],
+      ["Arm in arm, they walked up the street to a bright drugstore.", "Kol kola sokakta yürüyüp ışıl ışıl bir eczaneye doğru gittiler."],
+      ["When they came into the glare of the light, each of them turned to look at the other's face.", "Işığın parıltısına girince her biri ötekinin yüzüne bakmak için döndü."],
+      ["The man from the West stopped suddenly and released his arm.", "Batı'dan gelen adam birden durdu ve kolunu çekti."],
+      ["\"You're not Jimmy Wells,\" he snapped. \"Twenty years is a long time, but not long enough to change a man's nose from a Roman to a pug.\"", "\"Sen Jimmy Wells değilsin,\" diye çıkıştı. \"Yirmi yıl uzun zaman ama bir adamın kemerli burnunu kalkık burna çevirecek kadar uzun değil.\""],
+      ["\"It sometimes changes a good man into a bad one,\" said the tall man.", "\"Bazen iyi bir adamı kötü bir adama çevirir ama,\" dedi uzun boylu adam."],
+      ["\"You've been under arrest for ten minutes, 'Silky' Bob. Chicago thinks you may have dropped over our way.\"", "\"On dakikadır tutuklusun, 'İpeksi' Bob. Chicago polisi bizim tarafa uğramış olabileceğini düşünüyordu.\""],
+      ["\"Before we go to the station, here's a note I was asked to hand you. It's from Patrolman Wells.\"", "\"Karakola gitmeden önce sana vermem istenen bir not var. Devriye Polisi Wells'ten.\""],
+      ["The man from the West unfolded the little piece of paper. His hand trembled a little by the time he had finished.", "Batı'dan gelen adam küçük kâğıdı açtı. Okumayı bitirdiğinde eli hafifçe titriyordu."],
+      ["\"Bob: I was at the appointed place on time.\"", "\"Bob, sözleştiğimiz yerde tam vaktinde oradaydım.\""],
+      ["\"When you struck the match to light your cigar, I saw it was the face of the man wanted in Chicago.\"", "\"Puronu yakmak için kibrit çaktığında, Chicago'da aranan adamın yüzünü gördüm.\""],
+      ["\"Somehow I couldn't do it myself, so I went around and got a plainclothes man to do the job. Jimmy.\"", "\"Bunu kendi elimle yapamadım; gidip sivil bir polisin işi üstlenmesini sağladım. Jimmy.\""]
+    ]}
+  ]
+}

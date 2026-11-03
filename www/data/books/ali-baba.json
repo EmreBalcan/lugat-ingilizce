@@ -1,0 +1,71 @@
+{
+  "id": "ali-baba", "title": "Ali Baba and the Forty Thieves", "trTitle": "Ali Baba ve Kırk Haramiler", "author": "One Thousand and One Nights", "level": "B1", "cat": "masal",
+  "desc": "\"Açıl susam açıl!\" diyen bir oduncu, hazine dolu bir mağara ve akıllı hizmetçi Mercan.",
+  "note": "Uyarlama",
+  "source": "Binbir Gece Masalları'ndan (kamu malı, Galland çevirisi 1710) Lugat için B1 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "Open, Sesame!", "s": [
+      ["In a town in Persia, there lived two brothers named Kassim and Ali Baba.", "İran'ın bir kasabasında Kasım ve Ali Baba adında iki kardeş yaşarmış."],
+      ["Kassim married a rich woman and lived in comfort.", "Kasım zengin bir kadınla evlenmiş ve rahat bir hayat sürüyormuş."],
+      ["Ali Baba was poor and earned his living by cutting wood in the forest.", "Ali Baba ise yoksulmuş ve geçimini ormanda odun keserek sağlıyormuş."],
+      ["One day, while he was working, he saw a large group of horsemen riding towards him.", "Bir gün çalışırken kendisine doğru gelen kalabalık bir atlı grubu görmüş."],
+      ["Afraid they were robbers, he climbed a tree and hid among the leaves.", "Haydut olmalarından korkup bir ağaca tırmanmış ve yaprakların arasına saklanmış."],
+      ["He counted them: there were forty, each with a heavy bag.", "Onları saymış: kırk kişiymişler ve her birinin ağır bir torbası varmış."],
+      ["Their captain stopped in front of a big rock and cried, \"Open, Sesame!\"", "Reisleri büyük bir kayanın önünde durup \"Açıl susam açıl!\" diye bağırmış."],
+      ["At once a door opened in the rock, and the thieves went inside.", "Kayada hemen bir kapı açılmış ve haramiler içeri girmiş."],
+      ["After some time they came out, and the captain said, \"Close, Sesame!\"", "Bir süre sonra dışarı çıkmışlar ve reis \"Kapan susam kapan!\" demiş."],
+      ["The door closed, and the thieves rode away.", "Kapı kapanmış ve haramiler atlarını sürüp gitmiş."],
+      ["Ali Baba climbed down and stood in front of the rock.", "Ali Baba ağaçtan inip kayanın önünde durmuş."],
+      ["\"Open, Sesame!\" he said, and the door opened for him too.", "\"Açıl susam açıl!\" demiş ve kapı onun için de açılmış."],
+      ["Inside, he found a great cave full of gold, silver, silk and precious stones.", "İçeride altın, gümüş, ipek ve değerli taşlarla dolu büyük bir mağara bulmuş."],
+      ["He filled some bags with gold coins, loaded them onto his donkeys and went home.", "Birkaç torbayı altınla doldurmuş, eşeklerine yükleyip evine dönmüş."]
+    ]},
+    {"t": "Kassim's Greed", "s": [
+      ["Ali Baba's wife wanted to know how much gold they had.", "Ali Baba'nın karısı ne kadar altınları olduğunu öğrenmek istemiş."],
+      ["She borrowed a measure from Kassim's wife to measure it.", "Ölçmek için Kasım'ın karısından bir kile ödünç almış."],
+      ["Kassim's wife was curious, so she put a little wax on the bottom of the measure.", "Kasım'ın karısı meraklıymış; kilenin dibine biraz balmumu sürmüş."],
+      ["When the measure came back, a gold coin was stuck to the wax.", "Kile geri geldiğinde balmumuna bir altın sikke yapışmış."],
+      ["Kassim went to his brother and demanded to know his secret.", "Kasım kardeşine gidip sırrını söylemesini istemiş."],
+      ["Ali Baba was a kind man, so he told him everything.", "Ali Baba iyi kalpli bir adammış, ona her şeyi anlatmış."],
+      ["The next morning, Kassim took ten mules to the cave.", "Ertesi sabah Kasım on katırla mağaraya gitmiş."],
+      ["\"Open, Sesame!\" he cried, and he went in.", "\"Açıl susam açıl!\" diye bağırıp içeri girmiş."],
+      ["He was so excited by the treasure that he forgot the magic words.", "Hazineyi görünce öyle heyecanlanmış ki sihirli sözleri unutmuş."],
+      ["\"Open, Barley!\" he shouted. \"Open, Wheat!\" But the door stayed closed.", "\"Açıl arpa açıl!\" diye bağırmış. \"Açıl buğday açıl!\" Ama kapı kapalı kalmış."],
+      ["When the thieves came back, they found him and killed him.", "Haramiler geri döndüklerinde onu bulup öldürmüşler."],
+      ["Ali Baba found his brother's body and brought it home secretly.", "Ali Baba kardeşinin cesedini bulmuş ve gizlice eve getirmiş."],
+      ["Kassim's clever slave girl, Morgiana, helped to make everyone believe he had died of an illness.", "Kasım'ın akıllı cariyesi Mercan, herkesin onun bir hastalıktan öldüğüne inanmasını sağlamış."]
+    ]},
+    {"t": "The Captain's Plan", "s": [
+      ["When the thieves saw that the body had gone, they knew someone else knew their secret.", "Haramiler cesedin ortadan kaybolduğunu görünce sırlarını başka birinin de bildiğini anlamışlar."],
+      ["One of them went into the town and found the house of Ali Baba.", "İçlerinden biri kasabaya inip Ali Baba'nın evini bulmuş."],
+      ["He marked the door with a piece of white chalk.", "Kapıyı beyaz bir tebeşirle işaretlemiş."],
+      ["But Morgiana saw the mark and put the same mark on all the doors in the street.", "Ama Mercan işareti görmüş ve sokaktaki bütün kapılara aynı işareti koymuş."],
+      ["The thieves could not find the right house, and the captain was furious.", "Haramiler doğru evi bulamamış ve reis öfkeden kudurmuş."],
+      ["This time the captain went himself and studied the house carefully.", "Bu kez reis kendisi gitmiş ve evi dikkatle incelemiş."],
+      ["He bought forty large oil jars and hid a thief in each of thirty-nine of them.", "Kırk büyük yağ küpü satın almış ve otuz dokuzunun her birine bir harami saklamış."],
+      ["The last jar was full of real oil.", "Sonuncu küp gerçekten yağla doluymuş."],
+      ["Disguised as an oil merchant, he asked Ali Baba if he could stay the night.", "Yağ tüccarı kılığına girip Ali Baba'dan geceyi evinde geçirmek için izin istemiş."],
+      ["Ali Baba, who was always hospitable, welcomed him.", "Konuksever Ali Baba da onu buyur etmiş."],
+      ["The jars were left in the courtyard.", "Küpler avluya bırakılmış."]
+    ]},
+    {"t": "Morgiana", "s": [
+      ["Late that night, Morgiana's lamp ran out of oil.", "O gece geç saatte Mercan'ın lambasının yağı bitmiş."],
+      ["She went to the courtyard to take a little oil from the merchant's jars.", "Tüccarın küplerinden biraz yağ almak için avluya inmiş."],
+      ["As she came near the first jar, a voice whispered, \"Is it time?\"", "İlk küpe yaklaştığında içinden bir ses fısıldamış: \"Vakit geldi mi?\""],
+      ["Morgiana understood everything at once.", "Mercan her şeyi bir anda anlamış."],
+      ["\"Not yet, but soon,\" she whispered back.", "\"Henüz değil, ama yakında,\" diye fısıldamış."],
+      ["She found the jar of real oil and heated it in a great pot until it was boiling.", "Gerçek yağın olduğu küpü bulmuş ve büyük bir kazanda kaynayana kadar ısıtmış."],
+      ["Then she poured a little boiling oil into each jar, and the thieves were silenced forever.", "Sonra her küpe biraz kaynar yağ dökmüş ve haramiler sonsuza dek susmuş."],
+      ["When the captain came down to give the signal, no one answered.", "Reis işaret vermek için aşağı indiğinde kimse cevap vermemiş."],
+      ["Discovering what had happened, he escaped over the wall.", "Ne olduğunu anlayınca duvardan atlayıp kaçmış."],
+      ["Some time later, he came back again, disguised as a merchant called Cogia Hassan.", "Bir süre sonra Hoca Hasan adında bir tüccar kılığında yeniden gelmiş."],
+      ["He made friends with Ali Baba's son and was invited to dinner.", "Ali Baba'nın oğluyla dostluk kurmuş ve akşam yemeğine davet edilmiş."],
+      ["Morgiana noticed a dagger hidden under his clothes.", "Mercan onun giysilerinin altında saklı bir hançer fark etmiş."],
+      ["She dressed as a dancer and danced for the guests with a dagger in her hand.", "Dansçı kılığına girmiş ve elinde bir hançerle konuklar için dans etmiş."],
+      ["When she came close to the false merchant, she struck him, and he fell dead.", "Sahte tüccara yaklaştığında hançeri saplamış ve adam ölüp yere yığılmış."],
+      ["\"What have you done?\" cried Ali Baba. \"Look closely,\" said Morgiana. \"This is the captain of the forty thieves.\"", "\"Ne yaptın?\" diye bağırmış Ali Baba. \"İyi bakın,\" demiş Mercan. \"Bu, kırk haraminin reisi.\""],
+      ["Ali Baba gave Morgiana her freedom, and she married his son.", "Ali Baba Mercan'ı azat etmiş ve Mercan onun oğluyla evlenmiş."],
+      ["For the rest of his life, Ali Baba shared the treasure of the cave wisely with his family.", "Ali Baba ömrünün sonuna kadar mağaranın hazinesini ailesiyle akıllıca paylaşmış."]
+    ]}
+  ]
+}

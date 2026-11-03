@@ -1,0 +1,57 @@
+{
+  "id": "sleeping-beauty", "title": "Sleeping Beauty", "trTitle": "Uyuyan Güzel", "author": "Charles Perrault", "level": "A2", "cat": "masal",
+  "desc": "Bir perinin lanetiyle yüz yıl uykuya dalan bir prenses ve dikenli bir orman.",
+  "note": "Basitleştirilmiş uyarlama",
+  "source": "Charles Perrault'nun 1697 tarihli masalından (kamu malı) Lugat için A2 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Fairies' Gifts", "s": [
+      ["Once upon a time, a king and queen were very sad because they had no children.", "Evvel zaman içinde, çocukları olmadığı için çok üzgün olan bir kral ile kraliçe varmış."],
+      ["At last the queen had a baby girl, and the whole kingdom was happy.", "Sonunda kraliçenin bir kızı olmuş ve bütün krallık sevince boğulmuş."],
+      ["The king gave a great party and invited seven fairies.", "Kral büyük bir şölen vermiş ve yedi periyi davet etmiş."],
+      ["Each fairy would give the baby a magic gift.", "Her peri bebeğe sihirli bir armağan verecekmiş."],
+      ["But there was an eighth fairy, an old one, whom everyone had forgotten.", "Ama herkesin unuttuğu sekizinci, yaşlı bir peri daha varmış."],
+      ["She came to the party anyway, and she was very angry.", "O da davetsiz gelmiş ve çok öfkeliymiş."],
+      ["The fairies gave their gifts one by one: beauty, kindness, grace and a lovely voice.", "Periler armağanlarını birer birer vermiş: güzellik, iyilik, zarafet ve tatlı bir ses."],
+      ["Then the old fairy stood up.", "Sonra yaşlı peri ayağa kalkmış."],
+      ["\"When the princess is sixteen, she will prick her finger on a spindle and die!\"", "\"Prenses on altı yaşına girince bir iğ batacak parmağına ve ölecek!\""],
+      ["Everyone began to cry.", "Herkes ağlamaya başlamış."],
+      ["But the youngest fairy had not yet given her gift.", "Ama en genç peri henüz armağanını vermemiş."],
+      ["\"I cannot undo the curse completely,\" she said, \"but the princess will not die.\"", "\"Laneti tamamen kaldıramam,\" demiş, \"ama prenses ölmeyecek.\""],
+      ["\"She will fall into a deep sleep for a hundred years, and a king's son will wake her.\"", "\"Yüz yıl sürecek derin bir uykuya dalacak ve onu bir kral oğlu uyandıracak.\""],
+      ["The king ordered that every spindle in the kingdom should be burned.", "Kral ülkedeki bütün iğlerin yakılmasını emretmiş."]
+    ]},
+    {"t": "The Spindle", "s": [
+      ["The princess grew up beautiful, kind and clever, just as the fairies had promised.", "Prenses, perilerin söz verdiği gibi güzel, iyi kalpli ve akıllı bir genç kız olarak büyümüş."],
+      ["On her sixteenth birthday, she was exploring the castle alone.", "On altıncı doğum gününde şatoyu tek başına geziyormuş."],
+      ["She climbed a narrow staircase to the top of an old tower.", "Eski bir kulenin tepesine çıkan dar bir merdivenden yukarı tırmanmış."],
+      ["There, in a little room, an old woman was spinning.", "Orada, küçük bir odada yaşlı bir kadın yün eğiriyormuş."],
+      ["She had never heard of the king's order.", "Kralın emrinden hiç haberi olmamış."],
+      ["\"What are you doing?\" asked the princess. \"May I try?\"", "\"Ne yapıyorsunuz?\" diye sormuş prenses. \"Ben de deneyebilir miyim?\""],
+      ["She took the spindle, and at once it pricked her finger.", "İği eline alır almaz iğ parmağına batmış."],
+      ["The princess fell onto the floor in a deep sleep.", "Prenses derin bir uykuya dalarak yere yığılmış."],
+      ["The king and queen laid her on a bed of gold and silver in the finest room of the castle.", "Kral ile kraliçe onu şatonun en güzel odasında altın ve gümüş işlemeli bir yatağa yatırmışlar."],
+      ["She looked like an angel. Her cheeks were still pink, and she breathed softly.", "Bir melek gibi görünüyormuş. Yanakları hâlâ pembeymiş ve usul usul nefes alıyormuş."],
+      ["The good fairy came quickly and touched everyone in the castle with her wand.", "İyi peri hemen gelmiş ve değneğiyle şatodaki herkese dokunmuş."],
+      ["The servants, the cooks, the guards and even the horses and dogs fell asleep.", "Uşaklar, aşçılar, muhafızlar, hatta atlar ve köpekler bile uykuya dalmış."],
+      ["\"Now they will all wake up together with the princess,\" said the fairy.", "\"Böylece hepsi prensesle birlikte uyanacak,\" demiş peri."],
+      ["Around the castle, a forest of trees and thorns grew so thick that no one could get through.", "Şatonun çevresinde öyle sık bir ağaç ve diken ormanı bitmiş ki kimse içinden geçemez olmuş."]
+    ]},
+    {"t": "A Hundred Years Later", "s": [
+      ["A hundred years passed.", "Aradan yüz yıl geçmiş."],
+      ["One day a young prince was hunting near the forest.", "Bir gün genç bir prens ormanın yakınında avlanıyormuş."],
+      ["\"What are those towers behind the trees?\" he asked.", "\"Ağaçların ardındaki şu kuleler nedir?\" diye sormuş."],
+      ["An old man told him the story of the sleeping princess.", "Yaşlı bir adam ona uyuyan prensesin hikâyesini anlatmış."],
+      ["The prince decided at once to find her.", "Prens onu bulmaya hemen karar vermiş."],
+      ["As he walked towards the forest, the trees and thorns moved apart to let him pass.", "Ormana doğru yürüdükçe ağaçlar ve dikenler ona yol vermek için iki yana açılmış."],
+      ["He entered the castle. Everyone was sleeping exactly where they had been a hundred years before.", "Şatoya girmiş. Herkes yüz yıl önce nerede kaldıysa orada uyuyormuş."],
+      ["He climbed the stairs and found the beautiful princess in the golden room.", "Merdivenleri çıkmış ve altın odada güzel prensesi bulmuş."],
+      ["He knelt down beside her bed.", "Yatağının yanına diz çökmüş."],
+      ["At that moment, the time of the curse was over, and the princess woke up.", "Tam o anda lanetin süresi dolmuş ve prenses uyanmış."],
+      ["\"Is it you, my prince?\" she said. \"I have waited for you for a long time.\"", "\"Sen misin, prensim?\" demiş. \"Seni çok uzun zamandır bekliyordum.\""],
+      ["All over the castle, everyone woke up and went back to work.", "Şatonun her yanında herkes uyanmış ve işinin başına dönmüş."],
+      ["The cooks finished cooking the dinner they had started a hundred years before.", "Aşçılar yüz yıl önce pişirmeye başladıkları yemeği tamamlamış."],
+      ["The prince and princess were married in the castle chapel that very evening.", "Prensle prenses o akşam şatonun küçük kilisesinde evlenmiş."],
+      ["And they lived happily ever after.", "Ve sonsuza dek mutlu yaşamışlar."]
+    ]}
+  ]
+}

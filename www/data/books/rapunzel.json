@@ -1,0 +1,71 @@
+{
+  "id": "rapunzel", "title": "Rapunzel", "trTitle": "Rapunzel", "author": "Brothers Grimm", "level": "A2", "cat": "masal",
+  "desc": "Kapısız bir kuleye kapatılan, upuzun saçlı bir kız.",
+  "note": "Basitleştirilmiş uyarlama",
+  "source": "Grimm Kardeşler'in 1812 tarihli masalından (kamu malı) Lugat için A2 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Witch's Garden", "s": [
+      ["Once there lived a man and his wife who wanted a child very much.", "Bir zamanlar çocuk sahibi olmayı çok isteyen bir adamla karısı yaşarmış."],
+      ["At last the wife was going to have a baby.", "Sonunda kadın hamile kalmış."],
+      ["From a small window at the back of their house, they could see a beautiful garden.", "Evlerinin arka tarafındaki küçük bir pencereden muhteşem bir bahçe görünüyormuş."],
+      ["It was full of flowers and vegetables, but a high wall stood around it.", "Bahçe çiçeklerle, sebzelerle doluymuş ama çevresi yüksek bir duvarla çevriliymiş."],
+      ["Nobody dared to go in, because it belonged to a powerful witch.", "Kimse içeri girmeye cesaret edemezmiş, çünkü bahçe güçlü bir cadıya aitmiş."],
+      ["One day the wife saw some fresh green lettuce called rapunzel growing in the garden.", "Bir gün kadın bahçede yetişen, rapunzel denen taze, yemyeşil bir marul görmüş."],
+      ["She wanted it so much that she became pale and ill.", "Onu öyle çok istemiş ki benzi atmış, hastalanmış."],
+      ["\"If I can't eat some of that rapunzel, I will die,\" she said.", "\"O rapunzelden yiyemezsem öleceğim,\" demiş."],
+      ["That night, the husband climbed over the wall and took some for her.", "O gece kocası duvara tırmanmış ve karısı için biraz koparmış."],
+      ["She ate it and wanted even more, so the next night he went again.", "Kadın yemiş ve daha fazlasını istemiş; ertesi gece adam yine gitmiş."],
+      ["But this time the witch was waiting for him.", "Ama bu sefer cadı onu bekliyormuş."],
+      ["\"How dare you steal from my garden!\" she cried.", "\"Bahçemden çalmaya nasıl cüret edersin!\" diye bağırmış."],
+      ["\"Please forgive me. My wife will die without it,\" begged the man.", "\"Ne olur affet beni. Karım onsuz ölecek,\" diye yalvarmış adam."],
+      ["\"You can take as much as you want,\" said the witch, \"but you must give me the child when it is born.\"", "\"İstediğin kadar alabilirsin,\" demiş cadı, \"ama çocuk doğunca onu bana vereceksin.\""],
+      ["The man was so afraid that he agreed.", "Adam öyle korkmuş ki kabul etmiş."]
+    ]},
+    {"t": "The Tower", "s": [
+      ["When the baby girl was born, the witch came and took her away.", "Bebek kız dünyaya gelince cadı gelip onu alıp götürmüş."],
+      ["She named her Rapunzel.", "Ona Rapunzel adını vermiş."],
+      ["Rapunzel grew into the most beautiful child under the sun.", "Rapunzel güneşin altındaki en güzel çocuk olarak büyümüş."],
+      ["When she was twelve, the witch locked her in a tower in the middle of a forest.", "On iki yaşına gelince cadı onu ormanın ortasındaki bir kuleye kapatmış."],
+      ["The tower had no door and no stairs, only one small window at the very top.", "Kulenin ne kapısı ne merdiveni varmış; yalnızca en tepede küçük bir penceresi."],
+      ["Rapunzel had long, beautiful hair, as fine as spun gold.", "Rapunzel'in eğrilmiş altın kadar ince, upuzun, güzel saçları varmış."],
+      ["When the witch wanted to come in, she stood below and called:", "Cadı içeri girmek istediğinde aşağıda durup seslenirmiş:"],
+      ["\"Rapunzel, Rapunzel, let down your hair!\"", "\"Rapunzel, Rapunzel, sal aşağı saçlarını!\""],
+      ["Then Rapunzel let her long braids fall down from the window.", "Rapunzel de uzun örgülerini pencereden aşağı salarmış."],
+      ["The hair fell twenty metres down, and the witch climbed up it.", "Saçlar yirmi metre aşağı inermiş, cadı da onlara tutunarak tırmanırmış."],
+      ["Rapunzel spent her days alone, singing to pass the time.", "Rapunzel günlerini tek başına, vakit geçsin diye şarkı söyleyerek geçirirmiş."],
+      ["Her voice was so sweet that the birds stopped to listen.", "Sesi öyle tatlıymış ki kuşlar bile durup onu dinlermiş."]
+    ]},
+    {"t": "The Prince", "s": [
+      ["A few years later, a prince was riding through the forest.", "Birkaç yıl sonra bir prens atıyla ormandan geçiyormuş."],
+      ["He heard Rapunzel singing and followed the beautiful voice to the tower.", "Rapunzel'in şarkısını duymuş ve o güzel sesin peşinden kuleye kadar gitmiş."],
+      ["He looked for a door, but there was none.", "Bir kapı aramış ama yokmuş."],
+      ["He came back every day to listen to the song.", "Şarkıyı dinlemek için her gün geri gelmiş."],
+      ["One day he saw the witch and heard her call, \"Rapunzel, Rapunzel, let down your hair!\"", "Bir gün cadıyı görmüş ve onun \"Rapunzel, Rapunzel, sal aşağı saçlarını!\" diye seslendiğini duymuş."],
+      ["The next evening, he went to the tower and called the same words.", "Ertesi akşam kuleye gitmiş ve aynı sözlerle seslenmiş."],
+      ["The hair came down, and the prince climbed up.", "Saçlar aşağı inmiş ve prens yukarı tırmanmış."],
+      ["Rapunzel was very frightened, because she had never seen a man before.", "Rapunzel çok korkmuş, çünkü daha önce hiç erkek görmemiş."],
+      ["But the prince spoke to her kindly, and soon she was not afraid.", "Ama prens onunla öyle nazik konuşmuş ki kız çok geçmeden korkusunu unutmuş."],
+      ["\"Will you marry me?\" he asked, and Rapunzel said yes.", "\"Benimle evlenir misin?\" diye sormuş prens; Rapunzel de evet demiş."],
+      ["\"Bring me some silk every time you come,\" she said. \"I will make a ladder and climb down.\"", "\"Her gelişinde bana biraz ipek getir,\" demiş. \"Bir merdiven örüp aşağı ineceğim.\""]
+    ]},
+    {"t": "Tears", "s": [
+      ["But one day Rapunzel made a mistake.", "Ama bir gün Rapunzel bir hata yapmış."],
+      ["\"Why are you so much heavier to pull up than the young prince?\" she asked the witch.", "\"Neden seni yukarı çekmek genç prensi çekmekten çok daha zor?\" diye sormuş cadıya."],
+      ["The witch screamed with anger. \"You wicked child! You have deceived me!\"", "Cadı öfkeyle haykırmış. \"Seni kötü çocuk! Beni kandırdın!\""],
+      ["She took a pair of scissors and cut off Rapunzel's beautiful hair.", "Bir makas kapıp Rapunzel'in güzel saçlarını kesmiş."],
+      ["Then she sent Rapunzel far away to a lonely desert.", "Sonra Rapunzel'i çok uzaklarda ıssız bir çöle sürmüş."],
+      ["That evening, the witch waited in the tower with the cut braids.", "O akşam cadı kesilmiş örgülerle kulede beklemiş."],
+      ["When the prince called, she let the hair down, and he climbed up.", "Prens seslenince saçları aşağı sarkıtmış, prens de yukarı tırmanmış."],
+      ["Instead of Rapunzel, he found the witch with angry, poisonous eyes.", "Rapunzel'in yerine öfke ve zehir saçan gözleriyle cadıyı bulmuş."],
+      ["\"Your bird has gone,\" she laughed. \"You will never see her again!\"", "\"Kuşun uçup gitti,\" diye gülmüş. \"Onu bir daha asla göremeyeceksin!\""],
+      ["In despair, the prince jumped from the tower.", "Prens çaresizlik içinde kuleden atlamış."],
+      ["He fell into some thorns, and they scratched his eyes. He became blind.", "Dikenlerin üstüne düşmüş, dikenler gözlerini çizmiş. Kör olmuş."],
+      ["For years he wandered through the forest, eating only roots and berries.", "Yıllarca ormanda dolaşmış, yalnızca kök ve yemişle karnını doyurmuş."],
+      ["At last he came to the desert where Rapunzel lived with her twin children.", "Sonunda Rapunzel'in ikiz çocuklarıyla yaşadığı çöle varmış."],
+      ["He heard a voice that he knew, and he walked towards it.", "Tanıdık bir ses duymuş ve ona doğru yürümüş."],
+      ["Rapunzel recognised him and threw her arms around his neck, crying.", "Rapunzel onu tanımış ve ağlayarak boynuna sarılmış."],
+      ["Two of her tears fell into his eyes, and suddenly he could see again.", "Gözyaşlarından ikisi prensin gözlerine düşmüş ve prens birden yeniden görmeye başlamış."],
+      ["He took Rapunzel and the children to his kingdom, and they lived happily for many years.", "Rapunzel'i ve çocukları krallığına götürmüş ve uzun yıllar mutlu yaşamışlar."]
+    ]}
+  ]
+}

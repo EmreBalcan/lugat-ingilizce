@@ -1,0 +1,73 @@
+{
+  "id": "open-window", "title": "The Open Window", "trTitle": "Açık Pencere", "author": "Saki (H. H. Munro)", "level": "B2", "cat": "hikaye",
+  "desc": "Sinirleri bozuk bir konuk, on beş yaşında bir kız ve ardına kadar açık bir pencerenin hikâyesi.",
+  "note": "Uyarlama",
+  "source": "Saki'nin 1914 tarihli öyküsünden (kamu malı) Lugat için B2 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Visitor", "s": [
+      ["\"My aunt will be down presently, Mr Nuttel,\" said a very self-possessed young lady of fifteen.", "\"Teyzem birazdan iner, Bay Nuttel,\" dedi on beş yaşında, son derece kendinden emin bir genç hanım."],
+      ["\"In the meantime, you must try and put up with me.\"", "\"Bu arada bana katlanmaya çalışmalısınız.\""],
+      ["Framton Nuttel tried to say something polite to the niece.", "Framton Nuttel yeğene kibar bir şeyler söylemeye çalıştı."],
+      ["He had come to this quiet country place to cure his nerves.", "Sinirlerini tedavi etmek için bu sessiz kırsal yere gelmişti."],
+      ["Privately, he doubted whether formal visits to total strangers would help.", "İçten içe, hiç tanımadığı insanlara resmî ziyaretler yapmanın işe yarayacağından şüpheliydi."],
+      ["\"I know how it will be,\" his sister had said when he was preparing to leave.", "Yola çıkmaya hazırlanırken ablası, \"Ne olacağını biliyorum,\" demişti."],
+      ["\"You will bury yourself down there and not speak to a living soul, and your nerves will be worse than ever.\"", "\"Oraya gömülüp tek bir canlıyla konuşmayacaksın ve sinirlerin her zamankinden de beter olacak.\""],
+      ["\"I will just give you letters of introduction to all the people I know there.\"", "\"Sana oradaki tanıdıklarımın hepsine birer tanıştırma mektubu vereyim.\""],
+      ["\"Some of them, as far as I can remember, were quite nice.\"", "\"Hatırladığım kadarıyla bazıları epey hoş insanlardı.\""],
+      ["Mrs Sappleton, the lady to whom he was presenting one of the letters, was one of the nice ones, he hoped.", "Mektuplardan birini sunduğu Bayan Sappleton'ın da o hoş insanlardan biri olmasını umuyordu."],
+      ["\"Do you know many of the people round here?\" asked the niece, when she thought they had sat in silence long enough.", "Yeterince sessiz oturduklarını düşünen yeğen, \"Buralarda pek çok kişiyi tanır mısınız?\" diye sordu."],
+      ["\"Hardly a soul,\" said Framton. \"My sister was staying here some four years ago.\"", "\"Neredeyse hiç kimseyi,\" dedi Framton. \"Ablam yaklaşık dört yıl önce burada kalmıştı.\""],
+      ["\"Then you know practically nothing about my aunt?\" continued the young lady.", "\"Demek teyzem hakkında neredeyse hiçbir şey bilmiyorsunuz?\" diye devam etti genç hanım."],
+      ["\"Only her name and address,\" admitted the caller.", "\"Yalnızca adını ve adresini,\" diye itiraf etti konuk."]
+    ]},
+    {"t": "The Tragedy", "s": [
+      ["\"Her great tragedy happened just three years ago,\" said the child.", "\"Onun büyük trajedisi tam üç yıl önce yaşandı,\" dedi kız."],
+      ["\"Her tragedy?\" asked Framton. Somehow, in this restful country spot, tragedies seemed out of place.", "\"Trajedisi mi?\" diye sordu Framton. Bu huzurlu kırsal köşede trajediler bir şekilde yersiz görünüyordu."],
+      ["\"You may wonder why we keep that window wide open on an October afternoon,\" said the niece.", "\"Bir ekim öğleden sonrasında o pencereyi neden ardına kadar açık tuttuğumuzu merak ediyor olabilirsiniz,\" dedi yeğen."],
+      ["She pointed to a large French window that opened onto the lawn.", "Çimenliğe açılan büyük, yere kadar uzanan bir pencereyi gösterdi."],
+      ["\"It is quite warm for the time of year,\" said Framton, \"but has that window got anything to do with the tragedy?\"", "\"Mevsime göre hava epey ılık,\" dedi Framton, \"ama o pencerenin trajediyle bir ilgisi mi var?\""],
+      ["\"Out through that window, three years ago to a day, her husband and her two young brothers went off for their day's shooting.\"", "\"Bundan tam üç yıl önce bugün, kocası ve iki genç erkek kardeşi o pencereden çıkıp günlük avlarına gittiler.\""],
+      ["\"They never came back.\"", "\"Bir daha hiç geri dönmediler.\""],
+      ["\"In crossing the moor, they were all three swallowed in a treacherous piece of bog.\"", "\"Bozkırı geçerken üçü birden sinsi bir bataklığa gömüldüler.\""],
+      ["\"Their bodies were never recovered. That was the dreadful part of it.\"", "\"Cesetleri hiç bulunamadı. İşin en korkunç yanı da buydu.\""],
+      ["Here the child's voice lost its self-possessed note and became falteringly human.", "Burada kızın sesi o kendinden emin tonunu yitirdi ve titrek, insani bir hâl aldı."],
+      ["\"Poor aunt always thinks that they will come back some day, they and the little brown spaniel that was lost with them.\"", "\"Zavallı teyzem bir gün geri döneceklerini düşünüyor; onlar ve onlarla birlikte kaybolan küçük kahverengi köpek.\""],
+      ["\"That is why the window is kept open every evening till it is quite dusk.\"", "\"Pencerenin her akşam hava iyice kararana kadar açık tutulmasının sebebi bu.\""],
+      ["\"Sometimes, on still, quiet evenings like this, I almost get a creepy feeling that they will all walk in through that window.\"", "\"Bazen, böyle durgun, sessiz akşamlarda, hepsinin o pencereden içeri gireceğine dair tüyler ürpertici bir his duyuyorum.\""],
+      ["She broke off with a little shudder.", "Hafifçe ürpererek sözünü kesti."]
+    ]},
+    {"t": "Through the Window", "s": [
+      ["It was a relief to Framton when the aunt bustled into the room, full of apologies.", "Teyze bir sürü özürle telaş içinde odaya girince Framton rahatladı."],
+      ["\"I hope you don't mind the open window,\" said Mrs Sappleton briskly.", "\"Umarım açık pencere sizi rahatsız etmiyordur,\" dedi Bayan Sappleton canlı bir sesle."],
+      ["\"My husband and brothers will be home directly from shooting, and they always come in this way.\"", "\"Kocam ve kardeşlerim birazdan avdan dönerler; her zaman buradan girerler.\""],
+      ["She talked cheerfully about the shooting and the scarcity of birds.", "Neşeyle avdan ve kuşların azlığından söz etti."],
+      ["To Framton, it was all purely horrible.", "Framton için bütün bunlar düpedüz korkunçtu."],
+      ["He made a desperate attempt to turn the talk to a less ghastly subject.", "Konuşmayı daha az ürkütücü bir konuya çekmek için umutsuz bir çaba gösterdi."],
+      ["He was conscious that his hostess was giving him only a fragment of her attention.", "Ev sahibesinin kendisine dikkatinin yalnızca küçük bir kısmını verdiğinin farkındaydı."],
+      ["Her eyes were constantly straying past him to the open window and the lawn beyond.", "Gözleri sürekli onun ardındaki açık pencereye ve ötesindeki çimenliğe kayıyordu."],
+      ["\"The doctors agree in ordering me complete rest and an absence of mental excitement,\" announced Framton.", "\"Doktorlar bana tam bir dinlenme ve her türlü zihinsel heyecandan uzak durma öneriyorlar,\" diye açıkladı Framton."],
+      ["\"No?\" said Mrs Sappleton, in a voice which only replaced a yawn at the last moment.", "\"Öyle mi?\" dedi Bayan Sappleton, son anda esnemesini bastıran bir sesle."],
+      ["Then she suddenly brightened into alert attention.", "Sonra birden yüzü aydınlandı ve dikkat kesildi."],
+      ["\"Here they are at last!\" she cried. \"Just in time for tea!\"", "\"İşte sonunda geldiler!\" diye bağırdı. \"Tam da çay saatine!\""],
+      ["Framton shivered slightly and turned towards the niece with a look of sympathy.", "Framton hafifçe ürperdi ve anlayış dolu bir bakışla yeğene döndü."],
+      ["The child was staring out through the open window with dazed horror in her eyes.", "Kız, gözlerinde dehşete düşmüş bir ifadeyle açık pencereden dışarı bakıyordu."],
+      ["In a chill shock of nameless fear, Framton swung round in his seat and looked in the same direction.", "Adı konmamış bir korkunun buz gibi sarsıntısıyla Framton koltuğunda döndü ve aynı yöne baktı."],
+      ["In the deepening twilight, three figures were walking across the lawn towards the window.", "Koyulaşan alacakaranlıkta üç kişi çimenlikten pencereye doğru yürüyordu."],
+      ["They all carried guns, and a tired brown spaniel kept close at their heels.", "Hepsinin elinde tüfek vardı ve yorgun, kahverengi bir köpek peşlerinden ayrılmıyordu."],
+      ["Framton grabbed his stick and hat and ran wildly out of the house, down the drive and through the gate.", "Framton bastonunu ve şapkasını kaptı, çılgınca evden fırladı, yolu koşarak geçip bahçe kapısından çıktı."]
+    ]},
+    {"t": "Romance at Short Notice", "s": [
+      ["\"Here we are, my dear,\" said the bearer of the white mackintosh, coming in through the window.", "\"İşte geldik, hayatım,\" dedi beyaz yağmurluklu olanı, pencereden içeri girerken."],
+      ["\"Who was that who bolted out as we came up?\"", "\"Biz gelirken fırlayıp kaçan kimdi?\""],
+      ["\"A most extraordinary man, a Mr Nuttel,\" said Mrs Sappleton.", "\"Çok tuhaf bir adam, Bay Nuttel diye biri,\" dedi Bayan Sappleton."],
+      ["\"He could only talk about his illnesses, and he dashed off without a word of goodbye or apology when you arrived.\"", "\"Hastalıklarından başka bir şey konuşamadı; siz gelince de veda etmeden, özür dilemeden çekip gitti.\""],
+      ["\"One would think he had seen a ghost.\"", "\"Sanki hayalet görmüş gibiydi.\""],
+      ["\"I expect it was the spaniel,\" said the niece calmly.", "\"Sanırım köpekten korktu,\" dedi yeğen sakin bir sesle."],
+      ["\"He told me he had a horror of dogs.\"", "\"Bana köpeklerden ödünün koptuğunu söylemişti.\""],
+      ["\"He was once hunted into a cemetery on the banks of the Ganges by a pack of wild dogs.\"", "\"Bir zamanlar Ganj kıyısında bir sürü vahşi köpek onu bir mezarlığa kadar kovalamış.\""],
+      ["\"He had to spend the night in a newly dug grave with the creatures snarling just above him.\"", "\"Geceyi yeni kazılmış bir mezarda, yaratıklar tam tepesinde hırlarken geçirmek zorunda kalmış.\""],
+      ["\"Enough to make anyone lose their nerves.\"", "\"Kimin olsa sinirlerini bozmaya yeter.\""],
+      ["Romance at short notice was her speciality.", "Anında hikâye uydurmak onun uzmanlık alanıydı."]
+    ]}
+  ]
+}

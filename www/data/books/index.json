@@ -27,6 +27,45 @@
    "sentences": 42
   },
   {
+   "id": "more-aesop-fables",
+   "title": "More Aesop's Fables",
+   "trTitle": "Ezop Masalları 2",
+   "author": "Aesop",
+   "level": "A1",
+   "cat": "fabl",
+   "desc": "Beş kısa masal daha: akıllı karga, rüzgârla güneş, altın yumurtlayan kaz ve diğerleri.",
+   "note": "Basitleştirilmiş uyarlama",
+   "source": "Ezop'un MÖ 6. yüzyıla ait masallarından (kamu malı) Lugat için A1 seviyesinde yeniden anlatıldı.",
+   "chapters": 5,
+   "sentences": 53
+  },
+  {
+   "id": "gingerbread-man",
+   "title": "The Gingerbread Man",
+   "trTitle": "Zencefilli Kurabiye Adam",
+   "author": "American folk tale",
+   "level": "A1",
+   "cat": "masal",
+   "desc": "Fırından kaçan bir kurabiye adam ve onu yakalamaya çalışan herkes.",
+   "note": "Basitleştirilmiş uyarlama",
+   "source": "Halk masalından (kamu malı, ilk basımı 1875) Lugat için A1 seviyesinde yeniden anlatıldı.",
+   "chapters": 3,
+   "sentences": 45
+  },
+  {
+   "id": "little-red-hen",
+   "title": "The Little Red Hen",
+   "trTitle": "Küçük Kızıl Tavuk",
+   "author": "English folk tale",
+   "level": "A1",
+   "cat": "masal",
+   "desc": "Buğdayı tek başına eken, biçen ve ekmeği pişiren çalışkan bir tavuk.",
+   "note": "Basitleştirilmiş uyarlama",
+   "source": "Halk masalından (kamu malı) Lugat için A1 seviyesinde yeniden anlatıldı.",
+   "chapters": 3,
+   "sentences": 45
+  },
+  {
    "id": "three-little-pigs",
    "title": "The Three Little Pigs",
    "trTitle": "Üç Küçük Domuzcuk",
@@ -79,6 +118,71 @@
    "sentences": 55
   },
   {
+   "id": "puss-in-boots",
+   "title": "Puss in Boots",
+   "trTitle": "Çizmeli Kedi",
+   "author": "Charles Perrault",
+   "level": "A2",
+   "cat": "masal",
+   "desc": "Yoksul sahibini zekâsıyla bir prense dönüştüren çizmeli bir kedi.",
+   "note": "Basitleştirilmiş uyarlama",
+   "source": "Charles Perrault'nun 1697 tarihli masalından (kamu malı) Lugat için A2 seviyesinde yeniden anlatıldı.",
+   "chapters": 3,
+   "sentences": 46
+  },
+  {
+   "id": "rapunzel",
+   "title": "Rapunzel",
+   "trTitle": "Rapunzel",
+   "author": "Brothers Grimm",
+   "level": "A2",
+   "cat": "masal",
+   "desc": "Kapısız bir kuleye kapatılan, upuzun saçlı bir kız.",
+   "note": "Basitleştirilmiş uyarlama",
+   "source": "Grimm Kardeşler'in 1812 tarihli masalından (kamu malı) Lugat için A2 seviyesinde yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 55
+  },
+  {
+   "id": "sleeping-beauty",
+   "title": "Sleeping Beauty",
+   "trTitle": "Uyuyan Güzel",
+   "author": "Charles Perrault",
+   "level": "A2",
+   "cat": "masal",
+   "desc": "Bir perinin lanetiyle yüz yıl uykuya dalan bir prenses ve dikenli bir orman.",
+   "note": "Basitleştirilmiş uyarlama",
+   "source": "Charles Perrault'nun 1697 tarihli masalından (kamu malı) Lugat için A2 seviyesinde yeniden anlatıldı.",
+   "chapters": 3,
+   "sentences": 43
+  },
+  {
+   "id": "snow-white",
+   "title": "Snow White",
+   "trTitle": "Pamuk Prenses",
+   "author": "Brothers Grimm",
+   "level": "A2",
+   "cat": "masal",
+   "desc": "Kıskanç bir kraliçe, sihirli bir ayna, yedi cüce ve zehirli bir elma.",
+   "note": "Basitleştirilmiş uyarlama",
+   "source": "Grimm Kardeşler'in 1812 tarihli masalından (kamu malı) Lugat için A2 seviyesinde yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 56
+  },
+  {
+   "id": "elves-shoemaker",
+   "title": "The Elves and the Shoemaker",
+   "trTitle": "Cinler ve Ayakkabıcı",
+   "author": "Brothers Grimm",
+   "level": "A2",
+   "cat": "masal",
+   "desc": "Geceleri gizlice ayakkabı diken iki küçük cin ve onlara teşekkür etmek isteyen yoksul bir usta.",
+   "note": "Basitleştirilmiş uyarlama",
+   "source": "Grimm Kardeşler'in 1812 tarihli masalından (kamu malı) Lugat için A2 seviyesinde yeniden anlatıldı.",
+   "chapters": 3,
+   "sentences": 42
+  },
+  {
    "id": "ugly-duckling",
    "title": "The Ugly Duckling",
    "trTitle": "Çirkin Ördek Yavrusu",
@@ -92,6 +196,19 @@
    "sentences": 59
   },
   {
+   "id": "wizard-of-oz",
+   "title": "The Wonderful Wizard of Oz",
+   "trTitle": "Oz Büyücüsü: ilk bölümler",
+   "author": "L. Frank Baum",
+   "level": "A2",
+   "cat": "roman",
+   "desc": "Bir kasırgayla Oz ülkesine savrulan Dorothy, Korkuluk ve Teneke Adam.",
+   "note": "Romanın ilk bölümlerinin uyarlaması",
+   "source": "L. Frank Baum'un 1900 tarihli romanının (kamu malı) ilk bölümlerinden Lugat için A2 seviyesinde yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 51
+  },
+  {
    "id": "aladdin",
    "title": "Aladdin and the Magic Lamp",
    "trTitle": "Alaaddin'in Sihirli Lambası",
@@ -103,6 +220,19 @@
    "source": "Binbir Gece Masalları'ndan (kamu malı, Galland çevirisi 1710) Lugat için B1 seviyesinde yeniden anlatıldı.",
    "chapters": 4,
    "sentences": 57
+  },
+  {
+   "id": "ali-baba",
+   "title": "Ali Baba and the Forty Thieves",
+   "trTitle": "Ali Baba ve Kırk Haramiler",
+   "author": "One Thousand and One Nights",
+   "level": "B1",
+   "cat": "masal",
+   "desc": "\"Açıl susam açıl!\" diyen bir oduncu, hazine dolu bir mağara ve akıllı hizmetçi Mercan.",
+   "note": "Uyarlama",
+   "source": "Binbir Gece Masalları'ndan (kamu malı, Galland çevirisi 1710) Lugat için B1 seviyesinde yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 55
   },
   {
    "id": "alice-rabbit-hole",
@@ -157,6 +287,32 @@
    "sentences": 68
   },
   {
+   "id": "little-match-girl",
+   "title": "The Little Match Girl",
+   "trTitle": "Kibritçi Kız",
+   "author": "Hans Christian Andersen",
+   "level": "B1",
+   "cat": "masal",
+   "desc": "Yılbaşı gecesi soğukta kibrit satan bir kızın yaktığı her kibritte gördükleri.",
+   "note": "Uyarlama",
+   "source": "H. C. Andersen'in 1845 tarihli masalından (kamu malı) Lugat için B1 seviyesinde yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 50
+  },
+  {
+   "id": "nightingale-rose",
+   "title": "The Nightingale and the Rose",
+   "trTitle": "Bülbül ile Gül",
+   "author": "Oscar Wilde",
+   "level": "B1",
+   "cat": "masal",
+   "desc": "Bir öğrencinin aşkı için kendini feda eden bir bülbül ve kırmızı bir gül.",
+   "note": "Uyarlama",
+   "source": "Oscar Wilde'ın 1888 tarihli masalından (kamu malı) Lugat için B1 seviyesinde yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 58
+  },
+  {
    "id": "selfish-giant",
    "title": "The Selfish Giant",
    "trTitle": "Bencil Dev",
@@ -170,6 +326,45 @@
    "sentences": 67
   },
   {
+   "id": "steadfast-tin-soldier",
+   "title": "The Steadfast Tin Soldier",
+   "trTitle": "Kurşun Asker",
+   "author": "Hans Christian Andersen",
+   "level": "B1",
+   "cat": "masal",
+   "desc": "Tek bacaklı bir oyuncak asker, kâğıttan bir balerin ve uzun bir yolculuk.",
+   "note": "Uyarlama",
+   "source": "H. C. Andersen'in 1838 tarihli masalından (kamu malı) Lugat için B1 seviyesinde yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 55
+  },
+  {
+   "id": "treasure-island",
+   "title": "Treasure Island",
+   "trTitle": "Define Adası: ilk bölümler",
+   "author": "Robert Louis Stevenson",
+   "level": "B1",
+   "cat": "roman",
+   "desc": "Bir handa kalan gizemli bir denizci, kara bir işaret ve bir hazine haritası.",
+   "note": "Romanın ilk bölümlerinin uyarlaması",
+   "source": "R. L. Stevenson'ın 1883 tarihli romanının (kamu malı) ilk bölümlerinden Lugat için B1 seviyesinde yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 53
+  },
+  {
+   "id": "after-twenty-years",
+   "title": "After Twenty Years",
+   "trTitle": "Yirmi Yıl Sonra",
+   "author": "O. Henry",
+   "level": "B2",
+   "cat": "hikaye",
+   "desc": "Yirmi yıl sonra aynı köşede buluşmaya söz veren iki eski dost.",
+   "note": "Uyarlama",
+   "source": "O. Henry'nin 1906 tarihli öyküsünden (kamu malı) Lugat için B2 seviyesinde yeniden anlatıldı.",
+   "chapters": 3,
+   "sentences": 49
+  },
+  {
    "id": "rip-van-winkle",
    "title": "Rip Van Winkle",
    "trTitle": "Rip Van Winkle",
@@ -181,6 +376,19 @@
    "source": "Washington Irving'in 1819 tarihli öyküsünden (kamu malı) Lugat için B2 seviyesinde kısaltılarak yeniden anlatıldı.",
    "chapters": 3,
    "sentences": 55
+  },
+  {
+   "id": "canterville-ghost",
+   "title": "The Canterville Ghost",
+   "trTitle": "Canterville Hayaleti",
+   "author": "Oscar Wilde",
+   "level": "B2",
+   "cat": "hikaye",
+   "desc": "Üç yüz yıllık bir İngiliz hayaleti ve ondan hiç korkmayan bir Amerikan ailesi.",
+   "note": "Kısaltılmış uyarlama",
+   "source": "Oscar Wilde'ın 1887 tarihli öyküsünden (kamu malı) Lugat için B2 seviyesinde kısaltılarak yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 62
   },
   {
    "id": "gift-of-the-magi",
@@ -222,6 +430,58 @@
    "sentences": 67
   },
   {
+   "id": "open-window",
+   "title": "The Open Window",
+   "trTitle": "Açık Pencere",
+   "author": "Saki (H. H. Munro)",
+   "level": "B2",
+   "cat": "hikaye",
+   "desc": "Sinirleri bozuk bir konuk, on beş yaşında bir kız ve ardına kadar açık bir pencerenin hikâyesi.",
+   "note": "Uyarlama",
+   "source": "Saki'nin 1914 tarihli öyküsünden (kamu malı) Lugat için B2 seviyesinde yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 57
+  },
+  {
+   "id": "ransom-red-chief",
+   "title": "The Ransom of Red Chief",
+   "trTitle": "Kızılderili Şefin Fidyesi",
+   "author": "O. Henry",
+   "level": "B2",
+   "cat": "hikaye",
+   "desc": "Fidye için bir çocuk kaçıran iki dolandırıcının başına gelen beklenmedik felaket.",
+   "note": "Kısaltılmış uyarlama",
+   "source": "O. Henry'nin 1907 tarihli öyküsünden (kamu malı) Lugat için B2 seviyesinde kısaltılarak yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 60
+  },
+  {
+   "id": "jekyll-hyde",
+   "title": "Strange Case of Dr Jekyll and Mr Hyde",
+   "trTitle": "Dr. Jekyll ve Mr. Hyde",
+   "author": "Robert Louis Stevenson",
+   "level": "C1",
+   "cat": "roman",
+   "desc": "Saygın bir doktor, ürkütücü bir yabancı ve ikisini birbirine bağlayan korkunç sır.",
+   "note": "Romanın kısaltılmış uyarlaması",
+   "source": "R. L. Stevenson'ın 1886 tarihli romanından (kamu malı) Lugat için C1 seviyesinde kısaltılarak yeniden anlatıldı.",
+   "chapters": 5,
+   "sentences": 73
+  },
+  {
+   "id": "cask-of-amontillado",
+   "title": "The Cask of Amontillado",
+   "trTitle": "Amontillado Fıçısı",
+   "author": "Edgar Allan Poe",
+   "level": "C1",
+   "cat": "hikaye",
+   "desc": "Bin hakarete katlanan bir adamın karnaval gecesi yer altı mahzenlerinde aldığı intikam.",
+   "note": "Uyarlama",
+   "source": "Edgar Allan Poe'nun 1846 tarihli öyküsünden (kamu malı) Lugat için C1 seviyesinde yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 61
+  },
+  {
    "id": "monkeys-paw",
    "title": "The Monkey's Paw",
    "trTitle": "Maymun Pençesi",
@@ -233,6 +493,19 @@
    "source": "W. W. Jacobs'ın 1902 tarihli öyküsünden (kamu malı) Lugat için C1 seviyesinde yeniden anlatıldı.",
    "chapters": 4,
    "sentences": 70
+  },
+  {
+   "id": "red-headed-league",
+   "title": "The Red-Headed League",
+   "trTitle": "Kızıl Saçlılar Birliği",
+   "author": "Arthur Conan Doyle",
+   "level": "C1",
+   "cat": "hikaye",
+   "desc": "Kızıl saçlı bir rehinciye haftada dört sterlin ödeyen tuhaf bir birlik ve Sherlock Holmes.",
+   "note": "Kısaltılmış uyarlama",
+   "source": "Arthur Conan Doyle'un 1891 tarihli Sherlock Holmes öyküsünden (kamu malı) Lugat için C1 seviyesinde kısaltılarak yeniden anlatıldı.",
+   "chapters": 4,
+   "sentences": 59
   },
   {
    "id": "tell-tale-heart",

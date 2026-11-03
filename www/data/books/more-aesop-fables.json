@@ -1,0 +1,71 @@
+{
+  "id": "more-aesop-fables", "title": "More Aesop's Fables", "trTitle": "Ezop Masalları 2", "author": "Aesop", "level": "A1", "cat": "fabl",
+  "desc": "Beş kısa masal daha: akıllı karga, rüzgârla güneş, altın yumurtlayan kaz ve diğerleri.",
+  "note": "Basitleştirilmiş uyarlama",
+  "source": "Ezop'un MÖ 6. yüzyıla ait masallarından (kamu malı) Lugat için A1 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Crow and the Pitcher", "s": [
+      ["It was a very hot day, and a crow was thirsty.", "Kavurucu bir günmüş ve bir karganın dili damağına yapışmış."],
+      ["She looked for water everywhere.", "Her yerde su aramış."],
+      ["At last she found a tall pitcher with a little water at the bottom.", "Sonunda dibinde biraz su olan uzun bir testi bulmuş."],
+      ["She put her beak into the pitcher, but she could not reach the water.", "Gagasını testiye sokmuş ama suya yetişememiş."],
+      ["She tried to push the pitcher over, but it was too heavy.", "Testiyi devirmeye çalışmış ama çok ağırmış."],
+      ["Then she had an idea.", "Derken aklına bir fikir gelmiş."],
+      ["She picked up a small stone and dropped it into the pitcher.", "Küçük bir taş alıp testiye atmış."],
+      ["Then she dropped another stone, and another, and another.", "Sonra bir taş daha, bir taş daha, bir taş daha atmış."],
+      ["Slowly the water came up to the top.", "Su yavaş yavaş yukarı çıkmış."],
+      ["At last the crow could drink.", "Sonunda karga kana kana su içebilmiş."],
+      ["Moral: Little by little does the trick.", "Kıssadan hisse: Damlaya damlaya göl olur."]
+    ]},
+    {"t": "The North Wind and the Sun", "s": [
+      ["One day the North Wind and the Sun had an argument.", "Bir gün Poyraz ile Güneş tartışmaya başlamışlar."],
+      ["\"I am stronger than you,\" said the Wind.", "\"Ben senden güçlüyüm,\" demiş Rüzgâr."],
+      ["\"No, I am stronger,\" said the Sun.", "\"Hayır, ben daha güçlüyüm,\" demiş Güneş."],
+      ["Just then they saw a man walking along the road in a warm coat.", "Tam o sırada yolda kalın paltosuyla yürüyen bir adam görmüşler."],
+      ["\"Let's see who can make him take off his coat,\" said the Sun.", "\"Bakalım hangimiz ona paltosunu çıkarttırabilecek,\" demiş Güneş."],
+      ["The Wind went first. He blew and blew as hard as he could.", "Önce Rüzgâr denemiş. Olanca gücüyle esmiş de esmiş."],
+      ["But the harder he blew, the tighter the man held his coat.", "Ama o estikçe adam paltosuna daha sıkı sarılmış."],
+      ["At last the Wind gave up.", "Sonunda Rüzgâr pes etmiş."],
+      ["Then the Sun came out and shone warmly on the man.", "Sonra Güneş çıkmış ve adamın üstüne sıcacık ışıklar saçmış."],
+      ["The man felt hot. He opened his coat.", "Adam ısınmış. Paltosunun düğmelerini açmış."],
+      ["The Sun shone more and more warmly.", "Güneş giderek daha da ısıtmış."],
+      ["Soon the man took off his coat and sat down in the shade.", "Az sonra adam paltosunu çıkarmış ve bir gölgeye oturmuş."],
+      ["Moral: Kindness works better than force.", "Kıssadan hisse: Tatlı dil yılanı deliğinden çıkarır; nezaket zordan daha etkilidir."]
+    ]},
+    {"t": "The Dog and His Reflection", "s": [
+      ["A dog was walking home with a big piece of meat in his mouth.", "Bir köpek ağzında kocaman bir et parçasıyla evine dönüyormuş."],
+      ["On the way, he crossed a bridge over a river.", "Yolda bir nehrin üstündeki köprüden geçmiş."],
+      ["He looked down and saw another dog in the water.", "Aşağı bakmış ve suyun içinde başka bir köpek görmüş."],
+      ["That dog also had a piece of meat in his mouth.", "O köpeğin ağzında da bir parça et varmış."],
+      ["\"His meat is bigger than mine,\" thought the dog. \"I want it!\"", "\"Onun eti benimkinden büyük,\" diye düşünmüş köpek. \"Onu istiyorum!\""],
+      ["He opened his mouth to bark at the other dog.", "Öteki köpeğe havlamak için ağzını açmış."],
+      ["His meat fell into the river and was carried away.", "Ağzındaki et nehre düşmüş ve akıntıya kapılıp gitmiş."],
+      ["Of course, the other dog was only his reflection.", "Tabii ki öteki köpek onun yalnızca sudaki yansımasıymış."],
+      ["The greedy dog went home hungry.", "Açgözlü köpek eve aç dönmüş."],
+      ["Moral: If you are greedy, you may lose what you have.", "Kıssadan hisse: Açgözlülük eldekini de yitirtir."]
+    ]},
+    {"t": "The Fox and the Crow", "s": [
+      ["A crow found a piece of cheese and flew up to a branch to eat it.", "Bir karga bir parça peynir bulmuş ve yemek için bir dala konmuş."],
+      ["A fox saw her and wanted the cheese.", "Bir tilki onu görmüş ve peyniri gözüne kestirmiş."],
+      ["\"Good morning, beautiful bird,\" said the fox.", "\"Günaydın, güzel kuş,\" demiş tilki."],
+      ["\"Your feathers are so shiny, and your eyes are so bright.\"", "\"Tüylerin ne kadar parlak, gözlerin ne kadar ışıl ışıl.\""],
+      ["\"I am sure your voice is beautiful too. Please sing for me!\"", "\"Eminim sesin de çok güzeldir. Lütfen benim için bir şarkı söyle!\""],
+      ["The crow was very proud. She opened her beak and said, \"Caw! Caw!\"", "Karga gururundan kabarmış. Gagasını açmış ve \"Gak! Gak!\" diye ötmüş."],
+      ["The cheese fell down, and the fox caught it in his mouth.", "Peynir aşağı düşmüş, tilki de onu havada kapmış."],
+      ["\"Thank you,\" said the fox. \"Your voice is not so good, but your cheese is delicious.\"", "\"Teşekkürler,\" demiş tilki. \"Sesin pek güzel değil ama peynirin enfes.\""],
+      ["Moral: Don't trust people who say too many nice things.", "Kıssadan hisse: Seni fazla öven herkese güvenme."]
+    ]},
+    {"t": "The Goose with the Golden Eggs", "s": [
+      ["A farmer and his wife had a very special goose.", "Bir çiftçiyle karısının çok özel bir kazı varmış."],
+      ["Every morning, the goose laid an egg of pure gold.", "Kaz her sabah som altından bir yumurta yumurtlarmış."],
+      ["The farmer sold the eggs, and soon he became rich.", "Çiftçi yumurtaları satmış ve kısa sürede zengin olmuş."],
+      ["But he was not happy. He wanted more gold, and he wanted it quickly.", "Ama mutlu değilmiş. Daha çok altın istiyormuş, hem de hemen."],
+      ["\"There must be a lot of gold inside the goose,\" he said to his wife.", "\"Bu kazın içi altın dolu olmalı,\" demiş karısına."],
+      ["\"Let's cut it open and take all the gold at once.\"", "\"Karnını yaralım da bütün altını bir seferde alalım.\""],
+      ["So they killed the goose and opened it.", "Böylece kazı kesip karnını açmışlar."],
+      ["But there was no gold inside. It was just like any other goose.", "Ama içinde hiç altın yokmuş. Herhangi bir kazdan farkı yokmuş."],
+      ["Now they had no goose and no more golden eggs.", "Artık ne kazları kalmış ne de altın yumurtaları."],
+      ["Moral: People who want too much often lose everything.", "Kıssadan hisse: Fazla isteyen, çoğu zaman her şeyini kaybeder."]
+    ]}
+  ]
+}

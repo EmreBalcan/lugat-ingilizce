@@ -1,0 +1,72 @@
+{
+  "id": "snow-white", "title": "Snow White", "trTitle": "Pamuk Prenses", "author": "Brothers Grimm", "level": "A2", "cat": "masal",
+  "desc": "Kıskanç bir kraliçe, sihirli bir ayna, yedi cüce ve zehirli bir elma.",
+  "note": "Basitleştirilmiş uyarlama",
+  "source": "Grimm Kardeşler'in 1812 tarihli masalından (kamu malı) Lugat için A2 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Magic Mirror", "s": [
+      ["Once upon a time, in the middle of winter, a queen sat sewing at a window.", "Evvel zaman içinde, karakışın ortasında bir kraliçe pencerenin önünde oturmuş dikiş dikiyormuş."],
+      ["She pricked her finger, and three drops of red blood fell onto the white snow.", "Parmağına iğne batmış ve üç damla kırmızı kan bembeyaz karın üstüne düşmüş."],
+      ["\"I wish I had a child as white as snow, as red as blood and as black as the wood of this window,\" she said.", "\"Keşke kar kadar beyaz, kan kadar kırmızı ve bu pencerenin tahtası kadar kara bir çocuğum olsa,\" demiş."],
+      ["Soon she had a little daughter with white skin, red lips and black hair.", "Çok geçmeden teni bembeyaz, dudakları kıpkırmızı, saçları kapkara bir kızı olmuş."],
+      ["They called her Snow White, but the queen died soon after.", "Ona Pamuk adını vermişler ama kraliçe kısa süre sonra ölmüş."],
+      ["The king married again. His new wife was beautiful but very proud.", "Kral yeniden evlenmiş. Yeni karısı güzelmiş ama son derece kibirliymiş."],
+      ["She had a magic mirror, and every day she asked it a question.", "Sihirli bir aynası varmış ve her gün ona bir soru sorarmış."],
+      ["\"Mirror, mirror on the wall, who is the most beautiful of all?\"", "\"Ayna ayna, söyle bana, dünyada en güzel kim?\""],
+      ["\"You, my queen, are the most beautiful of all,\" the mirror always answered.", "\"Siz, kraliçem, dünyanın en güzelisiniz,\" diye cevap verirmiş ayna her seferinde."],
+      ["But Snow White grew more beautiful every year.", "Ama Pamuk her geçen yıl daha da güzelleşiyormuş."],
+      ["When she was seven, the mirror gave a different answer.", "Yedi yaşına geldiğinde ayna bambaşka bir cevap vermiş."],
+      ["\"You are beautiful, my queen, but Snow White is more beautiful than you.\"", "\"Siz de güzelsiniz kraliçem, ama Pamuk sizden çok daha güzel.\""],
+      ["The queen turned green with jealousy.", "Kraliçe kıskançlıktan kudurmuş."],
+      ["She called a hunter and said, \"Take the child into the forest and kill her.\"", "Bir avcı çağırtıp \"Bu çocuğu ormana götür ve öldür,\" demiş."]
+    ]},
+    {"t": "The Seven Dwarfs", "s": [
+      ["The hunter took Snow White into the forest, but he could not kill her.", "Avcı Pamuk'u ormana götürmüş ama onu öldürmeye kıyamamış."],
+      ["\"Run away, poor child,\" he said, \"and never come back.\"", "\"Kaç, zavallı yavrum,\" demiş, \"ve bir daha asla geri dönme.\""],
+      ["Snow White ran through the dark forest until evening.", "Pamuk akşama kadar karanlık ormanın içinde koşmuş."],
+      ["At last she found a little house and went inside.", "Sonunda küçük bir ev bulmuş ve içeri girmiş."],
+      ["Everything in the house was very small.", "Evdeki her şey minicikmiş."],
+      ["There was a table with seven little plates and seven little cups.", "Masada yedi küçük tabak ve yedi küçük bardak varmış."],
+      ["There were seven little beds against the wall.", "Duvarın dibinde yedi küçük yatak sıralanmış."],
+      ["Snow White was hungry, so she ate a little from each plate.", "Pamuk çok acıkmış, her tabaktan birer lokma yemiş."],
+      ["Then she lay down on the seventh bed and fell asleep.", "Sonra yedinci yatağa uzanıp uyuyakalmış."],
+      ["At night, the owners of the house came home. They were seven dwarfs who worked in the mountains.", "Gece evin sahipleri gelmiş. Bunlar dağlarda çalışan yedi cüceymiş."],
+      ["\"Someone has eaten from my plate!\" said one. \"Someone is sleeping in my bed!\" said another.", "\"Biri benim tabağımdan yemiş!\" demiş biri. \"Biri benim yatağımda uyuyor!\" demiş bir diğeri."],
+      ["They looked at Snow White and thought she was the most beautiful girl they had ever seen.", "Pamuk'a bakmışlar ve onu ömürlerinde gördükleri en güzel kız saymışlar."],
+      ["In the morning, she told them her story.", "Sabah olunca Pamuk başından geçenleri onlara anlatmış."],
+      ["\"Stay with us,\" said the dwarfs. \"You can cook and clean, and we will keep you safe.\"", "\"Bizimle kal,\" demiş cüceler. \"Sen yemek yapar, evi toplarsın, biz de seni koruruz.\""],
+      ["\"But be careful. Don't open the door to anyone when we are away.\"", "\"Ama dikkatli ol. Biz yokken kapıyı kimseye açma.\""]
+    ]},
+    {"t": "The Poisoned Apple", "s": [
+      ["Back at the castle, the queen asked her mirror again.", "Sarayda kraliçe aynasına yine sormuş."],
+      ["\"Snow White, who lives with the seven dwarfs, is still more beautiful than you,\" said the mirror.", "\"Yedi cücenin yanında yaşayan Pamuk, hâlâ sizden daha güzel,\" demiş ayna."],
+      ["The queen was furious. She knew the hunter had lied to her.", "Kraliçe öfkeden deliye dönmüş. Avcının kendisine yalan söylediğini anlamış."],
+      ["She made a beautiful apple. One half was white and the other half was red.", "Çok güzel bir elma hazırlamış. Bir yarısı beyaz, öbür yarısı kırmızıymış."],
+      ["Only the red half was poisoned.", "Yalnızca kırmızı yarısı zehirliymiş."],
+      ["She dressed as an old farmer's wife and went to the dwarfs' house.", "Yaşlı bir köylü kadın kılığına girip cücelerin evine gitmiş."],
+      ["\"Beautiful apples! Would you like one?\" she called.", "\"Güzel elmalar! Bir tane ister misin?\" diye seslenmiş."],
+      ["\"I can't open the door to anyone,\" said Snow White.", "\"Kapıyı kimseye açamam,\" demiş Pamuk."],
+      ["\"Are you afraid of poison? Look, I will eat half myself.\"", "\"Zehirden mi korkuyorsun? Bak, yarısını ben yiyeyim.\""],
+      ["The old woman ate the white half and gave the red half to Snow White.", "Yaşlı kadın beyaz yarısını yemiş, kırmızı yarısını Pamuk'a uzatmış."],
+      ["As soon as Snow White took a bite, she fell to the ground as if she were dead.", "Pamuk bir ısırık alır almaz ölü gibi yere yığılmış."],
+      ["The dwarfs came home and found her. They cried for three days.", "Cüceler eve dönünce onu bulmuşlar. Üç gün boyunca ağlamışlar."],
+      ["She still looked fresh and beautiful, so they could not bury her in the dark earth.", "Hâlâ öyle taze ve güzel görünüyormuş ki onu kara toprağa gömmeye kıyamamışlar."],
+      ["They made a glass coffin and put it on top of a hill.", "Camdan bir tabut yapıp bir tepenin üstüne koymuşlar."]
+    ]},
+    {"t": "The Prince", "s": [
+      ["Snow White lay in the coffin for a long, long time.", "Pamuk uzun, çok uzun bir süre o tabutta yatmış."],
+      ["One day a prince rode through the forest and saw her.", "Bir gün ormandan atıyla geçen bir prens onu görmüş."],
+      ["\"Please give me this coffin,\" he said to the dwarfs. \"I cannot live without seeing her.\"", "\"Lütfen bu tabutu bana verin,\" demiş cücelere. \"Onu görmeden yaşayamam.\""],
+      ["The dwarfs felt sorry for him and agreed.", "Cüceler ona acımış ve razı olmuşlar."],
+      ["As the prince's servants carried the coffin, one of them tripped over a root.", "Prensin adamları tabutu taşırken biri bir ağaç köküne takılmış."],
+      ["The coffin shook, and the piece of poisoned apple fell out of Snow White's mouth.", "Tabut sarsılmış ve zehirli elma parçası Pamuk'un ağzından düşmüş."],
+      ["She opened her eyes and sat up. \"Where am I?\"", "Pamuk gözlerini açıp doğrulmuş. \"Neredeyim ben?\""],
+      ["\"You are with me,\" said the prince happily, and he told her everything.", "\"Benimlesin,\" demiş prens sevinçle ve her şeyi ona anlatmış."],
+      ["\"Come with me to my father's castle and be my wife.\"", "\"Benimle babamın sarayına gel ve karım ol.\""],
+      ["Snow White agreed, and they had a great wedding.", "Pamuk kabul etmiş ve büyük bir düğün yapılmış."],
+      ["The wicked queen was also invited.", "Kötü kalpli kraliçe de düğüne davet edilmiş."],
+      ["When she saw that the young bride was Snow White, she was so angry that she ran away and was never seen again.", "Genç gelinin Pamuk olduğunu görünce öyle öfkelenmiş ki kaçıp gitmiş ve bir daha onu gören olmamış."],
+      ["Snow White, the prince and the seven dwarfs lived happily for many years.", "Pamuk, prens ve yedi cüce uzun yıllar mutlu yaşamışlar."]
+    ]}
+  ]
+}

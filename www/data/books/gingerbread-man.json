@@ -1,0 +1,59 @@
+{
+  "id": "gingerbread-man", "title": "The Gingerbread Man", "trTitle": "Zencefilli Kurabiye Adam", "author": "American folk tale", "level": "A1", "cat": "masal",
+  "desc": "Fırından kaçan bir kurabiye adam ve onu yakalamaya çalışan herkes.",
+  "note": "Basitleştirilmiş uyarlama",
+  "source": "Halk masalından (kamu malı, ilk basımı 1875) Lugat için A1 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "Out of the Oven", "s": [
+      ["Once upon a time, a little old woman and a little old man lived in a little house.", "Bir varmış bir yokmuş, küçük bir evde ufacık bir yaşlı kadınla ufacık bir yaşlı adam yaşarmış."],
+      ["They had no children, and they were often sad.", "Hiç çocukları yokmuş ve çoğu zaman hüzünlüymüşler."],
+      ["One morning, the old woman said, \"I will make a little boy out of gingerbread.\"", "Bir sabah yaşlı kadın, \"Zencefilli kurabiye hamurundan küçük bir oğlan yapacağım,\" demiş."],
+      ["She made a head, a body, two arms and two legs.", "Bir baş, bir gövde, iki kol ve iki bacak yapmış."],
+      ["She gave him two raisins for eyes and a cherry for a mouth.", "Gözleri için iki kuru üzüm, ağzı için de bir kiraz koymuş."],
+      ["Then she put him in the oven to bake.", "Sonra pişsin diye onu fırına sürmüş."],
+      ["After a while, she heard a little voice.", "Bir süre sonra incecik bir ses duymuş."],
+      ["\"Let me out! Let me out!\"", "\"Çıkarın beni! Çıkarın beni!\""],
+      ["She opened the oven door, and the Gingerbread Man jumped out.", "Fırının kapağını açar açmaz Zencefilli Kurabiye Adam dışarı fırlamış."],
+      ["He ran across the kitchen and out of the front door.", "Mutfağı bir koşuda geçip ön kapıdan dışarı çıkmış."],
+      ["\"Stop! Stop!\" cried the old woman and the old man.", "\"Dur! Dur!\" diye bağırmış yaşlı kadınla yaşlı adam."],
+      ["But the Gingerbread Man laughed and sang:", "Ama Kurabiye Adam gülmüş ve şarkı söylemiş:"],
+      ["\"Run, run, as fast as you can! You can't catch me, I'm the Gingerbread Man!\"", "\"Koşun, koşun, var gücünüzle! Yakalayamazsınız beni, ben Kurabiye Adam'ım!\""],
+      ["The old woman and the old man ran after him, but they were too slow.", "Yaşlı kadınla yaşlı adam peşinden koşmuş ama çok yavaş kalmışlar."]
+    ]},
+    {"t": "Run, Run, As Fast As You Can", "s": [
+      ["The Gingerbread Man ran down the road.", "Kurabiye Adam yol boyunca koşmuş."],
+      ["Soon he met a cow in a green field.", "Az sonra yeşil bir tarlada bir inekle karşılaşmış."],
+      ["\"Moo! Stop, little man. You look good to eat!\"", "\"Möö! Dur bakalım ufaklık. Pek de lezzetli görünüyorsun!\""],
+      ["\"I ran away from an old woman and an old man, and I can run away from you too!\"", "\"Ben yaşlı bir kadından da yaşlı bir adamdan da kaçtım, senden de kaçarım!\""],
+      ["\"Run, run, as fast as you can! You can't catch me, I'm the Gingerbread Man!\"", "\"Koşun, koşun, var gücünüzle! Yakalayamazsınız beni, ben Kurabiye Adam'ım!\""],
+      ["The cow ran after him, but she could not catch him.", "İnek peşine düşmüş ama onu yakalayamamış."],
+      ["Then he met a horse.", "Sonra bir atla karşılaşmış."],
+      ["\"Neigh! Stop, little man. I want to eat you!\"", "\"İhihi! Dur ufaklık, seni yemek istiyorum!\""],
+      ["But the Gingerbread Man ran faster and faster.", "Ama Kurabiye Adam gittikçe daha hızlı koşmuş."],
+      ["Next he ran past some farmers who were working in a field.", "Ardından tarlada çalışan birkaç çiftçinin yanından geçmiş."],
+      ["\"Stop! We want to eat you!\" they shouted.", "\"Dur! Seni yemek istiyoruz!\" diye bağırmışlar."],
+      ["The old woman, the old man, the cow, the horse and the farmers all ran after him.", "Yaşlı kadın, yaşlı adam, inek, at ve çiftçiler, hepsi onun peşinden koşmuş."],
+      ["But nobody could catch the Gingerbread Man.", "Ama kimse Kurabiye Adam'ı yakalayamamış."],
+      ["He was very proud of himself.", "O da kendisiyle çok gurur duyuyormuş."]
+    ]},
+    {"t": "The Clever Fox", "s": [
+      ["Soon the Gingerbread Man came to a wide river.", "Çok geçmeden Kurabiye Adam geniş bir nehre varmış."],
+      ["He stopped. He could not swim.", "Durmuş. Yüzme bilmiyormuş."],
+      ["\"Oh no! What can I do?\" he cried.", "\"Eyvah! Şimdi ne yapacağım?\" diye bağırmış."],
+      ["A fox came out from behind a tree.", "Bir ağacın arkasından bir tilki çıkmış."],
+      ["\"Hello, little man. Do you want to cross the river?\" asked the fox kindly.", "\"Merhaba ufaklık. Nehrin karşısına mı geçmek istiyorsun?\" diye sormuş tilki tatlı tatlı."],
+      ["\"Yes, but I can't swim, and everyone is running after me.\"", "\"Evet, ama yüzme bilmiyorum ve herkes peşimde.\""],
+      ["\"Jump on my tail, and I will carry you across.\"", "\"Kuyruğuma atla, seni karşıya taşırım.\""],
+      ["So the Gingerbread Man jumped on the fox's tail.", "Kurabiye Adam da tilkinin kuyruğuna atlamış."],
+      ["The fox began to swim.", "Tilki yüzmeye başlamış."],
+      ["\"The water is deep. Jump on my back,\" said the fox.", "\"Su derinleşiyor. Sırtıma çık,\" demiş tilki."],
+      ["The Gingerbread Man jumped on his back.", "Kurabiye Adam tilkinin sırtına çıkmış."],
+      ["\"The water is deeper. Jump on my head,\" said the fox.", "\"Su daha da derin. Başıma çık,\" demiş tilki."],
+      ["The Gingerbread Man jumped on his head.", "Kurabiye Adam başına çıkmış."],
+      ["\"Now jump on my nose, and you will be safe and dry.\"", "\"Şimdi de burnumun ucuna çık, hem güvende olursun hem de ıslanmazsın.\""],
+      ["The Gingerbread Man jumped on the fox's nose.", "Kurabiye Adam tilkinin burnuna sıçramış."],
+      ["Snap! The fox opened his mouth, and that was the end of the Gingerbread Man.", "Hap! Tilki ağzını açıvermiş ve Kurabiye Adam'ın hikâyesi orada bitmiş."],
+      ["Moral: Don't trust everyone who is kind to you.", "Kıssadan hisse: Sana tatlı dil döken herkese güvenme."]
+    ]}
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "treasure-island", "title": "Treasure Island", "trTitle": "Define Adası: ilk bölümler", "author": "Robert Louis Stevenson", "level": "B1", "cat": "roman",
+  "desc": "Bir handa kalan gizemli bir denizci, kara bir işaret ve bir hazine haritası.",
+  "note": "Romanın ilk bölümlerinin uyarlaması",
+  "source": "R. L. Stevenson'ın 1883 tarihli romanının (kamu malı) ilk bölümlerinden Lugat için B1 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Old Sea-Dog", "s": [
+      ["My name is Jim Hawkins, and my father kept the Admiral Benbow inn, near the sea.", "Adım Jim Hawkins. Babam deniz kıyısındaki Amiral Benbow hanını işletirdi."],
+      ["I remember the day the old seaman first came to our door.", "Yaşlı denizcinin kapımıza ilk geldiği günü hatırlıyorum."],
+      ["He was a tall, strong, heavy man with a brown face and a white scar across one cheek.", "Uzun boylu, güçlü, iri yarı bir adamdı; yüzü güneşten yanmıştı, yanaklarından birinde beyaz bir yara izi vardı."],
+      ["Behind him, a man pushed a cart carrying a great sea chest.", "Arkasından bir adam, üstünde kocaman bir denizci sandığı olan bir el arabasını itiyordu."],
+      ["He looked around the cove and sang an old sea song: \"Fifteen men on the dead man's chest!\"", "Koya göz gezdirdi ve eski bir denizci şarkısı söyledi: \"Ölü adamın sandığında on beş adam!\""],
+      ["\"This is a handy cove,\" he said, \"and a pleasant inn. Do you have many visitors?\"", "\"Kullanışlı bir koy,\" dedi, \"hoş da bir han. Çok müşteriniz olur mu?\""],
+      ["My father told him there were very few, and the man decided to stay.", "Babam pek az olduğunu söyleyince adam kalmaya karar verdi."],
+      ["\"You can call me Captain,\" he said, and he threw three gold coins on the table.", "\"Bana Kaptan diyebilirsiniz,\" dedi ve masaya üç altın attı."],
+      ["All day he walked along the cliffs with a telescope.", "Bütün gün elinde bir dürbünle kayalıkların üstünde dolaşırdı."],
+      ["Every evening he sat by the fire and drank strong rum.", "Her akşam ateşin başına oturur, sert rom içerdi."],
+      ["One day he took me aside and promised me a silver coin every month.", "Bir gün beni bir kenara çekti ve bana her ay bir gümüş para vereceğine söz verdi."],
+      ["\"Keep your eye open for a seafaring man with one leg,\" he said, \"and tell me the moment he appears.\"", "\"Tek bacaklı bir denizciye karşı gözünü dört aç,\" dedi, \"ortaya çıktığı anda bana haber ver.\""],
+      ["That man with one leg haunted my dreams for many nights.", "O tek bacaklı adam gecelerce rüyalarımdan çıkmadı."]
+    ]},
+    {"t": "Black Dog", "s": [
+      ["Early one January morning, a pale man with two fingers missing from his left hand came into the inn.", "Bir ocak sabahı erkenden, sol elinde iki parmağı eksik, solgun yüzlü bir adam hana girdi."],
+      ["\"Is my mate Bill here?\" he asked.", "\"Arkadaşım Bill burada mı?\" diye sordu."],
+      ["When the Captain came back from his walk, he went white as a sheet.", "Kaptan yürüyüşünden döndüğünde yüzü kireç gibi oldu."],
+      ["\"Black Dog!\" he said.", "\"Kara Köpek!\" dedi."],
+      ["They sent me out of the room, but soon I heard shouting and the clash of steel.", "Beni odadan çıkardılar ama çok geçmeden bağırışlar ve çelik şakırtıları duydum."],
+      ["Black Dog ran out of the door with blood running from his shoulder.", "Kara Köpek omzundan kan akarak kapıdan fırladı."],
+      ["The Captain stood staring after him, then he fell heavily to the floor.", "Kaptan arkasından bakakaldı, sonra ağır bir şekilde yere yığıldı."],
+      ["Dr Livesey, who was visiting my sick father, said it was a stroke.", "Hasta babamı görmeye gelmiş olan Doktor Livesey, bunun bir felç olduğunu söyledi."],
+      ["\"One more glass of rum will kill him,\" the doctor warned.", "\"Bir kadeh rom daha onu öldürür,\" diye uyardı doktor."],
+      ["Later, lying in bed, the Captain told me his secret.", "Daha sonra, yatağında yatarken, Kaptan bana sırrını anlattı."],
+      ["\"I was Captain Flint's first mate, and I'm the only one who knows the place.\"", "\"Ben Kaptan Flint'in ikinci kaptanıydım ve o yeri bilen tek kişi benim.\""],
+      ["\"They want my sea chest. If they give me the black spot, go and fetch the doctor.\"", "\"Benim denizci sandığımın peşindeler. Bana kara işareti verirlerse koş, doktoru çağır.\""],
+      ["My poor father died that same evening, and I forgot about the Captain in my sorrow.", "Zavallı babam o akşam öldü ve ben kederimden Kaptan'ı unuttum."]
+    ]},
+    {"t": "The Black Spot", "s": [
+      ["The day after the funeral, a blind man came tapping along the road with a stick.", "Cenazenin ertesi günü kör bir adam elindeki bastonla yola vura vura geldi."],
+      ["He wore a large green shade over his eyes and nose.", "Gözlerini ve burnunu örten büyük, yeşil bir siperlik takmıştı."],
+      ["\"Will any kind friend tell a poor blind man where he is?\" he called in a strange voice.", "\"İyi kalpli bir dost, zavallı bir köre nerede olduğunu söyler mi?\" diye seslendi tuhaf bir sesle."],
+      ["\"You are at the Admiral Benbow,\" I said, and I held out my hand to help him.", "\"Amiral Benbow'dasınız,\" dedim ve ona yardım etmek için elimi uzattım."],
+      ["He gripped my hand like a vice. \"Take me to the Captain, boy, or I'll break your arm.\"", "Elimi mengene gibi kavradı. \"Beni Kaptan'a götür evlat, yoksa kolunu kırarım.\""],
+      ["I was so frightened that I obeyed.", "O kadar korktum ki dediğini yaptım."],
+      ["The blind man put something into the Captain's hand and left quickly.", "Kör adam Kaptan'ın eline bir şey sıkıştırıp hızla çıkıp gitti."],
+      ["The Captain looked at it. It was a round piece of paper, blackened on one side.", "Kaptan ona baktı. Yuvarlak bir kâğıt parçasıydı; bir yüzü kapkara boyanmıştı."],
+      ["\"Ten o'clock!\" he cried. \"Six hours. We'll do them yet!\"", "\"Saat onda!\" diye bağırdı. \"Altı saat var. Onları yine de alt ederiz!\""],
+      ["He jumped to his feet, but then he put his hand to his throat and fell to the floor.", "Ayağa fırladı ama sonra elini boğazına götürdü ve yere yığıldı."],
+      ["The Captain was dead.", "Kaptan ölmüştü."]
+    ]},
+    {"t": "The Sea Chest", "s": [
+      ["My mother and I were alone, and the thieves would come at ten o'clock.", "Annemle yalnızdık ve hırsızlar saat onda gelecekti."],
+      ["\"He owed us money,\" said my mother bravely. \"We'll take what is ours.\"", "\"Bize borcu vardı,\" dedi annem cesurca. \"Hakkımız olanı alacağız.\""],
+      ["I found the key around the dead man's neck, and we opened the chest.", "Anahtarı ölü adamın boynunda buldum ve sandığı açtık."],
+      ["Inside there were old clothes, a pistol, some silver, and a bag of gold coins.", "İçinde eski giysiler, bir tabanca, biraz gümüş ve bir torba altın vardı."],
+      ["At the bottom lay a packet wrapped in oilcloth.", "Dipte muşambaya sarılı bir paket duruyordu."],
+      ["\"I'll take this,\" I said, and I put the packet in my pocket.", "\"Bunu ben alayım,\" dedim ve paketi cebime koydum."],
+      ["Just then we heard the tap-tap-tapping of the blind man's stick on the frozen road.", "Tam o sırada kör adamın bastonunun donmuş yolda tık tık tık sesini duyduk."],
+      ["We ran out of the back door and hid under a little bridge.", "Arka kapıdan kaçıp küçük bir köprünün altına saklandık."],
+      ["Seven or eight men broke into the inn, searching everywhere.", "Yedi sekiz adam hana daldı ve her yeri aramaya başladı."],
+      ["\"Flint's map is gone!\" one of them shouted. \"It's that boy!\"", "\"Flint'in haritası yok!\" diye bağırdı biri. \"O çocuk almış!\""],
+      ["Then we heard horses on the road. Officers were coming, and the pirates ran away.", "Sonra yolda at sesleri duyduk. Gümrük memurları geliyordu ve korsanlar kaçıştı."],
+      ["I took the packet to Dr Livesey and the rich Squire Trelawney.", "Paketi Doktor Livesey'e ve zengin Malikâne Sahibi Trelawney'ye götürdüm."],
+      ["Inside there was a map of an island, with three red crosses on it.", "İçinde, üstünde üç kırmızı çarpı olan bir ada haritası vardı."],
+      ["Beside one of them was written: \"Bulk of treasure here.\"", "Birinin yanında şöyle yazıyordu: \"Hazinenin büyük kısmı burada.\""],
+      ["\"Livesey,\" said the Squire, \"tomorrow I start for Bristol. In three weeks we'll have the best ship in England.\"", "\"Livesey,\" dedi Malikâne Sahibi, \"yarın Bristol'e yola çıkıyorum. Üç hafta içinde İngiltere'nin en iyi gemisine sahip olacağız.\""],
+      ["\"Hawkins shall come as cabin boy. We'll find that treasure!\"", "\"Hawkins de miço olarak gelecek. O hazineyi bulacağız!\""]
+    ]}
+  ]
+}

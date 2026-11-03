@@ -1,0 +1,67 @@
+{
+  "id": "wizard-of-oz", "title": "The Wonderful Wizard of Oz", "trTitle": "Oz Büyücüsü: ilk bölümler", "author": "L. Frank Baum", "level": "A2", "cat": "roman",
+  "desc": "Bir kasırgayla Oz ülkesine savrulan Dorothy, Korkuluk ve Teneke Adam.",
+  "note": "Romanın ilk bölümlerinin uyarlaması",
+  "source": "L. Frank Baum'un 1900 tarihli romanının (kamu malı) ilk bölümlerinden Lugat için A2 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Cyclone", "s": [
+      ["Dorothy lived in the middle of the great Kansas prairies with Uncle Henry and Aunt Em.", "Dorothy, Kansas'ın uçsuz bucaksız çayırlarının ortasında Henry Amca ve Em Teyze ile yaşıyordu."],
+      ["Their house was small, with only one room.", "Evleri küçücüktü, tek bir odası vardı."],
+      ["Everything around them was grey: the grass, the house and even Aunt Em's face.", "Çevrelerindeki her şey griydi: otlar, ev, hatta Em Teyze'nin yüzü bile."],
+      ["Only Toto, Dorothy's little black dog, made her laugh.", "Dorothy'yi yalnızca küçük siyah köpeği Toto güldürebiliyordu."],
+      ["One day Uncle Henry looked at the sky and said, \"There's a cyclone coming, Em.\"", "Bir gün Henry Amca gökyüzüne baktı ve \"Kasırga geliyor, Em,\" dedi."],
+      ["Aunt Em ran to the small cellar under the floor.", "Em Teyze döşemenin altındaki küçük kilere koştu."],
+      ["But Toto jumped out of Dorothy's arms and hid under the bed.", "Ama Toto, Dorothy'nin kollarından fırlayıp yatağın altına saklandı."],
+      ["Dorothy ran to get him, and at that moment the house shook.", "Dorothy onu almaya koştu ve tam o anda ev sarsıldı."],
+      ["The cyclone lifted the house high into the air.", "Kasırga evi havalara kaldırdı."],
+      ["It flew for hours and hours, round and round like a feather.", "Ev saatlerce, bir tüy gibi döne döne uçtu."],
+      ["At last Dorothy lay down on her bed with Toto and fell asleep.", "Sonunda Dorothy, Toto'yla birlikte yatağına uzanıp uyudu."]
+    ]},
+    {"t": "The Land of the Munchkins", "s": [
+      ["Dorothy woke up when the house came down with a bump.", "Dorothy, ev bir sarsıntıyla yere inince uyandı."],
+      ["She opened the door and cried out with surprise.", "Kapıyı açtı ve şaşkınlıkla haykırdı."],
+      ["She saw green grass, tall trees full of fruit and beautiful flowers everywhere.", "Her yerde yemyeşil çimenler, meyve yüklü uzun ağaçlar ve rengârenk çiçekler vardı."],
+      ["Some strange little people were walking towards her.", "Birkaç tuhaf, ufak tefek insan ona doğru yürüyordu."],
+      ["They were no taller than Dorothy and wore tall blue hats with little bells.", "Boyları Dorothy'den uzun değildi ve küçük çıngıraklı, uzun mavi şapkalar takıyorlardı."],
+      ["A little old woman in white came forward and bowed.", "Beyazlar giymiş yaşlı, ufak bir kadın öne çıkıp eğildi."],
+      ["\"Welcome, most noble Sorceress, to the land of the Munchkins.\"", "\"Munchkinlerin ülkesine hoş geldiniz, yüce Büyücü Hanım.\""],
+      ["\"Thank you for killing the Wicked Witch of the East.\"", "\"Doğu'nun Kötü Cadısı'nı öldürdüğünüz için teşekkür ederiz.\""],
+      ["Dorothy looked down. Two feet in silver shoes were sticking out from under the house.", "Dorothy aşağı baktı. Evin altından gümüş ayakkabılı iki ayak uzanıyordu."],
+      ["\"I didn't kill anybody!\" said Dorothy. \"The house fell on her.\"", "\"Ben kimseyi öldürmedim ki!\" dedi Dorothy. \"Ev onun üstüne düştü.\""],
+      ["The little woman was the Good Witch of the North.", "Ufak kadın, Kuzey'in İyi Cadısı'ydı."],
+      ["She gave Dorothy the witch's silver shoes. \"There is a magic power in them,\" she said.", "Dorothy'ye cadının gümüş ayakkabılarını verdi. \"Bunlarda sihirli bir güç var,\" dedi."],
+      ["\"I want to go home to Kansas,\" said Dorothy.", "\"Evime, Kansas'a dönmek istiyorum,\" dedi Dorothy."],
+      ["\"Then you must go to the Emerald City and ask the great Wizard of Oz to help you.\"", "\"O zaman Zümrüt Şehir'e gidip büyük Oz Büyücüsü'nden yardım istemelisin.\""],
+      ["\"Follow the road of yellow bricks, and you will find it.\"", "\"Sarı tuğlalı yolu izle, onu bulacaksın.\""]
+    ]},
+    {"t": "The Scarecrow", "s": [
+      ["Dorothy put on the silver shoes and started along the yellow brick road with Toto.", "Dorothy gümüş ayakkabıları giydi ve Toto'yla sarı tuğlalı yolda yürümeye başladı."],
+      ["After some hours, she stopped to rest beside a cornfield.", "Birkaç saat sonra dinlenmek için bir mısır tarlasının kenarında durdu."],
+      ["High on a pole in the field, there was a Scarecrow.", "Tarlada yüksek bir direğin tepesinde bir Korkuluk vardı."],
+      ["To her surprise, the Scarecrow winked at her.", "Şaşkınlık içinde Korkuluk'un ona göz kırptığını gördü."],
+      ["\"Good day,\" said the Scarecrow in a rather rough voice.", "\"İyi günler,\" dedi Korkuluk biraz pürüzlü bir sesle."],
+      ["\"Can you help me down? It is very boring up here, frightening crows all day.\"", "\"Beni indirebilir misin? Bütün gün burada karga korkutmak çok sıkıcı.\""],
+      ["Dorothy lifted him off the pole. He was very light, because he was made of straw.", "Dorothy onu direkten indirdi. Samandan yapıldığı için çok hafifti."],
+      ["\"I have no brains,\" he said sadly. \"My head is full of straw.\"", "\"Hiç beynim yok,\" dedi üzgün üzgün. \"Kafamın içi saman dolu.\""],
+      ["\"Do you think the Wizard of Oz would give me some brains?\"", "\"Sence Oz Büyücüsü bana biraz akıl verir mi?\""],
+      ["\"Come with me,\" said Dorothy. \"I will ask him for you.\"", "\"Benimle gel,\" dedi Dorothy. \"Senin için de ondan isterim.\""]
+    ]},
+    {"t": "The Tin Woodman", "s": [
+      ["The next morning, they heard a deep groan in the forest.", "Ertesi sabah ormanda derin bir inilti duydular."],
+      ["They found a man made of tin, holding an axe in the air.", "Elinde havaya kaldırılmış bir baltayla duran, tenekeden yapılmış bir adam buldular."],
+      ["He could not move at all.", "Hiç kıpırdayamıyordu."],
+      ["\"I have been standing here for a year,\" he said. \"My joints are rusted.\"", "\"Bir yıldır burada böyle duruyorum,\" dedi. \"Eklemlerim paslandı.\""],
+      ["\"Please bring the oil can from my cottage and oil my joints.\"", "\"Lütfen kulübemden yağdanlığı getirip eklemlerimi yağlayın.\""],
+      ["Dorothy oiled his neck, his arms and his legs until he could move again.", "Dorothy onun boynunu, kollarını ve bacaklarını yeniden hareket edebilene kadar yağladı."],
+      ["\"Thank you,\" said the Tin Woodman. \"I might have stood here forever.\"", "\"Teşekkür ederim,\" dedi Teneke Oduncu. \"Sonsuza dek burada kalabilirdim.\""],
+      ["When he heard where they were going, he asked to come too.", "Nereye gittiklerini duyunca o da gelmek istedi."],
+      ["\"Do you think Oz could give me a heart?\" he asked.", "\"Sizce Oz bana bir yürek verebilir mi?\" diye sordu."],
+      ["\"I once had a heart and loved a beautiful girl, but now my chest is empty.\"", "\"Bir zamanlar bir yüreğim vardı ve güzel bir kızı severdim; ama şimdi göğsüm bomboş.\""],
+      ["\"The Scarecrow wants brains, and I want a heart,\" he said.", "\"Korkuluk akıl istiyor, ben de bir yürek,\" dedi."],
+      ["\"I shall take the heart,\" said the Tin Woodman, \"for brains do not make one happy.\"", "\"Ben yüreği seçerdim,\" dedi Teneke Oduncu, \"çünkü akıl insanı mutlu etmez.\""],
+      ["Dorothy did not know which of her friends was right.", "Dorothy iki arkadaşından hangisinin haklı olduğunu bilemedi."],
+      ["She only wanted to get back to Kansas and Aunt Em.", "O yalnızca Kansas'a, Em Teyze'nin yanına dönmek istiyordu."],
+      ["And so the three friends walked on together along the yellow brick road.", "Ve böylece üç arkadaş sarı tuğlalı yolda birlikte yürümeye devam ettiler."]
+    ]}
+  ]
+}

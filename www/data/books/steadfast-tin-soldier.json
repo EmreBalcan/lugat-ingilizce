@@ -1,0 +1,71 @@
+{
+  "id": "steadfast-tin-soldier", "title": "The Steadfast Tin Soldier", "trTitle": "Kurşun Asker", "author": "Hans Christian Andersen", "level": "B1", "cat": "masal",
+  "desc": "Tek bacaklı bir oyuncak asker, kâğıttan bir balerin ve uzun bir yolculuk.",
+  "note": "Uyarlama",
+  "source": "H. C. Andersen'in 1838 tarihli masalından (kamu malı) Lugat için B1 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "Twenty-Five Soldiers", "s": [
+      ["There were once twenty-five tin soldiers, who were all brothers, because they had been made from the same old tin spoon.", "Bir zamanlar yirmi beş kurşun asker varmış; hepsi kardeşmiş, çünkü aynı eski kurşun kaşıktan yapılmışlar."],
+      ["They held their guns on their shoulders and looked straight in front of them.", "Tüfeklerini omuzlarında taşır, dimdik önlerine bakarlarmış."],
+      ["They were a birthday present for a little boy.", "Küçük bir oğlana doğum günü hediyesiymişler."],
+      ["All of them were exactly alike, except for one.", "Biri hariç hepsi birbirinin tıpatıp aynısıymış."],
+      ["He had only one leg, because he had been made last and there was not enough tin.", "Onun tek bacağı varmış, çünkü en son o yapılmış ve kurşun yetmemiş."],
+      ["But he stood just as firmly on his one leg as the others did on two.", "Ama tek bacağının üstünde, ötekilerin iki bacak üstünde durduğu kadar sağlam dururmuş."],
+      ["On the same table there were many other toys.", "Aynı masanın üstünde başka birçok oyuncak da varmış."],
+      ["The most beautiful was a paper castle with a little lake in front of it.", "En güzeli, önünde küçük bir gölü olan kâğıttan bir şatoymuş."],
+      ["In the doorway of the castle stood a little paper dancer.", "Şatonun kapısında kâğıttan küçük bir balerin duruyormuş."],
+      ["She wore a dress of fine white cloth and a blue ribbon with a shining sequin.", "İnce beyaz kumaştan bir elbise ve üstünde parlak bir pul olan mavi bir kurdele takıyormuş."],
+      ["She held both arms out and lifted one leg so high that the soldier could not see it.", "İki kolunu açmış, bir bacağını öyle yükseğe kaldırmış ki asker onu göremiyormuş."],
+      ["\"She has only one leg, like me,\" he thought. \"She would be the perfect wife for me.\"", "\"O da benim gibi tek bacaklı,\" diye düşünmüş. \"Bana tam eş olur.\""],
+      ["\"But she lives in a castle, and I live in a box with twenty-four others.\"", "\"Ama o bir şatoda yaşıyor, bense yirmi dört kişiyle bir kutuda.\""]
+    ]},
+    {"t": "The Goblin's Warning", "s": [
+      ["At night, when everyone in the house was asleep, the toys began to play.", "Gece evdekilerin hepsi uyuyunca oyuncaklar oynamaya başlarmış."],
+      ["Only the tin soldier and the little dancer did not move.", "Yalnızca kurşun askerle küçük balerin hiç kıpırdamazmış."],
+      ["She stood on the tip of her toe, and he stood steadily on his one leg, never taking his eyes off her.", "Balerin parmak ucunda dururmuş, asker de tek bacağının üstünde dimdik, gözlerini ondan hiç ayırmadan."],
+      ["When the clock struck twelve, a little black goblin jumped out of a snuffbox.", "Saat on ikiyi vurunca bir enfiye kutusundan küçük, kara bir cin fırlamış."],
+      ["\"Tin soldier,\" said the goblin, \"keep your eyes to yourself!\"", "\"Kurşun asker,\" demiş cin, \"gözlerini kendine sakla!\""],
+      ["But the tin soldier pretended not to hear.", "Ama kurşun asker duymamış gibi yapmış."],
+      ["\"Just you wait until tomorrow!\" said the goblin.", "\"Sen yarını bekle!\" demiş cin."],
+      ["The next morning, the little boy put the tin soldier on the windowsill.", "Ertesi sabah küçük oğlan kurşun askeri pencerenin pervazına koymuş."],
+      ["Whether it was the goblin or the wind, the window suddenly flew open.", "Cin miydi, rüzgâr mıydı bilinmez, pencere birden ardına kadar açılmış."],
+      ["The soldier fell head first from the third floor.", "Asker üçüncü kattan baş aşağı düşmüş."],
+      ["He landed with his helmet and his bayonet stuck between the stones of the street.", "Miğferi ve süngüsü sokağın taşları arasına saplanmış hâlde yere inmiş."],
+      ["The boy and the maid came down to look for him, but they did not see him.", "Oğlan ve hizmetçi onu aramaya inmiş ama görememişler."],
+      ["If he had shouted \"Here I am!\" they would have found him, but he did not think it proper to shout in uniform.", "\"Buradayım!\" diye bağırsa onu bulurlardı ama üniformalıyken bağırmayı yakışık almaz bulmuş."]
+    ]},
+    {"t": "The Long Journey", "s": [
+      ["Soon it began to rain heavily.", "Çok geçmeden şakır şakır yağmur yağmaya başlamış."],
+      ["When the rain stopped, two street boys found the soldier.", "Yağmur dinince iki sokak çocuğu askeri bulmuş."],
+      ["They made a boat out of newspaper, put him in it, and let it sail down the gutter.", "Gazete kâğıdından bir kayık yapmışlar, askeri içine koymuş ve kayığı oluktan aşağı salmışlar."],
+      ["The water was rough, and the paper boat rocked up and down.", "Su çok dalgalıymış ve kâğıt kayık bir aşağı bir yukarı sallanıyormuş."],
+      ["But the tin soldier stood firm, looking straight ahead, his gun on his shoulder.", "Ama kurşun asker sapasağlam duruyormuş; dimdik ileri bakıyor, tüfeği omzunda."],
+      ["Suddenly the boat went into a long, dark tunnel under the street.", "Birden kayık sokağın altındaki uzun, karanlık bir tünele girmiş."],
+      ["A big water rat lived there. \"Have you got a passport?\" it shouted. \"Show me your passport!\"", "Orada iri bir su faresi yaşıyormuş. \"Pasaportun var mı?\" diye bağırmış. \"Göster pasaportunu!\""],
+      ["The soldier said nothing and held his gun more tightly.", "Asker hiçbir şey söylememiş ve tüfeğini daha sıkı kavramış."],
+      ["At the end of the tunnel, the water rushed into a great canal.", "Tünelin sonunda su büyük bir kanala dökülüyormuş."],
+      ["The paper boat filled with water and began to sink.", "Kâğıt kayık suyla dolup batmaya başlamış."],
+      ["The soldier thought of the pretty little dancer whom he would never see again.", "Asker bir daha asla göremeyeceği o güzel, küçük balerini düşünmüş."],
+      ["The paper tore apart, and at that moment a big fish swallowed him.", "Kâğıt parçalanmış ve tam o anda iri bir balık onu yutmuş."]
+    ]},
+    {"t": "Home Again", "s": [
+      ["Oh, how dark it was inside the fish!", "Ah, balığın içi ne kadar da karanlıkmış!"],
+      ["But the tin soldier lay there, steadfast, with his gun on his shoulder.", "Ama kurşun asker orada, kararlılıkla, tüfeği omzunda yatıyormuş."],
+      ["After a long time, there was a flash of light, and someone cried, \"The tin soldier!\"", "Uzun bir süre sonra bir ışık parlamış ve biri \"Kurşun asker!\" diye bağırmış."],
+      ["The fish had been caught, taken to market and sold to the cook of the very same house.", "Balık tutulmuş, pazara götürülmüş ve tam da aynı evin aşçısına satılmış."],
+      ["The cook carried the soldier into the room where all the toys were.", "Aşçı askeri bütün oyuncakların bulunduğu odaya taşımış."],
+      ["There was the castle, and there was the little dancer, still standing on one leg.", "İşte şato oradaymış, küçük balerin de hâlâ tek bacağının üstünde duruyormuş."],
+      ["She too was steadfast. The tin soldier was so moved that he almost cried tin tears.", "O da sebatlıymış. Kurşun asker öyle duygulanmış ki az kalsın kurşun gözyaşları dökecekmiş."],
+      ["He looked at her, and she looked at him, but they said nothing.", "Asker ona bakmış, o da askere; ama hiçbir şey söylememişler."],
+      ["Then, for no reason at all, one of the little boys picked up the soldier and threw him into the stove.", "Sonra, hiçbir sebep yokken, küçük oğlanlardan biri askeri alıp sobaya fırlatmış."],
+      ["The goblin in the snuffbox must have been to blame.", "Bunda enfiye kutusundaki cinin parmağı olmalıymış."],
+      ["The tin soldier stood in the flames and felt a terrible heat.", "Kurşun asker alevlerin içinde dikilmiş ve korkunç bir sıcaklık hissetmiş."],
+      ["He looked at the little dancer, and she looked at him.", "Küçük balerine bakmış, o da ona."],
+      ["He felt himself melting, but he still stood firm with his gun on his shoulder.", "Eridiğini hissediyormuş ama yine de tüfeği omzunda, dimdik duruyormuş."],
+      ["Suddenly a door opened, and the wind caught the dancer.", "Birden bir kapı açılmış ve rüzgâr balerini kapıp sürüklemiş."],
+      ["She flew like a fairy straight into the stove to the tin soldier, burst into flame and was gone.", "Bir peri gibi uçup doğruca sobaya, kurşun askerin yanına gitmiş; alev alıp yok olmuş."],
+      ["The next morning, when the maid took out the ashes, she found a little tin heart.", "Ertesi sabah hizmetçi külleri boşaltırken küçük, kurşun bir yürek bulmuş."],
+      ["Of the dancer, nothing was left but the sequin, and it was burned as black as coal.", "Balerinden geriye yalnızca o pul kalmış; o da kömür gibi kapkara yanmış."]
+    ]}
+  ]
+}

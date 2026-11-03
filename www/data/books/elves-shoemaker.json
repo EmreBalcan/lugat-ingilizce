@@ -1,0 +1,56 @@
+{
+  "id": "elves-shoemaker", "title": "The Elves and the Shoemaker", "trTitle": "Cinler ve Ayakkabıcı", "author": "Brothers Grimm", "level": "A2", "cat": "masal",
+  "desc": "Geceleri gizlice ayakkabı diken iki küçük cin ve onlara teşekkür etmek isteyen yoksul bir usta.",
+  "note": "Basitleştirilmiş uyarlama",
+  "source": "Grimm Kardeşler'in 1812 tarihli masalından (kamu malı) Lugat için A2 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "The Last Piece of Leather", "s": [
+      ["There was once a shoemaker who worked very hard and was very honest.", "Bir zamanlar çok çalışkan ve çok dürüst bir ayakkabıcı varmış."],
+      ["But he still could not earn enough money to live on.", "Ama yine de geçimini sağlayacak kadar para kazanamıyormuş."],
+      ["At last he had nothing left except enough leather for one pair of shoes.", "Sonunda elinde yalnızca bir çift ayakkabıya yetecek kadar deri kalmış."],
+      ["In the evening, he cut out the leather carefully.", "Akşam deriyi özenle kesip hazırlamış."],
+      ["\"I will make the shoes early tomorrow morning,\" he said to his wife.", "\"Ayakkabıları yarın sabah erkenden dikerim,\" demiş karısına."],
+      ["Then he went to bed and fell asleep peacefully.", "Sonra yatmış ve huzur içinde uyumuş."],
+      ["In the morning, he sat down at his workbench.", "Sabah tezgâhının başına oturmuş."],
+      ["To his great surprise, there was a finished pair of shoes on the table.", "Büyük bir şaşkınlıkla masada tamamlanmış bir çift ayakkabı görmüş."],
+      ["He picked them up and looked at them closely.", "Ayakkabıları eline alıp dikkatle incelemiş."],
+      ["Every stitch was perfect. They were a real masterpiece.", "Her dikiş kusursuzmuş. Gerçek bir başyapıtmış bunlar."],
+      ["Soon a customer came into the shop.", "Az sonra dükkâna bir müşteri girmiş."],
+      ["He liked the shoes so much that he paid more than the usual price.", "Ayakkabıları öyle beğenmiş ki her zamankinden fazla para ödemiş."],
+      ["With the money, the shoemaker bought leather for two pairs of shoes.", "Ayakkabıcı o parayla iki çift ayakkabılık deri almış."]
+    ]},
+    {"t": "Every Night", "s": [
+      ["That evening, he cut out the leather for two pairs and went to bed.", "O akşam iki çiftlik deriyi kesmiş ve yatmış."],
+      ["In the morning, two pairs of beautiful shoes were waiting for him.", "Sabah onu iki çift güzel ayakkabı bekliyormuş."],
+      ["Customers came and bought them, and he bought leather for four pairs.", "Müşteriler gelip onları almış, o da dört çiftlik deri almış."],
+      ["The next morning, there were four finished pairs.", "Ertesi sabah dört çift ayakkabı hazırmış."],
+      ["And so it went on, night after night.", "Ve bu böyle gece gece sürüp gitmiş."],
+      ["Whatever he cut out in the evening was finished by the morning.", "Akşam ne kesip bıraksa sabaha bitmiş oluyormuş."],
+      ["Soon people came from all over the town to buy his shoes.", "Kısa sürede kasabanın dört bir yanından insanlar onun ayakkabılarını almaya gelmiş."],
+      ["The shoemaker was no longer poor. In fact, he became quite rich.", "Ayakkabıcı artık yoksul değilmiş; hatta epey zengin olmuş."],
+      ["One evening shortly before Christmas, he said to his wife:", "Noel'den kısa bir süre önce bir akşam karısına şöyle demiş:"],
+      ["\"Let's stay up tonight and see who is helping us.\"", "\"Bu gece uyumayalım da bize kimin yardım ettiğini görelim.\""],
+      ["His wife agreed. They lit a candle and hid behind some coats in the corner.", "Karısı kabul etmiş. Bir mum yakıp köşedeki paltoların arkasına saklanmışlar."]
+    ]},
+    {"t": "The Tiny Clothes", "s": [
+      ["At midnight, two tiny men came in through the window.", "Gece yarısı pencereden iki minicik adam içeri girmiş."],
+      ["They had no clothes on at all.", "Üstlerinde hiçbir giysi yokmuş."],
+      ["They sat down at the workbench and began to work very fast.", "Tezgâha oturup büyük bir hızla çalışmaya başlamışlar."],
+      ["Their little fingers stitched and hammered so quickly that the shoemaker could hardly believe his eyes.", "Minik parmakları öyle hızlı dikip çakıyormuş ki ayakkabıcı gözlerine inanamamış."],
+      ["When all the shoes were finished, they jumped up and ran away.", "Bütün ayakkabılar bitince yerlerinden fırlayıp kaçıp gitmişler."],
+      ["The next morning, the wife said, \"Those little elves have made us rich.\"", "Ertesi sabah kadın, \"O küçük cinler bizi zengin etti,\" demiş."],
+      ["\"We must thank them. They have no clothes, and they must be cold.\"", "\"Onlara teşekkür etmeliyiz. Hiç giysileri yok, kim bilir nasıl üşüyorlardır.\""],
+      ["\"I will make them little shirts, coats, trousers and warm socks.\"", "\"Onlara küçük gömlekler, ceketler, pantolonlar ve sıcak çoraplar dikeceğim.\""],
+      ["\"And I will make each of them a pair of little shoes,\" said the shoemaker.", "\"Ben de her birine bir çift minik ayakkabı yapacağım,\" demiş ayakkabıcı."],
+      ["On Christmas Eve, they put the tiny clothes on the workbench instead of the leather.", "Noel arifesinde deri yerine minik giysileri tezgâhın üstüne koymuşlar."],
+      ["Then they hid again and waited.", "Sonra yine saklanıp beklemişler."],
+      ["At midnight, the elves came in and looked for the leather.", "Gece yarısı cinler gelip deriyi aramışlar."],
+      ["When they saw the clothes, they were delighted.", "Giysileri görünce sevinçten havalara uçmuşlar."],
+      ["They dressed themselves very quickly and began to sing and dance.", "Hemen giyinip şarkı söyleyerek dans etmeye başlamışlar."],
+      ["\"Now we are fine gentlemen! Why should we be shoemakers any longer?\"", "\"Artık birer beyefendiyiz! Neden hâlâ ayakkabıcılık yapalım ki?\""],
+      ["They danced over the chairs and tables and out of the door.", "Sandalyelerin, masaların üstünden zıplaya zıplaya kapıdan çıkıp gitmişler."],
+      ["The elves never came back.", "Cinler bir daha hiç gelmemiş."],
+      ["But the shoemaker was successful for the rest of his life, and everything he did went well.", "Ama ayakkabıcının işleri ömrünün sonuna kadar yolunda gitmiş, tuttuğu her iş başarılı olmuş."]
+    ]}
+  ]
+}

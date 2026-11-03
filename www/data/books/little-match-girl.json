@@ -1,0 +1,66 @@
+{
+  "id": "little-match-girl", "title": "The Little Match Girl", "trTitle": "Kibritçi Kız", "author": "Hans Christian Andersen", "level": "B1", "cat": "masal",
+  "desc": "Yılbaşı gecesi soğukta kibrit satan bir kızın yaktığı her kibritte gördükleri.",
+  "note": "Uyarlama",
+  "source": "H. C. Andersen'in 1845 tarihli masalından (kamu malı) Lugat için B1 seviyesinde yeniden anlatıldı.",
+  "chapters": [
+    {"t": "New Year's Eve", "s": [
+      ["It was terribly cold. Snow was falling, and it was almost dark.", "Hava korkunç soğuktu. Kar yağıyordu ve ortalık kararmak üzereydi."],
+      ["It was the last evening of the year, New Year's Eve.", "Yılın son akşamıydı; yılbaşı gecesi."],
+      ["In the cold and darkness, a poor little girl was walking through the streets.", "Soğukta ve karanlıkta, yoksul, küçük bir kız sokaklarda yürüyordu."],
+      ["She had nothing on her head, and her feet were bare.", "Başında hiçbir şey yoktu, ayakları da çıplaktı."],
+      ["When she left home, she had been wearing slippers, but they were her mother's and much too big.", "Evden çıkarken ayağında terlikler vardı ama annesinindi ve ona çok büyüktü."],
+      ["She had lost them as she ran across the street to avoid two carriages.", "İki arabadan kaçmak için karşıya koşarken terlikleri kaybetmişti."],
+      ["Now her little feet were red and blue with cold.", "Şimdi minicik ayakları soğuktan mosmor kesilmişti."],
+      ["In her old apron she carried a bundle of matches.", "Eski önlüğünde bir deste kibrit taşıyordu."],
+      ["Nobody had bought anything from her all day.", "Bütün gün kimse ondan tek bir şey bile almamıştı."],
+      ["Nobody had given her a single penny.", "Kimse avucuna tek kuruş bile bırakmamıştı."],
+      ["Shivering with cold and hunger, she walked on, a picture of misery.", "Soğuktan ve açlıktan titreyerek yürüyordu; sefaletin ta kendisiydi."],
+      ["Snowflakes fell on her long golden hair, but she did not think about that.", "Kar taneleri uzun sarı saçlarına düşüyordu ama o bunu düşünmüyordu bile."],
+      ["Lights were shining from all the windows, and there was a delicious smell of roast goose.", "Bütün pencerelerden ışıklar parlıyor, ortalığa nefis bir kızarmış kaz kokusu yayılıyordu."],
+      ["It was New Year's Eve, and she thought about that.", "Yılbaşı gecesiydi ve o, bunu düşünüyordu."]
+    ]},
+    {"t": "The First Matches", "s": [
+      ["In a corner between two houses, she sat down and pulled her feet under her.", "İki evin arasındaki bir köşeye oturdu ve ayaklarını altına çekti."],
+      ["But she felt colder and colder.", "Ama gittikçe daha çok üşüyordu."],
+      ["She did not dare to go home, because she had sold no matches.", "Eve gitmeye cesaret edemiyordu, çünkü hiç kibrit satamamıştı."],
+      ["Her father would beat her, and it was cold at home too.", "Babası onu döverdi; üstelik evde de hava soğuktu."],
+      ["Her hands were almost frozen. Perhaps one match would warm them.", "Elleri neredeyse donmuştu. Belki bir kibrit onları ısıtırdı."],
+      ["She pulled one out. \"Ritsch!\" How it burned and sparkled!", "Bir tane çekti. \"Çırt!\" Nasıl da tutuştu, nasıl da parladı!"],
+      ["It was a warm, bright flame, like a little candle.", "Sıcacık, parlak bir alevdi; küçük bir mum gibi."],
+      ["It seemed to the little girl that she was sitting in front of a great iron stove.", "Küçük kıza kocaman bir demir sobanın önünde oturuyormuş gibi geldi."],
+      ["The fire burned so warmly! She stretched out her feet to warm them too.", "Ateş öyle güzel yanıyordu ki! Ayaklarını da ısıtmak için uzattı."],
+      ["But then the flame went out, and the stove disappeared.", "Ama sonra alev söndü ve soba kayboldu."],
+      ["She lit another match. It burned brightly, and the wall became as clear as glass.", "Bir kibrit daha yaktı. Pırıl pırıl yandı ve duvar cam gibi saydamlaştı."],
+      ["She could see into a room where a table was set with a white cloth and fine plates.", "Beyaz örtülü, güzel tabaklarla kurulmuş bir sofranın bulunduğu bir odayı görebiliyordu."],
+      ["A roast goose stuffed with apples and plums steamed on the table.", "Masada elma ve erikle doldurulmuş, dumanı tüten bir kızarmış kaz duruyordu."],
+      ["Then the match went out, and there was only the thick, cold wall.", "Sonra kibrit söndü ve geriye yalnızca kalın, soğuk duvar kaldı."]
+    ]},
+    {"t": "Grandmother", "s": [
+      ["She lit another match. Now she was sitting under a beautiful Christmas tree.", "Bir kibrit daha yaktı. Şimdi muhteşem bir Noel ağacının altında oturuyordu."],
+      ["Thousands of candles were burning on its green branches.", "Yeşil dallarında binlerce mum yanıyordu."],
+      ["She lifted her hands towards them, and the match went out.", "Ellerini onlara doğru uzattı ve kibrit söndü."],
+      ["The Christmas candles rose higher and higher until they became the stars in the sky.", "Noel mumları yükseldikçe yükseldi ve gökyüzündeki yıldızlara dönüştü."],
+      ["One of them fell, leaving a long trail of fire behind it.", "İçlerinden biri arkasında uzun bir ateş izi bırakarak kaydı."],
+      ["\"Someone is dying,\" thought the little girl.", "\"Biri ölüyor,\" diye düşündü küçük kız."],
+      ["Her old grandmother, the only person who had ever loved her, used to say that when a star falls, a soul goes up to God.", "Onu bu dünyada seven tek insan olan yaşlı büyükannesi, bir yıldız kaydığında bir ruhun Tanrı'ya yükseldiğini söylerdi."],
+      ["She lit another match, and in the light stood her grandmother, gentle and kind.", "Bir kibrit daha yaktı ve ışığın içinde şefkatli, sevecen büyükannesi belirdi."],
+      ["\"Grandmother!\" cried the little girl. \"Oh, take me with you!\"", "\"Büyükanne!\" diye haykırdı küçük kız. \"Ah, beni de yanına al!\""],
+      ["\"I know you will disappear when the match goes out, like the warm stove and the goose and the tree.\"", "\"Kibrit sönünce sen de kaybolacaksın, biliyorum; tıpkı sıcak soba, kaz ve ağaç gibi.\""],
+      ["Quickly she lit all the matches in the bundle, because she wanted to keep her grandmother there.", "Büyükannesini orada tutabilmek için destedeki bütün kibritleri hemen yaktı."],
+      ["The matches shone brighter than daylight.", "Kibritler gün ışığından da parlak yandı."],
+      ["Her grandmother had never looked so tall and so beautiful.", "Büyükannesi hiç bu kadar uzun boylu, bu kadar güzel görünmemişti."],
+      ["She took the little girl in her arms, and they flew up together in joy and light.", "Küçük kızı kollarına aldı ve birlikte neşe ve ışık içinde yukarı uçtular."],
+      ["Higher and higher they flew, to where there was no cold, no hunger and no fear.", "Yükseldikçe yükseldiler; soğuğun, açlığın ve korkunun olmadığı yere."]
+    ]},
+    {"t": "New Year's Morning", "s": [
+      ["In the cold morning, the little girl was found sitting in the corner between the houses.", "Soğuk bir sabahta küçük kızı evlerin arasındaki köşede otururken buldular."],
+      ["Her cheeks were red, and there was a smile on her lips.", "Yanakları kırmızıydı, dudaklarında bir gülümseme vardı."],
+      ["She had frozen to death on the last evening of the old year.", "Eski yılın son gecesi donarak ölmüştü."],
+      ["The New Year's sun rose over the little body with the burnt matches in her hand.", "Yeni yılın güneşi, elinde yanmış kibritlerle yatan küçük bedenin üstüne doğdu."],
+      ["\"She wanted to warm herself,\" people said.", "\"Isınmak istemiş,\" dedi insanlar."],
+      ["Nobody knew what beautiful things she had seen.", "Kimse onun ne güzel şeyler gördüğünü bilmiyordu."],
+      ["Nobody knew how happily she had gone with her old grandmother into the joy of the New Year.", "Kimse onun yaşlı büyükannesiyle birlikte yeni yılın sevincine ne kadar mutlu gittiğini bilmiyordu."]
+    ]}
+  ]
+}
