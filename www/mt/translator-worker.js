@@ -25,7 +25,7 @@ const GEMM = {
 };
 
 let loaded = 0, total = 0;
-const progress = () => self.postMessage({ type: 'progress', loaded, total });
+const progress = () => self.postMessage({ type: 'progress', loaded: Math.min(loaded, total), total });
 
 // Bazı barındırma ortamları (claude.ai) ikili model dosyası sunmaz; orada aynı dosyanın base64 metin kopyası okunur
 async function downloadB64(path) {
@@ -42,17 +42,20 @@ async function downloadB64(path) {
 async function download(path) {
   const r = await fetch(path).catch(() => null);
   if (!r || !r.ok) return downloadB64(path);
-  const size = +r.headers.get('content-length') || 0;
-  if (!r.body || !size) { const b = await r.arrayBuffer(); loaded += b.byteLength; progress(); return b; }
+  if (!r.body) { const b = await r.arrayBuffer(); loaded += b.byteLength; progress(); return b; }
+  // content-length'e güvenme: sunucu sıkıştırarak gönderirse (GitHub Pages gzip) gelen veri ondan büyük olur
   const reader = r.body.getReader();
-  const out = new Uint8Array(size);
-  let at = 0;
+  const chunks = [];
+  let size = 0;
   for (;;) {
     const { done, value } = await reader.read();
     if (done) break;
-    out.set(value, at); at += value.length; loaded += value.length;
+    chunks.push(value); size += value.length; loaded += value.length;
     progress();
   }
+  const out = new Uint8Array(size);
+  let at = 0;
+  for (const c of chunks) { out.set(c, at); at += c.length; }
   return out.buffer;
 }
 
@@ -87,11 +90,9 @@ function aligned(buffer, alignment) {
 function load() {
   if (loading) return loading;
   loading = (async () => {
-    total = 0;
-    // Toplam boyutu önceden bildir (ilerleme çubuğu için)
-    const all = [...FILES.model, FILES.shortlist, FILES.vocab, FILES.wasm];
-    const heads = await Promise.all(all.map((p) => fetch(p, { method: 'HEAD' }).then((r) => +r.headers.get('content-length') || 0).catch(() => 0)));
-    total = heads.reduce((a, b) => a + b, 0) || 26443028; // sunucu boyut bildirmezse bilinen toplam
+    // İlerleme çubuğu için açılmış dosyaların bilinen toplam boyutu (sunucunun sıkıştırmasından bağımsız)
+    total = 26443028;
+    loaded = 0;
     progress();
     wasmBytes = await download(FILES.wasm);
     self.importScripts('runtime/bergamot-translator-worker.js');

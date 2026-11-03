@@ -72,7 +72,7 @@ const hash = (s) => { let h = 2166136261; for (const ch of s) { h ^= ch.codePoin
 const version = hash(shell.map((f) => { const p = path.join(WWW, f === './' ? 'index.html' : f); return f + fs.statSync(p).size + fs.statSync(p).mtimeMs; }).join('|'));
 fs.writeFileSync(path.join(WWW, 'sw.js'), `// Otomatik üretildi: tools/build-content.mjs
 const SHELL = 'lugat-shell-${version}';
-const DATA = 'lugat-dict-v1';
+const DATA = 'lugat-dict-v2'; // ad değişince eski önbellek silinir
 const PRECACHE = ${JSON.stringify(shell)};
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(SHELL).then((c) => c.addAll(PRECACHE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => {
@@ -81,7 +81,7 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;
-  if (/\\/data\\/dict\\/(en|tr)\\/|\\/mt\\//.test(url.pathname)) {
+  if (/\\/data\\/dict\\/(en|tr)\\/|\\/mt\\/(en-tr\\/|runtime\\/.+\\.wasm)/.test(url.pathname)) {
     // Sözlük parçaları: önce önbellek, yoksa indirip sakla
     e.respondWith(caches.open(DATA).then((c) => c.match(e.request).then((hit) => hit || fetch(e.request).then((r) => { if (r.ok) c.put(e.request, r.clone()); return r; }))));
     return;
