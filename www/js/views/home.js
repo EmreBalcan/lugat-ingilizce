@@ -3,6 +3,7 @@ import { esc, ICON, ring, speak, toast } from '../ui.js';
 import { loadIndex, getEn, level, formRegex } from '../dict.js';
 import { bookIndex, coverHTML } from './library.js';
 import { topicIndex } from './topics.js';
+import { testStatus } from './test.js';
 import { flashcards } from './profile.js';
 import { cycleTheme, getTheme, themeIcon, label } from '../theme.js';
 
@@ -40,6 +41,7 @@ export function render(root) {
     const SHORTCUTS = [
       ['ceviri', ICON.translate, 'Çeviri', 'Anlam, örnek cümle, eş ve zıt anlam, YDS sorusu'],
       ['sozluk', ICON.dict, 'Sözlük', '40 binden fazla kelimeye harf, seviye ve türe göre göz at'],
+      ['test', ICON.check, 'Günlük Test', 'Her gün yenilenen 25 soruluk YDS tarzı test'],
       ['konular', ICON.topic, 'Konu anlatımı', 'Gramer, bağlaçlar, edatlar ve çok örnek'],
       ['kutuphane', ICON.book, 'Kütüphane', 'Seviyeli klasikler, cümle cümle Türkçesiyle'],
       ['profil', ICON.user, 'Profil', 'Listelerin, okuduğun kitaplar, gelişimin'],
@@ -62,6 +64,12 @@ export function render(root) {
         <span class="gt-bars" aria-hidden="true">${goals.map(([, , v, t], i) => `<i class="t${i + 1}"><b style="width:${Math.min(100, Math.round((100 * v) / t))}%"></b></i>`).join('')}</span>
       </button>
       <div class="goals" id="goals" ${goalsOpen ? '' : 'hidden'}>${goals.map(([h, l, v, t], i) => `<a class="goal t${i + 1} ${v >= t ? 'done' : ''}" href="#${h}"><span class="arrow-dot">${ICON.arrow}</span><div class="goal-label">${l}</div><div class="section" style="gap:10px"><div class="goal-num">${Math.min(v, 9999)}<small> / ${t}</small></div><div class="meter"><i style="width:${Math.min(100, Math.round((100 * v) / t))}%"></i></div></div></a>`).join('')}</div>
+
+      ${(() => {
+        const ts = testStatus();
+        const sub = ts.done ? `Bugün ${ts.score} / ${ts.total} yaptın. Yarın yeni sorular gelecek.` : ts.started ? `${ts.answered} / ${ts.total} soru cevaplandı · ${ts.score} doğru` : '10 dilbilgisi + 15 kelime sorusu · her gün yenilenir';
+        return `<a class="card test-card" href="#test"><span class="ico">${ICON.check}</span><span class="t"><b>Günlük Test</b><span class="muted small">${sub}</span></span><span class="btn sm primary">${ts.done ? 'Sonuçlar' : ts.started ? 'Devam et' : 'Başla'}</span></a>`;
+      })()}
 
       <div class="card wotd" id="wotd"><div class="section" style="gap:6px"><span class="eyebrow muted">Günün kelimesi</span><div class="wotd-word"><span>…</span></div></div></div>
 

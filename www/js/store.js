@@ -111,6 +111,14 @@ export const store = {
     commit();
   },
 
+  // Günlük test: { answers: [şık indeksi | null], done, score, total }
+  test(d = today()) { return state.days[d]?.test || null; },
+  saveTest(patch, d = today()) {
+    const day0 = day(d);
+    day0.test = { ...(day0.test || {}), ...patch };
+    commit();
+  },
+
   setGoal(k, v) { state.goals[k] = Math.max(1, Math.min(500, v | 0)); commit(); },
 
   streak() {

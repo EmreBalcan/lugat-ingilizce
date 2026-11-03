@@ -81,6 +81,11 @@ Uygulamadaki her cevap kendi içindeki veriden gelir. Bir kelime aradığınızd
 - Sonek araması (*-tion*, *-ment*), Türkçe anlam içinde arama, sıklığa ya da alfabeye göre sıralama
 - Sonra öğren, favoriler ve öğrenilenler listelerini sözlük içinde süzme; kelimeye dokununca öğrenme ekranı açılır
 
+**Günlük Test**
+- Her gün yenilenen 25 soruluk YDS tarzı test: 10 dilbilgisi sorusu (konu anlatımlarından) ve 15 kelime sorusu (beş farklı türde)
+- Cevaplar kaydedilir, yarıda bırakılan test kaldığı yerden sürer
+- Sonunda puan, türlere göre başarı ve yanlışların açıklamalı listesi
+
 **Konu anlatımı**
 - 6 kategoride 26 konu: Zamanlar, Modallar, Cümle Yapıları, Bağlaçlar, Edatlar, Kelime Bilgisi
 - Her konuda kısa anlatım, yapı tablosu, kullanım yerleri, **en az 10 çevirili örnek**, dikkat edilecek noktalar

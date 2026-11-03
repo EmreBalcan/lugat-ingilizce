@@ -114,7 +114,7 @@ export function ring(value, goal) {
 export function questionHTML(q, i) {
   return `<div class="q" data-q="${i}">
     ${q.label ? `<span class="badge q-kind">${esc(q.label)}</span>` : ''}
-    <div class="q-stem"><span class="muted">${i + 1}.</span> ${esc(q.stem).replace('----', '<b>----</b>').replace(/\n/g, '<br>')}</div>
+    <div class="q-stem"><span class="muted">${i + 1}.</span> ${esc(q.stem).replace(/----/g, '<b class="blank">----</b>').replace(/\n/g, '<br>')}</div>
     <div class="q-opts">${q.options.map((o, k) => `<button class="q-opt" data-k="${k}"><b>${'ABCDE'[k]})</b> ${esc(o)}</button>`).join('')}</div>
     <div class="q-exp" hidden></div>
   </div>`;

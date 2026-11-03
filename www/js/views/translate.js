@@ -162,7 +162,9 @@ async function showEntry(res, { entry: e, from, alsoTr }) {
       ${e.a?.length ? `<div class="section"><h2>Zıt anlamlılar</h2><div class="chips">${e.a.map((s) => `<button class="chip" data-search="${esc(s)}">${esc(s)}</button>`).join('')}</div></div>` : ''}
     </div>` : ''}
 
-    ${e.h?.length ? `<div class="section"><h2>Deyimler ve kalıplar</h2><div class="card list">${e.h.map((h) => `<div class="pattern"><span>${esc(h)}</span></div>`).join('')}</div></div>` : ''}
+    ${e.h?.length ? `<div class="section"><h2>Deyimler ve kalıplar</h2><div class="card list">${e.h.map((h) => Array.isArray(h)
+      ? `<div class="pattern idiom"><code lang="en">${esc(h[0])}</code><span class="idiom-sep" aria-hidden="true">→</span><span class="muted">${esc(h[1])}</span></div>`
+      : `<div class="pattern"><span>${esc(h)}</span></div>`).join('')}</div></div>` : ''}
 
     <div class="section" id="yds"><div class="section-head"><h2>YDS / YÖKDİL</h2>${e.y ? '<span class="badge yds">Okuma parçalarında sık geçer</span>' : ''}</div><div id="yds-body">${loading('Sorular hazırlanıyor')}</div></div>
 

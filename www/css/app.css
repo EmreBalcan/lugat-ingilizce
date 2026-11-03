@@ -231,6 +231,13 @@ button.chip:hover, a.chip:hover { background: var(--pill); color: var(--pill-ink
 .ex .icon-btn svg { width: 18px; height: 18px; }
 .pattern { display: flex; justify-content: space-between; gap: 10px; padding: 9px 0; flex-wrap: wrap; }
 .pattern code { font: 600 .98rem var(--f-read); }
+.pattern.idiom { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 4px 12px; align-items: baseline; justify-content: start; }
+.idiom-sep { color: var(--cobalt); font-weight: 700; }
+@media (max-width: 560px) {
+  .pattern.idiom { grid-template-columns: 1fr; gap: 2px; }
+  .idiom-sep { display: none; }
+  .pattern.idiom code::after { content: " :"; color: var(--cobalt); }
+}
 .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 14px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .word-actions { display: flex; gap: 8px; flex-wrap: wrap; }
@@ -238,6 +245,7 @@ button.chip:hover, a.chip:hover { background: var(--pill); color: var(--pill-ink
 /* ---------- Soru ---------- */
 .q { display: flex; flex-direction: column; gap: 12px; }
 .q-stem { font-family: var(--f-read); font-size: 1.05rem; }
+.q-stem .blank { white-space: nowrap; letter-spacing: .05em; }
 .q-kind { align-self: flex-start; background: var(--grad-card); color: #1f1d24; }
 .q-opts { display: grid; gap: 8px; }
 .q-opt { display: flex; gap: 10px; align-items: baseline; text-align: left; padding: 12px 16px; border-radius: 18px; border: 1.5px solid transparent; background: var(--surface-solid); cursor: pointer; }
@@ -360,6 +368,16 @@ button.chip:hover, a.chip:hover { background: var(--pill); color: var(--pill-ink
 .flash .big { font: 400 2.8rem var(--f-display); overflow-wrap: anywhere; letter-spacing: -.02em; }
 .goal-edit { display: grid; grid-template-columns: 1fr 96px; gap: 10px; align-items: center; }
 .goal-edit input { padding: 9px 14px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface-solid); width: 100%; }
+
+/* ---------- Günlük test ---------- */
+.test-card { display: flex; align-items: center; gap: 14px; text-decoration: none; color: inherit; padding: 16px 18px; }
+.test-card .ico { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; background: var(--grad-card); color: #1f1d24; flex: none; }
+.test-card .t { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.test-card .t b { font: 500 1.2rem var(--f-display); }
+.test-progress { display: flex; align-items: center; gap: 14px; }
+.test-progress .bar { flex: 1; }
+.test .q-opt { padding: 14px 16px; }
+.test-score .wotd-word { text-transform: none; }
 
 /* ---------- Sözlük ---------- */
 .dict-filters { display: flex; flex-direction: column; gap: 10px; min-width: 0; }

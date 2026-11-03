@@ -30,6 +30,9 @@ function E(w) {
   return e;
 }
 
+const ABBR = ['k', 'bak', 'müz', 'tic', 'zool', 'kıs', 'çoğ', 'huk', 'tıb', 'bot', 'coğr', 'ask', 'mat', 'fiz', 'kim', 'gram', 'şair', 'eski', 'argo', 'bşk', 'vb', 'b', 'den', 'ing', 'İng', 'A.B.D', 'ABD', 's.th', 's.o', 'th', 'o', 'mec', 'esk', 'anat', 'biyol', 'jeol', 'mak', 'mim', 'tiy', 'fot', 'sin', 'spor', 'ekon', 'pol', 'psik', 'fel', 'dilb', 'edeb', 'hav', 'den', 'oto', 'elek', 'kat', 'İsk', 'iskambil', 'briç', 'lat', 'fr', 'alm', 'yun', 'ital', 'isp', 'arap', 'fars', 'Rom', 'Yun', 'v.b', 'vs', 'Mr', 'Mrs', 'Dr', 'St'];
+const ABBR_SAFE_SPLIT = new RegExp(`(?<!(?:^|[\\s(])(?:${ABBR.map((a) => a.replace(/\./g, '\\.')).join('|')}))\\.\\s+`, 'u');
+
 // ---------- 1. FreeDict ----------
 log('FreeDict');
 {
@@ -49,7 +52,8 @@ log('FreeDict');
       let sense = qs.join(', ');
       // Bazı anlamların sonuna deyimler eklenmiş: "anlam. deyim karşılık. deyim karşılık."
       if (sense.length > 70 && sense.includes('. ')) {
-        const parts = sense.split(/\.\s+/).map(clean).filter(Boolean);
+        // Kısaltmalardaki noktalarda bölme: (k. dili), (bak.), (müz.), s.th., A.B.D. ...
+        const parts = sense.split(ABBR_SAFE_SPLIT).map(clean).filter(Boolean);
         sense = parts.shift();
         for (const p of parts) if (e.ph.length < 20) e.ph.push(p);
       }
@@ -292,6 +296,35 @@ function pushCand(lemma, sid) {
   log('  cümle:', sentences.length);
 }
 
+// Deyim satırını İngilizce kalıp + Türkçe anlam olarak ayırır: "not to say hem de" -> ["not to say", "hem de"]
+// İngilizce kısım, sözlükte bulunan İngilizce kelimelerden oluşan en uzun baştaki dizidir; ayrılamayan parçalar atılır.
+const EN_EXTRA = new Set(["one's", "someone's", "somebody's", 'oneself', 'yourself', 'himself', 'herself', 'sb', 'sth', 's.o.', 's.th.', 'o.s.', "i'm", "it's", "don't", "can't", "won't", "isn't", "you're", "that's", 'a', 'an', 'i']);
+const TR_HINT = /[çğıöşüÇĞİÖŞÜ]/;
+function splitPhrase(p) {
+  p = p.replace(/\s+/g, ' ').trim();
+  if (p.length < 4 || /^[a-zçğıöşü]*\)/i.test(p) || (p.match(/\(/g) || []).length !== (p.match(/\)/g) || []).length) return null;
+  const toks = p.split(' ');
+  let i = 0;
+  for (; i < toks.length; i++) {
+    const raw = toks[i];
+    const w = raw.toLowerCase().replace(/^["'(]+|[)"',.!?;:]+$/g, '');
+    if (!w || TR_HINT.test(raw) || raw.startsWith('(')) break;
+    if (!/^[a-z'’.-]+$/.test(w)) break;
+    if (!(formMap.has(w) || entries.has(w) || EN_EXTRA.has(w))) break;
+  }
+  // Sondaki nadir "İngilizce" kelime aslında Türkçe olabilir (defter, emir...): Türkçe tarafa geçir
+  const wfreq = (raw) => {
+    const w = raw.toLowerCase().replace(/[^a-z']/g, '');
+    return Math.max(freq.get(w) || 0, ...(formMap.get(w) || []).map((l) => freq.get(l) || 0)); // "dollars" → dollar
+  };
+  while (i > 1 && wfreq(toks[i - 1]) < 3 && !EN_EXTRA.has(toks[i - 1].toLowerCase())) i--;
+  if (i === 0 || i === toks.length) return null;
+  const en = toks.slice(0, i).join(' ').replace(/[,;:]$/, '');
+  const tr = toks.slice(i).join(' ').trim();
+  if (!tr || tr.length < 2 || en.split(' ').length < 2) return null;
+  return [en, tr];
+}
+
 // ---------- 6. YDS / akademik liste ----------
 const ydsFile = path.join(ROOT, 'tools', 'yds-words.txt');
 const yds = new Set(fs.existsSync(ydsFile) ? fs.readFileSync(ydsFile, 'utf8').split(/\s+/).map((s) => s.trim().toLowerCase()).filter((s) => s && !s.startsWith('#')) : []);
@@ -341,7 +374,22 @@ for (const w of ranked) {
   if (qx.length) out.q = qx;
   if (col.length) out.c = col;
   if (ir) out.i = [ir.past.join('/'), ir.pp.join('/')];
-  if (e.ph.length) out.h = e.ph;
+  const head = w.split(' ')[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const ph = e.ph
+    .map((p) => p.replace(/\bone' /g, "one's "))
+    .flatMap((p) => p.split(/(?<=[!?])\s+(?=[a-z])|\s\.(?=[a-z])/))
+    .flatMap((p) => {
+      // Virgülle bitişik iki deyimi ayır; ama yalnızca virgülün solunda Türkçe bir anlam bitiyorsa
+      const parts = p.split(new RegExp(`[,;]\\s+(?=(?:[a-z]+ )?${head}\\b)`));
+      const out = [parts[0]];
+      for (const x of parts.slice(1)) {
+        if (TR_HINT.test(out[out.length - 1]) || /[a-zçğıöşü]{3,}\s+[a-zçğıöşü]+$/i.test(out[out.length - 1]) && !/^[a-z' ]+$/i.test(out[out.length - 1])) out.push(x);
+        else out[out.length - 1] += ', ' + x;
+      }
+      return out;
+    })
+    .map(splitPhrase).filter(Boolean).slice(0, 15);
+  if (ph.length) out.h = ph;
   if (yds.has(w)) out.y = 1;
   enShards[shardOf(w, EN_SHARDS)][w] = out;
   if (tr.length) index.push([w, r, [...e.pos].join(''), tr[0].slice(0, 40), yds.has(w) ? 1 : 0]);

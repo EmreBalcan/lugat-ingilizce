@@ -3,6 +3,7 @@ import * as home from './views/home.js';
 import * as translate from './views/translate.js';
 import * as topics from './views/topics.js';
 import * as dictionary from './views/dictionary.js';
+import * as test from './views/test.js';
 import * as library from './views/library.js';
 import * as profile from './views/profile.js';
 import { cycleTheme, applyTheme, getTheme } from './theme.js';
@@ -19,6 +20,7 @@ function route() {
   let mod = home, arg = null, sec = 'ana';
   if (h === 'ceviri') { mod = translate; sec = 'ceviri'; }
   else if (h === 'sozluk') { mod = dictionary; sec = 'sozluk'; }
+  else if (h === 'test') { mod = test; sec = 'ana'; }
   else if (h === 'konular') { mod = topics; sec = 'konular'; }
   else if (h.startsWith('konu-')) { mod = topics; arg = h.slice(5); sec = 'konular'; }
   else if (h === 'kutuphane') { mod = library; sec = 'kutuphane'; }
