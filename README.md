@@ -76,6 +76,11 @@ Uygulamadaki her cevap kendi içindeki veriden gelir. Bir kelime aradığınızd
 - Tahmini seviye (A1–C2), YDS'de sık geçen kelime etiketi, sesli telaffuz
 - Her gün değişen 5 şıklı YDS tarzı sorular, beş türde: boşluk doldurma (ekranda gösterilmeyen cümlelerden), Türkçe anlam, Türkçeden İngilizceye, eş/zıt anlam ve çeviri
 
+**Cümle çevirisi**
+- Arama kutusuna İngilizce bir cümle yazınca Türkçeye çevrilir; kelime araması eskisi gibi çalışır
+- Çeviri, Mozilla'nın açık kaynak Bergamot modeliyle (Firefox'un çeviri motoru) **cihazda** yapılır: metin hiçbir sunucuya ya da yapay zekâ servisine gönderilmez, internetsiz çalışır
+- Altında cümledeki kelimelerin sözlük anlamları; dokununca kelimenin sayfası açılır
+
 **Sözlük**
 - 40 binden fazla kelimeye harf, seviye (A1–C2), kelime türü ve YDS listesine göre göz atma
 - Sonek araması (*-tion*, *-ment*), Türkçe anlam içinde arama, sıklığa ya da alfabeye göre sıralama

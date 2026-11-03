@@ -27,9 +27,21 @@ const GEMM = {
 let loaded = 0, total = 0;
 const progress = () => self.postMessage({ type: 'progress', loaded, total });
 
-async function download(path) {
-  const r = await fetch(path);
+// Bazı barındırma ortamları (claude.ai) ikili model dosyası sunmaz; orada aynı dosyanın base64 metin kopyası okunur
+async function downloadB64(path) {
+  const r = await fetch(path + '.b64.txt');
   if (!r.ok) throw new Error(path + ' ' + r.status);
+  const bin = atob((await r.text()).trim());
+  const out = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  loaded += out.length;
+  progress();
+  return out.buffer;
+}
+
+async function download(path) {
+  const r = await fetch(path).catch(() => null);
+  if (!r || !r.ok) return downloadB64(path);
   const size = +r.headers.get('content-length') || 0;
   if (!r.body || !size) { const b = await r.arrayBuffer(); loaded += b.byteLength; progress(); return b; }
   const reader = r.body.getReader();
