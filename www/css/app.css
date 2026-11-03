@@ -378,6 +378,14 @@ button.chip:hover, a.chip:hover { background: var(--pill); color: var(--pill-ink
 .goal-edit { display: grid; grid-template-columns: 1fr 96px; gap: 10px; align-items: center; }
 .goal-edit input { padding: 9px 14px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface-solid); width: 100%; }
 
+/* ---------- Cümle çevirisi ---------- */
+.mt-src { display: flex; gap: 10px; align-items: flex-start; }
+.mt-src p { flex: 1; min-width: 0; font: 400 1.15rem/1.55 var(--f-read); }
+.mt-out { min-height: 56px; }
+.mt-tr { font: 400 1.5rem/1.4 var(--f-display); letter-spacing: -.01em; padding: 14px 18px; border-radius: 20px; background: var(--grad-card); color: #1f1d24; }
+.mt-loading { display: flex; flex-direction: column; gap: 8px; padding: 10px 0; }
+.mt-words .chip { gap: 8px; }
+
 /* ---------- Günlük test ---------- */
 .test-card { display: flex; align-items: center; gap: 14px; text-decoration: none; color: inherit; padding: 16px 18px; }
 .test-card .ico { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; background: var(--grad-card); color: #1f1d24; flex: none; }

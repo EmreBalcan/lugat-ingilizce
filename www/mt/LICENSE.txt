@@ -1,0 +1,14 @@
+Cümle çevirisi bileşenleri
+
+runtime/bergamot-translator-worker.js, runtime/bergamot-translator-worker.wasm
+  Bergamot Translator v0.4.5 (Mozilla / Bergamot Project) — Mozilla Public License 2.0
+  https://github.com/mozilla/bergamot-translator
+
+en-tr/  (model.entr.intgemm.alphas.bin iki parçaya bölünmüştür: .0 ve .1)
+  Firefox Translations İngilizce → Türkçe modeli (Mozilla) — Mozilla Public License 2.0
+  https://github.com/mozilla/translations
+  Alındığı yer: https://huggingface.co/midudev/firefox-translations
+
+MPL-2.0 metni: https://www.mozilla.org/MPL/2.0/
+
+translator-worker.js Lugat projesi için yazılmıştır; modeli cihazda çalıştırır ve hiçbir dış sunucuya bağlanmaz.

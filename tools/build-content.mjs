@@ -67,7 +67,7 @@ fs.writeFileSync(path.join(ROOT, 'dist', 'files.json'), JSON.stringify(files));
 
 // ---------- PWA servis çalışanı ----------
 // Uygulama kabuğu ve içerik baştan önbelleğe alınır; sözlük parçaları kullanıldıkça (ya da "çevrimdışı indir" ile).
-const shell = ['./', 'index.html', ...files.filter((f) => f !== 'sw.js' && !/^data\/dict\/(en|tr)\//.test(f) && !/^icons\/icon-(48|72|96|128|256)/.test(f))];
+const shell = ['./', 'index.html', ...files.filter((f) => f !== 'sw.js' && !/^data\/dict\/(en|tr)\//.test(f) && !/^mt\//.test(f) && !/^icons\/icon-(48|72|96|128|256)/.test(f))];
 const hash = (s) => { let h = 2166136261; for (const ch of s) { h ^= ch.codePointAt(0); h = Math.imul(h, 16777619) >>> 0; } return h.toString(36); };
 const version = hash(shell.map((f) => { const p = path.join(WWW, f === './' ? 'index.html' : f); return f + fs.statSync(p).size + fs.statSync(p).mtimeMs; }).join('|'));
 fs.writeFileSync(path.join(WWW, 'sw.js'), `// Otomatik üretildi: tools/build-content.mjs
@@ -81,7 +81,7 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;
-  if (/\\/data\\/dict\\/(en|tr)\\//.test(url.pathname)) {
+  if (/\\/data\\/dict\\/(en|tr)\\/|\\/mt\\//.test(url.pathname)) {
     // Sözlük parçaları: önce önbellek, yoksa indirip sakla
     e.respondWith(caches.open(DATA).then((c) => c.match(e.request).then((hit) => hit || fetch(e.request).then((r) => { if (r.ok) c.put(e.request, r.clone()); return r; }))));
     return;

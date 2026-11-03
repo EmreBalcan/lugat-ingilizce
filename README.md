@@ -109,6 +109,7 @@ Uygulamadaki her cevap kendi içindeki veriden gelir. Bir kelime aradığınızd
 |---|---|
 | Arayüz | Saf HTML, CSS ve JavaScript (ES modülleri). Çerçeve veya derleme adımı yok |
 | Mobil uygulama | [Capacitor 6](https://capacitorjs.com/): aynı web kodundan yerel Android uygulaması |
+| Cümle çevirisi | [Bergamot Translator](https://github.com/mozilla/bergamot-translator) (WebAssembly) ve Firefox Translations İngilizce→Türkçe modeli; Web Worker içinde, cihazda çalışır |
 | Sesli okuma | Tarayıcıda Web Speech API; Android'de [Capacitor Text-to-Speech](https://github.com/capacitor-community/text-to-speech) eklentisi |
 | İnternetsiz çalışma | Android'de tüm veriler APK içinde; web'de Service Worker ve Web App Manifest (PWA) |
 | Sözlük motoru | Node.js ile yazılmış derleyici. Kaynakları birleştirip 160 parçalı JSON dosyalarına böler, uygulama yalnızca gereken parçayı yükler |
@@ -133,6 +134,7 @@ android/                Capacitor Android projesi
 | [FreeDict eng-tur](https://freedict.org/) | Türkçe anlamlar | GPL |
 | [Wiktionary](https://www.wiktionary.org/) ([kaikki.org](https://kaikki.org/) dökümü) | Türkçe→İngilizce arama, ek anlamlar | CC BY-SA |
 | [Princeton WordNet 3.1](https://wordnet.princeton.edu/) | Tanımlar, eş/zıt anlamlılar, cümle kalıpları | WordNet lisansı |
+| [Firefox Translations](https://github.com/mozilla/translations) en→tr modeli | Cümle çevirisi | MPL-2.0 |
 | [Tatoeba](https://tatoeba.org/) ([manythings.org](https://www.manythings.org/anki/) derlemesi) | İngilizce–Türkçe örnek cümleler | CC BY 2.0 FR |
 
 Konu anlatımları ve kitap uyarlamaları bu proje için yazılmıştır. Kitaplar telif süresi dolmuş eserlerin seviyeye göre yeniden anlatımıdır. Uygulamadaki YDS/YÖKDİL soruları sınav biçiminde hazırlanmış alıştırmalardır, ÖSYM'nin yayımladığı sorular değildir.

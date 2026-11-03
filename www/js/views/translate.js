@@ -1,5 +1,6 @@
 import { lookup, getTr, suggest, loadIndex, level, POS, framePatterns, formRegex, makeQuestions, meta } from '../dict.js';
 import { store } from '../store.js';
+import { translateSentence, looksLikeSentence, mtSupported } from '../mt.js';
 import { esc, ICON, speak, toast, loading, questionHTML, wireQuestions } from '../ui.js';
 
 let query = '';
@@ -13,7 +14,7 @@ export function render(root) {
     ${back ? `<a class="back" href="#${back.hash}">${ICON.back}${esc(back.label)}</a>` : ''}
     <div class="section"><span class="eyebrow">İngilizce ⇄ Türkçe sözlük</span><h1>Çeviri</h1></div>
     <form class="search" id="sform" autocomplete="off">
-      <input id="q" type="search" placeholder="Kelime yaz: evidence, give up, vazgeçmek…" aria-label="Aranacak kelime" value="${esc(query)}" enterkeyhint="search" spellcheck="false" autocapitalize="off">
+      <input id="q" type="search" placeholder="Kelime ya da cümle yaz: evidence, vazgeçmek, Where is the station?" aria-label="Aranacak kelime ya da çevrilecek cümle" value="${esc(query)}" enterkeyhint="search" spellcheck="false" autocapitalize="off">
       <button class="go" aria-label="Ara">${ICON.search}</button>
       <div class="suggest" id="sug" hidden></div>
     </form>
@@ -33,7 +34,7 @@ export function render(root) {
   input.addEventListener('input', () => {
     clearTimeout(timer);
     timer = setTimeout(async () => {
-      items = await suggest(input.value, 7);
+      items = input.value.trim().split(/\s+/).length > 3 ? [] : await suggest(input.value, 7); // cümlede öneri listesi açılmasın
       act = -1;
       sug.innerHTML = items.map((r, i) => `<button type="button" data-i="${i}"><b>${esc(r[0])}</b><span>${esc(r[3])}</span></button>`).join('');
       sug.hidden = !items.length || document.activeElement !== input;
@@ -68,20 +69,104 @@ async function home(res) {
     <div class="card section">
       <h3>Neler var?</h3>
       <p class="muted">Her kelime için Türkçe anlamlar, örnek cümleler ve çevirileri, eş ve zıt anlamlılar, sık kullanılan kalıplar, İngilizce tanımlar ve YDS tarzı sorular. Hepsi uygulamanın içindeki sözlükten gelir, internete ya da yapay zekâya sorulmaz.</p>
+      <p class="muted">İngilizce bir <b>cümle</b> yazarsan Türkçeye çevrilir. Çeviri, cihazında çalışan açık kaynak bir modelle yapılır; metin hiçbir yere gönderilmez.</p>
       ${m ? `<div class="chips"><span class="chip static">${m.indexed.toLocaleString('tr')} İngilizce kelime</span><span class="chip static">${m.tr.toLocaleString('tr')} Türkçe arama</span><span class="chip static">${m.sentences.toLocaleString('tr')} örnek cümle</span></div>` : ''}
-      <div class="chips"><span class="muted small">Dene:</span>${['evidence', 'give up', 'although', 'went', 'vazgeçmek', 'sürdürülebilir'].map((w) => `<button class="chip" data-search="${w}">${w}</button>`).join('')}</div>
+      <div class="chips"><span class="muted small">Dene:</span>${['evidence', 'give up', 'although', 'went', 'vazgeçmek', 'sürdürülebilir', 'Where is the nearest train station?'].map((w) => `<button class="chip" data-search="${w}">${w}</button>`).join('')}</div>
     </div>
   </div>`;
 }
 
 async function show(res, q) {
-  res.innerHTML = loading('Sözlükte aranıyor');
-  let r;
-  try { r = await lookup(q); } catch (e) { res.innerHTML = `<div class="empty">Sözlük dosyası okunamadı. Bağlantını kontrol edip tekrar dene.</div>`; return; }
-  if (r.kind === 'en') return showEntry(res, r);
-  if (r.kind === 'tr') return showTr(res, r);
+  const words = q.trim().split(/\s+/).filter(Boolean);
+  const sentence = looksLikeSentence(q);
+  // Kelimeler ve kısa kalıplar (give up, in spite of) önce sözlükte aranır: eski sistem aynen sürer
+  if (!sentence || words.length <= 4) {
+    res.innerHTML = loading('Sözlükte aranıyor');
+    let r;
+    try { r = await lookup(q); } catch (e) { res.innerHTML = `<div class="empty">Sözlük dosyası okunamadı. Bağlantını kontrol edip tekrar dene.</div>`; return; }
+    if (r.kind === 'en' && !(sentence && r.from)) return showEntry(res, r);
+    if (r.kind === 'tr' && !sentence) return showTr(res, r);
+  }
+  // Birden çok kelime ve sözlükte kalıp olarak yoksa: cümle çevirisi
+  if (words.length >= 2) return showSentence(res, q);
   const near = await suggest(q.slice(0, Math.max(2, q.length - 2)), 8);
   res.innerHTML = `<div class="empty"><b>“${esc(q)}”</b> sözlükte bulunamadı.${near.length ? `<div class="chips" style="justify-content:center;margin-top:12px">${near.map((n) => `<button class="chip" data-search="${esc(n[0])}">${esc(n[0])}</button>`).join('')}</div>` : ''}</div>`;
+}
+
+// Etiket için kısa, temiz bir Türkçe anlam: parantezleri ve dilbilgisi etiketlerini (bağlaç, edat…) atar
+const GRAM = /^(ba[ğç]la[çc]|edat|zarf|s[ıi]fat|isim|fiil|zamir|ünlem|yardımcı fiil|kıs)\.?(?=\s|$)\s*/iu; // \b Türkçe harfleri tanımaz
+// Çok temel kelimeler etiket olarak gösterilmez (be, the, a…)
+const BASIC = new Set(['a', 'an', 'the', 'be', 'am', 'is', 'are', 'was', 'were', 'been', 'being', 'to', 'of', 'and', 'or', 'in', 'on', 'at', 'it', 'i', 'you', 'he', 'she', 'we', 'they', 'me', 'him', 'her', 'us', 'them', 'my', 'your', 'his', 'its', 'our', 'their', 'do', 'does', 'did', 'have', 'has', 'had', 'will', 'would', 'this', 'that', 'for', 'with', 's']);
+function shortMeaning(e) {
+  for (const s of e.t || []) {
+    for (const part of s.replace(/\([^)]*\)/g, ' ').split(/[,;]/)) {
+      const p = part.replace(GRAM, '').replace(/\s+/g, ' ').trim();
+      if (p.length >= 2 && /^[\p{L} ']+$/u.test(p) && p.split(' ').length <= 3) return p;
+    }
+  }
+  return '';
+}
+
+// İngilizce cümleyi cihazdaki çeviri modeliyle Türkçeye çevirir; altında cümledeki kelimelerin sözlük anlamları
+async function showSentence(res, q) {
+  const text = q.trim().slice(0, 1200);
+  const { map } = await loadIndex();
+  const irregular = await fetch('data/dict/irregular.json').then((r) => r.json()).catch(() => ({}));
+  const toks = [...new Set((text.match(/[A-Za-z]+(?:'[a-z]+)?/g) || []).map((t) => t.toLowerCase()))];
+  const known = toks.filter((t) => map.has(t) || irregular[t] || map.has(t.replace(/(s|es|ed|ing|'s)$/, '')));
+  if (/[çğıöşüÇĞİÖŞÜ]/.test(text) || known.length < Math.max(1, toks.length * 0.5)) {
+    res.innerHTML = `<div class="empty">Cümle çevirisi şimdilik <b>İngilizceden Türkçeye</b> yapılabiliyor. Türkçe bir kelimenin İngilizcesini aramak için tek kelime yaz.</div>`;
+    return;
+  }
+  res.innerHTML = `<div class="section" style="gap:22px">
+    <div class="card mt-card section">
+      <span class="eyebrow">Cümle çevirisi · İngilizce → Türkçe</span>
+      <div class="mt-src"><p lang="en">${esc(text)}</p><button class="icon-btn sm" id="mt-say" aria-label="İngilizcesini dinle">${ICON.speak}</button></div>
+      <div class="mt-out" id="mt-out" aria-live="polite">${loading('Çevriliyor')}</div>
+      <div class="row" id="mt-actions" hidden>
+        <button class="btn sm" id="mt-copy">Çeviriyi kopyala</button>
+      </div>
+      <p class="muted small">Bu çeviri, cihazında çalışan açık kaynak bir çeviri modeliyle (Mozilla Bergamot) yapılır; metin internete ya da bir yapay zekâ servisine gönderilmez. Makine çevirisidir, küçük hatalar olabilir.</p>
+    </div>
+    <div class="section"><div class="section-head"><h2>Cümledeki kelimeler</h2><span class="muted small">Dokununca kelimenin sayfası açılır</span></div><div class="chips mt-words" id="mt-words">${loading()}</div></div>
+  </div>`;
+  res.querySelector('#mt-say').onclick = () => speak(text);
+  const out = res.querySelector('#mt-out');
+
+  // Kelime anlamları (sözlükten, model beklenmeden)
+  (async () => {
+    const chips = [];
+    // Çekimli fiillerde (decided, going) önce fiil kökü: "decided" → decide (karar vermek), "kesin" sıfatı değil
+    const verbBase = (t) => {
+      if (irregular[t]) return irregular[t];
+      const m = /^(.+?)(ed|d|ing)$/.exec(t);
+      if (!m) return t;
+      for (const c of [m[1], m[1] + 'e', m[1].replace(/(.)\1$/, '$1'), m[1].replace(/i$/, 'y')]) if (map.get(c)?.[2]?.includes('v')) return c;
+      return t;
+    };
+    for (const t of toks.filter((x) => !BASIC.has(x)).slice(0, 24)) {
+      const r = await lookup(verbBase(t)).catch(() => null);
+      const tr = r?.kind === 'en' ? shortMeaning(r.entry) : '';
+      if (tr && !BASIC.has(r.entry.w) && !chips.some((c) => c.w === r.entry.w)) chips.push({ w: r.entry.w, tr });
+    }
+    const box = res.querySelector('#mt-words');
+    if (box) box.innerHTML = chips.length ? chips.map((c) => `<button class="chip" data-search="${esc(c.w)}"><b lang="en">${esc(c.w)}</b><span class="muted">${esc(c.tr)}</span></button>`).join('') : '<span class="muted small">Sözlükte eşleşen kelime yok.</span>';
+  })();
+
+  if (!mtSupported()) { out.innerHTML = '<div class="empty">Bu cihaz cümle çevirisini desteklemiyor.</div>'; return; }
+  try {
+    const r = await translateSentence(text, ({ loaded, total }) => {
+      if (!out.isConnected || !total) return;
+      const pct = Math.min(100, Math.round((100 * loaded) / total));
+      out.innerHTML = `<div class="mt-loading"><span class="muted small">Çeviri modeli hazırlanıyor · %${pct} <span class="muted">(ilk kullanımda bir kez, ~25 MB)</span></span><div class="bar"><i style="width:${pct}%"></i></div></div>`;
+    });
+    if (!out.isConnected) return;
+    out.innerHTML = `<p class="mt-tr">${esc(r.text)}</p>`;
+    res.querySelector('#mt-actions').hidden = false;
+    res.querySelector('#mt-copy').onclick = () => navigator.clipboard?.writeText(r.text).then(() => toast('Çeviri kopyalandı'), () => toast('Kopyalanamadı'));
+  } catch (e) {
+    if (out.isConnected) out.innerHTML = `<div class="empty">Çeviri modeli bu ortamda çalıştırılamadı. Web sürümünde ya da Android uygulamasında deneyebilirsin.<br><span class="muted small">${esc(e.message || '')}</span></div>`;
+  }
 }
 
 function flagButtons(w, tr) {
