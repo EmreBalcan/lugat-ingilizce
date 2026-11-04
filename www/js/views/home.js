@@ -17,6 +17,19 @@ function hello() {
   return h < 6 ? 'İyi geceler' : h < 12 ? 'Günaydın' : h < 18 ? 'İyi günler' : 'İyi akşamlar';
 }
 
+// Kartta gösterilecek kısa, temiz anlamlar: parantezler, deyim artıkları ve uzun açıklamalar atılır (en çok 3)
+function cleanMeanings(e) {
+  const out = [];
+  for (const s of e.t || []) {
+    for (const part of s.replace(/\([^)]*\)/g, ' ').split(/[,;.]/)) {
+      const p = part.replace(/\s+/g, ' ').trim();
+      if (p.length >= 2 && p.length <= 24 && /^[\p{L} ']+$/u.test(p) && !/[a-z]'[a-z]/i.test(p) && !out.includes(p)) out.push(p);
+      if (out.length >= 3) return out.join(', ');
+    }
+  }
+  return out.join(', ');
+}
+
 // Tarihe göre her gün değişen, YDS'de sık geçen ya da orta sıklıkta bir kelime
 async function wordOfDay() {
   const { rows } = await loadIndex();
@@ -67,7 +80,7 @@ export function render(root) {
 
       ${(() => {
         const ts = testStatus();
-        const sub = ts.done ? `Bugün ${ts.score} / ${ts.total} yaptın. Yarın yeni sorular gelecek.` : ts.started ? `${ts.answered} / ${ts.total} soru cevaplandı · ${ts.score} doğru` : '10 dilbilgisi + 15 kelime sorusu · her gün yenilenir';
+        const sub = ts.done ? `Bugün ${ts.score} / ${ts.total} · yarın yenisi` : ts.started ? `${ts.answered} / ${ts.total} · ${ts.score} doğru` : '25 soru · her gün yeni';
         return `<a class="card test-card" href="#test"><span class="ico">${ICON.check}</span><span class="t"><b>Günlük Test</b><span class="muted small">${sub}</span></span><span class="btn sm primary">${ts.done ? 'Sonuçlar' : ts.started ? 'Devam et' : 'Başla'}</span></a>`;
       })()}
 
@@ -110,13 +123,13 @@ export function render(root) {
       if (reading) {
         const b = bi.books.find((x) => x.id === reading[0]);
         const pct = Math.round((100 * (reading[1].seen || 0)) / b.sentences);
-        parts.push(`<a class="card continue" href="#kitap-${b.id}"><div style="width:96px;flex:none;border-radius:10px;overflow:hidden">${coverHTML(b).replace('class="cover"', 'class="cover" style="aspect-ratio:3/4;padding:8px;font-size:.7rem"')}</div><div class="section" style="gap:6px;flex:1;min-width:0"><span class="eyebrow">Okumaya devam et</span><h3>${esc(b.title)}</h3><div class="bar"><i style="width:${pct}%"></i></div><span class="muted small">%${pct} okundu</span></div></a>`);
+        parts.push(`<a class="card continue" href="#kitap-${b.id}"><div class="continue-cover">${coverHTML(b)}</div><div class="section" style="gap:6px;flex:1;min-width:0"><span class="eyebrow">Okumaya devam et</span><h3>${esc(b.title)}</h3><div class="bar"><i style="width:${pct}%"></i></div><span class="muted small">%${pct} okundu</span></div></a>`);
       }
       const lastTopic = Object.entries(s.topics).filter(([, v]) => v.read && !v.learned).sort((a, b) => b[1].read - a[1].read)[0];
       if (lastTopic) parts.push(`<a class="card continue" href="#konu-${esc(lastTopic[0])}"><span class="ico" style="width:44px;height:44px;border-radius:10px;display:grid;place-items:center;background:var(--cobalt-soft);color:var(--cobalt)">${ICON.topic}</span><div class="section" style="gap:4px"><span class="eyebrow">Son çalıştığın konu</span><h3>${esc(lastTopic[1].title)}</h3></div></a>`);
       if (!parts.length && bi?.books[0]) {
         const b = bi.books[0];
-        parts.push(`<a class="card continue" href="#kitap-${b.id}"><div style="width:96px;flex:none;border-radius:10px;overflow:hidden">${coverHTML(b).replace('class="cover"', 'class="cover" style="aspect-ratio:3/4;padding:8px;font-size:.7rem"')}</div><div class="section" style="gap:6px"><span class="eyebrow">Okumaya başla</span><h3>${esc(b.title)}</h3><span class="muted small">${esc(b.desc)}</span></div></a>`);
+        parts.push(`<a class="card continue" href="#kitap-${b.id}"><div class="continue-cover">${coverHTML(b)}</div><div class="section" style="gap:6px"><span class="eyebrow">Okumaya başla</span><h3>${esc(b.title)}</h3><span class="muted small clamp1">${esc(b.desc)}</span></div></a>`);
       }
       box.outerHTML = `<div class="two">${parts.join('')}</div>`;
     });
@@ -127,14 +140,19 @@ export function render(root) {
       const ex = e.x?.[0];
       const m = ex && formRegex(e).exec(ex[0]);
       const exH = ex ? (m ? esc(ex[0].slice(0, m.index)) + '<b>' + esc(m[0]) + '</b>' + esc(ex[0].slice(m.index + m[0].length)) : esc(ex[0])) : '';
-      const lat = store.word(e.w).later;
-      box.innerHTML = `<div class="section" style="gap:8px;min-width:0"><span class="eyebrow muted">Günün kelimesi · ${level(e.r)}${e.y ? ' · YDS’de sık' : ''}</span><div class="wotd-word" lang="en"><span>${esc(e.w)}</span></div><p style="font-size:1.1rem">${esc((e.t || []).slice(0, 2).join('; '))}</p></div>
-        <div class="row" style="align-self:start"><button class="icon-btn" id="w-s" aria-label="Dinle" style="background:transparent;color:inherit">${ICON.speak}</button></div>
-        ${ex ? `<div class="wotd-ex">${exH}<div class="muted" style="font-style:normal;font-family:var(--f-body)">${esc(ex[1])}</div></div>` : ''}
-        <div class="row" style="grid-column:1/-1"><button class="btn sm" id="w-more">Ayrıntılar${ICON.arrow}</button><button class="btn sm" id="w-later">${ICON.clock}${lat ? 'Listede' : 'Sonra öğren'}</button></div>`;
-      box.querySelector('#w-s').onclick = () => speak(e.w);
-      box.querySelector('#w-more').onclick = () => window.lugat.lookupWord(e.w);
-      box.querySelector('#w-later').onclick = (ev) => { const on = !store.word(e.w).later; store.setWordFlag(e.w, 'later', on, e.t?.[0]); toast(on ? 'Sonra öğren listesine eklendi' : 'Listeden çıkarıldı'); };
+      const drawWotd = () => {
+        const lat = store.word(e.w).later;
+        box.innerHTML = `
+          <div class="wotd-top"><span class="eyebrow">Günün kelimesi</span><span class="badge lvl">${level(e.r)}</span>${e.y ? '<span class="badge yds">YDS</span>' : ''}</div>
+          <div class="wotd-main"><span class="wotd-word" lang="en">${esc(e.w)}</span><button class="icon-btn sm" id="w-s" aria-label="Dinle">${ICON.speak}</button></div>
+          <p class="wotd-mean">${esc(cleanMeanings(e))}</p>
+          ${ex ? `<p class="wotd-ex"><span lang="en">${exH}</span><span class="muted">${esc(ex[1])}</span></p>` : ''}
+          <div class="wotd-actions"><button class="btn sm ghost ${lat ? 'on' : ''}" id="w-later">${ICON.clock}${lat ? 'Listede' : 'Sonra öğren'}</button><button class="btn sm" id="w-more">Ayrıntılar${ICON.arrow}</button></div>`;
+        box.querySelector('#w-s').onclick = () => speak(e.w);
+        box.querySelector('#w-more').onclick = () => window.lugat.lookupWord(e.w);
+        box.querySelector('#w-later').onclick = () => { const on = !store.word(e.w).later; store.setWordFlag(e.w, 'later', on, e.t?.[0]); toast(on ? 'Sonra öğren listesine eklendi' : 'Listeden çıkarıldı'); drawWotd(); };
+      };
+      drawWotd();
     }).catch(() => {});
   };
   draw();
