@@ -408,9 +408,22 @@ button.chip:hover, a.chip:hover { background: var(--pill); color: var(--pill-ink
 .test-score .wotd-word { text-transform: none; }
 
 /* ---------- Sözlük ---------- */
-.dict-filters { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
-.dict-filters .row { flex-wrap: nowrap; min-width: 0; }
-.dict-filters .row .tabs { flex: 1; min-width: 0; }
+.dict-bar { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.dict-bar #dict-count { flex: 1; min-width: 0; text-align: center; }
+#d-ftoggle .badge { padding: 1px 7px; margin-left: 2px; background: var(--mustard); color: #2a1f05; }
+#d-ftoggle.on .badge { background: var(--pill-ink); color: var(--pill); }
+.dict-filters { display: flex; flex-direction: column; gap: 8px; min-width: 0; animation: pop .16s ease-out; }
+.dict-filters[hidden] { display: none; }
+.dict-filters .eyebrow { margin-top: 4px; }
+.dict-filters .eyebrow:first-child { margin-top: 0; }
+.tr-home { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.tr-row { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.tr-row > .muted { flex: none; }
+.chips.scroll { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; min-width: 0; flex: 1; mask-image: linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent); padding-right: 24px; }
+.chips.scroll::-webkit-scrollbar { display: none; }
+.chips.scroll .chip { flex: none; white-space: nowrap; }
+.chip.sm { padding: 5px 12px; font-size: .82rem; }
+.tr-meta { margin: 0; }
 .letters { display: grid; grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)); gap: 6px; }
 .letters button { border: 0; background: var(--surface-solid); border-radius: 12px; padding: 8px 0; font: 600 .95rem var(--f-display); cursor: pointer; color: var(--ink); }
 .letters button:first-child { grid-column: span 2; }
@@ -496,11 +509,18 @@ button.chip:hover, a.chip:hover { background: var(--pill); color: var(--pill-ink
   .cat-toggle .t b { font-size: 1.2rem; }
   .cat { gap: 10px; }
   #cats { display: flex; flex-direction: column; gap: 12px; }
-  .shelf { gap: 12px; }
-  .book { padding: 6px; gap: 8px; }
-  .book .cover { aspect-ratio: 2 / 1; padding: 12px; border-radius: 18px; }
-  .book .cover h3 { font-size: 1.05rem; }
-  .book-meta { padding: 0 6px 6px; gap: 5px; font-size: .9em; }
+  .shelf { gap: 10px; }
+  .book { padding: 5px; gap: 6px; border-radius: 20px; }
+  .book .cover { aspect-ratio: 3 / 1; padding: 9px 12px; border-radius: 15px; }
+  .book .cover h3 { font-size: .92rem; }
+  .book .cover .by { font-size: .72rem; }
+  .book .cover .badge { font-size: .64rem; padding: 2px 8px; }
+  .book-meta { padding: 0 6px 5px; gap: 4px; font-size: .86em; }
+  .book-desc { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+  .stats { gap: 10px; grid-template-columns: 1fr 1fr; }
+  .stat { padding: 10px 14px; border-radius: 18px; gap: 0; }
+  .stat b { font-size: 1.75rem; }
+  .stat .small { font-size: .78rem; }
 }
 
 /* ---------- Alt sayfa ve bildirim ---------- */

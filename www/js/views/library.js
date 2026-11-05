@@ -43,7 +43,7 @@ async function shelf(root) {
       const pct = p ? Math.round((100 * (p.seen || 0)) / b.sentences) : 0;
       return `<a class="card book" href="#kitap-${b.id}">${coverHTML(b)}<div class="book-meta">
         <span class="small muted">${esc(b.trTitle)} · ${b.sentences} cümle</span>
-        <span class="small">${esc(b.desc)}</span>
+        <span class="small book-desc">${esc(b.desc)}</span>
         ${p ? `<div class="bar"><i style="width:${p.done ? 100 : pct}%"></i></div><span class="small muted">${p.done ? 'Bitirildi' : '%' + pct + ' okundu'}</span>` : ''}
       </div></a>`;
     }).join('')}</div>` : '<div class="empty">Bu seviyede henüz kitap yok.</div>';

@@ -65,12 +65,10 @@ export function render(root) {
 async function home(res) {
   const h = store.state.history.slice(0, 14);
   const m = await meta().catch(() => null);
-  res.innerHTML = `<div class="section">
-    ${h.length ? `<div class="section-head"><h2>Son aramalar</h2></div><div class="chips">${h.map((x) => `<button class="chip" data-search="${esc(x.w)}">${esc(x.w)}</button>`).join('')}</div>` : ''}
-    <div class="card section">
-      ${m ? `<div class="chips"><span class="chip static">${m.indexed.toLocaleString('tr')} kelime</span><span class="chip static">${m.tr.toLocaleString('tr')} Türkçe arama</span><span class="chip static">Kelime ya da cümle yazabilirsin</span></div>` : ''}
-      <div class="chips"><span class="muted small">Dene:</span>${['evidence', 'give up', 'although', 'went', 'vazgeçmek', 'sürdürülebilir', 'Where is the nearest train station?'].map((w) => `<button class="chip" data-search="${w}">${w}</button>`).join('')}</div>
-    </div>
+  res.innerHTML = `<div class="tr-home">
+    ${h.length ? `<div class="tr-row"><span class="muted small">Son aramalar</span><div class="chips scroll">${h.map((x) => `<button class="chip sm" data-search="${esc(x.w)}">${esc(x.w)}</button>`).join('')}</div></div>` : ''}
+    <div class="tr-row"><span class="muted small">Dene</span><div class="chips scroll">${['evidence', 'give up', 'although', 'vazgeçmek', 'Where is the station?'].map((w) => `<button class="chip sm" data-search="${w}">${w}</button>`).join('')}</div></div>
+    ${m ? `<p class="muted small tr-meta">${m.indexed.toLocaleString('tr')} kelime · ${m.tr.toLocaleString('tr')} Türkçe arama</p>` : ''}
   </div>`;
 }
 
