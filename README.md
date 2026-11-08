@@ -30,18 +30,23 @@ Uygulamadaki her cevap kendi içindeki veriden gelir. Bir kelime aradığınızd
 <table>
   <tr>
     <td align="center"><img src="docs/screenshots/1-ana-sayfa.png" width="250" alt="Ana sayfa"><br><sub><b>Ana sayfa</b>: günlük hedefler, seri, günün kelimesi</sub></td>
-    <td align="center"><img src="docs/screenshots/2-ceviri.png" width="250" alt="Çeviri"><br><sub><b>Çeviri</b>: anlamlar, seviye, YDS etiketi</sub></td>
-    <td align="center"><img src="docs/screenshots/3-yds-sorusu.png" width="250" alt="YDS tarzı soru"><br><sub><b>YDS tarzı sorular</b>: kelimenin kendi örneklerinden</sub></td>
+    <td align="center"><img src="docs/screenshots/2-kelime-cevirisi.png" width="250" alt="Kelime çevirisi"><br><sub><b>Kelime çevirisi</b>: anlamlar, seviye, YDS etiketi</sub></td>
+    <td align="center"><img src="docs/screenshots/3-cumle-cevirisi.png" width="250" alt="Cümle çevirisi"><br><sub><b>Cümle çevirisi</b>: cihazda, internetsiz</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/4-konu.png" width="250" alt="Konu anlatımı"><br><sub><b>Konu anlatımı</b>: yapı, kullanım, 10+ örnek</sub></td>
-    <td align="center"><img src="docs/screenshots/5-kutuphane.png" width="250" alt="Kütüphane"><br><sub><b>Kütüphane</b>: A1'den C1'e 40 eser</sub></td>
-    <td align="center"><img src="docs/screenshots/6-okuyucu-kelime-karti.png" width="250" alt="Okuyucu ve kelime kartı"><br><sub><b>Okuyucu</b>: kelimeye dokun, anlamı yanında açılsın</sub></td>
+    <td align="center"><img src="docs/screenshots/4-sozluk.png" width="250" alt="Sözlük"><br><sub><b>Sözlük</b>: açılır filtrelerle 40 bin kelime</sub></td>
+    <td align="center"><img src="docs/screenshots/5-konu-anlatimi.png" width="250" alt="Konu anlatımı"><br><sub><b>Konu anlatımı</b>: yapı, kullanım, 10+ örnek</sub></td>
+    <td align="center"><img src="docs/screenshots/7-gunluk-test.png" width="250" alt="Günlük test"><br><sub><b>Günlük Test</b>: her gün yeni 25 YDS tarzı soru</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/7-koyu-tema-okuyucu.png" width="250" alt="Koyu tema okuyucu"><br><sub><b>Koyu tema</b>: okuyucu</sub></td>
-    <td align="center"><img src="docs/screenshots/8-koyu-tema-ana-sayfa.png" width="250" alt="Koyu tema ana sayfa"><br><sub><b>Koyu tema</b>: ana sayfa</sub></td>
-    <td align="center"><img src="docs/screenshots/9-sozluk.png" width="250" alt="Sözlük"><br><sub><b>Sözlük</b>: harf, seviye ve türe göre göz at</sub></td>
+    <td align="center"><img src="docs/screenshots/9-kutuphane-raf.png" width="250" alt="Kütüphane"><br><sub><b>Kütüphane</b>: A1'den C1'e 40 eser</sub></td>
+    <td align="center"><img src="docs/screenshots/6-kutuphane-okuyucu.png" width="250" alt="Okuyucu ve kelime kartı"><br><sub><b>Okuyucu</b>: kelimeye dokun, anlamı yanında açılsın</sub></td>
+    <td align="center"><img src="docs/screenshots/8-profil.png" width="250" alt="Profil"><br><sub><b>Profil</b>: seri, istatistikler, son 7 gün</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/10-koyu-ana-sayfa.png" width="250" alt="Koyu tema ana sayfa"><br><sub><b>Koyu tema</b>: ana sayfa</sub></td>
+    <td align="center"><img src="docs/screenshots/11-koyu-cumle-cevirisi.png" width="250" alt="Koyu tema cümle çevirisi"><br><sub><b>Koyu tema</b>: cümle çevirisi</sub></td>
+    <td align="center"><img src="docs/screenshots/12-koyu-okuyucu.png" width="250" alt="Koyu tema okuyucu"><br><sub><b>Koyu tema</b>: okuyucu</sub></td>
   </tr>
 </table>
 
